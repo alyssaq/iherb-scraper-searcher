@@ -1,0 +1,14 @@
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+.block {
+  width: 800px;
+  height: 100%;
+  border: dashed;
+  margin: 0 auto;
+  padding: 0px 0px 10px 0px;
+}
+h3, h2 {
+  background-color: #FFFFFF;
+  text-align: center;
+}

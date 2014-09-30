@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<table id="nutrients"  class="display" cellspacing="0" width="100%">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Serve size</th>
+    {% for header in headers %}
+    <th>
+      {{header}}
+    </th>
+    {% endfor %}
+  </tr>
+  </thead>
+  <tbody>
+  {% for row in data %}
+  <tr>
+    <td>{{ row.name }}</td>
+    <td>{{ row.serving_size }}</td>
+    {% for header in headers %}
+    <td>
+      {% if header in row.nutrients %}
+      {{ row.nutrients[header][1] }}
+      {% else %}
+      **
+      {% endif %}
+    </td>
+    {% endfor %}
+  </tr>
+  {% endfor %}
+</tbody>
+</table>
+
+{% endblock %}
+
+
+{% block scripts %}
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $('#nutrients').DataTable();
+});
+</script>
+
+{% endblock %}
+
