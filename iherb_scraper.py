@@ -1,4 +1,5 @@
 import pprint
+import sys
 import requests
 import re
 import json
@@ -115,5 +116,8 @@ def process_one_multiV():
     print(p)
 
 if __name__ == "__main__":
-  process_search_pages('results.json')
+  outfile = 'results.json'
+  if len(sys.argv) > 1:
+    outfile = sys.argv[1]
+  process_search_pages(outfile)
   #process_one_multiV()
