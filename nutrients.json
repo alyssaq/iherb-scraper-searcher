@@ -45,6 +45,9 @@
     "Nickel": [],
     "Silicon": [],
     "Sulfate": [],
-    "Vanadium": []
+    "Vanadium": [],
+    "Omega-3 Fatty Acids": [],
+    "EPA": ["Eicosapentaenoic Acid"],
+    "DHA": ["Docosahexaenoic Acid"]
   }
 }
