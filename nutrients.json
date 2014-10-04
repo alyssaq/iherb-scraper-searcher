@@ -49,5 +49,18 @@
     "Omega-3 Fatty Acids": [],
     "EPA": ["Eicosapentaenoic Acid"],
     "DHA": ["Docosahexaenoic Acid"]
+  },
+  "Amino Acids": {
+    "Cystine": [],
+    "Histidine": [],
+    "Isoleucine": [],
+    "Leucine": [],
+    "Lysine": [],
+    "Methionine": [],
+    "Phenylalanine": [],
+    "Threonine": [],
+    "Tryptophan": [],
+    "Tyrosine": [],
+    "Valine": []
   }
 }
