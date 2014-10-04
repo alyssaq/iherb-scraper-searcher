@@ -50,11 +50,11 @@ def multiV_profile(html):
   profile['name'] = main.find('h1').text
   profile['price'] = price.text
   profile['serving_size'] = get_serving_size(facts_table)
-  (profile['nutrients'][nutrient_names[0]] for nutrient_names in ALL_NUTRIENTS)
 
   for row in facts_table.findAll('tr'):
-    fields = [clean(f.text) for f in row.findAll('td')]
-    if (len(fields) == 3 and len(fields[0]) > 1):
+    rowdata = row.findAll('td')
+    if (len(rowdata) == 3 and len(rowdata[0].text) > 1):
+      fields = [clean(f.text) for f in rowdata]
       for main_nutrient_names in ALL_NUTRIENTS:
         for name in main_nutrient_names:
           if name.lower() in fields[0].lower():
