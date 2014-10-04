@@ -35,9 +35,10 @@ def multiV_profile(html):
   soup = BeautifulSoup(html)
   main = soup.find('div', {'id': 'mainContent'})
   facts_table = soup.find('table')
+  print facts_table
   profile['name'] = main.find('h1').text
   price = main.find('span', {'class': 'black20b'})
-  if not price:
+  if not price or not facts_table:
     return None
 
   profile['price'] = price.text
@@ -110,6 +111,7 @@ def process_search_pages(filename, category='multivitamins', lastpage=32):
 def process_one_multiV():
   url = 'http://www.iherb.com/Deva-Multivitamin-Mineral-Supplement-Vegan-90-Coated-Tablets/12664'
   url = 'http://www.iherb.com/21st-Century-Health-Care-Sentry-Multivitamin-Multimineral-Supplement-300-Tablets/10525'
+  url = 'http://www.iherb.com/Now-Foods-Solutions-Evening-Primrose-Oil-4-fl-oz-118-ml/903'
   r = requests.get(url)
   p = multiV_profile(r.text)
   if p and p['num_nutrients'] > 0:
@@ -119,5 +121,5 @@ if __name__ == "__main__":
   outfile = 'results.json'
   if len(sys.argv) > 1:
     outfile = sys.argv[1]
-  process_search_pages(outfile)
-  #process_one_multiV()
+  #process_search_pages(outfile, 'EFA-Omega-3-6-9-EPA-DHA')
+  process_one_multiV()
