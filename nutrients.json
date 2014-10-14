@@ -40,6 +40,7 @@
     "Zinc": []
   },
   "Others": {
+    "Arsenic": [],
     "Inositol": [],
     "Boron": [],
     "Nickel": [],
@@ -62,5 +63,15 @@
     "Tryptophan": [],
     "Tyrosine": [],
     "Valine": []
+  },
+  "Digestive Enzymes": {
+    "Protease": [],
+    "Amylase": [],
+    "Lipase": [],
+    "Cellulase": [],
+    "Maltase": [],
+    "Lactase": [],
+    "Phytase": ["Pectinase"],
+    "Sucrase": []
   }
 }
