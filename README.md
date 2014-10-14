@@ -1,7 +1,19 @@
-# iherb scraper
+# [iherb](http://iherb.com) product scraper and searcher
 
-Find the best multi-vitamin on iherb.
-Search by price, price per serving, nutrient amount, etc
+iherb has a great range of products and cheap worldwide shipping.
+Unfortunately, beyond price and best selling, it has a limited search and filter.
+
+This script does the following:
+
+* Scraps all products given a category. E.g. `multivitamins`, `digestive-enzymes`.
+* It scraps the product name, price, nutritional data, serving size, url.
+* Matches any nutrient in its nutritional table to a nutrient in `nutrients.json`. In that json file, the keys are the nutrient names and the value array contains any alternative names.
+
+This will allow you help your search to:
+
+* Find multi-vitamins that contains more than 10 nutrients.
+* Sort the search by price, price per serving (some requires three-a-day, some one-a-day) or specific nutrient amount (e.g. highest calcium).
+* Find a digestive enzyme pill that contains more than 6 enzymes.
 
 ## Prerequisites
 1. Python 2.7.x
@@ -16,11 +28,11 @@ If no `<outfile>` is specified, output is saved to `results.json` in root folder
 
 Alternatively, you may edit `iherb_scraper.py` and call `process_search_pages`:
 
-process_search_pages (filename, category='multivitamins', lastpage=32)
+process_search_pages (filename, category='multivitamins', min_nutrients=1)
 
   * `filename` - outfile to save results. If blank, nothing is saved.
   * `category` - iherb category to perform scraping.
-  * `lastpage` - last available page of the category
+  * `min_nutrients` - minimum number of nutrients to match in `nutrients.json`
 
 ## Results viewer
 A simple table viewer to display `results.json`.
