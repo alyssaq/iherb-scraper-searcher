@@ -9,7 +9,7 @@ This script does the following:
 * It scraps the product name, price, nutritional data, serving size, url.
 * Matches any nutrient in its nutritional table to a nutrient in `nutrients.json`. In that json file, the keys are the nutrient names and the value array contains any alternative names.
 
-This will allow you help your search to:
+Scrapping this data will help to:
 
 * Find multi-vitamins that contains more than 10 nutrients.
 * Sort the search by price, price per serving (some requires three-a-day, some one-a-day) or specific nutrient amount (e.g. highest calcium).
