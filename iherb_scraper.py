@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import pprint
 import sys
 import requests
 import re
@@ -38,14 +37,14 @@ def get_serving_size(facts_table):
   serving_size = 0 if match is None else match.group(1)
   return serving_size
 
-def multiV_profile(html):
-  profile = {'nutrients': {}}
+def product_profile(html):
+  profile = {'nutrients': {}, 'num_nutrients': 0}
   soup = BeautifulSoup(html)
   main = soup.find('div', {'id': 'mainContent'})
   facts_table = soup.find('table')
   price = main.find('span', {'class': 'black20b'})
   if not price or not facts_table:
-    return None
+    return profile
 
   profile['name'] = main.find('h1').text
   profile['price'] = price.text
@@ -73,14 +72,13 @@ def process(jobs):
   for val in jobs:
     print('{0}) Processing: {1}'.format(i, val.url))
     i = i + 1
-    profile = multiV_profile(val.text)
-    if profile and profile['num_nutrients'] > 0:
-      profile.update({'url': val.url})
-      profiles.append(profile)
+    profile = product_profile(val.text)
+    profile.update({'url': val.url})
+    profiles.append(profile)
 
   return profiles
 
-def process_page_links(url):
+def process_page_links(url, min_nutrients):
   response = requests.get(url)
   soup = BeautifulSoup(response.text)
   results = soup.find(
@@ -96,19 +94,20 @@ def process_page_links(url):
 
   return [] if len(jobs) == 0 else process(jobs)
 
-def process_search_pages(filename, category='multivitamins', lastpage=32):
+def process_search_pages(filename, category='multivitamins', min_nutrients=1):
   res = []
   page_no = 1
   hasLinks = True
   while hasLinks:
     url = DOMAIN + ('/{0}?p={1}').format(category, page_no)
     print(url)
-    page_results = process_page_links(url)
+    page_results = process_page_links(url, min_nutrients)
     hasLinks = False if len(page_results) == 0 else True
     res += page_results
     page_no = page_no + 1
 
-  sorted(res, key=lambda x: x['num_nutrients'])
+  res = filter(lambda x: x['num_nutrients'] >= min_nutrients, res)
+  res = sorted(res, key=lambda x: -x['num_nutrients'])
   print ('Saving {0} results'.format(len(res)))
 
   if filename:
@@ -122,13 +121,14 @@ def process_one_multiV():
   url = 'http://www.iherb.com/21st-Century-Health-Care-Sentry-Multivitamin-Multimineral-Supplement-300-Tablets/10525'
   url = 'http://www.iherb.com/Deva-Prenatal-Multivitamin-Mineral-One-Daily-90-Coated-Tablets/55144'
   r = requests.get(url)
-  p = multiV_profile(r.text)
-  if p and p['num_nutrients'] > 0:
-    print(p)
+  res = product_profile(r.text)
+  res = filter(lambda x: x['num_nutrients'] > 0, res)
+  print(res)
 
 if __name__ == "__main__":
   outfile = 'results.json'
   if len(sys.argv) > 1:
     outfile = sys.argv[1]
-  process_search_pages(outfile)
+  process_search_pages('digestives.json', 'digestive-enzymes', 6)
+  #process_search_pages(outfile)
   #process_one_multiV()
