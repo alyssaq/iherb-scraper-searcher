@@ -17,7 +17,7 @@ Scrapping this data will help to:
 
 ## Prerequisites
 1. Python 2.7.x
-1. `pip install -r requirements.txt`
+1. Run `pip install -r requirements.txt` to install required packages
 
 ## Search results
 Generate search results with `iherb_scraper.py`
