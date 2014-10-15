@@ -2,15 +2,13 @@
 
 {% block body %}
 
-<table id="nutrients"  class="display" cellspacing="0" width="100%">
+<table id="nutrients" cellspacing="0" width="100%">
   <thead>
   <tr>
     <th>Name</th>
     <th>Serve size</th>
     {% for header in headers %}
-    <th>
-      {{header}}
-    </th>
+    <th>{{ header }}</th>
     {% endfor %}
   </tr>
   </thead>
@@ -20,13 +18,11 @@
     <td>{{ row.name }}</td>
     <td>{{ row.serving_size }}</td>
     {% for header in headers %}
-    <td>
       {% if header in row.nutrients %}
-      {{ row.nutrients[header][1] }}
+      <td>{{ row.nutrients[header][1] }}</td>
       {% else %}
-      **
+      <td>**</td>
       {% endif %}
-    </td>
     {% endfor %}
   </tr>
   {% endfor %}
@@ -38,12 +34,12 @@
 
 {% block scripts %}
 
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/stupidtable.min.js') }}"></script>
 
 <script type="text/javascript">
 $(document).ready(function(){
-  $('#nutrients').DataTable();
+  $('#nutrients').stupidtable();
 });
 </script>
 
