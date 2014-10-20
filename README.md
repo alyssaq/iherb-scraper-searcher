@@ -2,6 +2,7 @@
 
 iherb has a great range of products and cheap worldwide shipping.
 Unfortunately, beyond price and best selling, it has a limited search and filter.
+My aim was to search based on [nutrients](https://raw.githubusercontent.com/alyssaq/iherb-scraper-searcher/master/nutrients.json)
 
 This script does the following:
 
