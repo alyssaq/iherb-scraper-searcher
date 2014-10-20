@@ -65,13 +65,15 @@
     "Valine": []
   },
   "Digestive Enzymes": {
-    "Protease": [],
+    "Protease": ["Pepsin"],
+    "Bromelain": ["pineapple"],
+    "Papain": ["papaya"],
     "Amylase": [],
     "Lipase": [],
     "Cellulase": [],
     "Maltase": [],
     "Lactase": [],
     "Phytase": ["Pectinase"],
-    "Sucrase": []
+    "Sucrase": ["Glucoamylase"]
   }
 }
