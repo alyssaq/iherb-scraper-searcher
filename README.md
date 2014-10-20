@@ -6,7 +6,7 @@ My aim was to search based on [nutrients](https://raw.githubusercontent.com/alys
 
 This script does the following:
 
-* Scraps all products given a category. E.g. `multivitamins`, `digestive-enzymes`.
+* Scraps all products given a category. E.g. `multivitamins`, `enzymes`. You can check if a category exists by typing in the URL `http://iherb.com/<catgory>`
 * It scraps the product name, price, nutritional data, serving size, url.
 * Matches any nutrient in its nutritional table to a nutrient in `nutrients.json`. In that json file, the keys are the nutrient names and the value array contains any alternative names.
 
