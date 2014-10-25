@@ -12,3 +12,13 @@ h3, h2 {
   background-color: #FFFFFF;
   text-align: center;
 }
+
+.category > td {
+  border-bottom: black solid;
+  border-top: 1px grey solid;
+  padding-top: 10px;  
+}
+
+td {
+  padding-right: 5px;
+}

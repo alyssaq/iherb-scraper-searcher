@@ -18,9 +18,9 @@ def clean(unistr):
 def load_nutrients():
   nutrients = {}
   with open('nutrients.json') as data_file:
-    data = json.load(data_file)
-    [nutrients.update(d) for d in data.values()]
-  return [[key] + val for key, val in nutrients.iteritems()]
+    nutrients = json.load(data_file)
+
+  return nutrients
 
 ALL_NUTRIENTS = load_nutrients()
 
@@ -37,6 +37,14 @@ def get_serving_size(facts_table):
   serving_size = 0 if match is None else match.group(1)
   return serving_size
 
+def match_product_nutrient(nutrientlist, product_nutrient):
+  for nutrients in nutrientlist:
+    for nutrient in nutrients:
+      if nutrient.lower() in product_nutrient.lower():
+        return nutrients[0]
+
+  return False
+
 def product_profile(html):
   profile = {'nutrients': {}, 'num_nutrients': 0}
   soup = BeautifulSoup(html)
@@ -49,17 +57,20 @@ def product_profile(html):
   profile['name'] = main.find('h1').text
   profile['price'] = price.text
   profile['serving_size'] = get_serving_size(facts_table)
+  for category, nutrientlist in ALL_NUTRIENTS.iteritems():
+    profile['nutrients'][category] = {}
+    profile['num_' + category] = 0
 
   for row in facts_table.findAll('tr'):
     rowdata = row.findAll('td')
     if (len(rowdata) == 3 and len(rowdata[0].text) > 1):
       fields = [clean(f.text) for f in rowdata]
-      for main_nutrient_names in ALL_NUTRIENTS:
-        for name in main_nutrient_names:
-          if name.lower() in fields[0].lower():
-            profile['nutrients'][main_nutrient_names[0]] = fields
-            break
-  profile['num_nutrients'] = len(profile['nutrients'])
+      for category, nutrientlist in ALL_NUTRIENTS.iteritems():
+        match = match_product_nutrient(nutrientlist, fields[0])
+        if (match and not match in profile['nutrients'][category]):
+          profile['num_' + category] += 1
+          profile['nutrients'][category][match] = fields
+          profile['num_nutrients'] += 1
 
   return profile
 
@@ -107,7 +118,7 @@ def process_search_pages(filename, category='multivitamins', min_nutrients=1):
     page_no = page_no + 1
 
   res = filter(lambda x: x['num_nutrients'] >= min_nutrients, res)
-  res = sorted(res, key=lambda x: -x['num_nutrients'])
+  res = sorted(res, key=lambda x: -(x['num_Minerals'] + x['num_Vitamins']))
   print ('Saving {0} results'.format(len(res)))
 
   if filename:
@@ -120,15 +131,15 @@ def process_one_multiV():
   url = 'http://www.iherb.com/Deva-Multivitamin-Mineral-Supplement-Vegan-90-Coated-Tablets/12664'
   url = 'http://www.iherb.com/21st-Century-Health-Care-Sentry-Multivitamin-Multimineral-Supplement-300-Tablets/10525'
   url = 'http://www.iherb.com/Deva-Prenatal-Multivitamin-Mineral-One-Daily-90-Coated-Tablets/55144'
+  url = 'http://www.iherb.com/Nature-s-Bounty-Prescriptive-Formulas-Optimal-Vitamin-Packs-Men-s-30-Packets/32426'
   r = requests.get(url)
   res = product_profile(r.text)
-  res = filter(lambda x: x['num_nutrients'] > 0, res)
   print(res)
 
 if __name__ == "__main__":
   outfile = 'results.json'
   if len(sys.argv) > 1:
     outfile = sys.argv[1]
-  process_search_pages('digestives.json', 'digestive-enzymes', 6)
-  #process_search_pages(outfile)
+  #process_search_pages('digestives.json', 'enzymes', 7)
+  process_search_pages(outfile, min_nutrients=28)
   #process_one_multiV()

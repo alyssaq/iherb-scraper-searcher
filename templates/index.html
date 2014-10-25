@@ -5,26 +5,56 @@
 <table id="nutrients" cellspacing="0" width="100%">
   <thead>
   <tr>
-    <th>Name</th>
-    <th>Serve size</th>
-    {% for header in headers %}
-    <th>{{ header }}</th>
+    <th> Nutrient </th>
+    {% for row in data %}
+    <th>
+      <a href="{{ row.url }}">{{ row.name }}</a>
+    </th>
     {% endfor %}
   </tr>
   </thead>
   <tbody>
-  {% for row in data %}
-  <tr>
-    <td>{{ row.name }}</td>
-    <td>{{ row.serving_size }}</td>
-    {% for header in headers %}
-      {% if header in row.nutrients %}
-      <td>{{ row.nutrients[header][1] }}</td>
-      {% else %}
-      <td>**</td>
-      {% endif %}
+
+  <tr class="price">
+    <td>Price</td>
+    {% for row in data %}
+      <td>{{ row.price }}</td>
     {% endfor %}
   </tr>
+
+  <tr class="serve">
+    <td>Serve</td>
+    {% for row in data %}
+      <td>{{ row.serving_size }}</td>
+    {% endfor %}
+  </tr>
+
+  {% for category in categories %}
+  <tr class="category">
+    <td>{{ category }}</td>
+    {% for row in data %}
+      <td>{{ row["num_" + category] }}</td>
+    {% endfor %}
+  </tr>
+
+  {% for nutrients in allnutrients[category] %}
+  <tr>
+    <td>{{ nutrients[0] }}</td>
+    {% for row in data %}
+    
+      {% if nutrients[0] in row.nutrients[category] %}
+        {% if "*" in row.nutrients[category][nutrients[0]][2] %}
+        <td>{{ row.nutrients[category][nutrients[0]][1] }}</td>
+        {% else %}
+        <td>{{ row.nutrients[category][nutrients[0]][2] }}</td>
+        {% endif %}
+      {% else %}
+      <td>***</td>
+      {% endif %}
+    {% endfor %}
+  </tr> 
+  {% endfor %}
+   
   {% endfor %}
 </tbody>
 </table>
@@ -35,10 +65,12 @@
 {% block scripts %}
 
 <script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
 <script type="text/javascript" src="{{ url_for('static', filename='js/stupidtable.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/table.js') }}"></script>
 
 <script type="text/javascript">
-$(document).ready(function(){
+$(document).ready(function() {
   $('#nutrients').stupidtable();
 });
 </script>

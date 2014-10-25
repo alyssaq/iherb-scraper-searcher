@@ -9,19 +9,21 @@ DATAFOLDER = os.path.dirname(os.path.abspath(__file__)) + '/public/data'
 
 @app.route('/')
 def index():
-  headers = []
+  allnutrients = {}
   flatten = itertools.chain.from_iterable
   with open(os.path.join(DATAFOLDER, 'results.json')) as data_file:
     data = json.load(data_file)
 
   with open('nutrients.json') as data_file:
-    nutrients = json.load(data_file)
-    headers = list(flatten(nutrients.values()))
+    allnutrients = json.load(data_file)
+    nutrients = list(flatten(allnutrients.values()))
 
   return flask.render_template(
     'index.html',
     data=data,
-    headers=headers
+    allnutrients=allnutrients,
+    categories=['Vitamins', 'Minerals', 'Macronutrients',
+                'Trace Elements', 'Amino Acids', 'Enzymes']
   )
 
 @app.route('/scrape')
