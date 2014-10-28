@@ -27,7 +27,6 @@
 	["Chloride"],
 	["Chromium"],
 	["Copper"],
-	["Fluoride"],
 	["Iodine"],
 	["Iron"],
 	["Magnesium"],
@@ -36,16 +35,16 @@
 	["Phosphorus"],
 	["Potassium"],
 	["Selenium"],
-	["Sodium"],
 	["Zinc"]
   ],
   "Trace Elements": [
+  ["Sodium"],
 	["Arsenic"],
 	["Inositol"],
 	["Boron"],
 	["Nickel"],
 	["Silicon"],
-	["Sulfur", "Sulfate"],
+	["Sulfur"],
 	["Vanadium"],
 	["Omega-3 Fatty Acids"],
 	["EPA", "Eicosapentaenoic Acid"],
@@ -74,6 +73,7 @@
 	["Maltase"],
 	["Lactase"],
 	["Phytase", "Pectinase"],
-	["Sucrase", "Glucoamylase"]
+	["Sucrase", "Glucoamylase"],
+	["Lactobacillus acidophilus"]
   ]
 }

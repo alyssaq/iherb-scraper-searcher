@@ -45,13 +45,14 @@ def get_serving_size(facts_table):
   return serving_size
 
 def match_product_nutrient(product_nutrient):
+  product_nutrient = ' '.join(product_nutrient.split(' ')[0:2])
   for category, nutrientlist in ALL_NUTRIENTS.iteritems():
     for nutrients in nutrientlist:
       for nutrient in nutrients:
         if nutrient.lower() in product_nutrient.lower():
           return (category, nutrients[0])
 
-  return None
+  return (None, None)
 
 def product_profile(html):
   profile = {'nutrients': {}, 'num_nutrients': 0}
@@ -75,9 +76,9 @@ def product_profile(html):
     if (len(rowdata) == 3 and len(rowdata[0].text) > 1):
       fields = [clean(f.text) for f in rowdata]
 
-      match = match_product_nutrient(fields[0])
-      if match is not None:
-        category, nutrient = match
+      category, nutrient = match_product_nutrient(fields[0])
+      if nutrient is not None and \
+         nutrient not in profile['nutrients'][category]:
         profile['num_' + category] += 1
         profile['nutrients'][category][nutrient] = fields
         profile['num_nutrients'] += 1
@@ -142,8 +143,7 @@ def process_one_multiV():
   url = 'http://www.iherb.com/Deva-Multivitamin-Mineral-Supplement-Vegan-90-Coated-Tablets/12664'
   url = 'http://www.iherb.com/21st-Century-Health-Care-Sentry-Multivitamin-Multimineral-Supplement-300-Tablets/10525'
   url = 'http://www.iherb.com/Deva-Prenatal-Multivitamin-Mineral-One-Daily-90-Coated-Tablets/55144'
-  url = 'http://www.iherb.com/Nature-Made-Multi-for-Her-With-Iron-Calcium-90-Tablets/40397'
-  url = 'http://www.iherb.com/Ola-Loa-Kid-s-Daily-Multi-Vitamin-Cran-Raspberry-30-Packet-8-0-g-Each/22300'
+  url = 'http://www.iherb.com/All-One-Nutritech-Original-Formula-Multiple-Vitamin-Mineral-Powder-15-9-oz-450-g/4521'
   r = requests.get(url)
   res = product_profile(r.text)
   print(res)
