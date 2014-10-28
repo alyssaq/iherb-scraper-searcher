@@ -9,7 +9,11 @@ import gevent
 from bs4 import BeautifulSoup
 
 DOMAIN = 'http://www.iherb.com'
-UNICODE_REGEX = r'[^\x00-\x7f]|\r'
+UNICODE_REGEX = re.compile(r'[^\x00-\x7f]|\r')
+SERVING_SIZE_REGEX = re.compile(
+  r'serving size:?\s?(?P<serve>.*)|(?P<pserve>each packet)',
+  re.IGNORECASE)
+PRICE_REGEX = re.compile('\$(\d{1,2}\.?\d{0,2})')
 
 def clean(unistr):
   decoded = re.sub(UNICODE_REGEX, '', unistr)
@@ -32,9 +36,7 @@ def get_serving_size(facts_table):
   match = None
   while (match is None and rowIdx < endRow):
     row = theads[rowIdx]
-    print clean(row.text)
-    match = re.match(r'serving size:?\s?(?P<serve>.*)|(?P<pserve>each packet)',
-                     clean(row.text), re.IGNORECASE)
+    match = SERVING_SIZE_REGEX.match(clean(row.text))
     rowIdx = rowIdx + 1
 
   if match is not None:
@@ -56,12 +58,13 @@ def product_profile(html):
   soup = BeautifulSoup(html)
   main = soup.find('div', {'id': 'mainContent'})
   facts_table = soup.find('table')
-  price = main.find('span', {'class': 'black20b'})
+  price = main.find('span', class_='black20b')
   if not price or not facts_table:
     return profile
 
+  match = PRICE_REGEX.match(price.text)
   profile['name'] = main.find('h1').text
-  profile['price'] = price.text
+  profile['price'] = price.text if match is None else float(match.group(1))
   profile['serving_size'] = get_serving_size(facts_table)
   for category, nutrientlist in ALL_NUTRIENTS.iteritems():
     profile['nutrients'][category] = {}
@@ -125,7 +128,8 @@ def process_search_pages(filename, category='multivitamins', min_nutrients=1):
     page_no = page_no + 1
 
   res = filter(lambda x: x['num_nutrients'] >= min_nutrients, res)
-  res = sorted(res, key=lambda x: -(x['num_Minerals'] + x['num_Vitamins']))
+  sorter = lambda x: (-(x['num_Minerals'] + x['num_Vitamins']), x['price'])
+  res = sorted(res, key=sorter)
   print ('Saving {0} results'.format(len(res)))
 
   if filename:
@@ -149,5 +153,5 @@ if __name__ == "__main__":
   if len(sys.argv) > 1:
     outfile = sys.argv[1]
   #process_search_pages('digestives.json', 'enzymes', 7)
-  #process_search_pages(outfile, min_nutrients=28)
-  process_one_multiV()
+  process_search_pages(outfile, min_nutrients=28)
+  #process_one_multiV()
