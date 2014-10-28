@@ -25,25 +25,31 @@ def load_nutrients():
 ALL_NUTRIENTS = load_nutrients()
 
 def get_serving_size(facts_table):
+  serving_size = 0
   rowIdx = 0
   endRow = 3
   theads = facts_table.findAll('td')[0:endRow]
   match = None
   while (match is None and rowIdx < endRow):
     row = theads[rowIdx]
-    match = re.match(r'serving size:\s?(.*)', clean(row.text), re.I)
+    print clean(row.text)
+    match = re.match(r'serving size:?\s?(?P<serve>.*)|(?P<pserve>each packet)',
+                     clean(row.text), re.IGNORECASE)
     rowIdx = rowIdx + 1
 
-  serving_size = 0 if match is None else match.group(1)
+  if match is not None:
+    serving_size = match.group('serve') or match.group('pserve')
+
   return serving_size
 
-def match_product_nutrient(nutrientlist, product_nutrient):
-  for nutrients in nutrientlist:
-    for nutrient in nutrients:
-      if nutrient.lower() in product_nutrient.lower():
-        return nutrients[0]
+def match_product_nutrient(product_nutrient):
+  for category, nutrientlist in ALL_NUTRIENTS.iteritems():
+    for nutrients in nutrientlist:
+      for nutrient in nutrients:
+        if nutrient.lower() in product_nutrient.lower():
+          return (category, nutrients[0])
 
-  return False
+  return None
 
 def product_profile(html):
   profile = {'nutrients': {}, 'num_nutrients': 0}
@@ -65,12 +71,13 @@ def product_profile(html):
     rowdata = row.findAll('td')
     if (len(rowdata) == 3 and len(rowdata[0].text) > 1):
       fields = [clean(f.text) for f in rowdata]
-      for category, nutrientlist in ALL_NUTRIENTS.iteritems():
-        match = match_product_nutrient(nutrientlist, fields[0])
-        if (match and not match in profile['nutrients'][category]):
-          profile['num_' + category] += 1
-          profile['nutrients'][category][match] = fields
-          profile['num_nutrients'] += 1
+
+      match = match_product_nutrient(fields[0])
+      if match is not None:
+        category, nutrient = match
+        profile['num_' + category] += 1
+        profile['nutrients'][category][nutrient] = fields
+        profile['num_nutrients'] += 1
 
   return profile
 
@@ -131,7 +138,8 @@ def process_one_multiV():
   url = 'http://www.iherb.com/Deva-Multivitamin-Mineral-Supplement-Vegan-90-Coated-Tablets/12664'
   url = 'http://www.iherb.com/21st-Century-Health-Care-Sentry-Multivitamin-Multimineral-Supplement-300-Tablets/10525'
   url = 'http://www.iherb.com/Deva-Prenatal-Multivitamin-Mineral-One-Daily-90-Coated-Tablets/55144'
-  url = 'http://www.iherb.com/Nature-s-Bounty-Prescriptive-Formulas-Optimal-Vitamin-Packs-Men-s-30-Packets/32426'
+  url = 'http://www.iherb.com/Nature-Made-Multi-for-Her-With-Iron-Calcium-90-Tablets/40397'
+  url = 'http://www.iherb.com/Ola-Loa-Kid-s-Daily-Multi-Vitamin-Cran-Raspberry-30-Packet-8-0-g-Each/22300'
   r = requests.get(url)
   res = product_profile(r.text)
   print(res)
@@ -141,5 +149,5 @@ if __name__ == "__main__":
   if len(sys.argv) > 1:
     outfile = sys.argv[1]
   #process_search_pages('digestives.json', 'enzymes', 7)
-  process_search_pages(outfile, min_nutrients=28)
-  #process_one_multiV()
+  #process_search_pages(outfile, min_nutrients=28)
+  process_one_multiV()
