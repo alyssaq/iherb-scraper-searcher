@@ -7,6 +7,8 @@ import re
 import json
 import gevent
 from bs4 import BeautifulSoup
+import itertools
+flatten = itertools.chain.from_iterable
 
 DOMAIN = 'http://www.iherb.com'
 UNICODE_REGEX = re.compile(r'[^\x00-\x7f]|\r')
@@ -46,7 +48,7 @@ def get_serving_size(facts_table):
   return serving_size
 
 def match_product_nutrient(product_nutrient):
-  product_nutrient = ' '.join(product_nutrient.split(' ')[0:2])
+  product_nutrient = ' '.join(product_nutrient.split(' ')[0:2]) + ' '
   for category, nutrientlist in ALL_NUTRIENTS.iteritems():
     for nutrients in nutrientlist:
       for nutrient in nutrients:
@@ -66,18 +68,7 @@ def price_to_float(field):
   match = PRICE_REGEX.match(field)
   return field if match is None else float(match.group(1))
 
-def product_profile(html):
-  profile = {'nutrients': {}, 'num_nutrients': 0}
-  soup = BeautifulSoup(html)
-  main = soup.find('div', {'id': 'mainContent'})
-  facts_table = soup.find('table')
-  price = main.find('span', class_='black20b')
-  if not price or not facts_table:
-    return None
-
-  profile['name'] = main.find('h1').text
-  profile['price'] = price_to_float(price.text)
-  profile['serving_size'] = get_serving_size(facts_table)
+def fill_nutrients_profile(facts_table, profile):
   for category, nutrientlist in ALL_NUTRIENTS.iteritems():
     profile['nutrients'][category] = {}
     profile['num_' + category] = 0
@@ -93,6 +84,20 @@ def product_profile(html):
         profile['num_' + category] += 1
         profile['nutrients'][category][nutrient] = fields
         profile['num_nutrients'] += 1
+
+def product_profile(html):
+  profile = {'nutrients': {}, 'num_nutrients': 0}
+  soup = BeautifulSoup(html)
+  main = soup.find('div', {'id': 'mainContent'})
+  facts_table = soup.find('table')
+  price = main.find('span', class_='black20b')
+  if not price or not facts_table:
+    return None
+
+  profile['name'] = main.find('h1').text
+  profile['price'] = price_to_float(price.text)
+  profile['serving_size'] = get_serving_size(facts_table)
+  fill_nutrients_profile(facts_table, profile)
 
   return profile
 
