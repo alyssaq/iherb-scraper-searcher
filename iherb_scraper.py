@@ -14,6 +14,7 @@ SERVING_SIZE_REGEX = re.compile(
   r'serving size:?\s?(?P<serve>.*)|(?P<pserve>each packet)',
   re.IGNORECASE)
 PRICE_REGEX = re.compile('\$(\d{1,2}\.?\d{0,2})')
+NON_DIGITS_REGEX = re.compile('<|,|\*|%')
 
 def clean(unistr):
   decoded = re.sub(UNICODE_REGEX, '', unistr)
@@ -54,6 +55,17 @@ def match_product_nutrient(product_nutrient):
 
   return (None, None)
 
+def percent_to_num(field):
+  number_str = re.sub(NON_DIGITS_REGEX, '', field)
+  try:
+    return 0 if number_str == '' else int(float(number_str))
+  except ValueError:
+    return 0
+
+def price_to_float(field):
+  match = PRICE_REGEX.match(field)
+  return field if match is None else float(match.group(1))
+
 def product_profile(html):
   profile = {'nutrients': {}, 'num_nutrients': 0}
   soup = BeautifulSoup(html)
@@ -61,11 +73,10 @@ def product_profile(html):
   facts_table = soup.find('table')
   price = main.find('span', class_='black20b')
   if not price or not facts_table:
-    return profile
+    return None
 
-  match = PRICE_REGEX.match(price.text)
   profile['name'] = main.find('h1').text
-  profile['price'] = price.text if match is None else float(match.group(1))
+  profile['price'] = price_to_float(price.text)
   profile['serving_size'] = get_serving_size(facts_table)
   for category, nutrientlist in ALL_NUTRIENTS.iteritems():
     profile['nutrients'][category] = {}
@@ -75,7 +86,7 @@ def product_profile(html):
     rowdata = row.findAll('td')
     if (len(rowdata) == 3 and len(rowdata[0].text) > 1):
       fields = [clean(f.text) for f in rowdata]
-
+      fields[2] = percent_to_num(fields[2])
       category, nutrient = match_product_nutrient(fields[0])
       if nutrient is not None and \
          nutrient not in profile['nutrients'][category]:
@@ -95,12 +106,13 @@ def process(jobs):
     print('{0}) Processing: {1}'.format(i, val.url))
     i = i + 1
     profile = product_profile(val.text)
-    profile.update({'url': val.url})
-    profiles.append(profile)
+    if profile:
+      profile.update({'url': val.url + '?rcode=KQM091'})
+      profiles.append(profile)
 
   return profiles
 
-def process_page_links(url, min_nutrients):
+def process_page_links(url):
   response = requests.get(url)
   soup = BeautifulSoup(response.text)
   results = soup.find(
@@ -123,16 +135,16 @@ def process_search_pages(filename, category='multivitamins', min_nutrients=1):
   while hasLinks:
     url = DOMAIN + ('/{0}?p={1}').format(category, page_no)
     print(url)
-    page_results = process_page_links(url, min_nutrients)
+    page_results = process_page_links(url)
     hasLinks = False if len(page_results) == 0 else True
     res += page_results
     page_no = page_no + 1
 
-  res = filter(lambda x: x['num_nutrients'] >= min_nutrients, res)
+  res = filter(lambda x: x['num_Vitamins'] >= min_nutrients, res)
   sorter = lambda x: (-(x['num_Minerals'] + x['num_Vitamins']), x['price'])
   res = sorted(res, key=sorter)
-  print ('Saving {0} results'.format(len(res)))
 
+  print ('Saving {0} results'.format(len(res)))
   if filename:
     with open(filename, 'w') as outfile:
       json.dump(res, outfile, indent=2)
@@ -143,7 +155,7 @@ def process_one_multiV():
   url = 'http://www.iherb.com/Deva-Multivitamin-Mineral-Supplement-Vegan-90-Coated-Tablets/12664'
   url = 'http://www.iherb.com/21st-Century-Health-Care-Sentry-Multivitamin-Multimineral-Supplement-300-Tablets/10525'
   url = 'http://www.iherb.com/Deva-Prenatal-Multivitamin-Mineral-One-Daily-90-Coated-Tablets/55144'
-  url = 'http://www.iherb.com/All-One-Nutritech-Original-Formula-Multiple-Vitamin-Mineral-Powder-15-9-oz-450-g/4521'
+  url = 'http://www.iherb.com/Paradise-Herbs-ORAC-Energy-Earth-s-Blend-One-Daily-Superfood-Multivitamin-With-Iron-30-Veggie-Caps/47499'
   r = requests.get(url)
   res = product_profile(r.text)
   print(res)
@@ -153,5 +165,5 @@ if __name__ == "__main__":
   if len(sys.argv) > 1:
     outfile = sys.argv[1]
   #process_search_pages('digestives.json', 'enzymes', 7)
-  process_search_pages(outfile, min_nutrients=28)
+  process_search_pages(outfile, min_nutrients=1)
   #process_one_multiV()

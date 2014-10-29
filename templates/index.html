@@ -43,7 +43,7 @@
     {% for row in data %}
     
       {% if nutrients[0] in row.nutrients[category] %}
-        {% if "*" in row.nutrients[category][nutrients[0]][2] %}
+        {% if row.nutrients[category][nutrients[0]][2] == 0 %}
         <td>{{ row.nutrients[category][nutrients[0]][1] }}</td>
         {% else %}
         <td>{{ row.nutrients[category][nutrients[0]][2] }}</td>

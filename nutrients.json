@@ -12,14 +12,14 @@
 	["Vitamin C", "ascorbic acid"],
 	["Vitamin D"],
 	["Vitamin E"],
-	["Vitamin K"],
-	["Thiamine", "Thiamin"],
+	["Vitamin K", "K-2"],
+	["Thiamine", "Thiamin", "Vitamin B-1"],
 	["Riboflavin", "B-2"],
 	["Niacin", "B-3", "niacinamide"],
 	["Pantothenic Acid", "B-5"],
 	["Vitamin B6", "pyridoxine", "B-6"],
 	["Biotin", "B-7"],
-	["Vitamin B12", "cyanocobalamin", "B-12"]
+	["Vitamin B12", "cyanocobalamin", "Vitamin B-12"]
   ],
   "Minerals": [
 	["Choline"],

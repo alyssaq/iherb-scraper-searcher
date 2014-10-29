@@ -1,6 +1,5 @@
 import iherb_scraper
 import json
-import itertools
 import flask
 import os
 
@@ -10,13 +9,24 @@ DATAFOLDER = os.path.dirname(os.path.abspath(__file__)) + '/public/data'
 @app.route('/')
 def index():
   allnutrients = {}
-  flatten = itertools.chain.from_iterable
   with open(os.path.join(DATAFOLDER, 'results.json')) as data_file:
     data = json.load(data_file)
 
   with open('nutrients.json') as data_file:
     allnutrients = json.load(data_file)
-    nutrients = list(flatten(allnutrients.values()))
+
+  def value_range(row):
+    if 'Vitamins' in row['nutrients']:
+      for fields in row['nutrients']['Vitamins'].values():
+        if fields[2] < 80 or fields[2] > 3000:
+          return False
+      return True
+    else:
+      return False
+
+  #data = filter(value_range, data)
+  sorter = lambda x: (-x['num_Vitamins'], -x['num_Minerals'], x['price'])
+  data = sorted(data, key=sorter)
 
   return flask.render_template(
     'index.html',
