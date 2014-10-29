@@ -15,8 +15,9 @@ UNICODE_REGEX = re.compile(r'[^\x00-\x7f]|\r')
 SERVING_SIZE_REGEX = re.compile(
   r'serving size:?\s?(?P<serve>.*)|(?P<pserve>each packet)',
   re.IGNORECASE)
-PRICE_REGEX = re.compile('\$(\d{1,2}\.?\d{0,2})')
-NON_DIGITS_REGEX = re.compile('<|,|\*|%')
+PRICE_REGEX = re.compile(r'\$(\d{1,2}\.?\d{0,2})')
+NON_DIGITS_REGEX = re.compile(r'<|,|\*|%')
+CONTAINER_SIZE_REGEX = re.compile(r'\s?(\d{1,4}\.?\d{0,3})\s?([a-zA-Z ]+)')
 
 def clean(unistr):
   decoded = re.sub(UNICODE_REGEX, '', unistr)
@@ -31,8 +32,7 @@ def load_nutrients():
 
 ALL_NUTRIENTS = load_nutrients()
 
-def get_serving_size(facts_table):
-  serving_size = 0
+def get_serving_text(facts_table):
   rowIdx = 0
   endRow = 3
   theads = facts_table.findAll('td')[0:endRow]
@@ -43,9 +43,19 @@ def get_serving_size(facts_table):
     rowIdx = rowIdx + 1
 
   if match is not None:
-    serving_size = match.group('serve') or match.group('pserve')
+    return match.group('serve') or match.group('pserve')
 
-  return serving_size
+  return 0
+
+def get_container_size(name):
+  partitions = re.split(',|\(|\)', name)
+  for text in reversed(partitions):
+    match = CONTAINER_SIZE_REGEX.match(text)
+    if match:
+      amount, unit = match.groups()
+      return (float(amount), unit.strip())
+
+  return (0, 'g')
 
 def match_product_nutrient(product_nutrient):
   product_nutrient = ' '.join(product_nutrient.split(' ')[0:2]) + ' '
@@ -96,7 +106,10 @@ def product_profile(html):
 
   profile['name'] = main.find('h1').text
   profile['price'] = price_to_float(price.text)
-  profile['serving_size'] = get_serving_size(facts_table)
+  profile['serving_text'] = get_serving_text(facts_table)
+  amount, unit = get_container_size(profile['name'])
+  profile['container_amount'] = amount
+  profile['container_unit'] = unit
   fill_nutrients_profile(facts_table, profile)
 
   return profile

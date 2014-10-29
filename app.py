@@ -24,7 +24,7 @@ def index():
     else:
       return False
 
-  #data = filter(value_range, data)
+  data = filter(value_range, data)
   sorter = lambda x: (-x['num_Vitamins'], -x['num_Minerals'], x['price'])
   data = sorted(data, key=sorter)
 
