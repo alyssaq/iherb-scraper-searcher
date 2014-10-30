@@ -35,9 +35,10 @@ process_search_pages (filename, category='multivitamins', min_nutrients=1)
   * `category` - iherb category to perform scraping.
   * `min_nutrients` - minimum number of nutrients to match in `nutrients.json`
 
-## Results viewer
-A simple table viewer to display `results.json`.
-It must be placed in `public/data/results.json`.
+## Client-side app
+Results are rendered client-side using [nunjunks](http://mozilla.github.io/nunjucks/)
+To build and run:
 
-1. `python app.py`
-1. Open `0.0.0.0:5000`
+1. Run `npm install`
+2. Run `grunt`
+3. Open the generated `index.html` in the `dest` folder

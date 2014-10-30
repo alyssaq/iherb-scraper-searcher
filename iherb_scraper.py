@@ -12,12 +12,12 @@ flatten = itertools.chain.from_iterable
 
 DOMAIN = 'http://www.iherb.com'
 UNICODE_REGEX = re.compile(r'[^\x00-\x7f]|\r')
-SERVING_SIZE_REGEX = re.compile(
+SERVING_TEXT_REGEX = re.compile(
   r'serving size:?\s?(?P<serve>.*)|(?P<pserve>each packet)',
   re.IGNORECASE)
 PRICE_REGEX = re.compile(r'\$(\d{1,2}\.?\d{0,2})')
 NON_DIGITS_REGEX = re.compile(r'<|,|\*|%')
-CONTAINER_SIZE_REGEX = re.compile(r'\s?(\d{1,4}\.?\d{0,3})\s?([a-zA-Z ]+)')
+SIZE_REGEX = re.compile(r'\s?(\d{1,4}\.?\d{0,3})\s?([a-zA-Z ]+)')
 
 def clean(unistr):
   decoded = re.sub(UNICODE_REGEX, '', unistr)
@@ -39,7 +39,7 @@ def get_serving_text(facts_table):
   match = None
   while (match is None and rowIdx < endRow):
     row = theads[rowIdx]
-    match = SERVING_SIZE_REGEX.match(clean(row.text))
+    match = SERVING_TEXT_REGEX.match(clean(row.text))
     rowIdx = rowIdx + 1
 
   if match is not None:
@@ -47,10 +47,11 @@ def get_serving_text(facts_table):
 
   return 0
 
-def get_container_size(name):
-  partitions = re.split(',|\(|\)', name)
-  for text in reversed(partitions):
-    match = CONTAINER_SIZE_REGEX.match(text)
+def get_container_size(text):
+  partitions = re.split(',|or|\(|\)', text)
+  print partitions
+  for part in reversed(partitions):
+    match = SIZE_REGEX.match(part)
     if match:
       amount, unit = match.groups()
       return (float(amount), unit.strip())
