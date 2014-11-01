@@ -37,7 +37,7 @@ def clean(unistr):
 
 def load_nutrients():
   nutrients = {}
-  with open('nutrients.json') as data_file:
+  with open('app/data/nutrients.json') as data_file:
     nutrients = json.load(data_file)
 
   return nutrients

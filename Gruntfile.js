@@ -4,7 +4,7 @@ module.exports = function (grunt) {
   require('time-grunt')(grunt);
   require('load-grunt-tasks')(grunt);
 
-  var nutrients =  grunt.file.readJSON('nutrients.json');
+  var nutrients =  grunt.file.readJSON('app/data/nutrients.json');
   grunt.initConfig({
     nunjucks: {
       options: {
