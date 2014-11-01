@@ -24,15 +24,21 @@
     {% endfor %}
   </tr>
 
+  <tr class="price_per_serve">
+    <td></td>
+    <td>Price per serve</td>
+    {% for row in data %}
+      <td>{{ row.price_per_serve.toFixed(2) }}</td>
+    {% endfor %}
+  </tr>
+
   <tr class="container_size">
     <td></td>
     <td>Size</td>
     {% for row in data %}
       <td>
-      {% for size in row.container_sizes %}
-        {{ size.amount }} {{ size.unit }}
-        {% if not loop.last %}, {% endif %}
-      {% endfor %}
+      {% set size = row.container_sizes[row.size_indexes[0]] %}
+      {{ size.amount }} {{ size.unit }}
       </td>
     {% endfor %}
   </tr>
@@ -42,10 +48,8 @@
     <td>Serve</td>
     {% for row in data %}
       <td>
-       {% for size in row.serving_sizes %}
-        {{ size.amount }} {{ size.unit }}
-        {% if not loop.last %}, {% endif %}
-      {% endfor %}
+       {% set size = row.serving_sizes[row.size_indexes[1]] %}
+      {{ size.amount }} {{ size.unit }}
       </td>
     {% endfor %}
   </tr>
@@ -65,7 +69,6 @@
     <!-- <td><div  class='num_slider'></div></td> -->
     <td>{{ nutrients[0] }}</td>
     {% for row in data %}
-    
       {% if row.nutrients[category].hasOwnProperty(nutrients[0]) %}
         {% if row.nutrients[category][nutrients[0]][2] == 0 %}
         <td>{{ row.nutrients[category][nutrients[0]][1] }}</td>
