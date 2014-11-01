@@ -22,7 +22,7 @@ module.exports = function (grunt) {
               expand: true,
               cwd: "app/templates/",
               src: "index.html",
-              dest: "dest/",
+              dest: "app/",
               ext: ".html"
            }
         ]
