@@ -5,7 +5,8 @@
 <table id="nutrients" cellspacing="0" width="100%">
   <thead>
   <tr>
-    <th> Nutrient </th>
+    <th></th>
+    <th></th>
     {% for row in data %}
     <th>
       <a href="{{ row.url }}">{{ row.name }}</a>
@@ -16,6 +17,7 @@
   <tbody>
 
   <tr class="price">
+    <td></td>
     <td>Price</td>
     {% for row in data %}
       <td>{{ row.price }}</td>
@@ -23,21 +25,34 @@
   </tr>
 
   <tr class="container_size">
+    <td></td>
     <td>Size</td>
     {% for row in data %}
-      <td>{{ row.container_amount }} {{ row.container_unit }}</td>
+      <td>
+      {% for size in row.container_sizes %}
+        {{ size.amount }} {{ size.unit }}
+        {% if not loop.last %}, {% endif %}
+      {% endfor %}
+      </td>
     {% endfor %}
   </tr>
 
-  <tr class="serveing_size">
+  <tr class="serving_size">
+    <td></td>
     <td>Serve</td>
     {% for row in data %}
-      <td>{{ row.serving_text }}</td>
+      <td>
+       {% for size in row.serving_sizes %}
+        {{ size.amount }} {{ size.unit }}
+        {% if not loop.last %}, {% endif %}
+      {% endfor %}
+      </td>
     {% endfor %}
   </tr>
 
   {% for category in categories %}
   <tr class="category">
+    <td></td>
     <td>{{ category }}</td>
     {% for row in data %}
       <td>{{ row["num_" + category] }}</td>
@@ -46,6 +61,8 @@
 
   {% for nutrients in allnutrients[category] %}
   <tr>
+    <td><input type="checkbox" class="{{ nutrients[0].toLowerCase() }}"></td>
+    <!-- <td><div  class='num_slider'></div></td> -->
     <td>{{ nutrients[0] }}</td>
     {% for row in data %}
     
@@ -66,4 +83,13 @@
 </tbody>
 </table>
 
+{% endblock %}
+
+{% block scripts %}
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" /> -->
 {% endblock %}

@@ -248,5 +248,5 @@ if __name__ == "__main__":
   if len(sys.argv) > 1:
     outfile = sys.argv[1]
   #process_search_pages('digestives.json', 'enzymes', 7)
-  #process_search_pages(outfile, min_nutrients=1)
-  process_one_multiV()
+  process_search_pages(outfile, min_nutrients=1)
+  #process_one_multiV()
