@@ -16,6 +16,10 @@ Scrapping this data will help to:
 * Sort the search by price, price per serving (some requires three-a-day, some one-a-day) or specific nutrient amount (e.g. highest calcium).
 * Find a digestive enzyme pill that contains more than 6 enzymes.
 
+## [Demo](http://alyssaq.github.io/iherb-scraper-searcher/)
+Of the 769 in the multivitamins category, 738 were successfully scraped and 260 had >= 12 of the required vitamins.   
+Demo displays those 260 multi-vitamins-minerals sorted by price per serve.
+
 ## Prerequisites
 1. Python 2.7.x
 1. Run `pip install -r requirements.txt` to install required packages
