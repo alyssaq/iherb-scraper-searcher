@@ -206,7 +206,7 @@ def product_profile(html):
   full_amount = fullsizes[full_index]['amount']
   serve_amount = servesizes[serve_index]['amount']
   profile['size_indexes'] = [full_index, serve_index]
-  profile['price_per_serve'] = full_amount / profile['price'] * serve_amount
+  profile['price_per_serve'] = profile['price'] / full_amount * serve_amount
   return profile
 
 i = 1
@@ -266,7 +266,7 @@ def process_search_pages(filename, category='multivitamins', min_nutrients=1):
 
 def process_one_multiV():
   url = 'http://www.iherb.com/Deva-Multivitamin-Mineral-Supplement-Vegan-90-Coated-Tablets/12664'
-  url = 'http://www.iherb.com/Vitalah-Oxylent-Prenatal-Multivitamin-Drink-Sparkling-Cranberry-Raspberry-30-Packets-5-8-g-Each/28804'
+  url = 'http://www.iherb.com/Nature-Made-Multi-for-Her-With-Iron-Calcium-90-Tablets/40397'
   #url = 'http://www.iherb.com/Eclectic-Institute-Vita-Natal-Multi-Vitamin-Mineral-Formula-180-Tablets/15335'
   #url = 'http://www.iherb.com/Paradise-Herbs-ORAC-Energy-Earth-s-Blend-One-Daily-Superfood-Multivitamin-With-Iron-30-Veggie-Caps/47499'
   #url = 'http://www.iherb.com/All-One-Nutritech-Original-Formula-Multiple-Vitamin-Mineral-Powder-15-9-oz-450-g/4521'
