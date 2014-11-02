@@ -46,11 +46,11 @@ ALL_NUTRIENTS = load_nutrients()
 
 def get_serving_text(facts_table):
   endRow = 3
-  rows = (r for r in facts_table.findAll('tr')[0:endRow] if r.strong)
+  rows = facts_table.findAll('tr')[0:endRow]
   text = ''
   for row in rows:
     match = SERVING_TEXT_REGEX.match(clean(row.text))
-    text = text + ' ' + row.text
+    text = (text + ' ' + row.text) if row.strong else text
     if match:
       return match.group('serve') or match.group('pserve')
 
@@ -163,13 +163,20 @@ def has_overlapping_chars(text1, text2, min_overlap=3):
 
   return False
 
+def has_overlapping_words(text1, text2):
+  for t1 in text1.split(' '):
+    for t2 in text2.split(' '):
+      if has_overlapping_chars(t1, t2):
+        return True
+  return False
+
 def overlapping_sizes(containers, serves):
   for container_index, cont in enumerate(containers):
     for serve_index, serve in enumerate(serves):
-      if has_overlapping_chars(serve['unit'], cont['unit']):
+      if has_overlapping_words(serve['unit'], cont['unit']):
         return (container_index, serve_index)
 
-  return (0, 0)
+  return (0, -1)
 
 def longest_index(arr):
   max_len = 0
@@ -198,15 +205,15 @@ def product_profile(html):
   profile['name'] = main.find('h1').text
   profile['price'] = price_to_float(price.text)
   profile['serving_text'] = get_serving_text(facts_table)
-  servesizes = profile['serving_sizes'] = get_sizes(profile['serving_text'])
+  serves = profile['serving_sizes'] = get_sizes(profile['serving_text'])
   profile['container_text'] = get_container_size_text(profile['name'])
   fullsizes = profile['container_sizes'] = get_sizes(profile['container_text'])
 
-  full_index, serve_index = overlapping_sizes(fullsizes, servesizes)
-  full_amount = fullsizes[full_index]['amount']
-  serve_amount = servesizes[serve_index]['amount']
+  full_index, serve_index = overlapping_sizes(fullsizes, serves)
+  full_amt = fullsizes[full_index]['amount']
+  serve_amt = serves[serve_index]['amount'] if serve_index >= 0 else full_amt
   profile['size_indexes'] = [full_index, serve_index]
-  profile['price_per_serve'] = profile['price'] / full_amount * serve_amount
+  profile['price_per_serve'] = profile['price'] / full_amt * serve_amt
   return profile
 
 i = 1
@@ -266,9 +273,9 @@ def process_search_pages(filename, category='multivitamins', min_nutrients=1):
 
 def process_one_multiV():
   url = 'http://www.iherb.com/Deva-Multivitamin-Mineral-Supplement-Vegan-90-Coated-Tablets/12664'
-  url = 'http://www.iherb.com/Nature-Made-Multi-for-Her-With-Iron-Calcium-90-Tablets/40397'
-  #url = 'http://www.iherb.com/Eclectic-Institute-Vita-Natal-Multi-Vitamin-Mineral-Formula-180-Tablets/15335'
-  #url = 'http://www.iherb.com/Paradise-Herbs-ORAC-Energy-Earth-s-Blend-One-Daily-Superfood-Multivitamin-With-Iron-30-Veggie-Caps/47499'
+  url = 'http://www.iherb.com/Nature-s-Plus-Source-of-Life-Gold-Liquid-Delicious-Tropical-Fruit-Flavor-8-fl-oz-236-ml/22998'
+  url = 'http://www.iherb.com/Eclectic-Institute-Vita-Natal-Multi-Vitamin-Mineral-Formula-180-Tablets/15335'
+  url = 'http://www.iherb.com/Enzymatic-Therapy-Doctor-s-Choice-for-Women-90-Tablets/2173'
   #url = 'http://www.iherb.com/All-One-Nutritech-Original-Formula-Multiple-Vitamin-Mineral-Powder-15-9-oz-450-g/4521'
   r = requests.get(url)
   res = product_profile(r.text)
