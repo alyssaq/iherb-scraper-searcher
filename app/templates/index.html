@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 
 {% block body %}
-
+<div class="wrapper">
 <table id="nutrients" cellspacing="0" width="100%">
   <thead>
   <tr>
     <th></th>
-    <th></th>
+    <th class="header"></th>
     {% for row in data %}
     <th>
       <a href="{{ row.url }}">{{ row.name }}</a>
@@ -18,7 +18,7 @@
 
   <tr class="price">
     <td></td>
-    <td class="sorter">Price</td>
+    <td class="header sorter">Price</td>
     {% for row in data %}
       <td>{{ row.price }}</td>
     {% endfor %}
@@ -26,7 +26,7 @@
 
   <tr class="price_per_serve">
     <td></td>
-    <td class="sorter">Price per serve</td>
+    <td class="header sorter">Price per serve</td>
     {% for row in data %}
       <td>{{ row.price_per_serve.toFixed(2) }}</td>
     {% endfor %}
@@ -34,7 +34,7 @@
 
   <tr class="container_size">
     <td></td>
-    <td class="sorter">Size</td>
+    <td class="header sorter">Size</td>
     {% for row in data %}
       <td>
       {% set size = row.container_sizes[row.size_indexes[0]] %}
@@ -45,7 +45,7 @@
 
   <tr class="serving_size">
     <td></td>
-    <td class="sorter">Serve</td>
+    <td class="header sorter">Serve</td>
     {% for row in data %}
       <td>
        {% set size = row.serving_sizes[row.size_indexes[1]] %}
@@ -57,7 +57,7 @@
   {% for category in categories %}
   <tr class="category">
     <td></td>
-    <td>{{ category }}</td>
+    <td class="header">{{ category }}</td>
     {% for row in data %}
       <td>{{ row["num_" + category] }}</td>
     {% endfor %}
@@ -67,7 +67,7 @@
   <tr>
     <td><input type="checkbox" class="{{ nutrients[0].toLowerCase() }}"></td>
     <!-- <td><div  class='num_slider'></div></td> -->
-    <td class="sorter">{{ nutrients[0] }}</td>
+    <td class="header sorter">{{ nutrients[0] }}</td>
     {% for row in data %}
       {% if row.nutrients[category].hasOwnProperty(nutrients[0]) %}
         {% if row.nutrients[category][nutrients[0]][2] == 0 %}
@@ -85,7 +85,7 @@
   {% endfor %}
 </tbody>
 </table>
-
+</div>
 {% endblock %}
 
 {% block scripts %}

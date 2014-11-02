@@ -12,13 +12,26 @@ h3, h2 {
   background-color: #FFFFFF;
   text-align: center;
 }
-
+.wrapper { 
+  overflow-x:scroll;  
+  margin-left:0.5em; 
+  overflow-y:visible;
+}
 .category > td {
   border-bottom: black solid;
   border-top: 1px grey solid;
   padding-top: 10px;  
 }
 
-td {
-  padding-right: 5px;
+#nutrients {
+  padding-left: 82px;
+}
+
+.header {
+  background-color: white;
+  position:absolute; 
+  width:6em; 
+  left:0;
+  top:auto;
+  border-right: 0px none black; 
 }

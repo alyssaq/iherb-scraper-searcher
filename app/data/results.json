@@ -1,7 +1,7 @@
 [
   {
     "serving_text": "1 Caplet", 
-    "price_per_serve": 14.947683109118087, 
+    "price_per_serve": 0.0669, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -188,7 +188,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 13.75515818431912, 
+    "price_per_serve": 0.0727, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -380,7 +380,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 12.936610608020699, 
+    "price_per_serve": 0.07730000000000001, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -572,7 +572,7 @@
   }, 
   {
     "serving_text": "1 Caplet", 
-    "price_per_serve": 11.479591836734695, 
+    "price_per_serve": 0.08711111111111111, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -764,7 +764,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 31.315240083507305, 
+    "price_per_serve": 0.031933333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -956,7 +956,7 @@
   }, 
   {
     "serving_text": "1 Packet", 
-    "price_per_serve": 2.2970903522205206, 
+    "price_per_serve": 0.43533333333333335, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -1169,7 +1169,7 @@
   }, 
   {
     "serving_text": "1 Packet", 
-    "price_per_serve": 2.2970903522205206, 
+    "price_per_serve": 0.43533333333333335, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -1382,7 +1382,7 @@
   }, 
   {
     "serving_text": "1 capsule", 
-    "price_per_serve": 1.9841269841269842, 
+    "price_per_serve": 0.504, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -1574,7 +1574,7 @@
   }, 
   {
     "serving_text": "4 tablets", 
-    "price_per_serve": 24.615384615384617, 
+    "price_per_serve": 0.65, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -1777,7 +1777,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 11.417697431018079, 
+    "price_per_serve": 0.35033333333333333, 
     "num_Enzymes": 3, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -1996,7 +1996,7 @@
   }, 
   {
     "serving_text": "2 tablets", 
-    "price_per_serve": 10.00416840350146, 
+    "price_per_serve": 0.3998333333333333, 
     "num_Enzymes": 6, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -2220,7 +2220,7 @@
   }, 
   {
     "serving_text": "1 Heaping Tablespoon (4 Level Teaspoons) (15 g)", 
-    "price_per_serve": 189.71332209106242, 
+    "price_per_serve": 1.186, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -2425,7 +2425,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 7.792207792207792, 
+    "price_per_serve": 0.5133333333333333, 
     "num_Enzymes": 3, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -2644,7 +2644,7 @@
   }, 
   {
     "serving_text": "1 Heaping Tablespoon (4 Level Teaspoons) (15 g)", 
-    "price_per_serve": 214.2551064133695, 
+    "price_per_serve": 1.0501500000000001, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -2849,7 +2849,7 @@
   }, 
   {
     "serving_text": "1  Capsule", 
-    "price_per_serve": 10.714285714285715, 
+    "price_per_serve": 0.09333333333333332, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -3015,7 +3015,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 14.534883720930234, 
+    "price_per_serve": 0.0688, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -3202,7 +3202,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 24.802705749718154, 
+    "price_per_serve": 0.040318181818181816, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -3389,7 +3389,7 @@
   }, 
   {
     "serving_text": "6 Capsules", 
-    "price_per_serve": 57.20338983050847, 
+    "price_per_serve": 0.6293333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -3572,7 +3572,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 6.335797254487856, 
+    "price_per_serve": 0.15783333333333335, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -3755,7 +3755,7 @@
   }, 
   {
     "serving_text": "6 Tablets", 
-    "price_per_serve": 34.31839847473785, 
+    "price_per_serve": 1.049, 
     "num_Enzymes": 4, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -3948,7 +3948,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 2.680965147453083, 
+    "price_per_serve": 0.373, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -4125,7 +4125,7 @@
   }, 
   {
     "serving_text": "1 packet", 
-    "price_per_serve": 2.561912894961571, 
+    "price_per_serve": 0.39033333333333337, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -4316,7 +4316,7 @@
   }, 
   {
     "serving_text": "2 Caplets", 
-    "price_per_serve": 8.278145695364238, 
+    "price_per_serve": 0.4832, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -4498,7 +4498,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 7.177033492822966, 
+    "price_per_serve": 1.254, 
     "num_Enzymes": 4, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -4707,7 +4707,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 4.276550249465432, 
+    "price_per_serve": 0.2338333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -4879,7 +4879,7 @@
   }, 
   {
     "serving_text": "3 Mini-Tabs", 
-    "price_per_serve": 18.828451882845187, 
+    "price_per_serve": 0.478, 
     "num_Enzymes": 4, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -5077,7 +5077,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 13.908205841446453, 
+    "price_per_serve": 0.0719, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -5263,8 +5263,8 @@
     "name": "Rexall Sundown Naturals, SunVite, Active Adult 50+, Multi-Vitamin & Multi-Mineral Formula, 200 Tablets"
   }, 
   {
-    "serving_text": "Supplement Facts", 
-    "price_per_serve": 5.7251908396946565, 
+    "serving_text": "3 Tablets", 
+    "price_per_serve": 0.524, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -5442,8 +5442,8 @@
     "num_Macronutrients": 0, 
     "serving_sizes": [
       {
-        "amount": 1, 
-        "unit": ""
+        "amount": 3, 
+        "unit": "Tablets"
       }
     ], 
     "num_Amino Acids": 0, 
@@ -5456,7 +5456,7 @@
   }, 
   {
     "serving_text": "1 packet", 
-    "price_per_serve": 1.8726591760299627, 
+    "price_per_serve": 0.534, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -5653,7 +5653,7 @@
   }, 
   {
     "serving_text": "1 Packet", 
-    "price_per_serve": 1.8679950186799503, 
+    "price_per_serve": 0.5353333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -5856,7 +5856,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.665241295051924, 
+    "price_per_serve": 0.27283333333333337, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -6033,7 +6033,7 @@
   }, 
   {
     "serving_text": "4 capsules", 
-    "price_per_serve": 28.58844550327576, 
+    "price_per_serve": 0.5596666666666666, 
     "num_Enzymes": 1, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -6227,7 +6227,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 15.882352941176471, 
+    "price_per_serve": 0.5666666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -6415,7 +6415,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 15.882352941176471, 
+    "price_per_serve": 0.5666666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -6603,7 +6603,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 28.103044496487122, 
+    "price_per_serve": 0.5693333333333332, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -6781,7 +6781,7 @@
   }, 
   {
     "serving_text": "One (1) scoop (7.5 g)", 
-    "price_per_serve": 94.6969696969697, 
+    "price_per_serve": 0.5940000000000001, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -6983,7 +6983,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 14.78641840087623, 
+    "price_per_serve": 0.6086666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -7176,7 +7176,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 14.78641840087623, 
+    "price_per_serve": 0.6086666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -7369,7 +7369,7 @@
   }, 
   {
     "serving_text": "4 tablets", 
-    "price_per_serve": 24.615384615384617, 
+    "price_per_serve": 0.65, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -7572,7 +7572,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.0627871362940278, 
+    "price_per_serve": 0.3265, 
     "num_Enzymes": 1, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -7760,7 +7760,7 @@
   }, 
   {
     "serving_text": "4 capsules", 
-    "price_per_serve": 22.058823529411764, 
+    "price_per_serve": 0.7253333333333334, 
     "num_Enzymes": 2, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -7948,7 +7948,7 @@
   }, 
   {
     "serving_text": "Six Capsules", 
-    "price_per_serve": 47.78761061946902, 
+    "price_per_serve": 0.7533333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -8125,7 +8125,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.572846367606193, 
+    "price_per_serve": 0.2798888888888889, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -8302,7 +8302,7 @@
   }, 
   {
     "serving_text": "6 Capsules", 
-    "price_per_serve": 42.772277227722775, 
+    "price_per_serve": 0.8416666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -8479,7 +8479,7 @@
   }, 
   {
     "serving_text": "3 Capsules", 
-    "price_per_serve": 21.360759493670884, 
+    "price_per_serve": 0.42133333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -8667,7 +8667,7 @@
   }, 
   {
     "serving_text": "3 Mini-Tabs", 
-    "price_per_serve": 20.85747392815759, 
+    "price_per_serve": 0.4315, 
     "num_Enzymes": 4, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -8865,7 +8865,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.492699363534257, 
+    "price_per_serve": 0.8903333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -9057,7 +9057,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 8.93189430591738, 
+    "price_per_serve": 0.44783333333333336, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -9239,7 +9239,7 @@
   }, 
   {
     "serving_text": "2 tablets", 
-    "price_per_serve": 8.823529411764707, 
+    "price_per_serve": 0.4533333333333333, 
     "num_Enzymes": 1, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -9422,7 +9422,7 @@
   }, 
   {
     "serving_text": "3 Softgels", 
-    "price_per_serve": 18.42374616171955, 
+    "price_per_serve": 0.4885, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -9610,7 +9610,7 @@
   }, 
   {
     "serving_text": "1 Heaping Tablespoon (4 Level Teaspoons) (15 g)", 
-    "price_per_serve": 230.06134969325154, 
+    "price_per_serve": 0.9779999999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -9881,7 +9881,7 @@
   }, 
   {
     "serving_text": "1 Scoop (39 g)", 
-    "price_per_serve": 1288.9830508474577, 
+    "price_per_serve": 1.18, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -10097,7 +10097,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 17.14830104795173, 
+    "price_per_serve": 0.5248333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -10285,7 +10285,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 17.14830104795173, 
+    "price_per_serve": 0.5248333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -10483,7 +10483,7 @@
   }, 
   {
     "serving_text": "3 Softgels", 
-    "price_per_serve": 16.949152542372882, 
+    "price_per_serve": 0.5309999999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -10666,7 +10666,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 16.949152542372882, 
+    "price_per_serve": 0.5309999999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -10838,7 +10838,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 12.338062924120912, 
+    "price_per_serve": 0.32420000000000004, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -11015,7 +11015,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 8.181818181818182, 
+    "price_per_serve": 1.0999999999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -11192,7 +11192,7 @@
   }, 
   {
     "serving_text": "2 tablespoons (1 oz)", 
-    "price_per_serve": 25.844988344988344, 
+    "price_per_serve": 1.144, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -11386,14 +11386,14 @@
     "num_Amino Acids": 0, 
     "container_text": " Orange Mango, 30 fl oz (887 ml)", 
     "size_indexes": [
-      0, 
+      1, 
       0
     ], 
     "name": "Trace Minerals Research, Liquid Multi, Vitamin-Mineral, Orange Mango, 30 fl oz (887 ml)"
   }, 
   {
     "serving_text": "2 tablespoons (1 oz)", 
-    "price_per_serve": 25.844988344988344, 
+    "price_per_serve": 1.144, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -11587,14 +11587,14 @@
     "num_Amino Acids": 0, 
     "container_text": " Berry, 30 fl oz (887 ml)", 
     "size_indexes": [
-      0, 
+      1, 
       0
     ], 
     "name": "Trace Minerals Research, Liquid Multi, Vitamin-Mineral, Berry, 30 fl oz (887 ml)"
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 4.122011541632316, 
+    "price_per_serve": 0.2426, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -11771,7 +11771,7 @@
   }, 
   {
     "serving_text": "6 Tablets", 
-    "price_per_serve": 28.578989150568937, 
+    "price_per_serve": 1.2596666666666665, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -11953,7 +11953,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.66804979253112, 
+    "price_per_serve": 0.8568888888888889, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -12145,7 +12145,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 11.77047572339382, 
+    "price_per_serve": 1.3593333333333333, 
     "num_Enzymes": 7, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -12358,7 +12358,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.803073967339097, 
+    "price_per_serve": 0.8328, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -12561,7 +12561,7 @@
   }, 
   {
     "serving_text": "Eight Capsules", 
-    "price_per_serve": 41.02564102564103, 
+    "price_per_serve": 1.5599999999999998, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -12738,7 +12738,7 @@
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 10.062893081761006, 
+    "price_per_serve": 0.3975, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -12915,7 +12915,7 @@
   }, 
   {
     "serving_text": "6 Tablets", 
-    "price_per_serve": 44.09063074096754, 
+    "price_per_serve": 0.8165, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -13087,7 +13087,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.911342894393742, 
+    "price_per_serve": 0.25566666666666665, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -13259,7 +13259,7 @@
   }, 
   {
     "serving_text": "1 Vegetarian Capsule", 
-    "price_per_serve": 3.75, 
+    "price_per_serve": 0.26666666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -13420,7 +13420,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 31.727379553466513, 
+    "price_per_serve": 0.2836666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -13602,7 +13602,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 31.65298944900352, 
+    "price_per_serve": 0.2843333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -13774,7 +13774,7 @@
   }, 
   {
     "serving_text": "1 Caplet", 
-    "price_per_serve": 10.297482837528603, 
+    "price_per_serve": 0.09711111111111112, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -13961,7 +13961,7 @@
   }, 
   {
     "serving_text": "1 Caplet", 
-    "price_per_serve": 9.72972972972973, 
+    "price_per_serve": 0.10277777777777777, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -14128,7 +14128,7 @@
   }, 
   {
     "serving_text": "6 capsules", 
-    "price_per_serve": 57.20338983050847, 
+    "price_per_serve": 0.6293333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -14311,7 +14311,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 6.335797254487856, 
+    "price_per_serve": 0.15783333333333335, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -14489,7 +14489,7 @@
   }, 
   {
     "serving_text": "3 Caplets", 
-    "price_per_serve": 37.53910323253389, 
+    "price_per_serve": 0.23975, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -14661,7 +14661,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 6.122448979591836, 
+    "price_per_serve": 0.16333333333333336, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -14839,7 +14839,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.0150753768844223, 
+    "price_per_serve": 0.33166666666666667, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -15036,7 +15036,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 2.7675276752767526, 
+    "price_per_serve": 0.36133333333333334, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -15219,7 +15219,7 @@
   }, 
   {
     "serving_text": "1 capsule", 
-    "price_per_serve": 4.411764705882353, 
+    "price_per_serve": 0.22666666666666666, 
     "num_Enzymes": 6, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -15422,7 +15422,7 @@
   }, 
   {
     "serving_text": "3 Vegetarian Capsules", 
-    "price_per_serve": 6.433166547533952, 
+    "price_per_serve": 1.399, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -15589,7 +15589,7 @@
   }, 
   {
     "serving_text": "1 Vegetarian Capsule", 
-    "price_per_serve": 4.285714285714286, 
+    "price_per_serve": 0.23333333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -15750,7 +15750,7 @@
   }, 
   {
     "serving_text": "1 tablet", 
-    "price_per_serve": 4.276550249465432, 
+    "price_per_serve": 0.2338333333333333, 
     "num_Enzymes": 6, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -15948,7 +15948,7 @@
   }, 
   {
     "serving_text": "3 Capsules", 
-    "price_per_serve": 36.21730382293762, 
+    "price_per_serve": 0.2485, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -16120,7 +16120,7 @@
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 23.825281270681668, 
+    "price_per_serve": 0.1678888888888889, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -16287,7 +16287,7 @@
   }, 
   {
     "serving_text": "3 tablets", 
-    "price_per_serve": 17.17557251908397, 
+    "price_per_serve": 0.524, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -16480,7 +16480,7 @@
   }, 
   {
     "serving_text": "3 Softgels", 
-    "price_per_serve": 16.949152542372882, 
+    "price_per_serve": 0.5309999999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -16647,7 +16647,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.665241295051924, 
+    "price_per_serve": 0.27283333333333337, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -16819,7 +16819,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.665241295051924, 
+    "price_per_serve": 0.27283333333333337, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -16991,7 +16991,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 28.235294117647058, 
+    "price_per_serve": 0.14166666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -17179,7 +17179,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 28.103044496487122, 
+    "price_per_serve": 0.5693333333333332, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -17368,7 +17368,7 @@
   }, 
   {
     "serving_text": "3 Veg Capsules", 
-    "price_per_serve": 20.89378990133488, 
+    "price_per_serve": 0.43075, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -17535,7 +17535,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 5.151688609044076, 
+    "price_per_serve": 0.1941111111111111, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -17707,7 +17707,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 15.306122448979592, 
+    "price_per_serve": 0.5880000000000001, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -17902,7 +17902,7 @@
   }, 
   {
     "serving_text": "Six Tablets Contain: Amount Per Serving % Daily Value*", 
-    "price_per_serve": 61.01694915254237, 
+    "price_per_serve": 0.59, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -18063,7 +18063,7 @@
   }, 
   {
     "serving_text": "3 Veg Capsules", 
-    "price_per_serve": 15.14301738642737, 
+    "price_per_serve": 0.5943333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -18230,7 +18230,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.296703296703297, 
+    "price_per_serve": 0.30333333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -18402,7 +18402,7 @@
   }, 
   {
     "serving_text": "4 tablets", 
-    "price_per_serve": 24.615384615384617, 
+    "price_per_serve": 0.65, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -18595,7 +18595,7 @@
   }, 
   {
     "serving_text": "2 capsules", 
-    "price_per_serve": 12.12733703890854, 
+    "price_per_serve": 0.3298333333333333, 
     "num_Enzymes": 6, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -18798,7 +18798,7 @@
   }, 
   {
     "serving_text": "3 Capsules", 
-    "price_per_serve": 13.320177602368032, 
+    "price_per_serve": 0.6756666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -18981,7 +18981,7 @@
   }, 
   {
     "serving_text": "1 tablet", 
-    "price_per_serve": 2.9411764705882355, 
+    "price_per_serve": 0.33999999999999997, 
     "num_Enzymes": 5, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -19174,7 +19174,7 @@
   }, 
   {
     "serving_text": "2 Softgels", 
-    "price_per_serve": 11.701608971233544, 
+    "price_per_serve": 0.3418333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -19341,7 +19341,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.4443909484833894, 
+    "price_per_serve": 0.6923333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -19513,7 +19513,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.4443909484833894, 
+    "price_per_serve": 0.6923333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -19680,7 +19680,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 4.2313117066290555, 
+    "price_per_serve": 0.23633333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -19852,7 +19852,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 11.278195488721805, 
+    "price_per_serve": 0.3546666666666667, 
     "num_Enzymes": 2, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -20051,7 +20051,7 @@
   }, 
   {
     "serving_text": "4 tablets", 
-    "price_per_serve": 21.798365122615806, 
+    "price_per_serve": 0.734, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -20239,7 +20239,7 @@
   }, 
   {
     "serving_text": "6 tablets", 
-    "price_per_serve": 49.04632152588556, 
+    "price_per_serve": 0.734, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -20437,7 +20437,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 7.578947368421052, 
+    "price_per_serve": 0.5277777777777778, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -20625,7 +20625,7 @@
   }, 
   {
     "serving_text": "2 Tbsp (30 ml)", 
-    "price_per_serve": 1172.7272727272727, 
+    "price_per_serve": 0.7674418604651163, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -20816,7 +20816,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 22.06783816918676, 
+    "price_per_serve": 0.4078333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -20998,7 +20998,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 9.630818619582664, 
+    "price_per_serve": 0.4153333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -21175,7 +21175,7 @@
   }, 
   {
     "serving_text": "1 Fluid Ounce (30 ml)", 
-    "price_per_serve": 1072.2795869737888, 
+    "price_per_serve": 0.8393333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -21371,7 +21371,7 @@
   }, 
   {
     "serving_text": "1 Tablespoon or 1/2 Capful (1/2 fl oz) (15 ml)", 
-    "price_per_serve": 526.990099009901, 
+    "price_per_serve": 0.42695299289820765, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -21565,7 +21565,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 9.216589861751153, 
+    "price_per_serve": 0.434, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -21754,7 +21754,7 @@
   }, 
   {
     "serving_text": "3 Caplets", 
-    "price_per_serve": 10.242792109256449, 
+    "price_per_serve": 0.8786666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -21926,7 +21926,7 @@
   }, 
   {
     "serving_text": "3 Caplets", 
-    "price_per_serve": 9.656652360515022, 
+    "price_per_serve": 0.9320000000000002, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -22098,7 +22098,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 6.435466571326422, 
+    "price_per_serve": 0.15538888888888888, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -22270,7 +22270,7 @@
   }, 
   {
     "serving_text": "4 Veg Capsules", 
-    "price_per_serve": 34.24901890831252, 
+    "price_per_serve": 0.4671666666666667, 
     "num_Enzymes": 4, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -22458,7 +22458,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 6.419400855920114, 
+    "price_per_serve": 0.15577777777777777, 
     "num_Enzymes": 4, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -22656,7 +22656,7 @@
   }, 
   {
     "serving_text": "3 Vegetable Capsules", 
-    "price_per_serve": 19.258202567760343, 
+    "price_per_serve": 0.46733333333333327, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -22844,7 +22844,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.158004158004158, 
+    "price_per_serve": 0.962, 
     "num_Enzymes": 5, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -23042,7 +23042,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 10.540184453227932, 
+    "price_per_serve": 1.518, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -23219,7 +23219,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 15.444015444015445, 
+    "price_per_serve": 1.036, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -23406,7 +23406,7 @@
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 2.8310789556464298, 
+    "price_per_serve": 0.3532222222222222, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -23573,7 +23573,7 @@
   }, 
   {
     "serving_text": "6 Tablets", 
-    "price_per_serve": 33.47799132052077, 
+    "price_per_serve": 1.0753333333333333, 
     "num_Enzymes": 4, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -23777,7 +23777,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 8.369497830130193, 
+    "price_per_serve": 1.0753333333333333, 
     "num_Enzymes": 4, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -23981,7 +23981,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.8309429356118399, 
+    "price_per_serve": 0.5461666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -24148,7 +24148,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.8309429356118399, 
+    "price_per_serve": 0.5461666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -24315,7 +24315,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 3.6363636363636362, 
+    "price_per_serve": 1.1, 
     "num_Enzymes": 4, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -24513,7 +24513,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.5724918130395946, 
+    "price_per_serve": 0.2799166666666667, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -24696,7 +24696,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 15.81259150805271, 
+    "price_per_serve": 0.5691666666666666, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -24891,7 +24891,7 @@
   }, 
   {
     "serving_text": "2 Tablespoons or 1 Capful (1 fl. oz.) (29.57 ml)", 
-    "price_per_serve": 753.3471280873061, 
+    "price_per_serve": 1.1606666666666665, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -25085,7 +25085,7 @@
   }, 
   {
     "serving_text": "3 Vegetarian Capsules", 
-    "price_per_serve": 7.716490425835953, 
+    "price_per_serve": 1.1663333333333332, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -25252,7 +25252,7 @@
   }, 
   {
     "serving_text": "1 Capful (Approximately 1 fluid ounce or 30 ml)", 
-    "price_per_serve": 760.5633802816902, 
+    "price_per_serve": 1.1833333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -25437,7 +25437,7 @@
   }, 
   {
     "serving_text": "6 Tablets", 
-    "price_per_serve": 44.76374689140647, 
+    "price_per_serve": 0.8042222222222222, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -25609,7 +25609,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 9.456264775413711, 
+    "price_per_serve": 0.423, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -25798,7 +25798,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.595353586928772, 
+    "price_per_serve": 0.8704444444444445, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -25970,7 +25970,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 4.568527918781726, 
+    "price_per_serve": 0.21888888888888888, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -26153,7 +26153,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 4.568527918781726, 
+    "price_per_serve": 0.21888888888888888, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -26336,7 +26336,7 @@
   }, 
   {
     "serving_text": "Six Capsules", 
-    "price_per_serve": 26.966292134831463, 
+    "price_per_serve": 1.335, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -26508,7 +26508,7 @@
   }, 
   {
     "serving_text": "2 Tablespoons or 1 Capful (1 fl oz) (29.57 ml)", 
-    "price_per_serve": 646.8938840937114, 
+    "price_per_serve": 1.3516666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -26702,7 +26702,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 11.77047572339382, 
+    "price_per_serve": 1.3593333333333333, 
     "num_Enzymes": 7, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -26915,7 +26915,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 12.596221133659903, 
+    "price_per_serve": 0.7145, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -27108,7 +27108,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 21.768707482993197, 
+    "price_per_serve": 0.735, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -27302,7 +27302,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 12.162162162162163, 
+    "price_per_serve": 0.74, 
     "num_Enzymes": 2, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -27501,7 +27501,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 5.175760189777874, 
+    "price_per_serve": 0.7728333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -27668,7 +27668,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 5.175760189777874, 
+    "price_per_serve": 0.7728333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -27835,7 +27835,7 @@
   }, 
   {
     "serving_text": "Eight Capsules", 
-    "price_per_serve": 40.29380902413431, 
+    "price_per_serve": 1.5883333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -28007,7 +28007,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.876172607879925, 
+    "price_per_serve": 0.533, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -28179,7 +28179,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.876172607879925, 
+    "price_per_serve": 0.533, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -28346,7 +28346,7 @@
   }, 
   {
     "serving_text": "6 capsules", 
-    "price_per_serve": 22.040816326530614, 
+    "price_per_serve": 1.6333333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -28523,7 +28523,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 10.9979633401222, 
+    "price_per_serve": 0.8183333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -28695,7 +28695,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.610065309258547, 
+    "price_per_serve": 0.8676666666666667, 
     "num_Enzymes": 5, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -28893,7 +28893,7 @@
   }, 
   {
     "serving_text": "4 capsules", 
-    "price_per_serve": 36.28803628803629, 
+    "price_per_serve": 0.4409166666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -29070,7 +29070,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.3333333333333335, 
+    "price_per_serve": 0.3, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -29242,7 +29242,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 9.004502251125563, 
+    "price_per_serve": 0.9995, 
     "num_Enzymes": 4, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -29446,7 +29446,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 13.30049261083744, 
+    "price_per_serve": 0.6766666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -29629,7 +29629,7 @@
   }, 
   {
     "serving_text": "2 Scoops (13.75 g) (9 cc Scoop)", 
-    "price_per_serve": 84.66748768472907, 
+    "price_per_serve": 2.2329999999999997, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -29840,7 +29840,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 2.473546791260135, 
+    "price_per_serve": 0.40427777777777774, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -30007,7 +30007,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.738712649730156, 
+    "price_per_serve": 0.8441111111111111, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -30179,7 +30179,7 @@
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 29.41176470588235, 
+    "price_per_serve": 0.136, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -30335,7 +30335,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 13.404825737265416, 
+    "price_per_serve": 0.0746, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -30491,7 +30491,7 @@
   }, 
   {
     "serving_text": "1 Vegetarian Capsule", 
-    "price_per_serve": 3.75, 
+    "price_per_serve": 0.26666666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -30647,7 +30647,7 @@
   }, 
   {
     "serving_text": "1 tablet", 
-    "price_per_serve": 9.803921568627452, 
+    "price_per_serve": 0.102, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -30803,7 +30803,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 5.279831045406547, 
+    "price_per_serve": 0.1894, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -30965,7 +30965,7 @@
   }, 
   {
     "serving_text": "1 tablet", 
-    "price_per_serve": 13.541666666666668, 
+    "price_per_serve": 0.07384615384615384, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -31121,7 +31121,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 6.122448979591836, 
+    "price_per_serve": 0.16333333333333336, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -31288,7 +31288,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 5.893909626719057, 
+    "price_per_serve": 0.16966666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -31460,7 +31460,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 5.893909626719057, 
+    "price_per_serve": 0.16966666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -31632,7 +31632,7 @@
   }, 
   {
     "serving_text": "1 Wafer", 
-    "price_per_serve": 5.7915057915057915, 
+    "price_per_serve": 0.17266666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -31811,7 +31811,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 8.302583025830257, 
+    "price_per_serve": 1.084, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -31973,7 +31973,7 @@
   }, 
   {
     "serving_text": "One tablet", 
-    "price_per_serve": 5.855855855855856, 
+    "price_per_serve": 0.17076923076923076, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -32129,7 +32129,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 2.680965147453083, 
+    "price_per_serve": 0.373, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -32296,7 +32296,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 21.969080553295363, 
+    "price_per_serve": 0.4096666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -32463,7 +32463,7 @@
   }, 
   {
     "serving_text": "1 Tablet2 Tablets", 
-    "price_per_serve": 9.153318077803204, 
+    "price_per_serve": 0.10925, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -32630,7 +32630,7 @@
   }, 
   {
     "serving_text": "1 Tablet  2 Tablets", 
-    "price_per_serve": 9.153318077803204, 
+    "price_per_serve": 0.10925, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -32797,7 +32797,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 4.52147701582517, 
+    "price_per_serve": 0.22116666666666665, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -32976,7 +32976,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 18.058690744920995, 
+    "price_per_serve": 0.22149999999999997, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -33148,7 +33148,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 17.97752808988764, 
+    "price_per_serve": 0.2225, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -33315,7 +33315,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 17.97752808988764, 
+    "price_per_serve": 0.2225, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -33482,7 +33482,7 @@
   }, 
   {
     "serving_text": "3 tablets", 
-    "price_per_serve": 20.13422818791946, 
+    "price_per_serve": 0.44699999999999995, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -33649,7 +33649,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 8.935219657483247, 
+    "price_per_serve": 0.44766666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -33827,7 +33827,7 @@
   }, 
   {
     "serving_text": "1 capsule", 
-    "price_per_serve": 4.411764705882353, 
+    "price_per_serve": 0.22666666666666666, 
     "num_Enzymes": 1, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -34000,7 +34000,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 29.411764705882355, 
+    "price_per_serve": 0.544, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -34173,7 +34173,7 @@
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 14.684287812041116, 
+    "price_per_serve": 0.2724, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -34346,7 +34346,7 @@
   }, 
   {
     "serving_text": "1 Vegetarian Capsule", 
-    "price_per_serve": 4.175365344467641, 
+    "price_per_serve": 0.2395, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -34502,7 +34502,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 48.2897384305835, 
+    "price_per_serve": 0.3313333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -34669,7 +34669,7 @@
   }, 
   {
     "serving_text": "4 Vcaps", 
-    "price_per_serve": 31.41361256544503, 
+    "price_per_serve": 0.5093333333333333, 
     "num_Enzymes": 4, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -34862,7 +34862,7 @@
   }, 
   {
     "serving_text": "2 Tablespoons or 1 Capful", 
-    "price_per_serve": 14.852108244178728, 
+    "price_per_serve": 15.890000000000002, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -35037,13 +35037,13 @@
     "container_text": " Delicious Tropical Fruit Flavor, 8 fl oz (236 ml)", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Nature's Plus, Source of Life, Gold Liquid, Delicious Tropical Fruit Flavor, 8 fl oz (236 ml)"
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 16.6256157635468, 
+    "price_per_serve": 0.5413333333333333, 
     "num_Enzymes": 2, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -35227,7 +35227,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 16.6256157635468, 
+    "price_per_serve": 0.5413333333333333, 
     "num_Enzymes": 2, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -35411,7 +35411,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 16.6256157635468, 
+    "price_per_serve": 0.5413333333333333, 
     "num_Enzymes": 2, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -35595,7 +35595,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.665241295051924, 
+    "price_per_serve": 0.27283333333333337, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -35762,7 +35762,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.665241295051924, 
+    "price_per_serve": 0.27283333333333337, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -35929,7 +35929,7 @@
   }, 
   {
     "serving_text": "6 Tablets", 
-    "price_per_serve": 65.49423893268647, 
+    "price_per_serve": 0.5496666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -36091,7 +36091,7 @@
   }, 
   {
     "serving_text": "14 Capsules (per day)", 
-    "price_per_serve": 84.84848484848484, 
+    "price_per_serve": 2.31, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -36264,7 +36264,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 10.869565217391305, 
+    "price_per_serve": 0.368, 
     "num_Enzymes": 4, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -36447,7 +36447,7 @@
   }, 
   {
     "serving_text": "1 Caplet", 
-    "price_per_serve": 5.889281507656066, 
+    "price_per_serve": 0.1698, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -36624,7 +36624,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 28.103044496487122, 
+    "price_per_serve": 0.5693333333333332, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -36808,7 +36808,7 @@
   }, 
   {
     "serving_text": "2 Chewable Tablets", 
-    "price_per_serve": 6.853226727584237, 
+    "price_per_serve": 0.5836666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -36970,7 +36970,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 27.319294251565168, 
+    "price_per_serve": 0.5856666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -37132,7 +37132,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.296703296703297, 
+    "price_per_serve": 0.30333333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -37299,7 +37299,7 @@
   }, 
   {
     "serving_text": "2 Chewable Tablets", 
-    "price_per_serve": 6.521739130434783, 
+    "price_per_serve": 0.6133333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -37461,7 +37461,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.2555615843733046, 
+    "price_per_serve": 0.30716666666666664, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -37623,7 +37623,7 @@
   }, 
   {
     "serving_text": "2 tablets", 
-    "price_per_serve": 9.528851244044468, 
+    "price_per_serve": 0.4197777777777778, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -37795,7 +37795,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 13.082155939298797, 
+    "price_per_serve": 0.07644, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -37962,7 +37962,7 @@
   }, 
   {
     "serving_text": "4 Veg Capsules", 
-    "price_per_serve": 25.11773940345369, 
+    "price_per_serve": 0.637, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -38124,7 +38124,7 @@
   }, 
   {
     "serving_text": "2 Softgels", 
-    "price_per_serve": 12.108980827447024, 
+    "price_per_serve": 0.3303333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -38307,7 +38307,7 @@
   }, 
   {
     "serving_text": "One tablet", 
-    "price_per_serve": 5.991013479780329, 
+    "price_per_serve": 0.16691666666666669, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -38463,7 +38463,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 47.524752475247524, 
+    "price_per_serve": 0.33666666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -38646,7 +38646,7 @@
   }, 
   {
     "serving_text": "1 tablet", 
-    "price_per_serve": 2.9411764705882355, 
+    "price_per_serve": 0.33999999999999997, 
     "num_Enzymes": 6, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -38839,7 +38839,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.4443909484833894, 
+    "price_per_serve": 0.6923333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -39001,7 +39001,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.4443909484833894, 
+    "price_per_serve": 0.6923333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -39163,7 +39163,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.4443909484833894, 
+    "price_per_serve": 0.6923333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -39325,7 +39325,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.4443909484833894, 
+    "price_per_serve": 0.6923333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -39487,7 +39487,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 12.863268222963317, 
+    "price_per_serve": 0.6996666666666665, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -39649,7 +39649,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 12.863268222963317, 
+    "price_per_serve": 0.6996666666666665, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -39811,7 +39811,7 @@
   }, 
   {
     "serving_text": "1 Tbsp (15 ml)", 
-    "price_per_serve": 335.4609929078014, 
+    "price_per_serve": 0.6707188160676533, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -40008,7 +40008,7 @@
   }, 
   {
     "serving_text": "6 Tablets", 
-    "price_per_serve": 25.387870239774333, 
+    "price_per_serve": 1.4180000000000001, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -40192,7 +40192,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 11.065006915629322, 
+    "price_per_serve": 1.4460000000000002, 
     "num_Enzymes": 5, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -40385,7 +40385,7 @@
   }, 
   {
     "serving_text": "1 tablet", 
-    "price_per_serve": 4.136029411764706, 
+    "price_per_serve": 0.24177777777777779, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -40547,7 +40547,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 12.20614828209765, 
+    "price_per_serve": 0.7373333333333334, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -40747,7 +40747,7 @@
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 10.69995541685243, 
+    "price_per_serve": 0.37383333333333335, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -40903,7 +40903,7 @@
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 5.25164113785558, 
+    "price_per_serve": 0.7616666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -41070,7 +41070,7 @@
   }, 
   {
     "serving_text": "2 Veg Capsules", 
-    "price_per_serve": 15.699956389010032, 
+    "price_per_serve": 0.25477777777777777, 
     "num_Enzymes": 5, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -41252,7 +41252,7 @@
   }, 
   {
     "serving_text": "2 Chewable Tablets", 
-    "price_per_serve": 10.362694300518134, 
+    "price_per_serve": 23.16, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -41408,13 +41408,13 @@
     "container_text": " Natural Assorted Flavors, 120 Animals", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Nature's Plus, Source of Life Animal Parade Gold, Children's Chewable Multi-Vitamin & Mineral Supplement, Natural Assorted Flavors, 120 Animals"
   }, 
   {
     "serving_text": "2 Chewable Tablets", 
-    "price_per_serve": 10.362694300518134, 
+    "price_per_serve": 23.16, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -41570,13 +41570,13 @@
     "container_text": " Natural Cherry Flavor, 120 Animals", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Nature's Plus, Source of Life Animal Parade Gold, Children's Chewable Multi-Vitamin & Mineral Supplement, Natural Cherry Flavor, 120 Animals"
   }, 
   {
     "serving_text": "2 Chewable Tablets", 
-    "price_per_serve": 10.362694300518134, 
+    "price_per_serve": 23.16, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -41732,13 +41732,13 @@
     "container_text": " Natural Orange Flavor, 120 Animals", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Nature's Plus, Source of Life, Animal Parade Gold, Children's Chewable Multi-Vitamin & Mineral Supplement, Natural Orange Flavor, 120 Animals"
   }, 
   {
     "serving_text": "2 Chewable Tablets", 
-    "price_per_serve": 10.362694300518134, 
+    "price_per_serve": 23.16, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -41894,13 +41894,13 @@
     "container_text": " Natural Grape Flavor, 120 Animals", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Nature's Plus, Source of Life Animal Parade, Gold, Children's Chewable Multi-Vitamin & Mineral Supplement, Natural Grape Flavor, 120 Animals"
   }, 
   {
     "serving_text": "2 Chewable Tablets", 
-    "price_per_serve": 10.362694300518134, 
+    "price_per_serve": 23.16, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -42056,13 +42056,13 @@
     "container_text": " Watermelon, 120 Animals", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Nature's Plus, Animal Parade Gold, Children's Chewable Multi-Vitamin & Mineral, Watermelon, 120 Animals"
   }, 
   {
     "serving_text": "2 Tablet", 
-    "price_per_serve": 10.096760622633571, 
+    "price_per_serve": 0.39616666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -42234,7 +42234,7 @@
   }, 
   {
     "serving_text": "Three Capsules", 
-    "price_per_serve": 11.273486430062631, 
+    "price_per_serve": 0.7983333333333332, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -42401,7 +42401,7 @@
   }, 
   {
     "serving_text": "3 capsules", 
-    "price_per_serve": 11.268781302170284, 
+    "price_per_serve": 0.7986666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -42563,7 +42563,7 @@
   }, 
   {
     "serving_text": "9 Tablets (per day)", 
-    "price_per_serve": 37.5, 
+    "price_per_serve": 2.16, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -42736,7 +42736,7 @@
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 4.905968928863451, 
+    "price_per_serve": 0.8153333333333334, 
     "num_Enzymes": 7, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -42934,7 +42934,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 22.06783816918676, 
+    "price_per_serve": 0.4078333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -43111,7 +43111,7 @@
   }, 
   {
     "serving_text": "9 Capsules", 
-    "price_per_serve": 33.088235294117645, 
+    "price_per_serve": 2.4480000000000004, 
     "num_Enzymes": 1, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -43290,7 +43290,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.6749693752552064, 
+    "price_per_serve": 0.2721111111111111, 
     "num_Enzymes": 4, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -43473,7 +43473,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 2.4222850222042793, 
+    "price_per_serve": 0.41283333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -43635,7 +43635,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.572846367606193, 
+    "price_per_serve": 0.2798888888888889, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -43802,7 +43802,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 28.582770940849542, 
+    "price_per_serve": 0.5597777777777778, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -43986,7 +43986,7 @@
   }, 
   {
     "serving_text": "2 Softgels", 
-    "price_per_serve": 13.975155279503104, 
+    "price_per_serve": 0.28622222222222227, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -44169,7 +44169,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 10.428736964078794, 
+    "price_per_serve": 0.863, 
     "num_Enzymes": 4, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -44352,7 +44352,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 9.216589861751153, 
+    "price_per_serve": 0.434, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -44530,7 +44530,7 @@
   }, 
   {
     "serving_text": "Three Capsules", 
-    "price_per_serve": 10.26615969581749, 
+    "price_per_serve": 0.8766666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -44692,7 +44692,7 @@
   }, 
   {
     "serving_text": "1 Caplet", 
-    "price_per_serve": 7.4128984432913265, 
+    "price_per_serve": 0.1349, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -44869,7 +44869,7 @@
   }, 
   {
     "serving_text": "2 Caplets", 
-    "price_per_serve": 8.836524300441827, 
+    "price_per_serve": 0.45266666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -45025,7 +45025,7 @@
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 6.488824801730353, 
+    "price_per_serve": 0.15411111111111112, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -45187,7 +45187,7 @@
   }, 
   {
     "serving_text": "3 Caplets", 
-    "price_per_serve": 9.656652360515022, 
+    "price_per_serve": 0.9320000000000002, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -45354,7 +45354,7 @@
   }, 
   {
     "serving_text": "6 Tablets", 
-    "price_per_serve": 38.58520900321544, 
+    "price_per_serve": 0.933, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -45522,7 +45522,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 8.56225472707813, 
+    "price_per_serve": 0.4671666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -45684,7 +45684,7 @@
   }, 
   {
     "serving_text": "2 Softgels", 
-    "price_per_serve": 12.838801711840228, 
+    "price_per_serve": 0.31155555555555553, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -45862,7 +45862,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.158004158004158, 
+    "price_per_serve": 0.962, 
     "num_Enzymes": 5, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -46050,7 +46050,7 @@
   }, 
   {
     "serving_text": "3 Caplets", 
-    "price_per_serve": 9.133964817320704, 
+    "price_per_serve": 0.9853333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -46217,7 +46217,7 @@
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 3.0292830696735105, 
+    "price_per_serve": 0.33011111111111113, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -46379,7 +46379,7 @@
   }, 
   {
     "serving_text": "1 Caplet", 
-    "price_per_serve": 2.964426877470356, 
+    "price_per_serve": 0.3373333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -46546,7 +46546,7 @@
   }, 
   {
     "serving_text": "2  Tablet", 
-    "price_per_serve": 11.772400261608896, 
+    "price_per_serve": 0.33977777777777773, 
     "num_Enzymes": 4, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -46739,7 +46739,7 @@
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 7.784625364904314, 
+    "price_per_serve": 0.5138333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -46907,7 +46907,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 15.444015444015445, 
+    "price_per_serve": 1.036, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -47080,7 +47080,7 @@
   }, 
   {
     "serving_text": "3 Capsule", 
-    "price_per_serve": 8.681672025723472, 
+    "price_per_serve": 1.0366666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -47242,7 +47242,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 5.649717514124294, 
+    "price_per_serve": 0.177, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -47414,7 +47414,7 @@
   }, 
   {
     "serving_text": "1 fl oz (2 tbsp)", 
-    "price_per_serve": 1.0018785222291797, 
+    "price_per_serve": 0.998125, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -47600,7 +47600,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 16.630736064059132, 
+    "price_per_serve": 0.5411666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -47784,7 +47784,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.8309429356118399, 
+    "price_per_serve": 0.5461666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -47946,7 +47946,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.8309429356118399, 
+    "price_per_serve": 0.5461666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -48108,7 +48108,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.8309429356118399, 
+    "price_per_serve": 0.5461666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -48270,7 +48270,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 4.560656734569778, 
+    "price_per_serve": 0.21926666666666667, 
     "num_Enzymes": 4, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -48458,7 +48458,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 8.04769001490313, 
+    "price_per_serve": 1.1183333333333332, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -48630,7 +48630,7 @@
   }, 
   {
     "serving_text": "2 Softgels", 
-    "price_per_serve": 10.462074978204011, 
+    "price_per_serve": 0.3823333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -48792,7 +48792,7 @@
   }, 
   {
     "serving_text": "2 Tablet", 
-    "price_per_serve": 3.3379694019471486, 
+    "price_per_serve": 1.1983333333333335, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -48959,7 +48959,7 @@
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 6.675938803894297, 
+    "price_per_serve": 0.5991666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -49121,7 +49121,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 14.839241549876338, 
+    "price_per_serve": 0.6065, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -49283,7 +49283,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.6238159675236805, 
+    "price_per_serve": 0.6158333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -49450,7 +49450,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 12.9764801297648, 
+    "price_per_serve": 1.233, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -49606,7 +49606,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.787234042553191, 
+    "price_per_serve": 0.8355555555555556, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -49773,7 +49773,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 9.456264775413711, 
+    "price_per_serve": 0.423, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -49951,7 +49951,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.595353586928772, 
+    "price_per_serve": 0.8704444444444445, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -50118,7 +50118,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 12.248022454707835, 
+    "price_per_serve": 1.3063333333333333, 
     "num_Enzymes": 5, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -50311,7 +50311,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 11.77047572339382, 
+    "price_per_serve": 1.3593333333333333, 
     "num_Enzymes": 7, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -50519,7 +50519,7 @@
   }, 
   {
     "serving_text": "Six Capsules", 
-    "price_per_serve": 26.47058823529412, 
+    "price_per_serve": 1.3599999999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -50686,7 +50686,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 12.690951821386605, 
+    "price_per_serve": 0.7091666666666666, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -50886,7 +50886,7 @@
   }, 
   {
     "serving_text": "3 Capsules", 
-    "price_per_serve": 11.915269196822594, 
+    "price_per_serve": 0.7553333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -51048,7 +51048,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 5.9432093330398414, 
+    "price_per_serve": 1.5143333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -51221,7 +51221,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 5.817711700064642, 
+    "price_per_serve": 1.5469999999999997, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -51404,7 +51404,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.876172607879925, 
+    "price_per_serve": 0.533, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -51566,7 +51566,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.876172607879925, 
+    "price_per_serve": 0.533, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -51728,7 +51728,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.876172607879925, 
+    "price_per_serve": 0.533, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -51890,7 +51890,7 @@
   }, 
   {
     "serving_text": "2 Tablespoons or 1 Capful (1 fl oz) (29.57 ml)", 
-    "price_per_serve": 545.1277431421447, 
+    "price_per_serve": 1.6039999999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -52079,7 +52079,7 @@
   }, 
   {
     "serving_text": "6 capsules", 
-    "price_per_serve": 22.040816326530614, 
+    "price_per_serve": 1.6333333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -52251,7 +52251,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.8156142828323583, 
+    "price_per_serve": 0.5507777777777778, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -52413,7 +52413,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.804804804804805, 
+    "price_per_serve": 0.8325, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -52575,7 +52575,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 9.421000981354268, 
+    "price_per_serve": 1.6983333333333335, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -52737,7 +52737,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.610065309258547, 
+    "price_per_serve": 0.8676666666666667, 
     "num_Enzymes": 5, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -52925,7 +52925,7 @@
   }, 
   {
     "serving_text": "Three Capsules", 
-    "price_per_serve": 15.013901760889713, 
+    "price_per_serve": 0.5994444444444444, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -53092,7 +53092,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 17.624380392876812, 
+    "price_per_serve": 0.9078333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -53274,7 +53274,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 17.624380392876812, 
+    "price_per_serve": 0.9078333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -53452,7 +53452,7 @@
   }, 
   {
     "serving_text": "Six Capsules", 
-    "price_per_serve": 19.618528610354225, 
+    "price_per_serve": 1.8349999999999997, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -53619,7 +53619,7 @@
   }, 
   {
     "serving_text": "Eight Capsules", 
-    "price_per_serve": 33.89232127096205, 
+    "price_per_serve": 1.8883333333333332, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -53786,7 +53786,7 @@
   }, 
   {
     "serving_text": "6 Tablets", 
-    "price_per_serve": 18.21247892074199, 
+    "price_per_serve": 1.9766666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -53958,7 +53958,7 @@
   }, 
   {
     "serving_text": "6 Tablets", 
-    "price_per_serve": 18.21247892074199, 
+    "price_per_serve": 1.9766666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -54130,7 +54130,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 5.408653846153846, 
+    "price_per_serve": 0.7395555555555556, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -54298,7 +54298,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 7.571508693213685, 
+    "price_per_serve": 1.1886666666666665, 
     "num_Enzymes": 1, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -54487,7 +54487,7 @@
   }, 
   {
     "serving_text": "9 Tablets (per day)", 
-    "price_per_serve": 38.83561643835616, 
+    "price_per_serve": 2.085714285714286, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -54660,7 +54660,7 @@
   }, 
   {
     "serving_text": "3 Scoops (approx 12 grams) (per day)", 
-    "price_per_serve": 17.142857142857142, 
+    "price_per_serve": 73.5, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -54831,13 +54831,13 @@
     "container_text": " Mix Powder, 14.81 oz (420 g)", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Life Extension, Mix Powder, 14.81 oz (420 g)"
   }, 
   {
     "serving_text": "9 Tablets (per day)", 
-    "price_per_serve": 38.57142857142857, 
+    "price_per_serve": 2.1, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -55010,7 +55010,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.864864864864865, 
+    "price_per_serve": 0.8222222222222222, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -55177,7 +55177,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.738712649730156, 
+    "price_per_serve": 0.8441111111111111, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -55344,7 +55344,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.738712649730156, 
+    "price_per_serve": 0.8441111111111111, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -55511,7 +55511,7 @@
   }, 
   {
     "serving_text": "14 Capsules (per day)", 
-    "price_per_serve": 83.15151515151516, 
+    "price_per_serve": 2.357142857142857, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -55684,7 +55684,7 @@
   }, 
   {
     "serving_text": "3 Capsules", 
-    "price_per_serve": 0.163025758069775, 
+    "price_per_serve": 92.01, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -55840,13 +55840,13 @@
     "container_text": " Chocolate Delight, 5 Part Program", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "FitMiss, HerBizzyDiet, Weight-Loss Program, Chocolate Delight, 5 Part Program"
   }, 
   {
     "serving_text": "3 Capsules", 
-    "price_per_serve": 0.163025758069775, 
+    "price_per_serve": 92.01, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -56002,13 +56002,13 @@
     "container_text": " Vanilla Chia, 5 Part Program", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "FitMiss, HerBizzyDiet, Weight-Loss Program, Vanilla Chia, 5 Part Program"
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 15.673981191222571, 
+    "price_per_serve": 0.0638, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -56159,7 +56159,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 15.673981191222571, 
+    "price_per_serve": 0.0638, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -56310,7 +56310,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 15.228426395939087, 
+    "price_per_serve": 0.26266666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -56472,7 +56472,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 7.453416149068322, 
+    "price_per_serve": 0.13416666666666668, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -56629,7 +56629,7 @@
   }, 
   {
     "serving_text": "1 tablet 2 tablets", 
-    "price_per_serve": 7.352941176470588, 
+    "price_per_serve": 0.136, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -56791,7 +56791,7 @@
   }, 
   {
     "serving_text": "1 tablet", 
-    "price_per_serve": 9.803921568627452, 
+    "price_per_serve": 0.102, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -56942,7 +56942,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 5.279831045406547, 
+    "price_per_serve": 0.1894, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -57099,7 +57099,7 @@
   }, 
   {
     "serving_text": "2 Wafers", 
-    "price_per_serve": 12.396694214876034, 
+    "price_per_serve": 0.32266666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -57261,7 +57261,7 @@
   }, 
   {
     "serving_text": "Children Under 4 - 1 Tablet, Children Over 4 - 2 Tablets", 
-    "price_per_serve": 5.719733079122975, 
+    "price_per_serve": 10.49, 
     "num_Enzymes": 4, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -57444,13 +57444,13 @@
     "container_text": " Fruit Blast, 60 Chewable Tablets", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Rainbow Light, Nutri Stars, Chewable Multivitamin, Fruit Blast, 60 Chewable Tablets"
   }, 
   {
     "serving_text": "2 Chewable Tablets", 
-    "price_per_serve": 22.181146025878004, 
+    "price_per_serve": 0.18033333333333335, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -57618,7 +57618,7 @@
   }, 
   {
     "serving_text": "2 Chewable Tablets", 
-    "price_per_serve": 22.181146025878004, 
+    "price_per_serve": 0.18033333333333335, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -57786,7 +57786,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 2.680965147453083, 
+    "price_per_serve": 0.373, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -57937,7 +57937,7 @@
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 15.420200462606013, 
+    "price_per_serve": 0.2594, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -58094,7 +58094,7 @@
   }, 
   {
     "serving_text": "2 Tbsp (30 ml)", 
-    "price_per_serve": 1057.3770491803277, 
+    "price_per_serve": 0.8511627906976744, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -58270,7 +58270,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 8.409250175192712, 
+    "price_per_serve": 0.4756666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -58432,7 +58432,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 16.0, 
+    "price_per_serve": 0.25, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -58594,7 +58594,7 @@
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 5.847953216374269, 
+    "price_per_serve": 0.171, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -58751,7 +58751,7 @@
   }, 
   {
     "serving_text": "3 tablets", 
-    "price_per_serve": 23.121387283236995, 
+    "price_per_serve": 0.38925, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -58902,7 +58902,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 11.44310235219326, 
+    "price_per_serve": 0.7865, 
     "num_Enzymes": 3, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -59075,7 +59075,7 @@
   }, 
   {
     "serving_text": "1 Packet", 
-    "price_per_serve": 0.37570444583594237, 
+    "price_per_serve": 2.6616666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -59272,7 +59272,7 @@
   }, 
   {
     "serving_text": "1 wafer", 
-    "price_per_serve": 3.676470588235294, 
+    "price_per_serve": 0.272, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -59445,7 +59445,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 14.545454545454545, 
+    "price_per_serve": 16.5, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -59601,13 +59601,13 @@
     "container_text": "  Two-Per-Day Capsules, 120 Capsules", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Life Extension,  Two-Per-Day Capsules, 120 Capsules"
   }, 
   {
     "serving_text": "14 Capsules (per day)", 
-    "price_per_serve": 84.84848484848484, 
+    "price_per_serve": 2.31, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -59775,7 +59775,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 28.776978417266186, 
+    "price_per_serve": 0.5559999999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -59942,7 +59942,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 13.7221269296741, 
+    "price_per_serve": 1.166, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -60104,7 +60104,7 @@
   }, 
   {
     "serving_text": "6 Capsules", 
-    "price_per_serve": 56.25, 
+    "price_per_serve": 0.6399999999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -60266,8 +60266,170 @@
     "name": "Life Time, Professional Pre-Natal Formula, 180 Capsules"
   }, 
   {
+    "serving_text": "1 Soft Gel", 
+    "price_per_serve": 0.324, 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 13, 
+    "container_sizes": [
+      {
+        "amount": 60, 
+        "unit": "Soft Gels"
+      }
+    ], 
+    "url": "http://www.iherb.com/Carlson-Labs-Right-1-Daily-Multiple-with-Fish-Oil-60-Soft-Gels/55856?rcode=KQM091", 
+    "nutrients": {
+      "Amino Acids": {}, 
+      "Vitamins": {
+        "Niacin": [
+          "Niacin (as niacinamide)", 
+          "40 mg", 
+          200
+        ], 
+        "Vitamin B12": [
+          "Vitamin B-12 (cyanocobalamin)", 
+          "16 mcg", 
+          267
+        ], 
+        "Riboflavin": [
+          "Riboflavin (Vitamin B-2)", 
+          "4 mg", 
+          235
+        ], 
+        "Folate": [
+          "Folate (folic acid)", 
+          "400 mcg", 
+          100
+        ], 
+        "Vitamin C": [
+          "Vitamin C (as calcium ascorbate)", 
+          "150 mg", 
+          250
+        ], 
+        "Vitamin A": [
+          "Vitamin A (as 1500 IU palmitate & 2500 IU beta carotene)", 
+          "4000 IU", 
+          80
+        ], 
+        "Thiamine": [
+          "Thiamin (Vitamin B-1) (from thiamin HCl)", 
+          "3.4 mg", 
+          227
+        ], 
+        "Vitamin B6": [
+          "Vitamin B-6 (from pyridoxine HCl)", 
+          "5 mg", 
+          250
+        ], 
+        "Biotin": [
+          "Biotin", 
+          "150 mcg", 
+          50
+        ], 
+        "Vitamin E": [
+          "Vitamin E (as d-alpha tocopherol from soy)", 
+          "75 IU", 
+          250
+        ], 
+        "Vitamin D": [
+          "Vitamin D3 (as cholecalciferol)", 
+          "800 IU", 
+          200
+        ], 
+        "Vitamin K": [
+          "Vitamin K1 (as phylloquinone)", 
+          "100 mcg", 
+          125
+        ], 
+        "Pantothenic Acid": [
+          "Pantothenic Acid (from d-calcium pantothenate)", 
+          "20 mg", 
+          200
+        ]
+      }, 
+      "Enzymes": {}, 
+      "Macronutrients": {}, 
+      "Trace Elements": {
+        "DHA": [
+          "DHA (Docosahexaenoic Acid)*", 
+          "215 mg", 
+          0
+        ], 
+        "EPA": [
+          "EPA (Eicosapentaenoic Acid)*", 
+          "30 mg", 
+          0
+        ]
+      }, 
+      "Minerals": {
+        "Copper": [
+          "Copper (from copper gluconate)", 
+          "1 mg", 
+          50
+        ], 
+        "Iodine": [
+          "Iodine (from potassium iodide)", 
+          "75 mcg", 
+          50
+        ], 
+        "Iron": [
+          "Iron (from iron bisglycinate chelate)", 
+          "13.5 mg", 
+          75
+        ], 
+        "Selenium": [
+          "Selenium (from selenomethionine)", 
+          "35 mcg", 
+          50
+        ], 
+        "Manganese": [
+          "Manganese (from manganese gluconate)", 
+          "1 mg", 
+          50
+        ], 
+        "Calcium": [
+          "Calcium (from calcium carbonate, calcium ascorbate & d-calcium pantothenate)", 
+          "50 mg", 
+          5
+        ], 
+        "Magnesium": [
+          "Magnesium (from magnesium oxide)", 
+          "50 mg", 
+          13
+        ], 
+        "Zinc": [
+          "Zinc (from zinc gluconate)", 
+          "7.5 mg", 
+          50
+        ], 
+        "Chromium": [
+          "Chromium (from chromium nicotinate)", 
+          "60 mcg", 
+          50
+        ]
+      }
+    }, 
+    "price": 19.44, 
+    "num_Trace Elements": 2, 
+    "num_nutrients": 24, 
+    "num_Minerals": 9, 
+    "num_Macronutrients": 0, 
+    "serving_sizes": [
+      {
+        "amount": 1, 
+        "unit": "Soft Gel"
+      }
+    ], 
+    "num_Amino Acids": 0, 
+    "container_text": " Multiple with Fish Oil, 60 Soft Gels", 
+    "size_indexes": [
+      0, 
+      0
+    ], 
+    "name": "Carlson Labs, Right 1 Daily, Multiple with Fish Oil, 60 Soft Gels"
+  }, 
+  {
     "serving_text": "Children Under 4 - 1 Tablet, Children Over 4 - 2 Tablets", 
-    "price_per_serve": 6.1255742725880555, 
+    "price_per_serve": 19.59, 
     "num_Enzymes": 4, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -60450,13 +60612,13 @@
     "container_text": " Delicious Fruit Blast, 120 Chewable Tablets", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Rainbow Light, Nutri Stars, Chewable Multivitamin, Delicious Fruit Blast, 120 Chewable Tablets"
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 29.312977099236644, 
+    "price_per_serve": 0.5458333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -60623,7 +60785,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 8.928571428571429, 
+    "price_per_serve": 0.112, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -60806,7 +60968,7 @@
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 19.627085377821395, 
+    "price_per_serve": 0.20379999999999998, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -60963,7 +61125,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 11.444921316165951, 
+    "price_per_serve": 0.3495, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -61120,7 +61282,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 17.151024297284422, 
+    "price_per_serve": 0.9328888888888888, 
     "num_Enzymes": 5, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -61308,7 +61470,7 @@
   }, 
   {
     "serving_text": "1 Stick Pack", 
-    "price_per_serve": 1.4144271570014144, 
+    "price_per_serve": 0.7070000000000001, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -61475,7 +61637,7 @@
   }, 
   {
     "serving_text": "Three Capsules", 
-    "price_per_serve": 11.764705882352942, 
+    "price_per_serve": 0.765, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -61637,7 +61799,7 @@
   }, 
   {
     "serving_text": "1 packet (0.14 oz /4 g)", 
-    "price_per_serve": 1.3049151805132668, 
+    "price_per_serve": 22.99, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -61801,14 +61963,14 @@
     "num_Amino Acids": 0, 
     "container_text": " 30 Packets, 0.14 oz Each", 
     "size_indexes": [
-      1, 
-      1
+      0, 
+      0
     ], 
     "name": "AlternaVites, Quick-Melting Multivitamin & Mineral Crystals, 30 Packets, 0.14 oz Each"
   }, 
   {
     "serving_text": "9 Tablets (per day)", 
-    "price_per_serve": 37.5, 
+    "price_per_serve": 2.16, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -61976,7 +62138,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.6749693752552064, 
+    "price_per_serve": 0.2721111111111111, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -62133,7 +62295,7 @@
   }, 
   {
     "serving_text": "1 Packet", 
-    "price_per_serve": 1.1904761904761905, 
+    "price_per_serve": 0.84, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -62316,7 +62478,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.692999608916699, 
+    "price_per_serve": 0.8523333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -62473,7 +62635,7 @@
   }, 
   {
     "serving_text": "Two Capsules", 
-    "price_per_serve": 4.49438202247191, 
+    "price_per_serve": 0.89, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -62630,7 +62792,7 @@
   }, 
   {
     "serving_text": "1 fl oz (29.5 ml)", 
-    "price_per_serve": 1039.8805078416729, 
+    "price_per_serve": 0.836875, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -62811,7 +62973,7 @@
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 6.634721710283819, 
+    "price_per_serve": 0.15072222222222223, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -62968,7 +63130,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 19.176136363636363, 
+    "price_per_serve": 0.4693333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -63125,7 +63287,7 @@
   }, 
   {
     "serving_text": "3 Softgels", 
-    "price_per_serve": 18.828451882845187, 
+    "price_per_serve": 0.478, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -63282,7 +63444,7 @@
   }, 
   {
     "serving_text": "2 Soft Gels", 
-    "price_per_serve": 7.871433256805511, 
+    "price_per_serve": 0.5081666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -63465,7 +63627,7 @@
   }, 
   {
     "serving_text": "4 tablets", 
-    "price_per_serve": 15.488867376573088, 
+    "price_per_serve": 1.033, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -63638,7 +63800,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 15.444015444015445, 
+    "price_per_serve": 1.036, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -63811,7 +63973,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 15.444015444015445, 
+    "price_per_serve": 1.036, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -63984,7 +64146,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 15.444015444015445, 
+    "price_per_serve": 1.036, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -64161,7 +64323,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 14.43232841565106, 
+    "price_per_serve": 0.6236, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -64334,7 +64496,7 @@
   }, 
   {
     "serving_text": "1 Packet", 
-    "price_per_serve": 0.9551098376313276, 
+    "price_per_serve": 1.047, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -64501,7 +64663,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 15.242934264845983, 
+    "price_per_serve": 1.0496666666666665, 
     "num_Enzymes": 4, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -64690,7 +64852,7 @@
   }, 
   {
     "serving_text": "1 wafer", 
-    "price_per_serve": 3.771213073538655, 
+    "price_per_serve": 0.26516666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -64863,7 +65025,7 @@
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 6.7563340631842355, 
+    "price_per_serve": 0.14800925925925926, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -65020,7 +65182,7 @@
   }, 
   {
     "serving_text": "1 fl oz (2 tbsp)", 
-    "price_per_serve": 0.9876543209876544, 
+    "price_per_serve": 1.0125, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -65201,7 +65363,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 16.630736064059132, 
+    "price_per_serve": 0.5411666666666666, 
     "num_Enzymes": 1, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -65386,7 +65548,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 4.560656734569778, 
+    "price_per_serve": 0.21926666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -65543,7 +65705,7 @@
   }, 
   {
     "serving_text": "2 Tablespoons or 1 Capful (1 fl oz) (29.57 ml)", 
-    "price_per_serve": 794.4139006662627, 
+    "price_per_serve": 1.1006666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -65721,7 +65883,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 7.756391841424877, 
+    "price_per_serve": 1.1603333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -65884,7 +66046,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 3.3333333333333335, 
+    "price_per_serve": 1.2, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -66041,7 +66203,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 4.962779156327543, 
+    "price_per_serve": 0.2015, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -66198,7 +66360,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.6238159675236805, 
+    "price_per_serve": 0.6158333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -66355,7 +66517,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 12.9764801297648, 
+    "price_per_serve": 1.233, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -66506,7 +66668,7 @@
   }, 
   {
     "serving_text": "Three (3) Capsules", 
-    "price_per_serve": 13.856812933025402, 
+    "price_per_serve": 0.6495, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -66673,7 +66835,7 @@
   }, 
   {
     "serving_text": "Three level scoops (3.8 g daily)", 
-    "price_per_serve": 22.215384615384615, 
+    "price_per_serve": 0.65, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -66834,7 +66996,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 2.2670025188916876, 
+    "price_per_serve": 0.4411111111111111, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -66991,7 +67153,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 9.049773755656108, 
+    "price_per_serve": 0.442, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -67142,7 +67304,7 @@
   }, 
   {
     "serving_text": "Six Capsules", 
-    "price_per_serve": 26.966292134831463, 
+    "price_per_serve": 1.335, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -67304,7 +67466,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 15.587789564840875, 
+    "price_per_serve": 0.577375, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -67461,7 +67623,7 @@
   }, 
   {
     "serving_text": "6 Tablets", 
-    "price_per_serve": 23.290920854000433, 
+    "price_per_serve": 1.5456666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -67629,7 +67791,7 @@
   }, 
   {
     "serving_text": "2 Soft Gels", 
-    "price_per_serve": 7.586933614330874, 
+    "price_per_serve": 0.5272222222222223, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -67812,7 +67974,7 @@
   }, 
   {
     "serving_text": "Three Capsules", 
-    "price_per_serve": 16.216216216216218, 
+    "price_per_serve": 0.5549999999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -67974,7 +68136,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 18.116625778448764, 
+    "price_per_serve": 0.8831666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -68125,7 +68287,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 17.624380392876812, 
+    "price_per_serve": 0.9078333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -68298,7 +68460,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 17.624380392876812, 
+    "price_per_serve": 0.9078333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -68475,7 +68637,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.071246819338422, 
+    "price_per_serve": 0.9825, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -68637,7 +68799,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 13.30049261083744, 
+    "price_per_serve": 0.6766666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -68810,7 +68972,7 @@
   }, 
   {
     "serving_text": "9 Tablets (per day)", 
-    "price_per_serve": 38.57142857142857, 
+    "price_per_serve": 2.1, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -68978,7 +69140,7 @@
   }, 
   {
     "serving_text": "9 Tablets (per day)", 
-    "price_per_serve": 38.57142857142857, 
+    "price_per_serve": 2.1, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -69146,7 +69308,7 @@
   }, 
   {
     "serving_text": "3 Scoops (approx 12 grams) (per day)", 
-    "price_per_serve": 17.142857142857142, 
+    "price_per_serve": 73.5, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -69312,13 +69474,13 @@
     "container_text": " Without Copper, 14.81 oz (420 g)", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Life Extension, Mix Powder, Without Copper, 14.81 oz (420 g)"
   }, 
   {
     "serving_text": "9 Tablets (per day)", 
-    "price_per_serve": 38.57142857142857, 
+    "price_per_serve": 2.1, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -69486,7 +69648,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 2.278192633843817, 
+    "price_per_serve": 0.43894444444444447, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -69643,7 +69805,7 @@
   }, 
   {
     "serving_text": "14 Capsules (per day)", 
-    "price_per_serve": 83.15151515151516, 
+    "price_per_serve": 2.357142857142857, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -69811,7 +69973,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 23.529411764705884, 
+    "price_per_serve": 0.0425, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -69957,7 +70119,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 25.53191489361702, 
+    "price_per_serve": 0.15666666666666668, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -70120,7 +70282,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 10.080645161290322, 
+    "price_per_serve": 0.0992, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -70266,7 +70428,7 @@
   }, 
   {
     "serving_text": "1 Tablespoon or 1/2 Capful (1/2 fl oz) (15 ml)", 
-    "price_per_serve": 516.5065502183406, 
+    "price_per_serve": 0.4356188704768346, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -70445,7 +70607,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 13.245033112582782, 
+    "price_per_serve": 0.0755, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -70591,7 +70753,7 @@
   }, 
   {
     "serving_text": "One tablet", 
-    "price_per_serve": 7.407407407407407, 
+    "price_per_serve": 0.13499999999999998, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -70737,7 +70899,7 @@
   }, 
   {
     "serving_text": "1/2 tablet 1 tablet", 
-    "price_per_serve": 3.676470588235294, 
+    "price_per_serve": 0.068, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -70894,7 +71056,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 13.92111368909513, 
+    "price_per_serve": 0.28733333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -71046,7 +71208,7 @@
   }, 
   {
     "serving_text": "One caplet", 
-    "price_per_serve": 7.207207207207207, 
+    "price_per_serve": 0.13874999999999998, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -71192,7 +71354,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 7.582139848357204, 
+    "price_per_serve": 0.1318888888888889, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -71350,7 +71512,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 2.3828435266084194, 
+    "price_per_serve": 0.4196666666666667, 
     "num_Enzymes": 4, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -71528,7 +71690,7 @@
   }, 
   {
     "serving_text": "2 Teaspoons (10 ml)", 
-    "price_per_serve": 181.1926605504587, 
+    "price_per_serve": 0.5518987341772151, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -71699,7 +71861,7 @@
   }, 
   {
     "serving_text": "1 Tablespoon", 
-    "price_per_serve": 33.7615988579586, 
+    "price_per_serve": 14.01, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -71860,13 +72022,13 @@
     "container_text": " Tropical Orange Flavor, 16 fl oz (473 ml)", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Now Foods, Liquid Multi, Tropical Orange Flavor, 16 fl oz (473 ml)"
   }, 
   {
     "serving_text": "1 Tablespoon (15 ml)", 
-    "price_per_serve": 506.4239828693791, 
+    "price_per_serve": 0.444291754756871, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -72037,7 +72199,7 @@
   }, 
   {
     "serving_text": "3 Mini-Tabs", 
-    "price_per_serve": 18.828451882845187, 
+    "price_per_serve": 0.478, 
     "num_Enzymes": 4, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -72215,7 +72377,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 16.28222523744912, 
+    "price_per_serve": 0.24566666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -72367,7 +72529,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.977587343441002, 
+    "price_per_serve": 0.5056666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -72519,7 +72681,7 @@
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 9.375, 
+    "price_per_serve": 0.10666666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -72665,7 +72827,7 @@
   }, 
   {
     "serving_text": "2 Chewable Animal-Shaped Tablets", 
-    "price_per_serve": 11.1731843575419, 
+    "price_per_serve": 0.358, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -72834,7 +72996,7 @@
   }, 
   {
     "serving_text": "2 Chewable Animal-Shaped Tablets", 
-    "price_per_serve": 11.1731843575419, 
+    "price_per_serve": 0.358, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -73003,7 +73165,7 @@
   }, 
   {
     "serving_text": "2 Chewable Animal-Shaped Tablets", 
-    "price_per_serve": 11.1731843575419, 
+    "price_per_serve": 0.358, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -73172,7 +73334,7 @@
   }, 
   {
     "serving_text": "2 Chewable Animal-Shaped Tablets", 
-    "price_per_serve": 11.1731843575419, 
+    "price_per_serve": 0.358, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -73341,7 +73503,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 16.6256157635468, 
+    "price_per_serve": 0.5413333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -73514,7 +73676,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 16.6256157635468, 
+    "price_per_serve": 0.5413333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -73687,7 +73849,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.6363636363636362, 
+    "price_per_serve": 0.275, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -73844,7 +74006,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 28.776978417266186, 
+    "price_per_serve": 0.5559999999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -74001,7 +74163,7 @@
   }, 
   {
     "serving_text": "2 tablets", 
-    "price_per_serve": 6.932409012131716, 
+    "price_per_serve": 0.577, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -74169,7 +74331,7 @@
   }, 
   {
     "serving_text": "1 capsule", 
-    "price_per_serve": 4.638321369409167, 
+    "price_per_serve": 0.2155952380952381, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -74321,7 +74483,7 @@
   }, 
   {
     "serving_text": "2 Tablespoons or 1 Capful (1 fl oz) (29.57 ml)", 
-    "price_per_serve": 1418.6883180097352, 
+    "price_per_serve": 0.6163333333333332, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -74500,7 +74662,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.1762837480148227, 
+    "price_per_serve": 0.31483333333333335, 
     "num_Enzymes": 5, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -74683,7 +74845,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 29.312977099236644, 
+    "price_per_serve": 0.5458333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -74840,7 +75002,7 @@
   }, 
   {
     "serving_text": "One tablet", 
-    "price_per_serve": 9.98502246630055, 
+    "price_per_serve": 0.10015, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -74986,7 +75148,7 @@
   }, 
   {
     "serving_text": "One tablet", 
-    "price_per_serve": 9.98502246630055, 
+    "price_per_serve": 0.10015, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -75132,7 +75294,7 @@
   }, 
   {
     "serving_text": "1 Tablespoon or 1/2 Capful (1/2 fl oz) (15 ml)", 
-    "price_per_serve": 643.1367810536491, 
+    "price_per_serve": 0.3498478187352046, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -75311,7 +75473,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 11.444921316165951, 
+    "price_per_serve": 0.3495, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -75463,7 +75625,7 @@
   }, 
   {
     "serving_text": "Six Tablets Contain:  % Daily Value*", 
-    "price_per_serve": 51.42857142857143, 
+    "price_per_serve": 0.7, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -75609,7 +75771,7 @@
   }, 
   {
     "serving_text": "2 Chewable Animal-Shaped Tablets", 
-    "price_per_serve": 15.544041450777202, 
+    "price_per_serve": 0.25733333333333336, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -75778,7 +75940,7 @@
   }, 
   {
     "serving_text": "2 Chewable Animal-Shaped Tablets", 
-    "price_per_serve": 15.544041450777202, 
+    "price_per_serve": 0.25733333333333336, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -75947,7 +76109,7 @@
   }, 
   {
     "serving_text": "2 Chewable Animal-Shaped Tablets", 
-    "price_per_serve": 15.544041450777202, 
+    "price_per_serve": 0.25733333333333336, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -76116,7 +76278,7 @@
   }, 
   {
     "serving_text": "2 Chewable Animal-Shaped Tablets", 
-    "price_per_serve": 15.544041450777202, 
+    "price_per_serve": 0.25733333333333336, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -76285,7 +76447,7 @@
   }, 
   {
     "serving_text": "2 Chewable Animal-Shaped Tablets", 
-    "price_per_serve": 15.544041450777202, 
+    "price_per_serve": 0.25733333333333336, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -76454,7 +76616,7 @@
   }, 
   {
     "serving_text": "2 Animal-Shaped Gummies", 
-    "price_per_serve": 5.795981452859351, 
+    "price_per_serve": 0.6901333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -76622,7 +76784,7 @@
   }, 
   {
     "serving_text": "3 Mini-Tabs", 
-    "price_per_serve": 20.308386611508087, 
+    "price_per_serve": 0.4431666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -76779,7 +76941,7 @@
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 2.7573529411764706, 
+    "price_per_serve": 0.36266666666666664, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -76925,7 +77087,7 @@
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 2.7573529411764706, 
+    "price_per_serve": 0.36266666666666664, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -77071,7 +77233,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.2154340836012865, 
+    "price_per_serve": 0.311, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -77228,7 +77390,7 @@
   }, 
   {
     "serving_text": "6 Capsules", 
-    "price_per_serve": 37.5260597637248, 
+    "price_per_serve": 0.9593333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -77396,7 +77558,7 @@
   }, 
   {
     "serving_text": "1 Level Scoop (8.7 g)", 
-    "price_per_serve": 73.27202323330107, 
+    "price_per_serve": 1.033, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -77576,7 +77738,7 @@
   }, 
   {
     "serving_text": "3 Capsules", 
-    "price_per_serve": 17.16465352828989, 
+    "price_per_serve": 0.5243333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -77728,7 +77890,7 @@
   }, 
   {
     "serving_text": "4 capsules", 
-    "price_per_serve": 15.023474178403756, 
+    "price_per_serve": 1.065, 
     "num_Enzymes": 2, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -77896,7 +78058,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.7278657968313142, 
+    "price_per_serve": 0.26825, 
     "num_Enzymes": 5, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -78079,7 +78241,7 @@
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 4.606879606879606, 
+    "price_per_serve": 0.21706666666666669, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -78231,7 +78393,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 10.872848082150409, 
+    "price_per_serve": 0.3678888888888889, 
     "num_Enzymes": 2, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -78394,7 +78556,7 @@
   }, 
   {
     "serving_text": "4 Vegetarian Capsules", 
-    "price_per_serve": 13.714285714285714, 
+    "price_per_serve": 1.1666666666666667, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -78557,7 +78719,7 @@
   }, 
   {
     "serving_text": "Approximately 1 fluid ounce (30 ml)", 
-    "price_per_serve": 760.5633802816902, 
+    "price_per_serve": 1.1833333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -78734,7 +78896,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 9.977827050997783, 
+    "price_per_serve": 0.40088888888888885, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -78886,7 +79048,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 21.27659574468085, 
+    "price_per_serve": 0.752, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -79044,7 +79206,7 @@
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 2.367175170962651, 
+    "price_per_serve": 0.42244444444444446, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -79223,7 +79385,7 @@
   }, 
   {
     "serving_text": "4 vegetable tablets", 
-    "price_per_serve": 12.075471698113208, 
+    "price_per_serve": 1.325, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -79369,7 +79531,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 12.003000750187546, 
+    "price_per_serve": 1.333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -79515,7 +79677,7 @@
   }, 
   {
     "serving_text": "3 Capsules", 
-    "price_per_serve": 13.392857142857142, 
+    "price_per_serve": 0.672, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -79688,7 +79850,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 2.150023889154324, 
+    "price_per_serve": 0.4651111111111111, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -79840,7 +80002,7 @@
   }, 
   {
     "serving_text": "3 capsules", 
-    "price_per_serve": 20.015885623510723, 
+    "price_per_serve": 0.4496428571428572, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -79992,7 +80154,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.288011434697159, 
+    "price_per_serve": 0.9328333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -80138,7 +80300,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 9.648025728068609, 
+    "price_per_serve": 0.9328333333333332, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -80284,7 +80446,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.071246819338422, 
+    "price_per_serve": 0.9825, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -80441,7 +80603,7 @@
   }, 
   {
     "serving_text": "Three Capsules", 
-    "price_per_serve": 4.500750125020836, 
+    "price_per_serve": 1.9996666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -80597,7 +80759,7 @@
   }, 
   {
     "serving_text": "1 teaspoon (2.48 g)", 
-    "price_per_serve": 14.879999999999999, 
+    "price_per_serve": 0.0, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -80757,7 +80919,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 16.949152542372882, 
+    "price_per_serve": 0.059000000000000004, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -80904,7 +81066,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 23.529411764705884, 
+    "price_per_serve": 0.0425, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -81045,7 +81207,7 @@
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 12.06030150753769, 
+    "price_per_serve": 0.33166666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -81186,7 +81348,7 @@
   }, 
   {
     "serving_text": "2 Chewable Tablets", 
-    "price_per_serve": 22.429906542056077, 
+    "price_per_serve": 0.17833333333333332, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -81338,7 +81500,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 2.7675276752767526, 
+    "price_per_serve": 0.36133333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -81479,7 +81641,7 @@
   }, 
   {
     "serving_text": "2 Liquid Soft-Gels", 
-    "price_per_serve": 10.70472792149866, 
+    "price_per_serve": 0.3736666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -81626,7 +81788,7 @@
   }, 
   {
     "serving_text": "1 Tablespoon (15 ml)", 
-    "price_per_serve": 599.0016638935108, 
+    "price_per_serve": 0.375625, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -81802,7 +81964,7 @@
   }, 
   {
     "serving_text": "1-8 Years, One Chewable Tablet", 
-    "price_per_serve": 4.7095761381475665, 
+    "price_per_serve": 12.74, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -81958,13 +82120,13 @@
     "container_text": " Natural Tutti Frutti Flavor, 60 Chewable Tablets", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Michael's Naturopathic, Children's Chewables, Natural Tutti Frutti Flavor, 60 Chewable Tablets"
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 16.6256157635468, 
+    "price_per_serve": 0.5413333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -82132,7 +82294,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 18.348623853211006, 
+    "price_per_serve": 0.49050000000000005, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -82279,7 +82441,7 @@
   }, 
   {
     "serving_text": "1 Liquid Soft-Gel", 
-    "price_per_serve": 3.6385688295936935, 
+    "price_per_serve": 0.2748333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -82420,7 +82582,7 @@
   }, 
   {
     "serving_text": "1 Liquid Soft-Gel", 
-    "price_per_serve": 3.6385688295936935, 
+    "price_per_serve": 0.2748333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -82561,7 +82723,7 @@
   }, 
   {
     "serving_text": "1 tsp.", 
-    "price_per_serve": 14.217156568686262, 
+    "price_per_serve": 16.67, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -82722,13 +82884,13 @@
     "container_text": " Citrus Punch, 8 fl oz (237 ml)", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Trace Minerals Research, Kid's Multi, Citrus Punch, 8 fl oz (237 ml)"
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 14.260249554367203, 
+    "price_per_serve": 0.28049999999999997, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -82875,7 +83037,7 @@
   }, 
   {
     "serving_text": "1 Vitamin Friend", 
-    "price_per_serve": 3.5314891112419073, 
+    "price_per_serve": 16.99, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -83042,13 +83204,13 @@
     "container_text": " Cherry/Orange, 60 Pectin Gummies", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Vitamin Friends, Mega-Multi Vitamin, Cherry/Orange, 60 Pectin Gummies"
   }, 
   {
     "serving_text": "1 fl oz (2 Tablespoons) (30 ml)", 
-    "price_per_serve": 1596.1754780652418, 
+    "price_per_serve": 0.5638477801268499, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -83223,7 +83385,7 @@
   }, 
   {
     "serving_text": "3 Liquid Soft-Gels", 
-    "price_per_serve": 15.008337965536413, 
+    "price_per_serve": 0.5996666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -83364,7 +83526,7 @@
   }, 
   {
     "serving_text": "3 Liquid Soft-Gels", 
-    "price_per_serve": 15.008337965536413, 
+    "price_per_serve": 0.5996666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -83505,7 +83667,7 @@
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 8.130081300813009, 
+    "price_per_serve": 0.123, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -83657,7 +83819,7 @@
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 19.007391763463566, 
+    "price_per_serve": 0.21044444444444446, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -83804,7 +83966,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 25.32981530343008, 
+    "price_per_serve": 0.6316666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -83962,7 +84124,7 @@
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 14.516129032258064, 
+    "price_per_serve": 0.27555555555555555, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -84109,7 +84271,7 @@
   }, 
   {
     "serving_text": "Each packet", 
-    "price_per_serve": 1.500750375187594, 
+    "price_per_serve": 0.6663333333333333, 
     "num_Enzymes": 1, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -84288,7 +84450,7 @@
   }, 
   {
     "serving_text": "6 Tablets", 
-    "price_per_serve": 52.7086383601757, 
+    "price_per_serve": 0.6829999999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -84440,7 +84602,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 12.863268222963317, 
+    "price_per_serve": 0.6996666666666665, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -84587,7 +84749,7 @@
   }, 
   {
     "serving_text": "Supplement Facts  Six Tablets Contain: Amount Per Serving % Daily Value", 
-    "price_per_serve": 51.42857142857143, 
+    "price_per_serve": 0.7, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -84728,7 +84890,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 8.024966562639323, 
+    "price_per_serve": 0.1246111111111111, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -84869,7 +85031,7 @@
   }, 
   {
     "serving_text": "3 Liquid Soft-Gels", 
-    "price_per_serve": 16.007114273010227, 
+    "price_per_serve": 0.5622499999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -85010,7 +85172,7 @@
   }, 
   {
     "serving_text": "1 Packet", 
-    "price_per_serve": 1.284246575342466, 
+    "price_per_serve": 0.7786666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -85161,7 +85323,7 @@
   }, 
   {
     "serving_text": "2 Softgels", 
-    "price_per_serve": 7.698887938408896, 
+    "price_per_serve": 0.5195555555555555, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -85318,7 +85480,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.7878787878787876, 
+    "price_per_serve": 0.264, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -85476,7 +85638,7 @@
   }, 
   {
     "serving_text": "2 Tbsp (30 ml)", 
-    "price_per_serve": 1172.2428748451052, 
+    "price_per_serve": 0.7677589852008457, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -85647,7 +85809,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 9.527590313616514, 
+    "price_per_serve": 0.41983333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -85794,7 +85956,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.692999608916699, 
+    "price_per_serve": 0.8523333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -85941,7 +86103,7 @@
   }, 
   {
     "serving_text": "2 Animal-Shaped Chewables", 
-    "price_per_serve": 13.657056145675266, 
+    "price_per_serve": 0.29288888888888887, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -86099,7 +86261,7 @@
   }, 
   {
     "serving_text": "2 Animal-Shaped Chewables", 
-    "price_per_serve": 13.657056145675266, 
+    "price_per_serve": 0.29288888888888887, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -86257,7 +86419,7 @@
   }, 
   {
     "serving_text": "2 Animal-Shaped Chewables", 
-    "price_per_serve": 13.657056145675266, 
+    "price_per_serve": 0.29288888888888887, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -86415,7 +86577,7 @@
   }, 
   {
     "serving_text": "2 Animal-Shaped Chewables", 
-    "price_per_serve": 13.657056145675266, 
+    "price_per_serve": 0.29288888888888887, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -86573,7 +86735,7 @@
   }, 
   {
     "serving_text": "4 capsules", 
-    "price_per_serve": 18.05189921022941, 
+    "price_per_serve": 0.8863333333333333, 
     "num_Enzymes": 4, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -86735,7 +86897,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 18.05189921022941, 
+    "price_per_serve": 0.8863333333333333, 
     "num_Enzymes": 4, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -86897,7 +87059,7 @@
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 5.601194921583271, 
+    "price_per_serve": 0.17853333333333335, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -87049,7 +87211,7 @@
   }, 
   {
     "serving_text": "2 vegetable tablets", 
-    "price_per_serve": 4.293381037567084, 
+    "price_per_serve": 0.9316666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -87190,7 +87352,7 @@
   }, 
   {
     "serving_text": "2 Tablespoons (30 ml)", 
-    "price_per_serve": 1015.0214592274677, 
+    "price_per_serve": 0.8866807610993658, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -87361,7 +87523,7 @@
   }, 
   {
     "serving_text": "Each Packet", 
-    "price_per_serve": 1.0718113612004287, 
+    "price_per_serve": 0.9329999999999999, 
     "num_Enzymes": 1, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -87540,7 +87702,7 @@
   }, 
   {
     "serving_text": "Each Packet", 
-    "price_per_serve": 1.0718113612004287, 
+    "price_per_serve": 0.9329999999999999, 
     "num_Enzymes": 1, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -87719,7 +87881,7 @@
   }, 
   {
     "serving_text": "1 Softgel", 
-    "price_per_serve": 5.890052356020942, 
+    "price_per_serve": 0.16977777777777778, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -87865,8 +88027,8 @@
     "name": "Nature's Plus, Children's Vita-Gels, Natural Orange Flavor, 180 Softgels"
   }, 
   {
-    "serving_text": "Supplement Facts  Amount Per Serving % DV for Children Under 4 Years of Age %DV for Adults and Children 4 or More Years of Age", 
-    "price_per_serve": 5.769230769230769, 
+    "serving_text": "1 Chewable Tablet", 
+    "price_per_serve": 0.17333333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -88011,7 +88173,7 @@
     "serving_sizes": [
       {
         "amount": 1, 
-        "unit": ""
+        "unit": "Chewable Tablet"
       }
     ], 
     "num_Amino Acids": 0, 
@@ -88024,7 +88186,7 @@
   }, 
   {
     "serving_text": "1 oz (1 oz= 2 Tablespoons)", 
-    "price_per_serve": 1.001564945226917, 
+    "price_per_serve": 0.9984375, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -88181,7 +88343,7 @@
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 5.403782647853497, 
+    "price_per_serve": 0.18505555555555556, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -88328,7 +88490,7 @@
   }, 
   {
     "serving_text": "1 capsule", 
-    "price_per_serve": 2.958579881656805, 
+    "price_per_serve": 0.33799999999999997, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -88469,7 +88631,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.7157563625965113, 
+    "price_per_serve": 0.5828333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -88610,7 +88772,7 @@
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 3.264417845484222, 
+    "price_per_serve": 0.3063333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -88757,7 +88919,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 19.41224049609059, 
+    "price_per_serve": 0.8242222222222223, 
     "num_Enzymes": 5, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -88935,7 +89097,7 @@
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 2.367175170962651, 
+    "price_per_serve": 0.42244444444444446, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -89103,7 +89265,7 @@
   }, 
   {
     "serving_text": "1 capsule", 
-    "price_per_serve": 2.4390243902439024, 
+    "price_per_serve": 0.41, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -89255,7 +89417,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 11.62509082102204, 
+    "price_per_serve": 1.3763333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -89396,7 +89558,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 11.62509082102204, 
+    "price_per_serve": 1.3763333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -89537,7 +89699,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.875390706397166, 
+    "price_per_serve": 0.5332222222222223, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -89684,7 +89846,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.288011434697159, 
+    "price_per_serve": 0.9328333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -89825,7 +89987,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.288011434697159, 
+    "price_per_serve": 0.9328333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -89966,7 +90128,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 3.0018761726078798, 
+    "price_per_serve": 1.3325, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -90107,7 +90269,7 @@
   }, 
   {
     "serving_text": "3 Capsules", 
-    "price_per_serve": 35.80901856763926, 
+    "price_per_serve": 0.25133333333333335, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -90243,7 +90405,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 19.271948608137045, 
+    "price_per_serve": 0.05188888888888889, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -90379,7 +90541,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 9.045226130653267, 
+    "price_per_serve": 0.11055555555555555, 
     "num_Enzymes": 0, 
     "num_Vitamins": 8, 
     "container_sizes": [
@@ -90526,7 +90688,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 5.714285714285714, 
+    "price_per_serve": 0.175, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -90673,7 +90835,7 @@
   }, 
   {
     "serving_text": "1 Animal Friend Tablet", 
-    "price_per_serve": 4.757373929590866, 
+    "price_per_serve": 0.2102, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -90820,7 +90982,7 @@
   }, 
   {
     "serving_text": "1 Animal Friends tablet", 
-    "price_per_serve": 4.757373929590866, 
+    "price_per_serve": 0.2102, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -90967,7 +91129,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 7.826086956521739, 
+    "price_per_serve": 0.12777777777777777, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -91119,7 +91281,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 7.159904534606205, 
+    "price_per_serve": 0.13966666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -91272,7 +91434,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 7.159904534606205, 
+    "price_per_serve": 0.13966666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -91425,7 +91587,7 @@
   }, 
   {
     "serving_text": "1/2 packet (1/4 tsp)  1 packet (1/2 tsp)", 
-    "price_per_serve": 0.8934953538241601, 
+    "price_per_serve": 0.2798, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -91583,7 +91745,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 5.306603773584905, 
+    "price_per_serve": 0.18844444444444444, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -91719,7 +91881,7 @@
   }, 
   {
     "serving_text": "4 capsules", 
-    "price_per_serve": 18.05189921022941, 
+    "price_per_serve": 0.8863333333333333, 
     "num_Enzymes": 4, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -91876,7 +92038,7 @@
   }, 
   {
     "serving_text": "1 tablet", 
-    "price_per_serve": 2.2404779686333085, 
+    "price_per_serve": 0.44633333333333336, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -92018,7 +92180,7 @@
   }, 
   {
     "serving_text": "Two Capsules", 
-    "price_per_serve": 4.285714285714286, 
+    "price_per_serve": 0.9333333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -92154,7 +92316,7 @@
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 6.392045454545454, 
+    "price_per_serve": 0.6257777777777778, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -92296,7 +92458,7 @@
   }, 
   {
     "serving_text": "1 fl oz (30 ml)", 
-    "price_per_serve": 923.8281250000001, 
+    "price_per_serve": 0.9742071881606764, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -92518,7 +92680,7 @@
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 1.948051948051948, 
+    "price_per_serve": 0.5133333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -92665,7 +92827,7 @@
   }, 
   {
     "serving_text": "2 capsules", 
-    "price_per_serve": 5.202312138728323, 
+    "price_per_serve": 0.768888888888889, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -92812,7 +92974,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.7157563625965113, 
+    "price_per_serve": 0.5828333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -92948,7 +93110,7 @@
   }, 
   {
     "serving_text": "2 tablets", 
-    "price_per_serve": 6.781576716586606, 
+    "price_per_serve": 0.5898333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -93090,7 +93252,7 @@
   }, 
   {
     "serving_text": "1 Scoop (~ 12.2 g/20 ml)", 
-    "price_per_serve": 0.8426966292134831, 
+    "price_per_serve": 35.6, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -93247,13 +93409,13 @@
     "container_text": " Natural Blackberry, 30 Servings", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Advanced Orthomolecular Research AOR, Classic Series, Essential Mix, Powered Multivitamin, Natural Blackberry, 30 Servings"
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 6.453347674105943, 
+    "price_per_serve": 0.6198333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -93395,7 +93557,7 @@
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 2.137259558299691, 
+    "price_per_serve": 0.4678888888888889, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -93574,7 +93736,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.875390706397166, 
+    "price_per_serve": 0.5332222222222223, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -93716,7 +93878,7 @@
   }, 
   {
     "serving_text": "3 Caplets", 
-    "price_per_serve": 11.0746513535685, 
+    "price_per_serve": 0.8126666666666666, 
     "num_Enzymes": 6, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -93895,7 +94057,7 @@
   }, 
   {
     "serving_text": "6 capsules", 
-    "price_per_serve": 16.875, 
+    "price_per_serve": 2.1333333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -94042,7 +94204,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 14.681892332789559, 
+    "price_per_serve": 0.06811111111111111, 
     "num_Enzymes": 0, 
     "num_Vitamins": 8, 
     "container_sizes": [
@@ -94189,7 +94351,7 @@
   }, 
   {
     "serving_text": "1 Vitamin Friends", 
-    "price_per_serve": 10.011123470522802, 
+    "price_per_serve": 8.99, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -94346,13 +94508,13 @@
     "container_text": " Vegetarian Gummies, 90  Grape Pectin Gummies", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Vitamin Friends, Multi Vitamin, Vegetarian Gummies, 90  Grape Pectin Gummies"
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 9.045226130653267, 
+    "price_per_serve": 0.11055555555555555, 
     "num_Enzymes": 0, 
     "num_Vitamins": 8, 
     "container_sizes": [
@@ -94494,7 +94656,7 @@
   }, 
   {
     "serving_text": "2 Chewable Bears", 
-    "price_per_serve": 4.830917874396135, 
+    "price_per_serve": 0.828, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -94641,7 +94803,7 @@
   }, 
   {
     "serving_text": "6 Capsules", 
-    "price_per_serve": 75.47169811320754, 
+    "price_per_serve": 0.477, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -94788,7 +94950,7 @@
   }, 
   {
     "serving_text": "One tablet", 
-    "price_per_serve": 0.09985022466300549, 
+    "price_per_serve": 10.015, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -94923,7 +95085,7 @@
   }, 
   {
     "serving_text": "2 Chewable Bears", 
-    "price_per_serve": 5.717008099094808, 
+    "price_per_serve": 0.6996666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 13, 
     "container_sizes": [
@@ -95070,7 +95232,7 @@
   }, 
   {
     "serving_text": "1 Packet", 
-    "price_per_serve": 1.0097610232245036, 
+    "price_per_serve": 0.9903333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -95228,7 +95390,7 @@
   }, 
   {
     "serving_text": "1 Packet", 
-    "price_per_serve": 1.0097610232245036, 
+    "price_per_serve": 0.9903333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -95386,7 +95548,7 @@
   }, 
   {
     "serving_text": "1 Packet", 
-    "price_per_serve": 1.0097610232245036, 
+    "price_per_serve": 0.9903333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -95544,7 +95706,7 @@
   }, 
   {
     "serving_text": "1 Packet (Containing 10 units of 2 Softgels, 8 Capsules)", 
-    "price_per_serve": 0.9878169245966414, 
+    "price_per_serve": 1.0123333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 7, 
     "container_sizes": [
@@ -95685,7 +95847,7 @@
   }, 
   {
     "serving_text": "1 Packet", 
-    "price_per_serve": 0.9816753926701571, 
+    "price_per_serve": 1.0186666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -95843,7 +96005,7 @@
   }, 
   {
     "serving_text": "2 capsules", 
-    "price_per_serve": 6.486486486486487, 
+    "price_per_serve": 0.6166666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -95980,7 +96142,7 @@
   }, 
   {
     "serving_text": "3 Capsules", 
-    "price_per_serve": 6.001333629695488, 
+    "price_per_serve": 1.4996666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -96117,7 +96279,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 28.571428571428573, 
+    "price_per_serve": 0.14, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -96243,7 +96405,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 31.65298944900352, 
+    "price_per_serve": 0.2843333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -96369,7 +96531,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 8.474576271186441, 
+    "price_per_serve": 0.118, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -96501,7 +96663,7 @@
   }, 
   {
     "serving_text": "1 Packet (0.09 oz/ (2.5 g)", 
-    "price_per_serve": 0.5085435313262816, 
+    "price_per_serve": 12.29, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -96649,7 +96811,7 @@
   }, 
   {
     "serving_text": "1 Packet (0.09 oz/ (2.5 g)", 
-    "price_per_serve": 0.5085435313262816, 
+    "price_per_serve": 12.29, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -96797,7 +96959,7 @@
   }, 
   {
     "serving_text": "3 Gummies", 
-    "price_per_serve": 17.578125, 
+    "price_per_serve": 0.512, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -96945,7 +97107,7 @@
   }, 
   {
     "serving_text": "1 Bear", 
-    "price_per_serve": 1.539645881447267, 
+    "price_per_serve": 0.6495, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -97103,7 +97265,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 40.26845637583892, 
+    "price_per_serve": 0.22349999999999998, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -97229,7 +97391,7 @@
   }, 
   {
     "serving_text": "1 Tbsp (15 ml)", 
-    "price_per_serve": 441.7539267015707, 
+    "price_per_serve": 0.5093333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -97374,7 +97536,7 @@
   }, 
   {
     "serving_text": "1/2 tablet (2 & 3 years of age) ; 1 tablet (4 years of age and older)", 
-    "price_per_serve": 33.76477208778841, 
+    "price_per_serve": 0.05923333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -97514,13 +97676,13 @@
     "container_text": " Children's Multivitamin Supplement, 150 Chewable Tablets", 
     "size_indexes": [
       0, 
-      0
+      2
     ], 
     "name": "Flintstones, Complete, Children's Multivitamin Supplement, 150 Chewable Tablets"
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 10.011123470522802, 
+    "price_per_serve": 0.09988888888888889, 
     "num_Enzymes": 0, 
     "num_Vitamins": 7, 
     "container_sizes": [
@@ -97652,7 +97814,7 @@
   }, 
   {
     "serving_text": "Supplement Facts  Eight capsules contain:   Amount Per Serving %Daily Value*", 
-    "price_per_serve": 81.42493638676845, 
+    "price_per_serve": 0.7859999999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -97784,7 +97946,7 @@
   }, 
   {
     "serving_text": "3 tablets", 
-    "price_per_serve": 11.254689453939143, 
+    "price_per_serve": 0.7996666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -97916,7 +98078,7 @@
   }, 
   {
     "serving_text": "1 teaspoon (5 ml)", 
-    "price_per_serve": 93.55509355509355, 
+    "price_per_serve": 0.26722222222222225, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -98061,7 +98223,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 8.712487899322364, 
+    "price_per_serve": 1.033, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -98187,7 +98349,7 @@
   }, 
   {
     "serving_text": "1 Pack", 
-    "price_per_serve": 0.7120816520294326, 
+    "price_per_serve": 1.4043333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 8, 
     "container_sizes": [
@@ -98330,7 +98492,7 @@
   }, 
   {
     "serving_text": "3 Capsules", 
-    "price_per_serve": 6.001333629695488, 
+    "price_per_serve": 1.4996666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -98462,7 +98624,7 @@
   }, 
   {
     "serving_text": "2 Gummi King gummies", 
-    "price_per_serve": 21.089630931458696, 
+    "price_per_serve": 0.18966666666666668, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -98605,7 +98767,7 @@
   }, 
   {
     "serving_text": "1 table", 
-    "price_per_serve": 2.44299674267101, 
+    "price_per_serve": 0.4093333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -98748,7 +98910,7 @@
   }, 
   {
     "serving_text": "1 tablet", 
-    "price_per_serve": 2.44299674267101, 
+    "price_per_serve": 0.4093333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -98895,7 +99057,7 @@
   }, 
   {
     "serving_text": "1 tablet", 
-    "price_per_serve": 2.44299674267101, 
+    "price_per_serve": 0.4093333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -99038,7 +99200,7 @@
   }, 
   {
     "serving_text": "1 tablet", 
-    "price_per_serve": 2.44299674267101, 
+    "price_per_serve": 0.4093333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -99181,7 +99343,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 8.474576271186441, 
+    "price_per_serve": 0.118, 
     "num_Enzymes": 1, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -99308,7 +99470,7 @@
   }, 
   {
     "serving_text": "2 bears", 
-    "price_per_serve": 11.11111111111111, 
+    "price_per_serve": 0.36000000000000004, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -99451,7 +99613,7 @@
   }, 
   {
     "serving_text": "4 Chewable Tablets", 
-    "price_per_serve": 41.131105398457585, 
+    "price_per_serve": 0.389, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -99578,7 +99740,7 @@
   }, 
   {
     "serving_text": "1 Softgel", 
-    "price_per_serve": 4.88997555012225, 
+    "price_per_serve": 0.2045, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -99699,7 +99861,7 @@
   }, 
   {
     "serving_text": "3 Gummies", 
-    "price_per_serve": 17.578125, 
+    "price_per_serve": 0.512, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -99837,7 +99999,7 @@
   }, 
   {
     "serving_text": "3 Gummies", 
-    "price_per_serve": 17.578125, 
+    "price_per_serve": 0.512, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -99975,7 +100137,7 @@
   }, 
   {
     "serving_text": "4 Nordic Berries (12 g)", 
-    "price_per_serve": 70.72691552062868, 
+    "price_per_serve": 20.36, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -100126,13 +100288,13 @@
     "container_text": " Multivitamin Gummies, 120 Count", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Nordic Naturals, Nordic Berries, Multivitamin Gummies, 120 Count"
   }, 
   {
     "serving_text": "1 tablet", 
-    "price_per_serve": 1.429252024773702, 
+    "price_per_serve": 0.6996666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -100253,7 +100415,7 @@
   }, 
   {
     "serving_text": "1 teaspoon (5 ml)", 
-    "price_per_serve": 54.82456140350877, 
+    "price_per_serve": 0.456, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -100420,7 +100582,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 7.887817703768624, 
+    "price_per_serve": 0.5071111111111111, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -100552,7 +100714,7 @@
   }, 
   {
     "serving_text": "2 tbsp (1 fl oz / 30 mL)", 
-    "price_per_serve": 1.2668918918918919, 
+    "price_per_serve": 0.7893333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -100698,7 +100860,7 @@
   }, 
   {
     "serving_text": "4 Nordic Berries (12 g)", 
-    "price_per_serve": 25.469595670168736, 
+    "price_per_serve": 0.6282, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -100855,7 +101017,7 @@
   }, 
   {
     "serving_text": "1 Packet (4 Gummies)", 
-    "price_per_serve": 2.8598665395614873, 
+    "price_per_serve": 0.3496666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -101000,7 +101162,7 @@
   }, 
   {
     "serving_text": "1 Packet (3 Gummies)", 
-    "price_per_serve": 2.7675276752767526, 
+    "price_per_serve": 0.36133333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -101145,7 +101307,7 @@
   }, 
   {
     "serving_text": "3 Bears", 
-    "price_per_serve": 22.881355932203387, 
+    "price_per_serve": 0.39333333333333337, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -101278,7 +101440,7 @@
   }, 
   {
     "serving_text": "3 Bears", 
-    "price_per_serve": 22.881355932203387, 
+    "price_per_serve": 0.39333333333333337, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -101411,7 +101573,7 @@
   }, 
   {
     "serving_text": "3 Gummies", 
-    "price_per_serve": 22.5752508361204, 
+    "price_per_serve": 0.39866666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -101544,7 +101706,7 @@
   }, 
   {
     "serving_text": "3 Gummies", 
-    "price_per_serve": 21.445591739475773, 
+    "price_per_serve": 0.4196666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -101677,7 +101839,7 @@
   }, 
   {
     "serving_text": "3 Gummies", 
-    "price_per_serve": 17.578125, 
+    "price_per_serve": 0.512, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -101804,7 +101966,7 @@
   }, 
   {
     "serving_text": "3 Yummi Bears", 
-    "price_per_serve": 20.33132530120482, 
+    "price_per_serve": 0.44266666666666665, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -101942,7 +102104,7 @@
   }, 
   {
     "serving_text": "1/2 Soft Chew 1 Soft Chew", 
-    "price_per_serve": 1.0706638115631693, 
+    "price_per_serve": 0.23349999999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -102075,7 +102237,7 @@
   }, 
   {
     "serving_text": "1 Packet (2 slices)", 
-    "price_per_serve": 1.9607843137254901, 
+    "price_per_serve": 2.04, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -102222,7 +102384,7 @@
   }, 
   {
     "serving_text": "3 Yummi Bears", 
-    "price_per_serve": 16.666666666666664, 
+    "price_per_serve": 0.54, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -102360,7 +102522,7 @@
   }, 
   {
     "serving_text": "2 Slices", 
-    "price_per_serve": 7.407407407407407, 
+    "price_per_serve": 0.5399999999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -102493,7 +102655,7 @@
   }, 
   {
     "serving_text": "2 slices", 
-    "price_per_serve": 6.539509536784741, 
+    "price_per_serve": 0.6116666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -102626,7 +102788,7 @@
   }, 
   {
     "serving_text": "1 slice", 
-    "price_per_serve": 1.5690376569037656, 
+    "price_per_serve": 0.6373333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -102764,7 +102926,7 @@
   }, 
   {
     "serving_text": "3 Yummi Bears", 
-    "price_per_serve": 29.055690072639223, 
+    "price_per_serve": 0.30974999999999997, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -102897,7 +103059,7 @@
   }, 
   {
     "serving_text": "1 Packet (3 Gummies)", 
-    "price_per_serve": 0.42877560743211063, 
+    "price_per_serve": 20.99, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -103058,7 +103220,7 @@
   }, 
   {
     "serving_text": "1 oz. (2 tablespoons)", 
-    "price_per_serve": 57.9656862745098, 
+    "price_per_serve": 1.02, 
     "num_Enzymes": 0, 
     "num_Vitamins": 8, 
     "container_sizes": [
@@ -103197,14 +103359,14 @@
     "num_Amino Acids": 0, 
     "container_text": " Complete Multiple, 32 fl oz (946 ml)", 
     "size_indexes": [
-      0, 
-      0
+      1, 
+      1
     ], 
     "name": "Liquid Health Products, Complete Multiple, 32 fl oz (946 ml)"
   }, 
   {
     "serving_text": "2 Tbsp (30 ml/1 fl oz)", 
-    "price_per_serve": 641.8234442836468, 
+    "price_per_serve": 1.4022547914317927, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -103345,7 +103507,7 @@
   }, 
   {
     "serving_text": "One effervescent tablet", 
-    "price_per_serve": 0.9049773755656108, 
+    "price_per_serve": 1.105, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -103462,7 +103624,7 @@
   }, 
   {
     "serving_text": "1 Tablespoon (15 ml)", 
-    "price_per_serve": 583.4683954619125, 
+    "price_per_serve": 0.385625, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -103603,7 +103765,7 @@
   }, 
   {
     "serving_text": "Two (2) Veggie Capsules", 
-    "price_per_serve": 8.426966292134832, 
+    "price_per_serve": 0.4746666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -103714,7 +103876,7 @@
   }, 
   {
     "serving_text": "Two (2) Tablets", 
-    "price_per_serve": 10.005558643690941, 
+    "price_per_serve": 0.39977777777777773, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -103825,7 +103987,7 @@
   }, 
   {
     "serving_text": "One (1) tsp (5 ml)", 
-    "price_per_serve": 32.96413502109704, 
+    "price_per_serve": 0.7584000000000001, 
     "num_Enzymes": 0, 
     "num_Vitamins": 6, 
     "container_sizes": [
@@ -103940,7 +104102,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 7.5, 
+    "price_per_serve": 0.5333333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 8, 
     "container_sizes": [
@@ -104051,7 +104213,7 @@
   }, 
   {
     "serving_text": "2 Scoops (35 g)", 
-    "price_per_serve": 656.4844587352626, 
+    "price_per_serve": 1.8659999999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 8, 
     "container_sizes": [
@@ -104207,7 +104369,7 @@
   }, 
   {
     "serving_text": "2 Scoops (32.6 g)", 
-    "price_per_serve": 569.5391211146838, 
+    "price_per_serve": 1.866, 
     "num_Enzymes": 0, 
     "num_Vitamins": 8, 
     "container_sizes": [
@@ -104363,7 +104525,7 @@
   }, 
   {
     "serving_text": "6 Capsules", 
-    "price_per_serve": 36.0, 
+    "price_per_serve": 1.0, 
     "num_Enzymes": 0, 
     "num_Vitamins": 6, 
     "container_sizes": [
@@ -104485,7 +104647,7 @@
   }, 
   {
     "serving_text": "1 Packet (4 g)", 
-    "price_per_serve": 3.493449781659389, 
+    "price_per_serve": 4.58, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -104631,7 +104793,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 12.096774193548388, 
+    "price_per_serve": 0.08266666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -104737,7 +104899,7 @@
   }, 
   {
     "serving_text": "1 Effervescent Tablet", 
-    "price_per_serve": 2.6058631921824107, 
+    "price_per_serve": 0.38375, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -104860,7 +105022,7 @@
   }, 
   {
     "serving_text": "1 Effervescent Tablet", 
-    "price_per_serve": 2.6058631921824107, 
+    "price_per_serve": 0.38375, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -104983,7 +105145,7 @@
   }, 
   {
     "serving_text": "2 Gummies", 
-    "price_per_serve": 18.433179723502306, 
+    "price_per_serve": 0.217, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -105111,7 +105273,7 @@
   }, 
   {
     "serving_text": "2 Gummies", 
-    "price_per_serve": 16.949152542372882, 
+    "price_per_serve": 0.236, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -105239,7 +105401,7 @@
   }, 
   {
     "serving_text": "2 Gummies", 
-    "price_per_serve": 16.556291390728475, 
+    "price_per_serve": 0.2416, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -105367,7 +105529,7 @@
   }, 
   {
     "serving_text": "1/2 tablet (2 & 3 years of age); 1 tablet (4 years of age and older)", 
-    "price_per_serve": 26.402640264026402, 
+    "price_per_serve": 0.07575, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -105492,13 +105654,13 @@
     "container_text": " Fruit Flavors, 60 Tasti Smooth Chewable Tablets", 
     "size_indexes": [
       0, 
-      0
+      2
     ], 
     "name": "Flintstones, Children's Multivitamin Supplement, Fruit Flavors, 60 Tasti Smooth Chewable Tablets"
   }, 
   {
     "serving_text": "2 Chewable Tablets", 
-    "price_per_serve": 12.474012474012476, 
+    "price_per_serve": 0.32066666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -105615,7 +105777,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 10.298661174047373, 
+    "price_per_serve": 0.0971, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -105721,7 +105883,7 @@
   }, 
   {
     "serving_text": "1 tablet", 
-    "price_per_serve": 8.695652173913043, 
+    "price_per_serve": 0.11499999999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -105827,7 +105989,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 9.45179584120983, 
+    "price_per_serve": 0.1058, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -105933,7 +106095,7 @@
   }, 
   {
     "serving_text": "1 Packet", 
-    "price_per_serve": 2.7372262773722627, 
+    "price_per_serve": 0.36533333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -106051,7 +106213,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 10.723860589812332, 
+    "price_per_serve": 0.09325, 
     "num_Enzymes": 0, 
     "num_Vitamins": 3, 
     "container_sizes": [
@@ -106169,7 +106331,7 @@
   }, 
   {
     "serving_text": "2 Gummies", 
-    "price_per_serve": 21.220159151193634, 
+    "price_per_serve": 0.1885, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -106297,7 +106459,7 @@
   }, 
   {
     "serving_text": "Two (2) Tablets", 
-    "price_per_serve": 8.895478131949591, 
+    "price_per_serve": 0.44966666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -106403,7 +106565,7 @@
   }, 
   {
     "serving_text": "Two (2) Capsules", 
-    "price_per_serve": 8.426966292134832, 
+    "price_per_serve": 0.4746666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -106509,7 +106671,7 @@
   }, 
   {
     "serving_text": "One (1) Tablet", 
-    "price_per_serve": 4.0026684456304205, 
+    "price_per_serve": 0.24983333333333332, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -106615,7 +106777,7 @@
   }, 
   {
     "serving_text": "1 Tablespoon (15 ml)", 
-    "price_per_serve": 411.9351100811124, 
+    "price_per_serve": 0.5462025316455696, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -106746,7 +106908,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 3.382187147688839, 
+    "price_per_serve": 0.29566666666666663, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -106856,7 +107018,7 @@
   }, 
   {
     "serving_text": "1 softgel", 
-    "price_per_serve": 4.899292324442024, 
+    "price_per_serve": 0.20411111111111113, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -106984,7 +107146,7 @@
   }, 
   {
     "serving_text": "1 tablet", 
-    "price_per_serve": 12.873326467559217, 
+    "price_per_serve": 0.07768000000000001, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -107090,7 +107252,7 @@
   }, 
   {
     "serving_text": "Two (2) Tablets", 
-    "price_per_serve": 8.003557136505114, 
+    "price_per_serve": 0.49977777777777777, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -107196,7 +107358,7 @@
   }, 
   {
     "serving_text": "Three (3) Tablets", 
-    "price_per_serve": 16.007114273010227, 
+    "price_per_serve": 0.5622499999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -107302,7 +107464,7 @@
   }, 
   {
     "serving_text": "3 Tablets", 
-    "price_per_serve": 11.96808510638298, 
+    "price_per_serve": 0.752, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -107414,7 +107576,7 @@
   }, 
   {
     "serving_text": "6 Tablets", 
-    "price_per_serve": 21.43495087823757, 
+    "price_per_serve": 1.6795000000000002, 
     "num_Enzymes": 1, 
     "num_Vitamins": 7, 
     "container_sizes": [
@@ -107559,7 +107721,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 10.285714285714286, 
+    "price_per_serve": 1.5555555555555556, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -107703,7 +107865,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 1.5953203935123637, 
+    "price_per_serve": 0.6268333333333334, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -107815,7 +107977,7 @@
   }, 
   {
     "serving_text": "2 Gummy Bears", 
-    "price_per_serve": 22.508038585209004, 
+    "price_per_serve": 0.1777142857142857, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -107933,7 +108095,7 @@
   }, 
   {
     "serving_text": "1 Gummy for Children 2-4 Years of Age 2 Gummies for Children 4 and up", 
-    "price_per_serve": 9.216589861751153, 
+    "price_per_serve": 6.51, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -108050,13 +108212,13 @@
     "container_text": " Multi-Vitamin Gummies, 60 Pieces", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Disney, Princess, Multi-Vitamin Gummies, 60 Pieces"
   }, 
   {
     "serving_text": "2 Gummies", 
-    "price_per_serve": 18.433179723502306, 
+    "price_per_serve": 0.217, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -108179,7 +108341,7 @@
   }, 
   {
     "serving_text": "1 Gummy for Children 2-4 years of Age 2 Gummies for Children 4 and Up", 
-    "price_per_serve": 9.216589861751153, 
+    "price_per_serve": 6.51, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -108296,13 +108458,13 @@
     "container_text": " MultiVitamin, 60 Pieces", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Disney, Mickey Mouse Gummies, MultiVitamin, 60 Pieces"
   }, 
   {
     "serving_text": "2 Gummies", 
-    "price_per_serve": 18.433179723502306, 
+    "price_per_serve": 0.217, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -108430,7 +108592,7 @@
   }, 
   {
     "serving_text": "1 Gummy for Children 2-4 Years of Age - 2 Gummies for Children 4 and Up", 
-    "price_per_serve": 8.321775312066574, 
+    "price_per_serve": 0.12016666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -108553,7 +108715,7 @@
   }, 
   {
     "serving_text": "2 Gummies", 
-    "price_per_serve": 13.003901170351105, 
+    "price_per_serve": 0.30760000000000004, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -108671,7 +108833,7 @@
   }, 
   {
     "serving_text": "2 Jellies", 
-    "price_per_serve": 12.820512820512821, 
+    "price_per_serve": 0.312, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -108783,7 +108945,7 @@
   }, 
   {
     "serving_text": "2 Gummies for Children 2-3 Years of Age 4 Gummies for Children 4 Years and Older", 
-    "price_per_serve": 12.526096033402922, 
+    "price_per_serve": 0.31933333333333336, 
     "num_Enzymes": 0, 
     "num_Vitamins": 8, 
     "container_sizes": [
@@ -108911,7 +109073,7 @@
   }, 
   {
     "serving_text": "1 gummy (2-3 yrs) / 2 gummies (4+yrs)", 
-    "price_per_serve": 6.006006006006006, 
+    "price_per_serve": 0.1665, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -109027,7 +109189,7 @@
   }, 
   {
     "serving_text": "1 Teaspoon (5 ml)", 
-    "price_per_serve": 82.02038924930491, 
+    "price_per_serve": 0.3048022598870056, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -109146,7 +109308,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 32.358156028368796, 
+    "price_per_serve": 0.030904109589041093, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -109247,7 +109409,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 32.073813708260104, 
+    "price_per_serve": 0.031178082191780823, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -109348,7 +109510,7 @@
   }, 
   {
     "serving_text": "1 Tablespoon (1/2 fl oz / 15 ml)", 
-    "price_per_serve": 0.6944444444444444, 
+    "price_per_serve": 0.36, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -109462,7 +109624,7 @@
   }, 
   {
     "serving_text": "s: Infants: One (1) Teaspoon (5 ml) 1-3 Years: Two (2) Teaspoons (10 ml)", 
-    "price_per_serve": 175.68569310600446, 
+    "price_per_serve": 0.5691983122362869, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -109575,7 +109737,7 @@
   }, 
   {
     "serving_text": "1 Gummy for Children 2 and 3 years of Age 2 Gummies for Children 4 and Up", 
-    "price_per_serve": 13.23529411764706, 
+    "price_per_serve": 13.6, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -109692,13 +109854,13 @@
     "container_text": " Multi-Vitamin, 180 Pieces", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Disney, Cars Gummies, Multi-Vitamin, 180 Pieces"
   }, 
   {
     "serving_text": "1 Gummy for Children 2 and 3 years of Age 2 Gummies for Children 4 and Up", 
-    "price_per_serve": 13.23529411764706, 
+    "price_per_serve": 13.6, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -109815,13 +109977,13 @@
     "container_text": " Multi-Vitamin Gummies, 180 Pieces", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Disney, Princess, Multi-Vitamin Gummies, 180 Pieces"
   }, 
   {
     "serving_text": "1 ml", 
-    "price_per_serve": 4.316546762589928, 
+    "price_per_serve": 0.23166666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -109926,7 +110088,7 @@
   }, 
   {
     "serving_text": "1 ml", 
-    "price_per_serve": 4.154929577464789, 
+    "price_per_serve": 0.2406779661016949, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -110031,7 +110193,7 @@
   }, 
   {
     "serving_text": "2 Gummy Bears", 
-    "price_per_serve": 24.390243902439025, 
+    "price_per_serve": 0.164, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -110149,7 +110311,7 @@
   }, 
   {
     "serving_text": "2 Gummies for Child 2-3 Years of Age- 4 Gummies for Children 4 Years and Older", 
-    "price_per_serve": 15.018773466833542, 
+    "price_per_serve": 0.26633333333333337, 
     "num_Enzymes": 0, 
     "num_Vitamins": 8, 
     "container_sizes": [
@@ -110277,7 +110439,7 @@
   }, 
   {
     "serving_text": "4 Gummies", 
-    "price_per_serve": 25.723472668810288, 
+    "price_per_serve": 0.622, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -110405,7 +110567,7 @@
   }, 
   {
     "serving_text": "10 ml", 
-    "price_per_serve": 133.04949441192124, 
+    "price_per_serve": 0.7515999999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -110521,7 +110683,7 @@
   }, 
   {
     "serving_text": "1 Tablespoon (1/2 fl oz / 15 ml)", 
-    "price_per_serve": 0.4166666666666667, 
+    "price_per_serve": 0.6, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -110635,7 +110797,7 @@
   }, 
   {
     "serving_text": "4 Gummies", 
-    "price_per_serve": 18.853102906520032, 
+    "price_per_serve": 0.8486666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -110768,7 +110930,7 @@
   }, 
   {
     "serving_text": "10 ml", 
-    "price_per_serve": 161.13438607798906, 
+    "price_per_serve": 0.6206, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -110884,7 +111046,7 @@
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 6.495263870094722, 
+    "price_per_serve": 0.6158333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -110984,7 +111146,7 @@
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 6.495263870094722, 
+    "price_per_serve": 0.6158333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 12, 
     "container_sizes": [
@@ -111095,7 +111257,7 @@
   }, 
   {
     "serving_text": "6 Gummies", 
-    "price_per_serve": 28.88472853704199, 
+    "price_per_serve": 1.2463333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -111228,7 +111390,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 16.949152542372882, 
+    "price_per_serve": 0.059000000000000004, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -111324,7 +111486,7 @@
   }, 
   {
     "serving_text": "1 Gummy Bear (Age 2-3); 2 Gummy Bears (Age 4 & Up)", 
-    "price_per_serve": 12.096774193548388, 
+    "price_per_serve": 0.08266666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -111431,7 +111593,7 @@
   }, 
   {
     "serving_text": "2 Tablespoons (1 oz /30 ml)", 
-    "price_per_serve": 62.66318537859008, 
+    "price_per_serve": 0.47875, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -111543,14 +111705,14 @@
     "num_Amino Acids": 0, 
     "container_text": " Natural Citrus Flavor, 16 fl oz (480 ml)", 
     "size_indexes": [
-      0, 
+      1, 
       0
     ], 
     "name": "Wellesse Premium Liquid Supplements, Multi Vitamin+, Sugar Free, Natural Citrus Flavor, 16 fl oz (480 ml)"
   }, 
   {
     "serving_text": "1 MicroLingual Tablet", 
-    "price_per_serve": 12.836970474967908, 
+    "price_per_serve": 0.0779, 
     "num_Enzymes": 0, 
     "num_Vitamins": 11, 
     "container_sizes": [
@@ -111645,7 +111807,7 @@
   }, 
   {
     "serving_text": "1 soccer ball (1.5 g)", 
-    "price_per_serve": 3.472222222222222, 
+    "price_per_serve": 0.28800000000000003, 
     "num_Enzymes": 0, 
     "num_Vitamins": 8, 
     "container_sizes": [
@@ -111756,7 +111918,7 @@
   }, 
   {
     "serving_text": "1/2 tablet (2 & 3 years of age); 1 tablet (4 years of age and older)", 
-    "price_per_serve": 26.402640264026402, 
+    "price_per_serve": 0.07575, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -111871,13 +112033,13 @@
     "container_text": " Fruit Flavors, 60 Chewable Tablets", 
     "size_indexes": [
       0, 
-      0
+      2
     ], 
     "name": "Flintstones, Children's Multivitamin Supplement with Iron, Fruit Flavors, 60 Chewable Tablets"
   }, 
   {
     "serving_text": "1 Gummy Bear (Age 2-3); Gummy Bears (Age 4 & up)", 
-    "price_per_serve": 11.746280344557556, 
+    "price_per_serve": 0.08513333333333332, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -111984,7 +112146,7 @@
   }, 
   {
     "serving_text": "2 Gummies", 
-    "price_per_serve": 18.794048551292093, 
+    "price_per_serve": 0.21283333333333332, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -112091,7 +112253,7 @@
   }, 
   {
     "serving_text": "2 Gummies", 
-    "price_per_serve": 18.794048551292093, 
+    "price_per_serve": 0.21283333333333332, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -112198,7 +112360,7 @@
   }, 
   {
     "serving_text": "2 Gummies", 
-    "price_per_serve": 18.794048551292093, 
+    "price_per_serve": 0.21283333333333332, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -112305,7 +112467,7 @@
   }, 
   {
     "serving_text": "1 Gummy Bear (Age 2-3); 2 Gummy Bears (Age 4 & Up)", 
-    "price_per_serve": 11.746280344557556, 
+    "price_per_serve": 0.08513333333333332, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -112412,7 +112574,7 @@
   }, 
   {
     "serving_text": "1 Gummy Bear (Age 2-3); 2 Gummy Bears (Age 4 & Up)", 
-    "price_per_serve": 11.746280344557556, 
+    "price_per_serve": 0.08513333333333332, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -112519,7 +112681,7 @@
   }, 
   {
     "serving_text": "1 gummy (2 & 3 years of age); 2 gummies (4 years of age and older)", 
-    "price_per_serve": 10.129431626336522, 
+    "price_per_serve": 0.09872222222222223, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -112634,7 +112796,7 @@
   }, 
   {
     "serving_text": "1 gummy (2 & 3 years of age); 2 gummies (4 years of age and older)", 
-    "price_per_serve": 8.441193021947102, 
+    "price_per_serve": 0.11846666666666666, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -112755,7 +112917,7 @@
   }, 
   {
     "serving_text": "1 slice", 
-    "price_per_serve": 1.4251781472684084, 
+    "price_per_serve": 21.05, 
     "num_Enzymes": 0, 
     "num_Vitamins": 8, 
     "container_sizes": [
@@ -112872,13 +113034,13 @@
     "container_text": " Tropical Punch Flavored, 30 Day Supply", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Hero Nutritional Products, New! Slice of Life, Diabetic Health, Sugar Free, Tropical Punch Flavored, 30 Day Supply"
   }, 
   {
     "serving_text": "1 Multi-pack", 
-    "price_per_serve": 1.1131725417439704, 
+    "price_per_serve": 0.8983333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 8, 
     "container_sizes": [
@@ -112996,7 +113158,7 @@
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 6.495263870094722, 
+    "price_per_serve": 0.6158333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -113104,7 +113266,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 16.949152542372882, 
+    "price_per_serve": 0.059000000000000004, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -113194,7 +113356,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 16.949152542372882, 
+    "price_per_serve": 0.059000000000000004, 
     "num_Enzymes": 0, 
     "num_Vitamins": 10, 
     "container_sizes": [
@@ -113284,7 +113446,7 @@
   }, 
   {
     "serving_text": "2 Gummi King Gummies", 
-    "price_per_serve": 23.25581395348837, 
+    "price_per_serve": 0.17200000000000001, 
     "num_Enzymes": 0, 
     "num_Vitamins": 7, 
     "container_sizes": [
@@ -113392,7 +113554,7 @@
   }, 
   {
     "serving_text": "2 bears", 
-    "price_per_serve": 12.820512820512821, 
+    "price_per_serve": 9.36, 
     "num_Enzymes": 0, 
     "num_Vitamins": 8, 
     "container_sizes": [
@@ -113488,13 +113650,13 @@
     "container_text": " Yummy Grape Flavor, 60 Jellies", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Yum-V's,  Multivitamin + Mineral Formula, Yummy Grape Flavor, 60 Jellies"
   }, 
   {
     "serving_text": "2 Gummies", 
-    "price_per_serve": 17.89709172259508, 
+    "price_per_serve": 0.2235, 
     "num_Enzymes": 0, 
     "num_Vitamins": 8, 
     "container_sizes": [
@@ -113596,7 +113758,7 @@
   }, 
   {
     "serving_text": "1 fl oz (30 ml) = 2 Tablespoon", 
-    "price_per_serve": 1285.7142857142858, 
+    "price_per_serve": 0.7, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -113712,7 +113874,7 @@
   }, 
   {
     "serving_text": "2 Tablets", 
-    "price_per_serve": 4.844570044408559, 
+    "price_per_serve": 0.8256666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -113803,7 +113965,7 @@
   }, 
   {
     "serving_text": "2 tsp daily", 
-    "price_per_serve": 15.77192397465822, 
+    "price_per_serve": 29.99, 
     "num_Enzymes": 0, 
     "num_Vitamins": 6, 
     "container_sizes": [
@@ -113892,13 +114054,13 @@
     "container_text": " Liquid Vitamin Mineral Rush, 8 fl oz (236.5 ml)", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Sun Warrior, Liquid Vitamin Mineral Rush, 8 fl oz (236.5 ml)"
   }, 
   {
     "serving_text": "1 Dropper (1 ml)", 
-    "price_per_serve": 5.903187721369539, 
+    "price_per_serve": 0.16940000000000002, 
     "num_Enzymes": 0, 
     "num_Vitamins": 9, 
     "container_sizes": [
@@ -113997,7 +114159,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 2.3492560689115116, 
+    "price_per_serve": 0.42566666666666664, 
     "num_Enzymes": 0, 
     "num_Vitamins": 6, 
     "container_sizes": [
@@ -114089,7 +114251,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 48.24120603015076, 
+    "price_per_serve": 0.33166666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 3, 
     "container_sizes": [
@@ -114176,7 +114338,7 @@
   }, 
   {
     "serving_text": "10 ml", 
-    "price_per_serve": 96.19084263178146, 
+    "price_per_serve": 1.0396, 
     "num_Enzymes": 0, 
     "num_Vitamins": 8, 
     "container_sizes": [
@@ -114271,7 +114433,7 @@
   }, 
   {
     "serving_text": "6 spray", 
-    "price_per_serve": 5.815831987075929, 
+    "price_per_serve": 30.950000000000003, 
     "num_Enzymes": 0, 
     "num_Vitamins": 8, 
     "container_sizes": [
@@ -114349,13 +114511,13 @@
     "container_text": " MultiVitamin, 1 fl oz (30 ml)", 
     "size_indexes": [
       0, 
-      0
+      -1
     ], 
     "name": "Lumina Health Cell Food, MultiVitamin, 1 fl oz (30 ml)"
   }, 
   {
     "serving_text": "10 ml", 
-    "price_per_serve": 127.58356723653995, 
+    "price_per_serve": 0.7837999999999999, 
     "num_Enzymes": 0, 
     "num_Vitamins": 8, 
     "container_sizes": [
@@ -114450,7 +114612,7 @@
   }, 
   {
     "serving_text": "1 Gummy Vitamin", 
-    "price_per_serve": 12.5, 
+    "price_per_serve": 0.08, 
     "num_Enzymes": 0, 
     "num_Vitamins": 7, 
     "container_sizes": [
@@ -114542,7 +114704,7 @@
   }, 
   {
     "serving_text": "2 Gummi King Gummies", 
-    "price_per_serve": 18.29268292682927, 
+    "price_per_serve": 0.21866666666666665, 
     "num_Enzymes": 0, 
     "num_Vitamins": 7, 
     "container_sizes": [
@@ -114634,7 +114796,7 @@
   }, 
   {
     "serving_text": "1 Capsule", 
-    "price_per_serve": 1.5151515151515151, 
+    "price_per_serve": 0.66, 
     "num_Enzymes": 0, 
     "num_Vitamins": 5, 
     "container_sizes": [
@@ -114738,7 +114900,7 @@
   }, 
   {
     "serving_text": "3 Tablets (3 g)", 
-    "price_per_serve": 25.726536445926634, 
+    "price_per_serve": 0.3498333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 3, 
     "container_sizes": [
@@ -114830,7 +114992,7 @@
   }, 
   {
     "serving_text": "2 Softgels", 
-    "price_per_serve": 10.38961038961039, 
+    "price_per_serve": 0.385, 
     "num_Enzymes": 0, 
     "num_Vitamins": 5, 
     "container_sizes": [
@@ -114895,7 +115057,7 @@
   }, 
   {
     "serving_text": "3 tablets", 
-    "price_per_serve": 14.069828035435123, 
+    "price_per_serve": 0.6396666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 3, 
     "container_sizes": [
@@ -114961,7 +115123,7 @@
   }, 
   {
     "serving_text": "One Capsule", 
-    "price_per_serve": 3.061224489795918, 
+    "price_per_serve": 0.3266666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 4, 
     "container_sizes": [
@@ -115027,7 +115189,7 @@
   }, 
   {
     "serving_text": "1 capsule", 
-    "price_per_serve": 4.582484725050916, 
+    "price_per_serve": 0.21822222222222223, 
     "num_Enzymes": 0, 
     "num_Vitamins": 4, 
     "container_sizes": [
@@ -115093,7 +115255,7 @@
   }, 
   {
     "serving_text": "3 Gummies", 
-    "price_per_serve": 11.7442366246194, 
+    "price_per_serve": 0.7663333333333333, 
     "num_Enzymes": 0, 
     "num_Vitamins": 4, 
     "container_sizes": [
@@ -115176,7 +115338,7 @@
   }, 
   {
     "serving_text": "1 Tablet", 
-    "price_per_serve": 6.28140703517588, 
+    "price_per_serve": 0.15919999999999998, 
     "num_Enzymes": 0, 
     "num_Vitamins": 3, 
     "container_sizes": [
@@ -115242,7 +115404,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 19.055180627233028, 
+    "price_per_serve": 0.8396666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 3, 
     "container_sizes": [
@@ -115335,7 +115497,7 @@
   }, 
   {
     "serving_text": "1 Softgel", 
-    "price_per_serve": 1.9047619047619047, 
+    "price_per_serve": 0.525, 
     "num_Enzymes": 0, 
     "num_Vitamins": 4, 
     "container_sizes": [
@@ -115395,7 +115557,7 @@
   }, 
   {
     "serving_text": "2 Gummies", 
-    "price_per_serve": 12.5, 
+    "price_per_serve": 0.32, 
     "num_Enzymes": 0, 
     "num_Vitamins": 1, 
     "container_sizes": [
@@ -115462,7 +115624,7 @@
   }, 
   {
     "serving_text": "4 Tablets", 
-    "price_per_serve": 34.18803418803419, 
+    "price_per_serve": 0.46799999999999997, 
     "num_Enzymes": 0, 
     "num_Vitamins": 1, 
     "container_sizes": [
@@ -115530,7 +115692,7 @@
   }, 
   {
     "serving_text": "2 Slices", 
-    "price_per_serve": 7.8431372549019605, 
+    "price_per_serve": 0.51, 
     "num_Enzymes": 0, 
     "num_Vitamins": 3, 
     "container_sizes": [
@@ -115596,7 +115758,7 @@
   }, 
   {
     "serving_text": "2 softgels", 
-    "price_per_serve": 9.379885356956748, 
+    "price_per_serve": 0.42644444444444446, 
     "num_Enzymes": 0, 
     "num_Vitamins": 1, 
     "container_sizes": [
@@ -115669,7 +115831,7 @@
   }, 
   {
     "serving_text": "3 Yummi Bears", 
-    "price_per_serve": 29.055690072639223, 
+    "price_per_serve": 0.30974999999999997, 
     "num_Enzymes": 0, 
     "num_Vitamins": 3, 
     "container_sizes": [
@@ -115735,7 +115897,7 @@
   }, 
   {
     "serving_text": "2 Capsules", 
-    "price_per_serve": 12.06030150753769, 
+    "price_per_serve": 0.33166666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 1, 
     "container_sizes": [
@@ -115786,7 +115948,7 @@
   }, 
   {
     "serving_text": "1 oz. (1 oz. = 2 tablespoons)", 
-    "price_per_serve": 41.65565830030823, 
+    "price_per_serve": 0.7096875, 
     "num_Enzymes": 0, 
     "num_Vitamins": 2, 
     "container_sizes": [
@@ -115859,14 +116021,14 @@
     "num_Amino Acids": 0, 
     "container_text": " Children's Multi, 32 fl oz (946 ml)", 
     "size_indexes": [
-      0, 
+      1, 
       0
     ], 
     "name": "Liquid Health Products, Children's Multi, 32 fl oz (946 ml)"
   }, 
   {
     "serving_text": "1 oz. (1 oz. = 2 tablespoons)", 
-    "price_per_serve": 38.56502242152466, 
+    "price_per_serve": 0.7665625, 
     "num_Enzymes": 0, 
     "num_Vitamins": 1, 
     "container_sizes": [
@@ -115935,14 +116097,14 @@
     "num_Amino Acids": 0, 
     "container_text": " Multi-Vitamin with Calcium and Folic Acid, 32 fl oz (946 ml)", 
     "size_indexes": [
-      0, 
+      1, 
       0
     ], 
     "name": "Liquid Health Products, Women's Multi, Multi-Vitamin with Calcium and Folic Acid, 32 fl oz (946 ml)"
   }, 
   {
     "serving_text": "1 capsule", 
-    "price_per_serve": 5.960264900662252, 
+    "price_per_serve": 0.16777777777777778, 
     "num_Enzymes": 0, 
     "num_Vitamins": 1, 
     "container_sizes": [
@@ -115993,7 +116155,7 @@
   }, 
   {
     "serving_text": "1 Rounded Teaspoon (4 g)", 
-    "price_per_serve": 30.495552731893266, 
+    "price_per_serve": 0.5246666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 1, 
     "container_sizes": [
@@ -116048,7 +116210,7 @@
   }, 
   {
     "serving_text": "4 Capsules", 
-    "price_per_serve": 28.235294117647058, 
+    "price_per_serve": 0.5666666666666667, 
     "num_Enzymes": 0, 
     "num_Vitamins": 1, 
     "container_sizes": [
