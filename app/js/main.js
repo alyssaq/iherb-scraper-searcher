@@ -11,6 +11,8 @@
         allnutrients: res[1],
         categories: categories
       };
+  
+      nunjucks.configure({ watch: false });
       var rendered = nunjucks.render('results.html', data, function (err, res) {
         document.getElementById('results').innerHTML = res;
         addEvents();
