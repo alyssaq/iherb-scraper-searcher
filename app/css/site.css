@@ -35,6 +35,9 @@ td {
 #nutrients {
   padding-left: 147px;
 }
+tr input {
+  float: left;
+}
 tr: nth-child(even) {
   background-color: ghostwhite;
 }

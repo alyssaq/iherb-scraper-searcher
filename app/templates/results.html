@@ -1,36 +1,31 @@
 <div class="wrapper">
-
 <table id="nutrients">
   <thead>
   <tr>
-    <th></th>
     <th class="header"></th>
     {% for row in data %}
     <th>
       <a href="{{ row.url }}">{{ row.name }}</a>
-    </th>
+    
     {% endfor %}
   </tr>
   </thead>
   <tbody>
   <tr class="price">
-    <td></td>
-    <td class="header sorter">Price</td>
+    <td class="header sorter" data-key="price">Price</td>
     {% for row in data %}
       <td>{{ row.price }}</td>
     {% endfor %}
   </tr>
 
   <tr class="price_per_serve">
-    <td></td>
-    <td class="header sorter">Price per serve</td>
+    <td class="header sorter" data-key="price_per_serve">Price per serve</td>
     {% for row in data %}
       <td>{{ row.price_per_serve | round(2) }}</td>
     {% endfor %}
   </tr>
 
   <tr class="container_size">
-    <td></td>
     <td class="header">Size</td>
     {% for row in data %}
       <td>
@@ -41,7 +36,6 @@
   </tr>
 
   <tr class="serving_size">
-    <td></td>
     <td class="header">Serve</td>
     {% for row in data %}
       <td>
@@ -53,7 +47,6 @@
 
   {% for category in categories %}
   <tr class="category">
-    <td></td>
     <td class="header">{{ category }}</td>
     {% for row in data %}
       <td>{{ row["num_" + category] }}</td>
@@ -62,10 +55,11 @@
 
   {% for nutrients in allnutrients[category] %}
   <tr>
-    <td><input type="checkbox" 
-          data-category="{{category}}" {{ checkedBox[nutrients[0]] }}></td>
     <!-- <td><div  class='num_slider'></div></td> -->
-    <td class="header">{{ nutrients[0] }}</td>
+    <td class="header">
+      <input type="checkbox" data-category="{{category}}" {{ checkedBox[nutrients[0]] }}>
+      {{ nutrients[0] }} 
+    </td>
     {% for row in data %}
       {% if row.nutrients[category].hasOwnProperty(nutrients[0]) %}
         {% if row.nutrients[category][nutrients[0]][2] == 0 %}
