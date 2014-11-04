@@ -55,7 +55,7 @@ module.exports = function (grunt) {
             'index.html',
             '*.{ico,txt}',
             'data/*.json',
-            'js/{,*/}*.js'
+            'js/{,*/}*.js',
           ]
         }]
       }

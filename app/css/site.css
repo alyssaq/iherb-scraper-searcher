@@ -1,16 +1,20 @@
 body {
   font-family: Helvetica, sans-serif;
 }
-.block {
-  width: 800px;
-  height: 100%;
-  border: dashed;
-  margin: 0 auto;
-  padding: 0px 0px 10px 0px;
-}
 h3, h2 {
   background-color: #FFFFFF;
   text-align: center;
+}
+table {
+  border-spacing: 0px;
+  border-collapse: separate;
+  padding: 0;
+  margin: 0;
+}
+#header table {
+  height: 200px;
+  overflow-y: hidden;
+  display: block;
 }
 .wrapper { 
   overflow-x:scroll;  
@@ -18,20 +22,30 @@ h3, h2 {
   overflow-y:visible;
 }
 .category > td {
-  border-bottom: black solid;
+  border-bottom: 2px black solid;
   border-top: 1px grey solid;
   padding-top: 10px;  
 }
-
-#nutrients {
-  padding-left: 82px;
+td {
+  margin: 0;
+  padding-right: 7px;
+  white-space:nowrap;
 }
-
-.header {
+#nutrients {
+  padding-left: 147px;
+}
+tr: nth-child(even) {
+  background-color: ghostwhite;
+}
+th .header {
+  height: 100%;
+}
+tr .header {
+  text-align: right;
   background-color: white;
   position:absolute; 
-  width:6em; 
-  left:0;
-  top:auto;
-  border-right: 0px none black; 
+  width: 155px; 
+  left: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
