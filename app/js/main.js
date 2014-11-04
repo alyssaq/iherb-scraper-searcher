@@ -61,15 +61,16 @@
             i = i - 1;
           }
         }
-      } else {
+        reloadResults();
+      } else if (removed.length > 0) {
         delete DATA.checkedBox[selectedText];
         for (var i = 0; i < removed.length; i++) {
           var nutrient = removed[i].nutrients;
           data.push(removed.splice(i, 1)[0]);
           i = i - 1;
         }
+        reloadResults();
       }
-      reloadResults();
     });
 
     $('.dsorter').click(function () {
