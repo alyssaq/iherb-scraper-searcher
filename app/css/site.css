@@ -10,6 +10,7 @@ table {
   border-collapse: separate;
   padding: 0;
   margin: 0;
+  min-height: 1880px;
 }
 #header table {
   height: 200px;
@@ -37,9 +38,6 @@ td {
 tr: nth-child(even) {
   background-color: ghostwhite;
 }
-th .header {
-  height: 100%;
-}
 tr .header {
   text-align: right;
   background-color: white;
@@ -48,4 +46,7 @@ tr .header {
   left: 0;
   text-overflow: ellipsis;
   overflow: hidden;
+}
+tr th .header {
+  height: 100% !important;
 }
