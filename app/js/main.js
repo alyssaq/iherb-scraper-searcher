@@ -48,14 +48,15 @@
       var multiV = DATA.data;
       var removed = DATA.removed;
       var selectedText = this.parentElement.nextElementSibling.textContent;
+      var category = this.dataset.category;
 
       if (this.checked) {        
         DATA.checkedBox[selectedText] = 'checked';
         for (var i = 0; i < multiV.length; i++) {
-          var vitamins = multiV[i].nutrients.Vitamins;
+          var nutrient = multiV[i].nutrients[category];
 
-          if (!vitamins[selectedText] || 
-            (vitamins[selectedText] && vitamins[selectedText][2] < 100)) {
+          if (!nutrient[selectedText] || 
+            (nutrient[selectedText] && nutrient[selectedText][2] < 100)) {
             removed.push(multiV.splice(i, 1)[0]);
             i = i - 1;
           }
@@ -63,7 +64,7 @@
       } else {
         delete DATA.checkedBox[selectedText];
         for (var i = 0; i < removed.length; i++) {
-          var vitamins = removed[i].nutrients.Vitamins;
+          var nutrient = removed[i].nutrients[category];
           multiV.push(removed.splice(i, 1)[0]);
           i = i - 1;
         }

@@ -31,7 +31,7 @@
 
   <tr class="container_size">
     <td></td>
-    <td class="header sorter">Size</td>
+    <td class="header">Size</td>
     {% for row in data %}
       <td>
       {% set size = row.container_sizes[row.size_indexes[0]] %}
@@ -42,7 +42,7 @@
 
   <tr class="serving_size">
     <td></td>
-    <td class="header sorter">Serve</td>
+    <td class="header">Serve</td>
     {% for row in data %}
       <td>
        {% set size = row.serving_sizes[row.size_indexes[1]] %}
@@ -62,9 +62,10 @@
 
   {% for nutrients in allnutrients[category] %}
   <tr>
-    <td><input type="checkbox" {{ checkedBox[nutrients[0]] }}></td>
+    <td><input type="checkbox" 
+          data-category="{{category}}" {{ checkedBox[nutrients[0]] }}></td>
     <!-- <td><div  class='num_slider'></div></td> -->
-    <td class="header sorter">{{ nutrients[0] }}</td>
+    <td class="header">{{ nutrients[0] }}</td>
     {% for row in data %}
       {% if row.nutrients[category].hasOwnProperty(nutrients[0]) %}
         {% if row.nutrients[category][nutrients[0]][2] == 0 %}
