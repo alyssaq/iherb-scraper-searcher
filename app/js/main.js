@@ -3,21 +3,23 @@
   var nutrientsXhr = $.getJSON('data/nutrients.json');
   var categories = ['Vitamins', 'Minerals', 'Macronutrients',
     'Trace Elements', 'Amino Acids', 'Enzymes'];
+  var DATA = {removed: [], data: [], checkedBox: {}, categories: categories};
+
+  FastClick.attach(document.body);
+  function reloadResults() {
+    nunjucks.configure({ watch: false });
+    var rendered = nunjucks.render('results.html', DATA);
+    document.getElementById('results').innerHTML = rendered;
+    addEvents();
+  }
 
   Promise.all([multivXhr, nutrientsXhr])
     .then(function (res) {
-      var data = {
-        data: res[0],
-        allnutrients: res[1],
-        categories: categories
-      };
-  
-      nunjucks.configure({ watch: false });
-      var rendered = nunjucks.render('results.html', data, function (err, res) {
-        document.getElementById('results').innerHTML = res;
-        addEvents();
-      });
-    })
+      DATA.data = res[0];
+      DATA.allnutrients = res[1];
+
+      reloadResults();
+    });
 
   function min(arr, startIdx) {
     startIdx = startIdx || 0;
@@ -42,21 +44,31 @@
   }
 
   function addEvents() {
-    $('input[type=checkbox]').change(
-    function() {
-      if (this.checked) {
-        var startIdx = 2;
-        var clickedRow = $(this).closest('tr').find('td').slice(startIdx);
-        var $rows = $('#nutrients tr');
-        $.each(clickedRow, function (idx, cell) {
-          var val = parseInt(cell.textContent, 10);
-          if (isNaN(val) || val < 100) {
-            var colIdx = startIdx + 1 + idx;
-            $rows.find('*:nth-child('+ colIdx +')').css('display','none');
-            setTimeout(function(){return}, 10);
+    $('input[type=checkbox]').change(function () {
+      var multiV = DATA.data;
+      var removed = DATA.removed;
+      var selectedText = this.parentElement.nextElementSibling.textContent;
+
+      if (this.checked) {        
+        DATA.checkedBox[selectedText] = 'checked';
+        for (var i = 0; i < multiV.length; i++) {
+          var vitamins = multiV[i].nutrients.Vitamins;
+
+          if (!vitamins[selectedText] || 
+            (vitamins[selectedText] && vitamins[selectedText][2] < 100)) {
+            removed.push(multiV.splice(i, 1)[0]);
+            i = i - 1;
           }
-        });
+        }
+      } else {
+        delete DATA.checkedBox[selectedText];
+        for (var i = 0; i < removed.length; i++) {
+          var vitamins = removed[i].nutrients.Vitamins;
+          multiV.push(removed.splice(i, 1)[0]);
+          i = i - 1;
+        }
       }
+      reloadResults();
     });
 
     $('.dsorter').click(function () {

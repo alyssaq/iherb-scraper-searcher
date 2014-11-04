@@ -62,7 +62,7 @@
 
   {% for nutrients in allnutrients[category] %}
   <tr>
-    <td><input type="checkbox" class="{{ nutrients[0].toLowerCase() }}"></td>
+    <td><input type="checkbox" {{ checkedBox[nutrients[0]] }}></td>
     <!-- <td><div  class='num_slider'></div></td> -->
     <td class="header sorter">{{ nutrients[0] }}</td>
     {% for row in data %}
