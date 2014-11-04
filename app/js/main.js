@@ -1,11 +1,21 @@
 (function () {
-  // $(document).ready(function() {
-  //   $('#nutrients').DataTable({
-  //     "paging":   false,
-  //     "ordering": false,
-  //     "info":     false
-  //   });
-  // });
+  var multivXhr = $.getJSON('data/results.json');
+  var nutrientsXhr = $.getJSON('data/nutrients.json');
+  var categories = ['Vitamins', 'Minerals', 'Macronutrients',
+    'Trace Elements', 'Amino Acids', 'Enzymes'];
+
+  Promise.all([multivXhr, nutrientsXhr])
+    .then(function (res) {
+      var data = {
+        data: res[0],
+        allnutrients: res[1],
+        categories: categories
+      };
+      var rendered = nunjucks.render('results.html', data, function (err, res) {
+        document.getElementById('results').innerHTML = res;
+        addEvents();
+      });
+    })
 
   function min(arr, startIdx) {
     startIdx = startIdx || 0;
@@ -29,48 +39,50 @@
     data[b] = temp;
   }
 
-  $('input[type=checkbox]').change(
-  function() {
-    if (this.checked) {
+  function addEvents() {
+    $('input[type=checkbox]').change(
+    function() {
+      if (this.checked) {
+        var startIdx = 2;
+        var clickedRow = $(this).closest('tr').find('td').slice(startIdx);
+        var $rows = $('#nutrients tr');
+        $.each(clickedRow, function (idx, cell) {
+          var val = parseInt(cell.textContent, 10);
+          if (isNaN(val) || val < 100) {
+            var colIdx = startIdx + 1 + idx;
+            $rows.find('*:nth-child('+ colIdx +')').css('display','none');
+            setTimeout(function(){return}, 10);
+          }
+        });
+      }
+    });
+
+    $('.dsorter').click(function () {
       var startIdx = 2;
       var clickedRow = $(this).closest('tr').find('td').slice(startIdx);
       var $rows = $('#nutrients tr');
-      $.each(clickedRow, function (idx, cell) {
-        var val = parseInt(cell.textContent, 10);
-        if (isNaN(val) || val < 100) {
-          var colIdx = startIdx + 1 + idx;
-          $rows.find('*:nth-child('+ colIdx +')').css('display','none');
-          setTimeout(function(){return}, 10);
-        }
+
+      var data = [];
+      $.each(clickedRow, function (i, cell) {
+        data.push(parseFloat(cell.textContent, 10));
       });
-    }
-  });
+      
+      for (var i = 1; i < clickedRow.length; i++) {
+        var minData = min(data, i);
+        var minIndex = minData[0];
 
-  $('.dsorter').click(function () {
-    var startIdx = 2;
-    var clickedRow = $(this).closest('tr').find('td').slice(startIdx);
-    var $rows = $('#nutrients tr');
+        if (minIndex !== i) {
+          var col1 = $rows.find('*:nth-child('+ (startIdx + i) +')');
+          var col2 = $rows.find('*:nth-child('+ (startIdx + 1 + minIndex) +')');
+          swap(data, i-1, minIndex);
 
-    var data = [];
-    $.each(clickedRow, function (i, cell) {
-      data.push(parseFloat(cell.textContent, 10));
-    });
-    
-    for (var i = 1; i < clickedRow.length; i++) {
-      var minData = min(data, i);
-      var minIndex = minData[0];
-
-      if (minIndex !== i) {
-        var col1 = $rows.find('*:nth-child('+ (startIdx + i) +')');
-        var col2 = $rows.find('*:nth-child('+ (startIdx + 1 + minIndex) +')');
-        swap(data, i-1, minIndex);
-
-        for (var j = 0; j < col1.length; j++) {
-          var temp = col1[i].textContent;
-          col1[j].textContent = col2[j].textContent;
-          col2[j].textContent = temp;  
+          for (var j = 0; j < col1.length; j++) {
+            var temp = col1[i].textContent;
+            col1[j].textContent = col2[j].textContent;
+            col2[j].textContent = temp;  
+          }
         }
       }
-    }
-  });
+    });
+  }
 })()
