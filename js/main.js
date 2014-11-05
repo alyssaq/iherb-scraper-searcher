@@ -1,11 +1,25 @@
 (function () {
-  // $(document).ready(function() {
-  //   $('#nutrients').DataTable({
-  //     "paging":   false,
-  //     "ordering": false,
-  //     "info":     false
-  //   });
-  // });
+  var multivXhr = $.getJSON('data/results.json');
+  var nutrientsXhr = $.getJSON('data/nutrients.json');
+  var categories = ['Vitamins', 'Minerals', 'Macronutrients',
+    'Trace Elements', 'Amino Acids', 'Enzymes'];
+  var DATA = {removed: [], data: [], checkedBox: {}, categories: categories};
+
+  FastClick.attach(document.body);
+  function render() {
+    nunjucks.configure({ watch: false });
+    var rendered = nunjucks.render('results.html', DATA);
+    document.getElementById('results').innerHTML = rendered;
+    addEvents();
+  }
+
+  Promise.all([multivXhr, nutrientsXhr])
+    .then(function (res) {
+      DATA.data = res[0];
+      DATA.allnutrients = res[1];
+
+      render();
+    });
 
   function min(arr, startIdx) {
     startIdx = startIdx || 0;
@@ -29,48 +43,62 @@
     data[b] = temp;
   }
 
-  $('input[type=checkbox]').change(
-  function() {
-    if (this.checked) {
+  function addEvents() {
+    $('input[type=checkbox]').change(function () {
+      var data = DATA.data;
+      var removed = DATA.removed;
+      var selectedText = this.parentElement.textContent.trim();
+      var category = this.dataset.category;
+
+      if (this.checked) {        
+        DATA.checkedBox[selectedText] = 'checked';
+        for (var i = 0; i < data.length; i++) {
+          var nutrient = data[i].nutrients[category];
+
+          if (!nutrient[selectedText] || 
+            (nutrient[selectedText] && nutrient[selectedText][2] < 100)) {
+            removed.push(data.splice(i, 1)[0]);
+            i = i - 1;
+          }
+        }
+        render();
+      } else if (removed.length > 0) {
+        delete DATA.checkedBox[selectedText];
+        for (var i = 0; i < removed.length; i++) {
+          var nutrient = removed[i].nutrients;
+          data.push(removed.splice(i, 1)[0]);
+          i = i - 1;
+        }
+        render();
+      }
+    });
+
+    $('.dsorter').click(function () {
       var startIdx = 2;
       var clickedRow = $(this).closest('tr').find('td').slice(startIdx);
       var $rows = $('#nutrients tr');
-      $.each(clickedRow, function (idx, cell) {
-        var val = parseInt(cell.textContent, 10);
-        if (isNaN(val) || val < 100) {
-          var colIdx = startIdx + 1 + idx;
-          $rows.find('*:nth-child('+ colIdx +')').css('display','none');
-          setTimeout(function(){return}, 10);
-        }
+
+      var data = [];
+      $.each(clickedRow, function (i, cell) {
+        data.push(parseFloat(cell.textContent, 10));
       });
-    }
-  });
+      
+      for (var i = 1; i < clickedRow.length; i++) {
+        var minData = min(data, i);
+        var minIndex = minData[0];
 
-  $('.dsorter').click(function () {
-    var startIdx = 2;
-    var clickedRow = $(this).closest('tr').find('td').slice(startIdx);
-    var $rows = $('#nutrients tr');
+        if (minIndex !== i) {
+          var col1 = $rows.find('*:nth-child('+ (startIdx + i) +')');
+          var col2 = $rows.find('*:nth-child('+ (startIdx + 1 + minIndex) +')');
+          swap(data, i-1, minIndex);
 
-    var data = [];
-    $.each(clickedRow, function (i, cell) {
-      data.push(parseFloat(cell.textContent, 10));
-    });
-    
-    for (var i = 1; i < clickedRow.length; i++) {
-      var minData = min(data, i);
-      var minIndex = minData[0];
-
-      if (minIndex !== i) {
-        var col1 = $rows.find('*:nth-child('+ (startIdx + i) +')');
-        var col2 = $rows.find('*:nth-child('+ (startIdx + 1 + minIndex) +')');
-        swap(data, i-1, minIndex);
-
-        for (var j = 0; j < col1.length; j++) {
-          var temp = col1[i].textContent;
-          col1[j].textContent = col2[j].textContent;
-          col2[j].textContent = temp;  
+          for (var j = 0; j < col1.length; j++) {
+            var temp = col1[i].textContent;
+            col1[j].textContent = col2[j].textContent;
+            col2[j].textContent = temp;  
+          }
         }
       }
-    }
-  });
+    });
+  }
 })()
