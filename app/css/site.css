@@ -50,6 +50,6 @@ tr .header {
   text-overflow: ellipsis;
   overflow: hidden;
 }
-tr th .header {
-  height: 100% !important;
+th.header {
+  height: 100%;
 }

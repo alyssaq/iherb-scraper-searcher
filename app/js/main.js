@@ -6,7 +6,7 @@
   var DATA = {removed: [], data: [], checkedBox: {}, categories: categories};
 
   FastClick.attach(document.body);
-  function reloadResults() {
+  function render() {
     nunjucks.configure({ watch: false });
     var rendered = nunjucks.render('results.html', DATA);
     document.getElementById('results').innerHTML = rendered;
@@ -18,7 +18,7 @@
       DATA.data = res[0];
       DATA.allnutrients = res[1];
 
-      reloadResults();
+      render();
     });
 
   function min(arr, startIdx) {
@@ -61,7 +61,7 @@
             i = i - 1;
           }
         }
-        reloadResults();
+        render();
       } else if (removed.length > 0) {
         delete DATA.checkedBox[selectedText];
         for (var i = 0; i < removed.length; i++) {
@@ -69,7 +69,7 @@
           data.push(removed.splice(i, 1)[0]);
           i = i - 1;
         }
-        reloadResults();
+        render();
       }
     });
 
