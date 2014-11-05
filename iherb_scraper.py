@@ -6,7 +6,7 @@ import requests
 import re
 import json
 import gevent
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 import itertools
 flatten = itertools.chain.from_iterable
 
@@ -128,22 +128,38 @@ def price_to_float(field):
   match = PRICE_REGEX.match(field)
   return field if match is None else to_number(match.group(1))
 
-def fill_nutrients_profile(facts_table, profile):
-  for category, nutrientlist in ALL_NUTRIENTS.iteritems():
-    profile['nutrients'][category] = {}
-    profile['num_' + category] = 0
-
+def get_fact_table_rows(facts_table):
+  rows = []
+  maxc = 3
   for row in facts_table.findAll('tr'):
     rowdata = row.findAll('td')
-    if (len(rowdata) >= 3 and len(rowdata[0].text) > 1):
-      fields = [clean(f.text) for f in rowdata[0:3]]
-      fields[2] = percent_to_num(fields[2])
-      category, nutrient = match_product_nutrient(fields[0])
-      if nutrient is not None and \
-         nutrient not in profile['nutrients'][category]:
-        profile['num_' + category] += 1
-        profile['nutrients'][category][nutrient] = fields
-        profile['num_nutrients'] += 1
+
+    if len(rowdata) >= maxc and len(rowdata[0].text) > 1:
+      row1, row2 = rowdata[0:2]
+      if len(row2.contents) > 1 and len(row1.contents) == len(row2.contents):
+        for idx, text in enumerate(row1.contents):
+          if isinstance(text, NavigableString):
+            rows.append([clean(text), clean(row2.contents[idx]), 0])
+      else:
+        values = [clean(f.text) for f in rowdata[0:maxc]]
+        values[2] = percent_to_num(values[2])
+        rows.append(values)
+
+  return rows
+
+def fill_nutrients_profile(facts_table, profile):
+  profile['nutrients'] = {}
+  row_keys = ['actual_name', 'amount', 'percent_dv']
+  for category, nutrientlist in ALL_NUTRIENTS.iteritems():
+    profile['num_' + category] = 0
+
+  for row_values in get_fact_table_rows(facts_table):
+    category, nutrient = match_product_nutrient(row_values[0])
+    if nutrient is not None and \
+       nutrient not in profile['nutrients']:
+      profile['num_' + category] += 1
+      profile['nutrients'][nutrient] = dict(zip(row_keys, row_values))
+      profile['num_nutrients'] += 1
 
 def has_overlapping_chars(text1, text2, min_overlap=3):
   text1 = text1.lower()
@@ -275,10 +291,13 @@ def process_one_multiV():
   url = 'http://www.iherb.com/Deva-Multivitamin-Mineral-Supplement-Vegan-90-Coated-Tablets/12664'
   url = 'http://www.iherb.com/Nature-s-Plus-Source-of-Life-Gold-Liquid-Delicious-Tropical-Fruit-Flavor-8-fl-oz-236-ml/22998'
   url = 'http://www.iherb.com/Eclectic-Institute-Vita-Natal-Multi-Vitamin-Mineral-Formula-180-Tablets/15335'
-  url = 'http://www.iherb.com/Enzymatic-Therapy-Doctor-s-Choice-for-Women-90-Tablets/2173'
+  url = 'http://www.iherb.com/Super-Nutrition-Perfect-Family-Energizing-Multi-Vitamin-Iron-Free-240-Veggie-Food-Based-Tabs/57131'
   #url = 'http://www.iherb.com/All-One-Nutritech-Original-Formula-Multiple-Vitamin-Mineral-Powder-15-9-oz-450-g/4521'
   r = requests.get(url)
   res = product_profile(r.text)
+  filename='test.json'
+  with open(filename, 'w') as outfile:
+    json.dump(res, outfile, indent=2)
   print(res)
 
 if __name__ == "__main__":

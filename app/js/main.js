@@ -53,10 +53,9 @@
       if (this.checked) {        
         DATA.checkedBox[selectedText] = 'checked';
         for (var i = 0; i < data.length; i++) {
-          var nutrient = data[i].nutrients[category];
+          var nutrient = data[i].nutrients[selectedText];
 
-          if (!nutrient[selectedText] || 
-            (nutrient[selectedText] && nutrient[selectedText][2] < 100)) {
+          if (!nutrient || (nutrient && nutrient.percent_dv < 100)) {
             removed.push(data.splice(i, 1)[0]);
             i = i - 1;
           }

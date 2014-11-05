@@ -6,7 +6,7 @@
     {% for row in data %}
     <th>
       <a href="{{ row.url }}">{{ row.name }}</a>
-    
+    </th>
     {% endfor %}
   </tr>
   </thead>
@@ -26,7 +26,7 @@
   </tr>
 
   <tr class="container_size">
-    <td class="header">Size</td>
+    <td class="header">Container Size</td>
     {% for row in data %}
       <td>
       {% set size = row.container_sizes[row.size_indexes[0]] %}
@@ -36,10 +36,10 @@
   </tr>
 
   <tr class="serving_size">
-    <td class="header">Serve</td>
+    <td class="header">Serving Size</td>
     {% for row in data %}
       <td>
-       {% set size = row.serving_sizes[row.size_indexes[1]] %}
+      {% set size = row.serving_sizes[row.size_indexes[1]] %}
       {{ size.amount }} {{ size.unit }}
       </td>
     {% endfor %}
@@ -61,12 +61,15 @@
       {{ nutrients[0] }} 
     </td>
     {% for row in data %}
-      {% if row.nutrients[category].hasOwnProperty(nutrients[0]) %}
-        {% if row.nutrients[category][nutrients[0]][2] == 0 %}
-        <td>{{ row.nutrients[category][nutrients[0]][1] }}</td>
+      {% if row.nutrients.hasOwnProperty(nutrients[0]) %}
+        {% set cur_nutrient = row.nutrients[nutrients[0]] %}
+
+        {% if cur_nutrient.percent_dv == 0 %}
+        <td>{{ cur_nutrient.amount }}</td>
         {% else %}
-        <td>{{ row.nutrients[category][nutrients[0]][2] }}</td>
+        <td>{{ cur_nutrient.percent_dv }}</td>
         {% endif %}
+      
       {% else %}
       <td>***</td>
       {% endif %}
