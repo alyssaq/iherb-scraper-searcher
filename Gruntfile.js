@@ -45,7 +45,7 @@ module.exports = function (grunt) {
     },
 
     copy: {
-      dist: {
+      dest: {
         files: [{
           expand: true,
           dot: true,
