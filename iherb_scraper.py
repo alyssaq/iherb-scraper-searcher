@@ -229,7 +229,7 @@ def product_profile(html):
   full_amt = fullsizes[full_index]['amount']
   serve_amt = serves[serve_index]['amount'] if serve_index >= 0 else full_amt
   profile['size_indexes'] = [full_index, serve_index]
-  profile['price_per_serve'] = profile['price'] / full_amt * serve_amt
+  profile['price_per_serve'] = profile['price'] / (full_amt*1.0) * serve_amt
   return profile
 
 i = 1
