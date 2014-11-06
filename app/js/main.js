@@ -72,6 +72,17 @@
       }
     });
 
+    $('.sorter').click(function () {
+      var data = DATA.data;
+      var removed = DATA.removed;
+      var key = this.dataset.key;
+      console.log(key);
+      DATA.data = data.sort(function (rowA, rowB) {
+        return rowA[key] - rowB[key];
+      });
+      render();
+    });
+
     $('.dsorter').click(function () {
       var startIdx = 2;
       var clickedRow = $(this).closest('tr').find('td').slice(startIdx);
