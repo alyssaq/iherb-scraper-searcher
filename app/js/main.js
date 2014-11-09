@@ -7,6 +7,7 @@
     pages: [],
     page_no: 1,
     total_pages: 1,
+    total_results: 1,
     removed: [],
     data: [],
     checkedBox: {},
@@ -26,7 +27,8 @@
   function render(reset) {
     if (reset) {
       concat(DATA.pages, DATA.data.splice(DATA.results_per_page));
-      DATA.total_pages = Math.ceil(DATA.pages.length / DATA.results_per_page);
+      DATA.total_results = DATA.data.length + DATA.pages.length;
+      DATA.total_pages = Math.ceil(DATA.total_results / DATA.results_per_page);
       DATA.page_no = 1;
     }
     var rendered = nunjucks.render('results.html', DATA);
