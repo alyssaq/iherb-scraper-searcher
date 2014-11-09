@@ -65,6 +65,9 @@ td {
   padding-right: 7px;
   white-space:nowrap;
 }
+.sorter:before {
+  content: "\21C5";
+}
 span[data-navigate] {
   vertical-align: top;
   font-size: 25px;
