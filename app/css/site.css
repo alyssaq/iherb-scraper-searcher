@@ -1,26 +1,59 @@
+body, td {
+  font-family: 'Titillium Web', Helvetica, sans-serif;
+}
 body {
-  font-family: Helvetica, sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 h3, h2 {
   background-color: #FFFFFF;
   text-align: center;
 }
-table {
-  border-spacing: 0px;
-  border-collapse: separate;
-  padding: 0;
-  margin: 0;
-  min-height: 1880px;
-}
-#header table {
-  height: 200px;
-  overflow-y: hidden;
-  display: block;
+a {
+  text-decoration: none;
 }
 .wrapper { 
   overflow-x:scroll;  
   margin-left:0.5em; 
   overflow-y:visible;
+}
+#nutrients  {
+  border-spacing: 0px;
+  border-collapse: separate;
+  padding: 0;
+  margin: 0;
+  min-height: 1880px;
+  table-layout: fixed;
+  padding-left: 155px;
+}
+td {
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+tr .header {
+  text-align: right;
+  background-color: white;
+  position:absolute; 
+  width: 155px; 
+  left: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: bold;
+}
+th.header {
+  height: 100%;
+  text-align: center;
+}
+tr input {
+  float: left;
+  margin-left: 2px;
+}
+tr: nth-child(even) > td {
+  background-color: ghostwhite;
 }
 .category > td {
   border-bottom: 2px black solid;
@@ -32,24 +65,10 @@ td {
   padding-right: 7px;
   white-space:nowrap;
 }
-#nutrients {
-  padding-left: 147px;
+span[data-navigate] {
+  vertical-align: top;
+  font-size: 25px;
 }
-tr input {
-  float: left;
-}
-tr: nth-child(even) {
-  background-color: ghostwhite;
-}
-tr .header {
-  text-align: right;
-  background-color: white;
-  position:absolute; 
-  width: 155px; 
-  left: 0;
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
-th.header {
-  height: 100%;
+span[data-navigate] { 
+  cursor: pointer; cursor: hand; 
 }
