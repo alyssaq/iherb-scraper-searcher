@@ -3,7 +3,23 @@ var lineno = null;
 var colno = null;
 var output = "";
 try {
-output += "<div class=\"wrapper\">\n<table id=\"nutrients\">\n  <thead>\n  <tr>\n    <th class=\"header\"></th>\n    ";
+output += "<table id=\"nutrients\">\n  <thead>\n  <tr>\n    <th class=\"header center\">\n      ";
+output += runtime.suppressValue(runtime.contextOrFrameLookup(context, frame, "page_no"), env.autoesc);
+output += " of ";
+output += runtime.suppressValue(runtime.contextOrFrameLookup(context, frame, "total_pages"), env.autoesc);
+output += " (";
+output += runtime.suppressValue(runtime.memberLookup((runtime.contextOrFrameLookup(context, frame, "pages")),"length", env.autoesc), env.autoesc);
+output += " results)\n      <span data-navigate=\"prev\"> \n        ";
+if(runtime.contextOrFrameLookup(context, frame, "page_no") > 1) {
+output += "\n          &#x21a4;\n        ";
+;
+}
+output += "\n      </span>\n      <span data-navigate=\"next\">\n        ";
+if(runtime.contextOrFrameLookup(context, frame, "page_no") < runtime.contextOrFrameLookup(context, frame, "total_pages")) {
+output += " \n          &#x21a6;\n        ";
+;
+}
+output += "\n      </span>\n    </th>\n    ";
 frame = frame.push();
 var t_3 = runtime.contextOrFrameLookup(context, frame, "data");
 if(t_3) {var t_2 = t_3.length;
@@ -20,13 +36,13 @@ frame.set("loop.length", t_2);
 output += "\n    <th>\n      <a href=\"";
 output += runtime.suppressValue(runtime.memberLookup((t_4),"url", env.autoesc), env.autoesc);
 output += "\">";
-output += runtime.suppressValue(runtime.memberLookup((t_4),"name", env.autoesc), env.autoesc);
-output += "</a>\n    \n    ";
+output += runtime.suppressValue(runtime.memberLookup((t_4),"display_name", env.autoesc), env.autoesc);
+output += "</a>\n    </th>\n    ";
 ;
 }
 }
 frame = frame.pop();
-output += "\n  </tr>\n  </thead>\n  <tbody>\n  <tr class=\"price\">\n    <td class=\"header sorter\" data-key=\"price\">Price</td>\n    ";
+output += "\n  </tr>\n  </thead>\n  <tbody style=\"height: 300px; overflow-y: auto\">\n  <tr class=\"price\">\n    <td class=\"header sorter\" data-key=\"price\">Price</td>\n    ";
 frame = frame.push();
 var t_7 = runtime.contextOrFrameLookup(context, frame, "data");
 if(t_7) {var t_6 = t_7.length;
@@ -68,7 +84,7 @@ output += "</td>\n    ";
 }
 }
 frame = frame.pop();
-output += "\n  </tr>\n\n  <tr class=\"container_size\">\n    <td class=\"header\">Size</td>\n    ";
+output += "\n  </tr>\n\n  <tr class=\"container_size\">\n    <td class=\"header\">Container Size</td>\n    ";
 frame = frame.push();
 var t_15 = runtime.contextOrFrameLookup(context, frame, "data");
 if(t_15) {var t_14 = t_15.length;
@@ -99,7 +115,7 @@ output += "\n      </td>\n    ";
 }
 }
 frame = frame.pop();
-output += "\n  </tr>\n\n  <tr class=\"serving_size\">\n    <td class=\"header\">Serve</td>\n    ";
+output += "\n  </tr>\n\n  <tr class=\"serving_size\">\n    <td class=\"header\">Serving Size</td>\n    ";
 frame = frame.push();
 var t_20 = runtime.contextOrFrameLookup(context, frame, "data");
 if(t_20) {var t_19 = t_20.length;
@@ -113,7 +129,7 @@ frame.set("loop.revindex0", t_19 - t_18 - 1);
 frame.set("loop.first", t_18 === 0);
 frame.set("loop.last", t_18 === t_19 - 1);
 frame.set("loop.length", t_19);
-output += "\n      <td>\n       ";
+output += "\n      <td>\n      ";
 var t_22;
 t_22 = runtime.memberLookup((runtime.memberLookup((t_21),"serving_sizes", env.autoesc)),runtime.memberLookup((runtime.memberLookup((t_21),"size_indexes", env.autoesc)),1, env.autoesc), env.autoesc);
 frame.set("size", t_22, true);
@@ -144,7 +160,9 @@ frame.set("loop.revindex0", t_24 - t_23 - 1);
 frame.set("loop.first", t_23 === 0);
 frame.set("loop.last", t_23 === t_24 - 1);
 frame.set("loop.length", t_24);
-output += "\n  <tr class=\"category\">\n    <td class=\"header\">";
+output += "\n  <tr class=\"category\">\n    <td class=\"header sorter\" data-key=\"num_";
+output += runtime.suppressValue(t_26, env.autoesc);
+output += "\">";
 output += runtime.suppressValue(t_26, env.autoesc);
 output += "</td>\n    ";
 frame = frame.push();
@@ -202,21 +220,36 @@ frame.set("loop.first", t_35 === 0);
 frame.set("loop.last", t_35 === t_36 - 1);
 frame.set("loop.length", t_36);
 output += "\n      ";
-if((lineno = 63, colno = 48, runtime.callWrap(runtime.memberLookup((runtime.memberLookup((runtime.memberLookup((t_38),"nutrients", env.autoesc)),t_26, env.autoesc)),"hasOwnProperty", env.autoesc), "row[\"nutrients\"][\"category\"][\"hasOwnProp\"]", [runtime.memberLookup((t_34),0, env.autoesc)]))) {
+if((lineno = 74, colno = 38, runtime.callWrap(runtime.memberLookup((runtime.memberLookup((t_38),"nutrients", env.autoesc)),"hasOwnProperty", env.autoesc), "row[\"nutrients\"][\"hasOwnProp\"]", [runtime.memberLookup((t_34),0, env.autoesc)]))) {
 output += "\n        ";
-if(runtime.memberLookup((runtime.memberLookup((runtime.memberLookup((runtime.memberLookup((t_38),"nutrients", env.autoesc)),t_26, env.autoesc)),runtime.memberLookup((t_34),0, env.autoesc), env.autoesc)),2, env.autoesc) == 0) {
+var t_39;
+t_39 = runtime.memberLookup((runtime.memberLookup((t_38),"nutrients", env.autoesc)),runtime.memberLookup((t_34),0, env.autoesc), env.autoesc);
+frame.set("cur_nutrient", t_39, true);
+if(!frame.parent) {
+context.setVariable("cur_nutrient", t_39);
+context.addExport("cur_nutrient");
+}
+output += "\n\n        ";
+if(runtime.memberLookup((runtime.contextOrFrameLookup(context, frame, "cur_nutrient")),"percent_dv", env.autoesc) > 0) {
 output += "\n        <td>";
-output += runtime.suppressValue(runtime.memberLookup((runtime.memberLookup((runtime.memberLookup((runtime.memberLookup((t_38),"nutrients", env.autoesc)),t_26, env.autoesc)),runtime.memberLookup((t_34),0, env.autoesc), env.autoesc)),1, env.autoesc), env.autoesc);
+output += runtime.suppressValue(runtime.memberLookup((runtime.contextOrFrameLookup(context, frame, "cur_nutrient")),"percent_dv", env.autoesc), env.autoesc);
 output += "</td>\n        ";
 ;
 }
 else {
+if(runtime.memberLookup((runtime.contextOrFrameLookup(context, frame, "cur_nutrient")),"amount", env.autoesc) != "") {
 output += "\n        <td>";
-output += runtime.suppressValue(runtime.memberLookup((runtime.memberLookup((runtime.memberLookup((runtime.memberLookup((t_38),"nutrients", env.autoesc)),t_26, env.autoesc)),runtime.memberLookup((t_34),0, env.autoesc), env.autoesc)),2, env.autoesc), env.autoesc);
+output += runtime.suppressValue(runtime.memberLookup((runtime.contextOrFrameLookup(context, frame, "cur_nutrient")),"amount", env.autoesc), env.autoesc);
 output += "</td>\n        ";
 ;
 }
-output += "\n      ";
+else {
+output += "\n        <td>&#10004;</td>\n        ";
+;
+}
+;
+}
+output += "\n\n      ";
 ;
 }
 else {
@@ -238,7 +271,7 @@ output += "\n   \n  ";
 }
 }
 frame = frame.pop();
-output += "\n</tbody>\n</table>\n</div>";
+output += "\n</tbody>\n</table>";
 cb(null, output);
 ;
 } catch (e) {

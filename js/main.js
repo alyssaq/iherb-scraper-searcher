@@ -1,13 +1,34 @@
 (function () {
   var multivXhr = $.getJSON('data/results.json');
   var nutrientsXhr = $.getJSON('data/nutrients.json');
-  var categories = ['Vitamins', 'Minerals', 'Macronutrients',
-    'Trace Elements', 'Amino Acids', 'Enzymes'];
-  var DATA = {removed: [], data: [], checkedBox: {}, categories: categories};
+  var categories = ['Vitamins', 'Minerals', 'Trace Elements', 'Enzymes',
+    'Probiotics', 'Macronutrients',  'Amino Acids'];
+  var DATA = {
+    pages: [],
+    page_no: 1,
+    total_pages: 1,
+    removed: [],
+    data: [],
+    checkedBox: {},
+    categories: categories,
+    results_per_page: 100
+  };
+  var store = window.localStorage;
 
-  FastClick.attach(document.body);
-  function render() {
-    nunjucks.configure({ watch: false });
+  function concat(a, b) {
+    Array.prototype.push.apply(a, b);
+  }
+
+  function prepend(a, b) {
+    Array.prototype.unshift.apply(a, b);
+  }
+
+  function render(reset) {
+    if (reset) {
+      concat(DATA.pages, DATA.data.splice(DATA.results_per_page));
+      DATA.total_pages = Math.ceil(DATA.pages.length / DATA.results_per_page);
+      DATA.page_no = 1;
+    }
     var rendered = nunjucks.render('results.html', DATA);
     document.getElementById('results').innerHTML = rendered;
     addEvents();
@@ -18,87 +39,76 @@
       DATA.data = res[0];
       DATA.allnutrients = res[1];
 
-      render();
+      render(true);
     });
 
-  function min(arr, startIdx) {
-    startIdx = startIdx || 0;
-    var minIndex = startIdx;
-    var minVal = arr[startIdx - 1];
+  $(document).on('click', function (e) {
+    var dataset = e.target.dataset;
+    var key = dataset.key;
+    var navigate = dataset.navigate;
 
-    arr = arr.slice(startIdx);
-    arr.forEach(function (elem, i) {
-      if (elem < minVal) {
-        minVal = elem;
-        minIndex = (i + startIdx);
+    if (key) {
+      var sortMultiplier = store.getItem(key) || 1;
+      DATA.data = DATA.data.sort(function (rowA, rowB) {
+        return (rowA[key] - rowB[key]) * sortMultiplier;
+      });
+      store.setItem(key, sortMultiplier * -1);
+      render(true);
+    } else if (navigate) {
+      if (navigate === 'next') {
+        var start = DATA.results_per_page;
+        concat(DATA.pages, DATA.data.splice(0));
+        concat(DATA.data, DATA.pages.splice(0, start));
+        DATA.page_no += 1; 
+      } else {
+        prepend(DATA.pages, DATA.data.splice(0));
+        var start = DATA.pages.length - DATA.results_per_page;
+        var sli = DATA.pages.splice(start, DATA.results_per_page);
+        concat(DATA.data, sli);
+        DATA.page_no -= 1;
       }
-    });
-
-    return [minIndex, minVal];
-  }
-
-  function swap(data, a, b) {
-    var temp = data[a];
-    data[a] = data[b];
-    data[b] = temp;
-  }
+      render(false);
+    }
+  });
+  FastClick.attach(document.body);
 
   function addEvents() {
     $('input[type=checkbox]').change(function () {
+      DATA.data = DATA.data.concat(DATA.pages.splice(0));
       var data = DATA.data;
       var removed = DATA.removed;
       var selectedText = this.parentElement.textContent.trim();
       var category = this.dataset.category;
+      DATA.checkedBox[selectedText] = this.checked ? 'checked' : '';
 
-      if (this.checked) {        
-        DATA.checkedBox[selectedText] = 'checked';
+      if (this.checked) {
         for (var i = 0; i < data.length; i++) {
-          var nutrient = data[i].nutrients[category];
+          var nutrient = data[i].nutrients[selectedText];
 
-          if (!nutrient[selectedText] || 
-            (nutrient[selectedText] && nutrient[selectedText][2] < 100)) {
+          if (!nutrient || (nutrient && nutrient.percent_dv < 100)) {
             removed.push(data.splice(i, 1)[0]);
             i = i - 1;
           }
         }
-        render();
+        return render(true);
       } else if (removed.length > 0) {
-        delete DATA.checkedBox[selectedText];
-        for (var i = 0; i < removed.length; i++) {
-          var nutrient = removed[i].nutrients;
-          data.push(removed.splice(i, 1)[0]);
-          i = i - 1;
-        }
-        render();
-      }
-    });
-
-    $('.dsorter').click(function () {
-      var startIdx = 2;
-      var clickedRow = $(this).closest('tr').find('td').slice(startIdx);
-      var $rows = $('#nutrients tr');
-
-      var data = [];
-      $.each(clickedRow, function (i, cell) {
-        data.push(parseFloat(cell.textContent, 10));
-      });
-      
-      for (var i = 1; i < clickedRow.length; i++) {
-        var minData = min(data, i);
-        var minIndex = minData[0];
-
-        if (minIndex !== i) {
-          var col1 = $rows.find('*:nth-child('+ (startIdx + i) +')');
-          var col2 = $rows.find('*:nth-child('+ (startIdx + 1 + minIndex) +')');
-          swap(data, i-1, minIndex);
-
-          for (var j = 0; j < col1.length; j++) {
-            var temp = col1[i].textContent;
-            col1[j].textContent = col2[j].textContent;
-            col2[j].textContent = temp;  
-          }
-        }
+        DATA.data = DATA.data.concat(removed.splice(0));
+        return render(true);
       }
     });
   }
+
+  nunjucks.configure({ watch: false });
+  WebFontConfig = {
+    google: { families: [ 'Titillium+Web:400,700:latin' ] }
+  };
+  (function () {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
 })()
