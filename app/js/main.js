@@ -46,7 +46,6 @@
     var dataset = e.target.dataset;
     var key = dataset.key;
     var navigate = dataset.navigate;
-    console.log(navigate)
 
     if (key) {
       var sortMultiplier = store.getItem(key) || 1;
@@ -103,7 +102,7 @@
   WebFontConfig = {
     google: { families: [ 'Titillium+Web:400,700:latin' ] }
   };
-  (function() {
+  (function () {
     var wf = document.createElement('script');
     wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
       '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';

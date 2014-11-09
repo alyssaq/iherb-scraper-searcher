@@ -1,0 +1,23 @@
+{
+  "disallowSpaceAfterObjectKeys": true,
+  "disallowMultipleVarDecl": true,
+  "disallowMultipleLineBreaks": true,
+  "disallowKeywordsOnNewLine": ["else"],
+  "disallowSpacesInFunctionDeclaration": {
+    "beforeOpeningRoundBrace": true
+  },
+  "requireSpacesInAnonymousFunctionExpression": {
+    "beforeOpeningRoundBrace": true
+  },
+  "requireSpacesInFunctionDeclaration": {
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpaceBeforeBlockStatements": true,
+  "requireSpacesInConditionalExpression": true,
+  "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
+  "validateLineBreaks": "LF",
+  "validateQuoteMarks": "'",
+  "maximumLineLength": {
+    "value": 80
+  }
+}

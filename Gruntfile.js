@@ -74,6 +74,10 @@ module.exports = function (grunt) {
         files: ['<%= config.app %>/css/*.css'],
         tasks: ['cssmin']
       },
+      js: {
+        files: ['<%= config.app %>/js/{,*/}*.js'],
+        tasks: ['jscs', 'jshint']
+      },
       copy: {
         files: [
           '<%= config.app =>/index.html',
@@ -147,6 +151,27 @@ module.exports = function (grunt) {
 
     clean: {
       dest: ['.tmp', '<%= config.dest %>/*']
+    },
+
+    jshint: {
+      all: {
+        options: {
+          jshintrc: '.jshintrc'
+        },
+        src: [
+          'Gruntfile.js',
+          'js/*.js'
+        ]
+      }
+    },
+    jscs: {
+      src: [
+        'Gruntfile.js',
+        'app/js/*.js'
+      ],
+      options: {
+        config: '.jscsrc'
+      }
     }
   });
 
@@ -159,8 +184,9 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'clean',
+    'jscs',
+    'jshint',
     'nunjucks',
-
     // 'useminPrepare',
     // 'imagemin',
     // 'htmlmin',
