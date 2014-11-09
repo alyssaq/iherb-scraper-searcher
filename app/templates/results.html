@@ -1,16 +1,27 @@
-<div class="wrapper">
 <table id="nutrients">
   <thead>
   <tr>
-    <th class="header"></th>
+    <th class="header center">
+      {{page_no}} of {{total_pages}} ({{pages.length}} results)
+      <span data-navigate="prev"> 
+        {% if page_no > 1 %}
+          &#x21a4;
+        {% endif %}
+      </span>
+      <span data-navigate="next">
+        {% if page_no < total_pages %} 
+          &#x21a6;
+        {% endif %}
+      </span>
+    </th>
     {% for row in data %}
     <th>
-      <a href="{{ row.url }}">{{ row.name }}</a>
+      <a href="{{ row.url }}">{{ row.display_name }}</a>
     </th>
     {% endfor %}
   </tr>
   </thead>
-  <tbody>
+  <tbody style="height: 300px; overflow-y: auto">
   <tr class="price">
     <td class="header sorter" data-key="price">Price</td>
     {% for row in data %}
@@ -47,7 +58,7 @@
 
   {% for category in categories %}
   <tr class="category">
-    <td class="header">{{ category }}</td>
+    <td class="header sorter" data-key="num_{{category}}">{{ category }}</td>
     {% for row in data %}
       <td>{{ row["num_" + category] }}</td>
     {% endfor %}
@@ -64,12 +75,14 @@
       {% if row.nutrients.hasOwnProperty(nutrients[0]) %}
         {% set cur_nutrient = row.nutrients[nutrients[0]] %}
 
-        {% if cur_nutrient.percent_dv == 0 %}
+        {% if cur_nutrient.percent_dv > 0 %}
+        <td>{{ cur_nutrient.percent_dv }}</td>
+        {% elif cur_nutrient.amount != '' %}
         <td>{{ cur_nutrient.amount }}</td>
         {% else %}
-        <td>{{ cur_nutrient.percent_dv }}</td>
+        <td>&#10004;</td>
         {% endif %}
-      
+
       {% else %}
       <td>***</td>
       {% endif %}
@@ -80,4 +93,3 @@
   {% endfor %}
 </tbody>
 </table>
-</div>
