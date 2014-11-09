@@ -136,10 +136,10 @@ def get_fact_table_rows(facts_table):
 
     if len(rowdata) >= maxc and len(rowdata[0].text) > 1:
       row1, row2 = rowdata[0:2]
-      if len(row2.contents) > 1 and len(row1.contents) == len(row2.contents):
+      if len(row1.contents) > 1 and len(row2.contents) > 1:
         for idx, text in enumerate(row1.contents):
           if isinstance(text, NavigableString):
-            rows.append([clean(text), clean(row2.contents[idx]), 0])
+            rows.append([clean(text), '', 0])
       else:
         values = [clean(f.text) for f in rowdata[0:maxc]]
         values[2] = percent_to_num(values[2])
@@ -206,6 +206,10 @@ def longest_index(arr):
 
   return max_idx
 
+def get_display_name(text):
+  text = text.replace('/', '/ ')
+  return ','.join(text.split(',')[:-1])
+
 def product_profile(html):
   profile = {'nutrients': {}, 'num_nutrients': 0}
   soup = BeautifulSoup(html)
@@ -219,6 +223,7 @@ def product_profile(html):
   facts_table = tables[index]
   fill_nutrients_profile(facts_table, profile)
   profile['name'] = main.find('h1').text
+  profile['display_name'] = get_display_name(profile['name'])
   profile['price'] = price_to_float(price.text)
   profile['serving_text'] = get_serving_text(facts_table)
   serves = profile['serving_sizes'] = get_sizes(profile['serving_text'])
@@ -277,7 +282,8 @@ def process_search_pages(filename, category='multivitamins', min_nutrients=1):
     page_no = page_no + 1
 
   res = filter(lambda x: x['num_Vitamins'] >= min_nutrients, res)
-  sorter = lambda x: (-(x['num_Minerals'] + x['num_Vitamins']), x['price'])
+  sorter = lambda x: (-(x['num_Minerals'] + x['num_Vitamins']),
+                      x['price_per_serve'])
   res = sorted(res, key=sorter)
 
   print ('Saving {0} results'.format(len(res)))
@@ -291,7 +297,7 @@ def process_one_multiV():
   url = 'http://www.iherb.com/Deva-Multivitamin-Mineral-Supplement-Vegan-90-Coated-Tablets/12664'
   url = 'http://www.iherb.com/Nature-s-Plus-Source-of-Life-Gold-Liquid-Delicious-Tropical-Fruit-Flavor-8-fl-oz-236-ml/22998'
   url = 'http://www.iherb.com/Eclectic-Institute-Vita-Natal-Multi-Vitamin-Mineral-Formula-180-Tablets/15335'
-  url = 'http://www.iherb.com/Super-Nutrition-Perfect-Family-Energizing-Multi-Vitamin-Iron-Free-240-Veggie-Food-Based-Tabs/57131'
+  url = 'http://www.iherb.com/Rexall-Sundown-Naturals-Complete-Women-s-Multivitamin-Multimineral-Supplement-with-Herbs-90-Caplets/41060'
   #url = 'http://www.iherb.com/All-One-Nutritech-Original-Formula-Multiple-Vitamin-Mineral-Powder-15-9-oz-450-g/4521'
   r = requests.get(url)
   res = product_profile(r.text)
