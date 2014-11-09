@@ -75,7 +75,11 @@ module.exports = function (grunt) {
         tasks: ['cssmin']
       },
       copy: {
-        files: ['index.html', '<%= config.app %>/js/{,*/}*.js', '<%= config.app %>/data/*.json'],
+        files: [
+          '<%= config.app =>/index.html',
+          '<%= config.app %>/js/{,*/}*.js',
+          '<%= config.app %>/data/*.json'
+        ],
         tasks: ['copy']
       },
       livereload: {
