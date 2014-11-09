@@ -36,13 +36,11 @@
     addEvents();
   }
 
-  Promise.all([multivXhr, nutrientsXhr])
-    .then(function (res) {
-      DATA.data = res[0];
-      DATA.allnutrients = res[1];
-
-      render(true);
-    });
+  Promise.all([multivXhr, nutrientsXhr]).then(function (res) {
+    DATA.data = res[0];
+    DATA.allnutrients = res[1];
+    render(true);
+  });
 
   $(document).on('click', function (e) {
     var dataset = e.target.dataset;
@@ -76,7 +74,7 @@
 
   function addEvents() {
     $('input[type=checkbox]').change(function () {
-      DATA.data = DATA.data.concat(DATA.pages.splice(0));
+      concat(DATA.data, DATA.pages.splice(0));
       var data = DATA.data;
       var removed = DATA.removed;
       var selectedText = this.parentElement.textContent.trim();
@@ -94,7 +92,7 @@
         }
         return render(true);
       } else if (removed.length > 0) {
-        DATA.data = DATA.data.concat(removed.splice(0));
+        concat(DATA.data, removed.splice(0));
         return render(true);
       }
     });
