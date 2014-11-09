@@ -8,7 +8,7 @@ output += runtime.suppressValue(runtime.contextOrFrameLookup(context, frame, "pa
 output += " of ";
 output += runtime.suppressValue(runtime.contextOrFrameLookup(context, frame, "total_pages"), env.autoesc);
 output += " (";
-output += runtime.suppressValue(runtime.memberLookup((runtime.contextOrFrameLookup(context, frame, "pages")),"length", env.autoesc), env.autoesc);
+output += runtime.suppressValue(runtime.contextOrFrameLookup(context, frame, "total_results"), env.autoesc);
 output += " results)\n      <span data-navigate=\"prev\"> \n        ";
 if(runtime.contextOrFrameLookup(context, frame, "page_no") > 1) {
 output += "\n          &#x21a4;\n        ";
