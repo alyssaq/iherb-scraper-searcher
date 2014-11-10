@@ -3,23 +3,31 @@ var lineno = null;
 var colno = null;
 var output = "";
 try {
-output += "<table id=\"nutrients\">\n  <thead>\n  <tr>\n    <th class=\"header center\">\n      ";
+output += "<table id=\"nutrients\">\n  <thead>\n  <tr>\n    <th class=\"header center\">\n      <div>\n        ";
 output += runtime.suppressValue(runtime.contextOrFrameLookup(context, frame, "page_no"), env.autoesc);
 output += " of ";
 output += runtime.suppressValue(runtime.contextOrFrameLookup(context, frame, "total_pages"), env.autoesc);
 output += " (";
 output += runtime.suppressValue(runtime.contextOrFrameLookup(context, frame, "total_results"), env.autoesc);
-output += " results)\n      <span data-navigate=\"prev\"> \n        ";
+output += " results)\n      </div>\n      ";
 if(runtime.contextOrFrameLookup(context, frame, "page_no") > 1) {
-output += "\n          &#x21a4;\n        ";
+output += "\n      <span data-navigate=\"prev\">\n      ";
 ;
 }
-output += "\n      </span>\n      <span data-navigate=\"next\">\n        ";
+else {
+output += "\n      <span class=\"hidden\">\n      ";
+;
+}
+output += "\n        &#x21a4;\n      </span>\n      ";
 if(runtime.contextOrFrameLookup(context, frame, "page_no") < runtime.contextOrFrameLookup(context, frame, "total_pages")) {
-output += " \n          &#x21a6;\n        ";
+output += " \n      <span data-navigate=\"next\">\n      ";
 ;
 }
-output += "\n      </span>\n    </th>\n    ";
+else {
+output += "\n      <span class=\"hidden\">\n      ";
+;
+}
+output += "\n        &#x21a6;\n      </span>\n    </th>\n    ";
 frame = frame.push();
 var t_3 = runtime.contextOrFrameLookup(context, frame, "data");
 if(t_3) {var t_2 = t_3.length;
@@ -220,7 +228,7 @@ frame.set("loop.first", t_35 === 0);
 frame.set("loop.last", t_35 === t_36 - 1);
 frame.set("loop.length", t_36);
 output += "\n      ";
-if((lineno = 74, colno = 38, runtime.callWrap(runtime.memberLookup((runtime.memberLookup((t_38),"nutrients", env.autoesc)),"hasOwnProperty", env.autoesc), "row[\"nutrients\"][\"hasOwnProp\"]", [runtime.memberLookup((t_34),0, env.autoesc)]))) {
+if((lineno = 80, colno = 38, runtime.callWrap(runtime.memberLookup((runtime.memberLookup((t_38),"nutrients", env.autoesc)),"hasOwnProperty", env.autoesc), "row[\"nutrients\"][\"hasOwnProp\"]", [runtime.memberLookup((t_34),0, env.autoesc)]))) {
 output += "\n        ";
 var t_39;
 t_39 = runtime.memberLookup((runtime.memberLookup((t_38),"nutrients", env.autoesc)),runtime.memberLookup((t_34),0, env.autoesc), env.autoesc);
