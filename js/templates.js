@@ -71,7 +71,7 @@ output += "</td>\n    ";
 }
 }
 frame = frame.pop();
-output += "\n  </tr>\n\n  <tr class=\"price_per_serve\">\n    <td class=\"header sorter\" data-key=\"price_per_serve\">Price per serve</td>\n    ";
+output += "\n  </tr>\n\n  <tr class=\"price_per_serve\">\n    <td class=\"header sorter\" data-key=\"price_per_serve\">\n      Price per serve\n    </td>\n    ";
 frame = frame.push();
 var t_11 = runtime.contextOrFrameLookup(context, frame, "data");
 if(t_11) {var t_10 = t_11.length;
@@ -228,7 +228,7 @@ frame.set("loop.first", t_35 === 0);
 frame.set("loop.last", t_35 === t_36 - 1);
 frame.set("loop.length", t_36);
 output += "\n      ";
-if((lineno = 80, colno = 38, runtime.callWrap(runtime.memberLookup((runtime.memberLookup((t_38),"nutrients", env.autoesc)),"hasOwnProperty", env.autoesc), "row[\"nutrients\"][\"hasOwnProp\"]", [runtime.memberLookup((t_34),0, env.autoesc)]))) {
+if((lineno = 82, colno = 38, runtime.callWrap(runtime.memberLookup((runtime.memberLookup((t_38),"nutrients", env.autoesc)),"hasOwnProperty", env.autoesc), "row[\"nutrients\"][\"hasOwnProp\"]", [runtime.memberLookup((t_34),0, env.autoesc)]))) {
 output += "\n        ";
 var t_39;
 t_39 = runtime.memberLookup((runtime.memberLookup((t_38),"nutrients", env.autoesc)),runtime.memberLookup((t_34),0, env.autoesc), env.autoesc);
