@@ -1,7 +1,5 @@
-body, td {
-  font-family: 'Titillium Web', Helvetica, sans-serif;
-}
 body {
+  font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -13,8 +11,14 @@ h3, h2 {
   background-color: #FFFFFF;
   text-align: center;
 }
-a {
+th > a {
+  font-weight: normal;
+  color: white;
   text-decoration: none;
+}
+th:hover {
+  border-top: 5px maroon solid;
+  border-bottom: 5px maroon solid;
 }
 .wrapper { 
   overflow-x:scroll;  
@@ -22,16 +26,14 @@ a {
   overflow-y:visible;
 }
 #nutrients  {
+  display: table;
   border-spacing: 0px;
   border-collapse: separate;
-  padding: 0;
-  margin: 0;
   min-height: 1880px;
   table-layout: fixed;
-  padding-left: 155px;
+  padding-left: 158px;
 }
 td {
-  border-bottom: 1px solid #ccc;
   text-align: center;
 }
 tr .header {
@@ -44,6 +46,10 @@ tr .header {
   overflow: hidden;
   font-weight: bold;
 }
+th {
+  background-color: #ea6153;
+  line-height: 1;
+}
 th.header {
   height: 100%;
   text-align: center;
@@ -53,7 +59,7 @@ tr input {
   margin-left: 2px;
 }
 tr: nth-child(even) > td {
-  background-color: ghostwhite;
+  background-color: #e9e9e9;
 }
 .category > td {
   border-bottom: 2px black solid;
@@ -62,7 +68,7 @@ tr: nth-child(even) > td {
 }
 td {
   margin: 0;
-  padding-right: 7px;
+  padding-right: 15px;
   white-space:nowrap;
 }
 .sorter:before {
