@@ -1,16 +1,17 @@
 (function () {
-  var categories = ['Vitamins', 'Minerals', 'Trace Elements', 'Enzymes',
-    'Probiotics', 'Macronutrients',  'Amino Acids'];
+  var DVTHRESHOLD = 100;
+  var categories = ['Vitamins', 'Minerals', 'Trace Elements', 
+    'Enzymes', 'Probiotics', 'Macronutrients',  'Amino Acids'];
   var DATA = {
     pages: [],
     page_no: 1,
     total_pages: 1,
     total_results: 1,
+    results_per_page: 100,
     removed: [],
     data: [],
     checkedBox: {},
-    categories: categories,
-    results_per_page: 100
+    categories: categories
   };
 
   function concat(a, b) {
@@ -73,6 +74,18 @@
     }
   });
 
+  function isBelowThreshold(nutrient) {
+    return !nutrient || (nutrient && nutrient.percent_dv < DVTHRESHOLD);
+  }
+
+  function allAboveThreshold(nutrients) {
+    var checkedNutrients = Object.keys(DATA.checkedBox);
+    return checkedNutrients.every(function (checked, idx) {
+      var nutrient = nutrients[checked];
+      return !!(nutrient && nutrient.percent_dv >= DVTHRESHOLD);
+    });
+  }
+
   $(document).on('change', function (e) {
     var target = e.target;
     concat(DATA.data, DATA.pages.splice(0));
@@ -80,36 +93,43 @@
     var removed = DATA.removed;
     var selectedText = target.parentElement.textContent.trim();
     var category = target.dataset.category;
-    DATA.checkedBox[selectedText] = target.checked ? 'checked' : '';
+    delete DATA.checkedBox[selectedText];
 
     if (target.checked) {
+      DATA.checkedBox[selectedText] = 'checked';
       for (var i = 0; i < data.length; i++) {
         var nutrient = data[i].nutrients[selectedText];
 
-        if (!nutrient || (nutrient && nutrient.percent_dv < 100)) {
+        if (isBelowThreshold(nutrient)) {
           removed.push(data.splice(i, 1)[0]);
           i = i - 1;
         }
       }
       return render(true);
     } else if (removed.length > 0) {
-      concat(DATA.data, removed.splice(0));
+      // Put a nutrient back if its <100 and the rest are all not >=100
+      for (var i = 0; i < removed.length; i++) {
+        var nutrients = removed[i].nutrients;
+        var selected = nutrients[selectedText];
+        if (isBelowThreshold(selected) && allAboveThreshold(nutrients)) {
+          DATA.data.push(removed.splice(i, 1)[0]);
+          i = i - 1;
+        }
+      }
+      
       return render(true);
     }
   });
-  FastClick.attach(document.body);
   main();
 
   WebFontConfig = {
     google: { families: [ 'Titillium+Web:400,700:latin' ] }
   };
-  (function () {
-    var wf = document.createElement('script');
-    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-    wf.type = 'text/javascript';
-    wf.async = 'true';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(wf, s);
-  })();
+  var wf = document.createElement('script');
+  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+  wf.type = 'text/javascript';
+  wf.async = 'true';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(wf, s);
 })()
