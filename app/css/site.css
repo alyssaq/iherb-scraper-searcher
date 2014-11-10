@@ -67,6 +67,7 @@ td {
 }
 .sorter:before {
   content: "\21C5";
+  font-size: 14px;
 }
 .hidden {
   color: lightgrey;
