@@ -2,8 +2,16 @@
   <thead>
   <tr>
     <th class="header center">
-      <div>
-        {{page_no}} of {{total_pages}} ({{total_results}} results)
+      <div class="normal">
+        Showing Columns: <br>
+        {% set start = (page_no-1) * results_per_page + 1 %}
+        {% if page_no < total_pages %}
+          {% set end = page_no * results_per_page %}
+        {% else %}
+          {% set end = total_results %}
+        {% endif %}
+        <b>{{start}} to {{end}}</b> <br>
+        ({{total_results}} total)
       </div>
       {% if page_no > 1 %}
       <span data-navigate="prev">

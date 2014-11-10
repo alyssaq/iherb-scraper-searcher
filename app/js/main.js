@@ -1,6 +1,4 @@
 (function () {
-  var multivXhr = $.getJSON('data/results.json');
-  var nutrientsXhr = $.getJSON('data/nutrients.json');
   var categories = ['Vitamins', 'Minerals', 'Trace Elements', 'Enzymes',
     'Probiotics', 'Macronutrients',  'Amino Acids'];
   var DATA = {
@@ -14,7 +12,6 @@
     categories: categories,
     results_per_page: 100
   };
-  var store = window.localStorage;
 
   function concat(a, b) {
     Array.prototype.push.apply(a, b);
@@ -33,14 +30,18 @@
     }
     var rendered = nunjucks.render('results.html', DATA);
     document.getElementById('results').innerHTML = rendered;
-    addEvents();
   }
 
-  Promise.all([multivXhr, nutrientsXhr]).then(function (res) {
-    DATA.data = res[0];
-    DATA.allnutrients = res[1];
-    render(true);
-  });
+  function main() {
+    var multivXhr = $.getJSON('data/results.json');
+    var nutrientsXhr = $.getJSON('data/nutrients.json');
+    nunjucks.configure({watch: false});
+    Promise.all([multivXhr, nutrientsXhr]).then(function (res) {
+      DATA.data = res[0];
+      DATA.allnutrients = res[1];
+      render(true);
+    });
+  }
 
   $(document).on('click', function (e) {
     var dataset = e.target.dataset;
@@ -48,6 +49,7 @@
     var navigate = dataset.navigate;
 
     if (key) {
+      var store = window.localStorage;
       var sortMultiplier = store.getItem(key) || 1;
       DATA.data = DATA.data.sort(function (rowA, rowB) {
         return (rowA[key] - rowB[key]) * sortMultiplier;
@@ -70,35 +72,34 @@
       render(false);
     }
   });
-  FastClick.attach(document.body);
 
-  function addEvents() {
-    $('input[type=checkbox]').change(function () {
-      concat(DATA.data, DATA.pages.splice(0));
-      var data = DATA.data;
-      var removed = DATA.removed;
-      var selectedText = this.parentElement.textContent.trim();
-      var category = this.dataset.category;
-      DATA.checkedBox[selectedText] = this.checked ? 'checked' : '';
+  $(document).on('change', function (e) {
+    var target = e.target;
+    concat(DATA.data, DATA.pages.splice(0));
+    var data = DATA.data;
+    var removed = DATA.removed;
+    var selectedText = target.parentElement.textContent.trim();
+    var category = target.dataset.category;
+    DATA.checkedBox[selectedText] = target.checked ? 'checked' : '';
 
-      if (this.checked) {
-        for (var i = 0; i < data.length; i++) {
-          var nutrient = data[i].nutrients[selectedText];
+    if (target.checked) {
+      for (var i = 0; i < data.length; i++) {
+        var nutrient = data[i].nutrients[selectedText];
 
-          if (!nutrient || (nutrient && nutrient.percent_dv < 100)) {
-            removed.push(data.splice(i, 1)[0]);
-            i = i - 1;
-          }
+        if (!nutrient || (nutrient && nutrient.percent_dv < 100)) {
+          removed.push(data.splice(i, 1)[0]);
+          i = i - 1;
         }
-        return render(true);
-      } else if (removed.length > 0) {
-        concat(DATA.data, removed.splice(0));
-        return render(true);
       }
-    });
-  }
+      return render(true);
+    } else if (removed.length > 0) {
+      concat(DATA.data, removed.splice(0));
+      return render(true);
+    }
+  });
+  FastClick.attach(document.body);
+  main();
 
-  nunjucks.configure({ watch: false });
   WebFontConfig = {
     google: { families: [ 'Titillium+Web:400,700:latin' ] }
   };
