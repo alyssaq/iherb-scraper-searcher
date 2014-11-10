@@ -11,15 +11,6 @@ h3, h2 {
   background-color: #FFFFFF;
   text-align: center;
 }
-th > a {
-  font-weight: normal;
-  color: white;
-  text-decoration: none;
-}
-th:hover {
-  border-top: 5px maroon solid;
-  border-bottom: 5px maroon solid;
-}
 .wrapper { 
   overflow-x:scroll;  
   margin-left:0.5em; 
@@ -46,13 +37,23 @@ tr .header {
   overflow: hidden;
   font-weight: bold;
 }
+th > a {
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+}
 th {
   background-color: #ea6153;
   line-height: 1;
 }
+th:hover {
+  border-top: 5px maroon solid;
+  border-bottom: 5px maroon solid;
+}
 th.header {
   height: 100%;
   text-align: center;
+  border: none;
 }
 tr input {
   float: left;
@@ -82,6 +83,6 @@ th.header > span {
   vertical-align: top;
   font-size: 25px;
 }
-span[data-navigate] { 
+.sorter, span[data-navigate] { 
   cursor: pointer; cursor: hand; 
 }
