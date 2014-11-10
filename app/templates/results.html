@@ -2,16 +2,22 @@
   <thead>
   <tr>
     <th class="header center">
-      {{page_no}} of {{total_pages}} ({{total_results}} results)
-      <span data-navigate="prev"> 
-        {% if page_no > 1 %}
-          &#x21a4;
-        {% endif %}
+      <div>
+        {{page_no}} of {{total_pages}} ({{total_results}} results)
+      </div>
+      {% if page_no > 1 %}
+      <span data-navigate="prev">
+      {% else %}
+      <span class="hidden">
+      {% endif %}
+        &#x21a4;
       </span>
+      {% if page_no < total_pages %} 
       <span data-navigate="next">
-        {% if page_no < total_pages %} 
-          &#x21a6;
-        {% endif %}
+      {% else %}
+      <span class="hidden">
+      {% endif %}
+        &#x21a6;
       </span>
     </th>
     {% for row in data %}

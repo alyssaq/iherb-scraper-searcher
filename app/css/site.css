@@ -68,7 +68,10 @@ td {
 .sorter:before {
   content: "\21C5";
 }
-span[data-navigate] {
+.hidden {
+  color: lightgrey;
+}
+th.header > span {
   vertical-align: top;
   font-size: 25px;
 }
