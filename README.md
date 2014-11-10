@@ -1,4 +1,5 @@
 # [iherb](http://iherb.com) product scraper and searcher
+[![Build Status](https://img.shields.io/travis/alyssaq/iherb-scraper-searcher/master.svg)](https://travis-ci.org/alyssaq/iherb-scraper-searcher)
 
 iherb has a great range of products and cheap worldwide shipping.
 Unfortunately, beyond price and best selling, it has a limited search and filter.
