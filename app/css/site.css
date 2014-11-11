@@ -24,7 +24,7 @@ a.icon-github {
   content: "g";
 }
 .icon-github:hover {
-  border-bottom: 5px maroon solid;
+  border-bottom: 3px maroon solid;
 }
 
 body {
