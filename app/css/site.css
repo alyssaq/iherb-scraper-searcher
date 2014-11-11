@@ -1,3 +1,32 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "icons";
+  src:url("icons.woff") format("woff");
+}
+[class^="icon-"]:before {
+  font-family: "icons";
+  font-size: 25px;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon {
+  padding-top: 15px;
+}
+a.icon-github {
+  text-decoration: none;
+  color: maroon;
+}
+.icon-github:before {
+  content: "g";
+}
+.icon-github:hover {
+  border-bottom: 5px maroon solid;
+}
+
 body {
   font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
   -webkit-touch-callout: none;

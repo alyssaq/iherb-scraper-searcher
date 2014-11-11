@@ -56,6 +56,7 @@ module.exports = function (grunt) {
             '*.{ico,txt}',
             'data/*.json',
             'js/{,*/}*.js',
+            'css/icons.woff'
           ]
         }]
       }
