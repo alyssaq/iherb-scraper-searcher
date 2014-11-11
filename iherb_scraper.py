@@ -136,7 +136,7 @@ def get_fact_table_rows(facts_table):
 
     if len(rowdata) >= maxc and len(rowdata[0].text) > 1:
       row1, row2 = rowdata[0:2]
-      if len(row1.contents) > 1 and len(row2.contents) > 1:
+      if len(row1.contents) > 1:
         for idx, text in enumerate(row1.contents):
           if isinstance(text, NavigableString):
             rows.append([clean(text), '', 0])
@@ -297,7 +297,7 @@ def process_one_multiV():
   url = 'http://www.iherb.com/Deva-Multivitamin-Mineral-Supplement-Vegan-90-Coated-Tablets/12664'
   url = 'http://www.iherb.com/Nature-s-Plus-Source-of-Life-Gold-Liquid-Delicious-Tropical-Fruit-Flavor-8-fl-oz-236-ml/22998'
   url = 'http://www.iherb.com/Eclectic-Institute-Vita-Natal-Multi-Vitamin-Mineral-Formula-180-Tablets/15335'
-  url = 'http://www.iherb.com/Rexall-Sundown-Naturals-Complete-Women-s-Multivitamin-Multimineral-Supplement-with-Herbs-90-Caplets/41060'
+  url = 'http://www.iherb.com/Paradise-Herbs-ORAC-Energy-Earth-s-Blend-One-Daily-Superfood-Multivitamin-With-Iron-60-Veggie-Caps/42406'
   #url = 'http://www.iherb.com/All-One-Nutritech-Original-Formula-Multiple-Vitamin-Mineral-Powder-15-9-oz-450-g/4521'
   r = requests.get(url)
   res = product_profile(r.text)
