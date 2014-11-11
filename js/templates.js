@@ -60,7 +60,7 @@ else {
 output += "\n      <span class=\"hidden\">\n      ";
 ;
 }
-output += "\n        &#x21a6;\n      </span>\n    </th>\n    ";
+output += "\n        &#x21a6;\n      </span>\n      <div class=\"icon\">\n      <a title=\"The codez\" class=\"icon-github\" href=\"https://github.com/alyssaq\">     \n      </a>\n      </div>\n    </th>\n    ";
 frame = frame.push();
 var t_6 = runtime.contextOrFrameLookup(context, frame, "data");
 if(t_6) {var t_5 = t_6.length;
@@ -261,7 +261,7 @@ frame.set("loop.first", t_38 === 0);
 frame.set("loop.last", t_38 === t_39 - 1);
 frame.set("loop.length", t_39);
 output += "\n      ";
-if((lineno = 90, colno = 38, runtime.callWrap(runtime.memberLookup((runtime.memberLookup((t_41),"nutrients", env.autoesc)),"hasOwnProperty", env.autoesc), "row[\"nutrients\"][\"hasOwnProp\"]", [runtime.memberLookup((t_37),0, env.autoesc)]))) {
+if((lineno = 94, colno = 38, runtime.callWrap(runtime.memberLookup((runtime.memberLookup((t_41),"nutrients", env.autoesc)),"hasOwnProperty", env.autoesc), "row[\"nutrients\"][\"hasOwnProp\"]", [runtime.memberLookup((t_37),0, env.autoesc)]))) {
 output += "\n        ";
 var t_42;
 t_42 = runtime.memberLookup((runtime.memberLookup((t_41),"nutrients", env.autoesc)),runtime.memberLookup((t_37),0, env.autoesc), env.autoesc);
