@@ -78,10 +78,10 @@
     ["Sucrase", "Glucoamylase"]
   ],
   "Probiotics": [
-    ["L. acidophilus", "Lactobacillus acidophilus"],
-    ["L. rhamnosus", "Lactobacillus rhamnosus"],
-    ["B. breve", "Bifidobacterium breve"],
-    ["B. lactis", "Bifidobacterium lactis"],
-    ["B. longum", "Bifidobacterium longum"]
+    ["L. acidophilus", "acidophilus"],
+    ["L. rhamnosus", "rhamnosus"],
+    ["B. breve", "breve"],
+    ["B. lactis", "lactis"],
+    ["B. longum", "longum"]
   ]
 }
