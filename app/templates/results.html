@@ -46,12 +46,12 @@
     {% endfor %}
   </tr>
 
-  <tr class="price_per_single">
-    <td class="header sorter" data-key="price_per_single">
-      Price per single
+  <tr class="price_per_unit">
+    <td class="header sorter" data-key="price_per_unit">
+      Price per 1 unit
     </td>
     {% for row in data %}
-      <td>{{ row.price_per_single | round(2) }}</td>
+      <td>{{ row.price_per_unit | round(2) }}</td>
     {% endfor %}
   </tr>
 
@@ -69,7 +69,7 @@
     {% for row in data %}
       <td>
       {% set size = row.container_sizes[row.size_indexes[0]] %}
-      {{ size.amount }} {{ size.unit }}
+      {{ size.amount }}
       </td>
     {% endfor %}
   </tr>
@@ -79,7 +79,17 @@
     {% for row in data %}
       <td>
       {% set size = row.serving_sizes[row.size_indexes[1]] %}
-      {{ size.amount }} {{ size.unit }}
+      {{ size.amount }}
+      </td>
+    {% endfor %}
+  </tr>
+
+  <tr class="unit">
+    <td class="header">Unit</td>
+    {% for row in data %}
+      <td>
+      {% set size = row.serving_sizes[row.size_indexes[1]] %}
+      {{ size.unit }}
       </td>
     {% endfor %}
   </tr>
