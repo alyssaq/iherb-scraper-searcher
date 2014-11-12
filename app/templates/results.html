@@ -46,6 +46,15 @@
     {% endfor %}
   </tr>
 
+  <tr class="price_per_single">
+    <td class="header sorter" data-key="price_per_single">
+      Price per single
+    </td>
+    {% for row in data %}
+      <td>{{ row.price_per_single | round(2) }}</td>
+    {% endfor %}
+  </tr>
+
   <tr class="price_per_serve">
     <td class="header sorter" data-key="price_per_serve">
       Price per serve
