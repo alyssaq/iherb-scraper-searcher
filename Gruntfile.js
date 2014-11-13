@@ -36,7 +36,7 @@ module.exports = function (grunt) {
     cssmin: {
       dest: {
         files: {
-          '<%= config.dest %>/css/site.min.css': [
+          '<%= config.dest %>/css/site.css': [
             '.tmp/css/*.css',
             '<%= config.app %>/css/*.css'
           ]
@@ -104,8 +104,7 @@ module.exports = function (grunt) {
         files: [
           '<%= config.app =>/index.html',
           '<%= config.app %>/js/{,*/}*.js',
-          '<%= config.app %>/data/*.json',
-          'index.html'
+          '<%= config.app %>/data/*.json'
         ],
         tasks: ['copy']
       },
@@ -114,7 +113,7 @@ module.exports = function (grunt) {
           livereload: grunt.option('livereloadport') || LIVERELOAD_PORT
         },
         files: [
-          '<%= config.app %>/*.html',
+          '<%= config.app %>/index.html',
           '{.tmp,<%= config.app %>}/css/{,*/}*.css',
           '{.tmp,<%= config.app %>}/js/{,*/}*.js',
           '<%= config.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp}',
@@ -188,18 +187,6 @@ module.exports = function (grunt) {
       }
     },
 
-    // To replace html builds (replace .css with min.css)
-    processhtml: {
-      dist: {
-        options: {
-          process: true
-        },
-        files: {
-          'dest/index.html': ['app/index.html']
-        }
-      },
-    },
-
     // inline critical css
     critical: {
       test: {
@@ -236,7 +223,6 @@ module.exports = function (grunt) {
   grunt.registerTask('prodbuild', [
     'devbuild',
     'uglify',
-    'processhtml',
     'critical'
   ]);
 

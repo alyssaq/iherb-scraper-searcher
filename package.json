@@ -30,7 +30,6 @@
     "grunt-jscs": "^0.8.1",
     "grunt-nunjucks": "^0.1.4",
     "grunt-open": "^0.2.3",
-    "grunt-processhtml": "^0.3.3",
     "grunt-usemin": "^2.6.0",
     "load-grunt-tasks": "^1.0.0",
     "time-grunt": "^1.0.0"
