@@ -36,7 +36,7 @@ module.exports = function (grunt) {
     cssmin: {
       dest: {
         files: {
-          '<%= config.dest %>/css/site.css': [
+          '<%= config.dest %>/css/site.min.css': [
             '.tmp/css/*.css',
             '<%= config.app %>/css/*.css'
           ]
@@ -44,15 +44,24 @@ module.exports = function (grunt) {
       }
     },
 
-    critical: {
-      test: {
+    jshint: {
+      all: {
         options: {
-          base: '<%= config.app %>/',
-          minify: true,
-          extract: true
+          jshintrc: '.jshintrc'
         },
-        src: '<%= config.app %>/index.html',
-        dest: '<%= config.dest %>/index.html'
+        src: [
+          'Gruntfile.js',
+          'js/*.js'
+        ]
+      }
+    },
+    jscs: {
+      src: [
+        'Gruntfile.js',
+        'app/js/*.js'
+      ],
+      options: {
+        config: '.jscsrc'
       }
     },
 
@@ -67,7 +76,8 @@ module.exports = function (grunt) {
             '*.{ico,txt}',
             'data/*.json',
             'js/{,*/}*.js',
-            'css/icons.woff'
+            'css/icons.woff',
+            'index.html'
           ]
         }]
       }
@@ -94,7 +104,8 @@ module.exports = function (grunt) {
         files: [
           '<%= config.app =>/index.html',
           '<%= config.app %>/js/{,*/}*.js',
-          '<%= config.app %>/data/*.json'
+          '<%= config.app %>/data/*.json',
+          'index.html'
         ],
         tasks: ['copy']
       },
@@ -165,50 +176,78 @@ module.exports = function (grunt) {
       dest: ['.tmp', '<%= config.dest %>/*']
     },
 
-    jshint: {
-      all: {
-        options: {
-          jshintrc: '.jshintrc'
-        },
-        src: [
-          'Gruntfile.js',
-          'js/*.js'
-        ]
+    // Minify js files inplace. Does not concat
+    uglify: {
+      jsmin: {
+        files: [{
+          expand: true,
+          cwd: '<%= config.dest %>/js',
+          src: '*.js',
+          dest: '<%= config.dest %>/js'
+        }]
       }
     },
-    jscs: {
-      src: [
-        'Gruntfile.js',
-        'app/js/*.js'
-      ],
-      options: {
-        config: '.jscsrc'
+
+    // To replace html builds (replace .css with min.css)
+    processhtml: {
+      dist: {
+        options: {
+          process: true
+        },
+        files: {
+          'dest/index.html': ['app/index.html']
+        }
+      },
+    },
+
+    // inline critical css
+    critical: {
+      test: {
+        options: {
+          base: '<%= config.dest %>/',
+          minify: true,
+          extract: true
+        },
+        src: '<%= config.dest %>/index.html',
+        dest: '<%= config.dest %>/index.html'
       }
     }
   });
 
+  // Dev build - js not minified
+  grunt.registerTask('devbuild', [
+    'clean',
+    'jscs',
+    'jshint',
+    'nunjucks',
+    'cssmin',
+    'copy'
+  ]);
+
+  // Development mode with livereload
   grunt.registerTask('dev', [
-    'build',
+    'devbuild',
     'connect:livereload',
     'open:server',
     'watch'
   ]);
 
-  grunt.registerTask('build', [
-    'clean',
-    'jscs',
-    'jshint',
-    'nunjucks',
-    // 'useminPrepare',
-    // 'imagemin',
-    // 'htmlmin',
-    // 'concat',
-    'cssmin',
-    'critical',
-    'copy'
+  // Prod build - js minified, critical css inlined
+  grunt.registerTask('prodbuild', [
+    'devbuild',
+    'uglify',
+    'processhtml',
+    'critical'
+  ]);
+
+  // Production mode with prod files
+  grunt.registerTask('prod', [
+    'prodbuild',
+    'open:server',
+    'connect:dest:keepalive'
   ]);
 
   grunt.registerTask('default', [
-    'build'
+    'prod'
   ]);
 };
