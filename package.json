@@ -25,6 +25,7 @@
     "grunt-contrib-cssmin": "^0.10.0",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-watch": "^0.6.1",
+    "grunt-critical": "0.0.3",
     "grunt-jscs": "^0.8.1",
     "grunt-nunjucks": "^0.1.4",
     "grunt-open": "^0.2.3",

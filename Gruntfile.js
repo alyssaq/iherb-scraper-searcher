@@ -44,6 +44,18 @@ module.exports = function (grunt) {
       }
     },
 
+    critical: {
+      test: {
+        options: {
+          base: '<%= config.app %>/',
+          minify: true,
+          extract: true
+        },
+        src: '<%= config.app %>/index.html',
+        dest: '<%= config.dest %>/index.html'
+      }
+    },
+
     copy: {
       dest: {
         files: [{
@@ -52,7 +64,6 @@ module.exports = function (grunt) {
           cwd: '<%= config.app %>',
           dest: '<%= config.dest %>',
           src: [
-            'index.html',
             '*.{ico,txt}',
             'data/*.json',
             'js/{,*/}*.js',
@@ -193,6 +204,7 @@ module.exports = function (grunt) {
     // 'htmlmin',
     // 'concat',
     'cssmin',
+    'critical',
     'copy'
   ]);
 
