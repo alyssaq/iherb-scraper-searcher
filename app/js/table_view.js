@@ -20,16 +20,10 @@ Table.prototype.allAboveThreshold = function (nutrients) {
 }
 
 Table.prototype.render = function (reset) {
-  if (reset) {
-    concat(tableModel.pages, 
-      tableModel.data.splice(tableModel.results_per_page)
-    );
-    tableModel.total_results = tableModel.data.length + tableModel.pages.length;
-    tableModel.total_pages = Math.ceil(
-      tableModel.total_results / tableModel.results_per_page);
-    tableModel.page_no = 1;
+  if (reset) { // Re-calculate as some results may have been filtered out
+    this.model.reset();
   }
-  var rendered = nunjucks.render('results.html', tableModel);
+  var rendered = nunjucks.render('results.html', this.model);
   document.getElementById('results').innerHTML = rendered;
 }
 
@@ -37,7 +31,7 @@ Table.prototype.addEvents = function () {
   var that = this;
 
   document.addEventListener('click', function (e) {
-    var DATA = that.model;
+    var model = that.model;
     var dataset = e.target.dataset;
     var key = dataset.key;
     var navigate = dataset.navigate;
@@ -50,33 +44,25 @@ Table.prototype.addEvents = function () {
       that.render(true);
     } else if (navigate) {
       if (navigate === 'next') {
-        var start = DATA.results_per_page;
-        concat(DATA.pages, DATA.data.splice(0));
-        concat(DATA.data, DATA.pages.splice(0, start));
-        DATA.page_no += 1; 
+        model.page_no += 1; 
       } else {
-        prepend(DATA.pages, DATA.data.splice(0));
-        var start = DATA.pages.length - DATA.results_per_page;
-        var sli = DATA.pages.splice(start, DATA.results_per_page);
-        concat(DATA.data, sli);
-        DATA.page_no -= 1;
+        model.page_no -= 1;
       }
       that.render(false);
     }
   });
 
   document.addEventListener('change', function (e) {
-    var DATA = that.model;
+    var model = that.model;
     var target = e.target;
-    concat(DATA.data, DATA.pages.splice(0));
-    var data = DATA.data;
-    var removed = DATA.removed;
+    var data = model.data;
+    var removed = model.removed;
     var selectedText = target.parentElement.textContent.trim();
     var category = target.dataset.category;
-    delete DATA.checkedBox[selectedText];
+    delete model.checkedBox[selectedText];
 
     if (target.checked) {
-      DATA.checkedBox[selectedText] = 'checked';
+      model.checkedBox[selectedText] = 'checked';
       for (var i = 0; i < data.length; i++) {
         var nutrient = data[i].nutrients[selectedText];
 
@@ -92,7 +78,7 @@ Table.prototype.addEvents = function () {
         var selected = nutrients[selectedText];
         if (that.isBelowThreshold(selected) && 
             that.allAboveThreshold(nutrients)) {
-          DATA.data.push(removed.splice(i, 1)[0]);
+          model.data.push(removed.splice(i, 1)[0]);
           i = i - 1;
         }
       }

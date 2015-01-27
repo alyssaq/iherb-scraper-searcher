@@ -1,15 +1,16 @@
 <table id="nutrients">
   <thead>
+  {% set start = (page_no-1) * results_per_page + 1 %}
+  {% if page_no < total_pages %}
+    {% set end = page_no * results_per_page %}
+  {% else %}
+    {% set end = total_results %}
+  {% endif %}
+  {% set page_results = data.slice(start - 1, end) %}
   <tr>
     <th class="header center">
       <div class="normal">
         Showing Columns: <br>
-        {% set start = (page_no-1) * results_per_page + 1 %}
-        {% if page_no < total_pages %}
-          {% set end = page_no * results_per_page %}
-        {% else %}
-          {% set end = total_results %}
-        {% endif %}
         <b>{{start}} to {{end}}</b> <br>
         ({{total_results}} total)
       </div>
@@ -31,7 +32,7 @@
       <a title="The codez" class="icon-github" href="https://github.com/alyssaq/iherb-scraper-searcher"></a>
       </div>
     </th>
-    {% for row in data %}
+    {% for row in data.slice(start - 1, end) %}
     <th>
       <a href="{{ row.url }}">{{ row.display_name }}</a>
     </th>
@@ -41,7 +42,7 @@
   <tbody style="height: 300px; overflow-y: auto">
   <tr class="price">
     <td class="header sorter" data-key="price">Price</td>
-    {% for row in data %}
+    {% for row in page_results %}
       <td>{{ row.price }}</td>
     {% endfor %}
   </tr>
@@ -50,7 +51,7 @@
     <td class="header sorter" data-key="price_per_unit">
       Price per 1 unit
     </td>
-    {% for row in data %}
+    {% for row in page_results %}
       <td>{{ row.price_per_unit | round(2) }}</td>
     {% endfor %}
   </tr>
@@ -59,14 +60,14 @@
     <td class="header sorter" data-key="price_per_serve">
       Price per serve
     </td>
-    {% for row in data %}
+    {% for row in page_results %}
       <td>{{ row.price_per_serve | round(2) }}</td>
     {% endfor %}
   </tr>
 
   <tr class="container_size">
     <td class="header">Container Size</td>
-    {% for row in data %}
+    {% for row in data.slice(start - 1, end) %}
       <td>
       {% set size = row.container_sizes[row.size_indexes[0]] %}
       {{ size.amount }}
@@ -76,7 +77,7 @@
 
   <tr class="serving_size">
     <td class="header">Serving Size</td>
-    {% for row in data %}
+    {% for row in page_results %}
       <td>
       {% set size = row.serving_sizes[row.size_indexes[1]] %}
       {{ size.amount }}
@@ -86,7 +87,7 @@
 
   <tr class="unit">
     <td class="header">Unit</td>
-    {% for row in data %}
+    {% for row in page_results %}
       <td>
       {% set size = row.serving_sizes[row.size_indexes[1]] %}
       {{ size.unit }}
@@ -97,7 +98,7 @@
   {% for category in categories %}
   <tr class="category">
     <td class="header sorter" data-key="num_{{category}}">{{ category }}</td>
-    {% for row in data %}
+    {% for row in page_results %}
       <td>{{ row["num_" + category] }}</td>
     {% endfor %}
   </tr>
@@ -109,7 +110,7 @@
       <input type="checkbox" data-category="{{category}}" {{ checkedBox[nutrients[0]] }}>
       {{ nutrients[0] }} 
     </td>
-    {% for row in data %}
+    {% for row in page_results %}
       {% if row.nutrients.hasOwnProperty(nutrients[0]) %}
         {% set cur_nutrient = row.nutrients[nutrients[0]] %}
 
