@@ -18,3 +18,9 @@ TableModel.prototype.addData = function (data) {
 TableModel.prototype.addNutrientsInfo = function (data) {
   this.allnutrients = data;
 }
+
+TableModel.prototype.sortBy = function (key, multiplier) {
+  this.data = this.data.sort(function (rowA, rowB) {
+    return (rowA[key] - rowB[key]) * multiplier;
+  });
+}

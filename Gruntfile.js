@@ -91,7 +91,7 @@ module.exports = function (grunt) {
       dest: {
         src: [
           '<%= config.app %>/js/request.js',
-          '<%= config.app %>/js/table.js',
+          '<%= config.app %>/js/table_view.js',
           '<%= config.app %>/js/table_model.js',
           '<%= config.app %>/js/main.js',
           '<%= config.app %>/js/webfonts.js',

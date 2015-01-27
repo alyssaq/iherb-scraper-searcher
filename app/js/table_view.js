@@ -11,11 +11,26 @@ Table.prototype.isBelowThreshold = function (nutrient) {
 }
 
 Table.prototype.allAboveThreshold = function (nutrients) {
-  var checkedNutrients = Object.keys(DATA.checkedBox);
+  var that = this;
+  var checkedNutrients = Object.keys(that.model.checkedBox);
   return checkedNutrients.every(function (checked, idx) {
     var nutrient = nutrients[checked];
-    return !!(nutrient && nutrient.percent_dv >= this.options.threshold);
+    return !!(nutrient && nutrient.percent_dv >= that.options.threshold);
   });
+}
+
+Table.prototype.render = function (reset) {
+  if (reset) {
+    concat(tableModel.pages, 
+      tableModel.data.splice(tableModel.results_per_page)
+    );
+    tableModel.total_results = tableModel.data.length + tableModel.pages.length;
+    tableModel.total_pages = Math.ceil(
+      tableModel.total_results / tableModel.results_per_page);
+    tableModel.page_no = 1;
+  }
+  var rendered = nunjucks.render('results.html', tableModel);
+  document.getElementById('results').innerHTML = rendered;
 }
 
 Table.prototype.addEvents = function () {
@@ -30,11 +45,9 @@ Table.prototype.addEvents = function () {
     if (key) {
       var store = that.store;
       var sortMultiplier = store.getItem(key) || 1;
-      DATA.data = DATA.data.sort(function (rowA, rowB) {
-        return (rowA[key] - rowB[key]) * sortMultiplier;
-      });
+      that.model.sortBy(key, sortMultiplier);
       store.setItem(key, sortMultiplier * -1);
-      render(true);
+      that.render(true);
     } else if (navigate) {
       if (navigate === 'next') {
         var start = DATA.results_per_page;
@@ -48,7 +61,7 @@ Table.prototype.addEvents = function () {
         concat(DATA.data, sli);
         DATA.page_no -= 1;
       }
-      render(false);
+      that.render(false);
     }
   });
 
@@ -72,7 +85,6 @@ Table.prototype.addEvents = function () {
           i = i - 1;
         }
       }
-      return render(true);
     } else if (removed.length > 0) {
       // Put a nutrient back if its <100 and the rest are all not >=100
       for (var i = 0; i < removed.length; i++) {
@@ -84,8 +96,7 @@ Table.prototype.addEvents = function () {
           i = i - 1;
         }
       }
-
-      return render(true);
     }
+    that.render(true);
   });
 };
