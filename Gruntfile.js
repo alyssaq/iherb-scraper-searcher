@@ -222,13 +222,13 @@ module.exports = function (grunt) {
   // Prod build - js minified, critical css inlined
   grunt.registerTask('prodbuild', [
     'devbuild',
+    'uglify',
     'critical'
   ]);
 
   // Production mode with prod files
   grunt.registerTask('prod', [
     'prodbuild',
-    'uglify',
     'open:server',
     'connect:dest:keepalive'
   ]);
