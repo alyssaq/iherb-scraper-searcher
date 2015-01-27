@@ -75,7 +75,6 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,txt}',
             'data/*.json',
-            'js/{,*/}*.js',
             'css/icons.woff',
             'index.html'
           ]
@@ -83,10 +82,35 @@ module.exports = function (grunt) {
       }
     },
 
+    concat: {
+      options: {
+        stripBanners: true,
+        banner: '(function () {',
+        footer: '})();'
+      },
+      dest: {
+        src: [
+          '<%= config.app %>/js/request.js',
+          '<%= config.app %>/js/table.js',
+          '<%= config.app %>/js/table_model.js',
+          '<%= config.app %>/js/main.js',
+          '<%= config.app %>/js/webfonts.js',
+        ],
+        dest: '<%= config.dest %>/js/app.js',
+      },
+    },
+
     watch: {
       options: {
         nospawn: true,
         livereload: true
+      },
+      copy: {
+        files: [
+          '<%= config.app =>/index.html',
+          '<%= config.app %>/data/*.json'
+        ],
+        tasks: ['copy']
       },
       nunjucks: {
         files: ['<%= config.app %>/templates/*.html'],
@@ -98,15 +122,7 @@ module.exports = function (grunt) {
       },
       js: {
         files: ['<%= config.app %>/js/{,*/}*.js'],
-        tasks: ['jscs', 'jshint']
-      },
-      copy: {
-        files: [
-          '<%= config.app =>/index.html',
-          '<%= config.app %>/js/{,*/}*.js',
-          '<%= config.app %>/data/*.json'
-        ],
-        tasks: ['copy']
+        tasks: ['concat', 'jscs', 'jshint']
       },
       livereload: {
         options: {
@@ -178,12 +194,9 @@ module.exports = function (grunt) {
     // Minify js files inplace. Does not concat
     uglify: {
       jsmin: {
-        files: [{
-          expand: true,
-          cwd: '<%= config.dest %>/js',
-          src: '*.js',
-          dest: '<%= config.dest %>/js'
-        }]
+        files: {
+          '<%= config.dest %>/js/app.js': ['<%= config.dest %>/js/app.js']
+        }
       }
     },
 
@@ -208,7 +221,8 @@ module.exports = function (grunt) {
     'jshint',
     'nunjucks',
     'cssmin',
-    'copy'
+    'copy',
+    'concat'
   ]);
 
   // Development mode with livereload
