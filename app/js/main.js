@@ -1,4 +1,5 @@
 (function () {
+  var request = new App.Request();
   var DVTHRESHOLD = 100;
   var categories = ['Vitamins', 'Minerals', 'Trace Elements', 
     'Enzymes', 'Probiotics', 'Macronutrients',  'Amino Acids'];
@@ -34,8 +35,8 @@
   }
 
   function main() {
-    var multivXhr = $.getJSON('data/results.json');
-    var nutrientsXhr = $.getJSON('data/nutrients.json');
+    var multivXhr = request.getJSON('data/results.json');
+    var nutrientsXhr = request.getJSON('data/nutrients.json');
     nunjucks.configure({watch: false});
     Promise.all([multivXhr, nutrientsXhr]).then(function (res) {
       DATA.data = res[0];
@@ -44,7 +45,7 @@
     });
   }
 
-  $(document).on('click', function (e) {
+  document.addEventListener('click', function (e) {
     var dataset = e.target.dataset;
     var key = dataset.key;
     var navigate = dataset.navigate;
@@ -86,7 +87,7 @@
     });
   }
 
-  $(document).on('change', function (e) {
+  document.addEventListener('change', function (e) {
     var target = e.target;
     concat(DATA.data, DATA.pages.splice(0));
     var data = DATA.data;
@@ -116,7 +117,7 @@
           i = i - 1;
         }
       }
-      
+
       return render(true);
     }
   });
