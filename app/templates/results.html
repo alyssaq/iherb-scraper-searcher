@@ -21,7 +21,7 @@
       {% endif %}
         &#x21a4;
       </span>
-      {% if page_no < total_pages %} 
+      {% if page_no < total_pages %}
       <span data-navigate="next">
       {% else %}
       <span class="hidden">
@@ -46,7 +46,25 @@
       <td>{{ row.price }}</td>
     {% endfor %}
   </tr>
+<!--
+  <tr class="price_per_g">
+    <td class="header sorter" data-key="price_per_g">
+      Price per g
+    </td>
+    {% for row in page_results %}
+      <td>{{ row.price_per_g | round(4) }}</td>
+    {% endfor %}
+  </tr>
 
+  <tr class="protein_percent">
+    <td class="header sorter" data-key="protein_percent">
+      Protein Percent
+    </td>
+    {% for row in page_results %}
+      <td>{{ row.protein_percent | round(2) }}</td>
+    {% endfor %}
+  </tr>
+-->
   <tr class="price_per_unit">
     <td class="header sorter" data-key="price_per_unit">
       Price per 1 unit
@@ -108,7 +126,7 @@
     <!-- <td><div  class='num_slider'></div></td> -->
     <td class="header">
       <input type="checkbox" data-category="{{category}}" {{ checkedBox[nutrients[0]] }}>
-      {{ nutrients[0] }} 
+      {{ nutrients[0] }}
     </td>
     {% for row in page_results %}
       {% if row.nutrients.hasOwnProperty(nutrients[0]) %}
@@ -126,9 +144,9 @@
       <td>***</td>
       {% endif %}
     {% endfor %}
-  </tr> 
+  </tr>
   {% endfor %}
-   
+
   {% endfor %}
 </tbody>
 </table>

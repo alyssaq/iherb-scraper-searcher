@@ -13,11 +13,11 @@ flatten = itertools.chain.from_iterable
 DOMAIN = 'http://www.iherb.com'
 UNICODE_REGEX = re.compile(r'[^\x00-\x7f]|\r')
 SERVING_TEXT_REGEX = re.compile(
-  r'.*serving size:?\s*(?P<serve>.*)(servings)?|(?P<pserve>each packet)',
+  r'(serving size|serving):?\s*(?P<serve>.*)(serving)?|(?P<pserve>each packet)',
   re.IGNORECASE)
-PRICE_REGEX = re.compile(r'\$(\d{1,2}\.?\d{0,2})')
+PRICE_REGEX = re.compile(r'\s*\$(\d{1,2}\.?\d{0,2})\s*')
 NON_DIGITS_REGEX = re.compile(r'<|,|\*|%')
-SIZE_REGEX = re.compile(r'\s?(\d{1,4}\.?\/?\d{0,3})\s?([a-zA-Z \-]+)')
+SIZE_REGEX = re.compile(r'(\d{1,4}\.?\/?\d{0,3})\s?([a-zA-Z \-]+)')
 SIZE_PARTITION_REGEX = re.compile(r',|or |\(|\)')
 NUMBER_MAP = {
   'each': 1,
@@ -45,12 +45,11 @@ def load_nutrients():
 ALL_NUTRIENTS = load_nutrients()
 
 def get_serving_text(facts_table):
-  endRow = 3
-  rows = facts_table.findAll('tr')[0:endRow]
+  rows = facts_table.findAll('tr')[0:3]
   text = ''
   for row in rows:
     match = SERVING_TEXT_REGEX.match(clean(row.text))
-    text = (text + ' ' + row.text) if row.strong else text
+    # text = (text + ' ' + row.text) if row.strong else text
     if match:
       return match.group('serve') or match.group('pserve')
 
@@ -62,17 +61,20 @@ def get_container_size_text(text):
 def to_number(num):
   divider = '/'
   decimal = '.'
-  if divider in num:
-    fraction = num.split(divider)
-    return float(fraction[0]) / float(fraction[1])
-  elif decimal in num:
-    return float(num)
-  else:
-    return int(num)
+  try:
+    if divider in num:
+      fraction = num.split(divider)
+      return float(fraction[0]) / float(fraction[1])
+    elif decimal in num:
+      return float(num)
+    else:
+      return int(num)
+  except:
+    return None
 
 def get_alphanumber_size(text):
   tokens = re.split(r'\s+', text)
-  amount = 1
+  amount = None
   unit_tokens = []
 
   # unit word too long, take the first word
@@ -84,7 +86,7 @@ def get_alphanumber_size(text):
       end_index = 1 if len(unit_tokens) > 5 else len(unit_tokens)
       unit_tokens = unit_tokens[:end_index]
 
-  return {
+  return None if amount is None else {
     'amount': amount,
     'unit': ' '.join(unit_tokens)
   }
@@ -94,13 +96,14 @@ def get_sizes(text):
 
   sizes = []
   for part in reversed(partitions):
-    match = SIZE_REGEX.match(part)
+    match = SIZE_REGEX.search(part)
     if match:
       amount, unit = match.groups()
-      sizes.append({
-        'amount': to_number(amount),
-        'unit': unit.strip()
-      })
+      if amount:
+        sizes.append({
+          'amount': to_number(amount),
+          'unit': unit.strip()
+        })
 
   if len(sizes) == 0:
     sizes.append(get_alphanumber_size(text))
@@ -148,12 +151,11 @@ def get_fact_table_rows(facts_table):
   return rows
 
 def fill_nutrients_profile(facts_table, profile):
-  profile['nutrients'] = {}
   row_keys = ['actual_name', 'amount', 'percent_dv']
-  for category, nutrientlist in ALL_NUTRIENTS.iteritems():
-    profile['num_' + category] = 0
 
-  for row_values in get_fact_table_rows(facts_table):
+  rows = get_fact_table_rows(facts_table)
+  if len(rows) < 3: return
+  for row_values in rows:
     category, nutrient = match_product_nutrient(row_values[0])
     if nutrient is not None and \
        nutrient not in profile['nutrients']:
@@ -194,38 +196,40 @@ def overlapping_sizes(containers, serves):
 
   return (0, -1)
 
-def longest_index(arr):
-  max_len = 0
-  max_idx = -1
-
-  for i, elem in enumerate(arr):
-    length = len(elem)
-    if length > max_len:
-      max_len = length
-      max_idx = i
-
-  return max_idx
-
 def get_display_name(text):
   text = text.replace('/', '/ ')
   return ','.join(text.split(',')[:-1])
 
-def product_profile(html):
+def init_profile():
   profile = {'nutrients': {}, 'num_nutrients': 0}
+  for category, nutrientlist in ALL_NUTRIENTS.iteritems():
+    profile['num_' + category] = 0
+
+  return profile
+
+def product_profile(html):
   soup = BeautifulSoup(html)
   main = soup.find('div', {'id': 'mainContent'})
   tables = soup.findAll('table')
-  index = longest_index(tables)
-  price = main.find('span', class_='black20b')
-  if not price or index < 0:
+  price = main.find('section', {
+    'id': 'product-price'
+  }).find('div', {'class': 'our-price'})
+  if not price or len(tables) < 0:
     return None
 
-  facts_table = tables[index]
-  fill_nutrients_profile(facts_table, profile)
+  profile = init_profile()
+  serving_text = None
+  for table in sorted(tables, key=len, reverse=True):
+    fill_nutrients_profile(table, profile)
+    text = get_serving_text(table)
+    serving_text = text if serving_text is None and text != '' else serving_text
+
+  if serving_text is None: return None
   profile['name'] = main.find('h1').text
   profile['display_name'] = get_display_name(profile['name'])
-  profile['price'] = price_to_float(price.text)
-  profile['serving_text'] = get_serving_text(facts_table)
+  price = profile['price'] = price_to_float(price.text)
+
+  profile['serving_text'] = serving_text
   serves = profile['serving_sizes'] = get_sizes(profile['serving_text'])
   profile['container_text'] = get_container_size_text(profile['name'])
   fullsizes = profile['container_sizes'] = get_sizes(profile['container_text'])
@@ -249,7 +253,7 @@ def process(jobs):
     print('{0}) Processing: {1}'.format(i, val.url))
     i = i + 1
     profile = product_profile(val.text)
-    if profile:
+    if profile is not None:
       profile.update({'url': val.url + '?rcode=KQM091'})
       profiles.append(profile)
 
@@ -271,15 +275,50 @@ def process_page_links(url):
 
   return [] if len(jobs) == 0 else process(jobs)
 
-def process_search_pages(filename, category='multivitamins', min_nutrients=1):
+def next_result_page(category):
+  max_pages = 100
+  for page_no in xrange(max_pages):
+    url = DOMAIN + ('/{0}?p={1}').format(category, page_no)
+    print url
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text)
+    results = soup.find(
+      'div', {'id': 'display-results-content'}
+    )
+    yield results if results else None
+
+    # if results:
+    #   results = results.findAll('p', {'class': 'description'})
+    #   prefix = DOMAIN if results[0].find('a')['href'][0] == '/' else ''
+    #   yield (prefix + res.find('a')['href'] for res in results)
+    # else:
+    #   break
+
+def process_category(filename, category='multivitamins'):
+  results = []
+
+  for page in next_result_page(category):
+    links = page.find_all('p', {'class': 'description'})
+    prefix = DOMAIN if links[0].find('a')['href'][0] == '/' else ''
+    jobs = [gevent.spawn(requests.get, prefix + link.find('a')['href'])
+            for link in links]
+    if len(jobs) > 0:
+      gevent.wait(jobs)
+      print len(jobs)
+      results += process(jobs)
+
+  print len(results)
+
+def process_search_pages(filename=None, category='multivitamins', min_nutrients=1):
   res = []
   page_no = 1
-  hasLinks = True
-  while hasLinks:
+  has_links = True
+
+  while has_links:
     url = DOMAIN + ('/{0}?p={1}').format(category, page_no)
     print(url)
     page_results = process_page_links(url)
-    hasLinks = False if len(page_results) == 0 else True
+    has_links = False if len(page_results) == 0 else True
     res += page_results
     page_no = page_no + 1
 
@@ -289,7 +328,7 @@ def process_search_pages(filename, category='multivitamins', min_nutrients=1):
   res = sorted(res, key=sorter)
 
   print ('Saving {0} results'.format(len(res)))
-  if filename:
+  if filename is not None and len(res) > 0:
     with open(filename, 'w') as outfile:
       json.dump(res, outfile, indent=2)
   else:
@@ -300,7 +339,7 @@ def process_one_multiV():
   url = 'http://www.iherb.com/Nature-s-Plus-Source-of-Life-Gold-Liquid-Delicious-Tropical-Fruit-Flavor-8-fl-oz-236-ml/22998'
   url = 'http://www.iherb.com/Eclectic-Institute-Vita-Natal-Multi-Vitamin-Mineral-Formula-180-Tablets/15335'
   url = 'http://www.iherb.com/Paradise-Herbs-ORAC-Energy-Earth-s-Blend-One-Daily-Superfood-Multivitamin-With-Iron-60-Veggie-Caps/42406'
-  #url = 'http://www.iherb.com/All-One-Nutritech-Original-Formula-Multiple-Vitamin-Mineral-Powder-15-9-oz-450-g/4521'
+  url = 'http://www.iherb.com/Thorne-Research-Basic-Nutrients-2-Day-60-Veggie-Caps/52954'
   r = requests.get(url)
   res = product_profile(r.text)
   filename='test.json'
@@ -315,5 +354,6 @@ if __name__ == "__main__":
 
   #postprocess(outfile)
   #process_search_pages('digestives.json', 'enzymes', 7)
-  process_search_pages(outfile, min_nutrients=1)
+  #process_search_pages(outfile, min_nutrients=1)
+  process_category(outfile)
   #process_one_multiV()

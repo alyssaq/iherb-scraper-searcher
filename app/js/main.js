@@ -1,5 +1,5 @@
 var DVTHRESHOLD = 100;
-var categories = ['Vitamins', 'Minerals', 'Trace Elements', 
+var categories = ['Vitamins', 'Minerals', 'Trace Elements',
   'Enzymes', 'Probiotics', 'Macronutrients',  'Amino Acids'];
 
 var request = new Request();
