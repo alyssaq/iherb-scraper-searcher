@@ -46,7 +46,8 @@
       <td>{{ row.price }}</td>
     {% endfor %}
   </tr>
-<!--
+
+  {% if page_results[0].price_per_g %}
   <tr class="price_per_g">
     <td class="header sorter" data-key="price_per_g">
       Price per g
@@ -55,7 +56,9 @@
       <td>{{ row.price_per_g | round(4) }}</td>
     {% endfor %}
   </tr>
+  {% endif %}
 
+  {% if page_results[0].protein_percent %}
   <tr class="protein_percent">
     <td class="header sorter" data-key="protein_percent">
       Protein Percent
@@ -64,7 +67,9 @@
       <td>{{ row.protein_percent | round(2) }}</td>
     {% endfor %}
   </tr>
--->
+  {% endif %}
+
+  {% if page_results[0].price_per_unit %}
   <tr class="price_per_unit">
     <td class="header sorter" data-key="price_per_unit">
       Price per 1 unit
@@ -112,6 +117,7 @@
       </td>
     {% endfor %}
   </tr>
+  {% endif %}
 
   {% for category in categories %}
   <tr class="category">

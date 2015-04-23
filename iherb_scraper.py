@@ -244,12 +244,17 @@ def product_profile(html):
   return profile
 
 i = 1
+
+def passed_jobs(jobs):
+  for job in jobs:
+    if job.value.status_code == 200:
+      yield job.value
+
 def process(jobs):
   profiles = []
-  jobs = [j.value for j in jobs if j.value.status_code == 200]
   global i
 
-  for val in jobs:
+  for val in passed_jobs(jobs):
     print('{0}) Processing: {1}'.format(i, val.url))
     i = i + 1
     profile = product_profile(val.text)
@@ -259,25 +264,9 @@ def process(jobs):
 
   return profiles
 
-def process_page_links(url):
-  response = requests.get(url)
-  soup = BeautifulSoup(response.text)
-  results = soup.find(
-    'div', {'id': re.compile('display-res(.*)')}
-  )
-  if not results:
-    return []
-  results = results.findAll('p', {'class': 'description'})
-  prefix = DOMAIN if results[0].find('a')['href'][0] == '/' else ''
-  links = (prefix + res.find('a')['href'] for res in results)
-  jobs = [gevent.spawn(requests.get, link) for link in links]
-  gevent.wait(jobs)
-
-  return [] if len(jobs) == 0 else process(jobs)
-
 def next_result_page(category):
   max_pages = 100
-  for page_no in xrange(max_pages):
+  for page_no in xrange(1, max_pages):
     url = DOMAIN + ('/{0}?p={1}').format(category, page_no)
     print url
     response = requests.get(url)
@@ -285,14 +274,10 @@ def next_result_page(category):
     results = soup.find(
       'div', {'id': 'display-results-content'}
     )
-    yield results if results else None
-
-    # if results:
-    #   results = results.findAll('p', {'class': 'description'})
-    #   prefix = DOMAIN if results[0].find('a')['href'][0] == '/' else ''
-    #   yield (prefix + res.find('a')['href'] for res in results)
-    # else:
-    #   break
+    if results:
+      yield results
+    else:
+      break
 
 def process_category(filename, category='multivitamins'):
   results = []
@@ -304,35 +289,18 @@ def process_category(filename, category='multivitamins'):
             for link in links]
     if len(jobs) > 0:
       gevent.wait(jobs)
-      print len(jobs)
       results += process(jobs)
 
-  print len(results)
-
-def process_search_pages(filename=None, category='multivitamins', min_nutrients=1):
-  res = []
-  page_no = 1
-  has_links = True
-
-  while has_links:
-    url = DOMAIN + ('/{0}?p={1}').format(category, page_no)
-    print(url)
-    page_results = process_page_links(url)
-    has_links = False if len(page_results) == 0 else True
-    res += page_results
-    page_no = page_no + 1
-
-  res = filter(lambda x: x['num_Vitamins'] >= min_nutrients, res)
   sorter = lambda x: (-(x['num_Minerals'] + x['num_Vitamins']),
                       x['price_per_serve'])
-  res = sorted(res, key=sorter)
+  results = sorted(results, key=sorter)
 
-  print ('Saving {0} results'.format(len(res)))
-  if filename is not None and len(res) > 0:
+  print ('Saving {0} results'.format(len(results)))
+  if filename is not None and len(results) > 0:
     with open(filename, 'w') as outfile:
-      json.dump(res, outfile, indent=2)
+      json.dump(results, outfile, indent=2)
   else:
-    return res
+    return results
 
 def process_one_multiV():
   url = 'http://www.iherb.com/Deva-Multivitamin-Mineral-Supplement-Vegan-90-Coated-Tablets/12664'

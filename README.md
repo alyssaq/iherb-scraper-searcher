@@ -22,13 +22,12 @@ $ python iherb_scraper <outfile>
 ```
 If no `<outfile>` is specified, output is saved to `results.json` in root folder.
 
-Alternatively, you may edit `iherb_scraper.py` and call `process_search_pages`:
+Alternatively, you may edit `iherb_scraper.py` and call `process_category`:
 ```
-process_search_pages (filename, category='multivitamins', min_nutrients=1)
+process_category (filename, category='multivitamins')
 ```
   * `filename` - outfile to save results. If blank, nothing is saved.
   * `category` - iherb category to perform scraping.
-  * `min_nutrients` - minimum number of nutrients to match in `nutrients.json`
 
 ### Functionality
 * Scraps all products given a category. E.g. `multivitamins`, `enzymes`. You can check if a category exists by typing in the URL `http://iherb.com/<catgory>`

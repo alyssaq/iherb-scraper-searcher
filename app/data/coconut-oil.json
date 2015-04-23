@@ -1,0 +1,2360 @@
+[
+  {
+    "container_sizes": [
+      {
+        "amount": 1.6, 
+        "unit": "l"
+      }, 
+      {
+        "amount": 54, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Nutiva, Organic Refined Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nutiva-Organic-Refined-Coconut-Oil-54-fl-oz-1-6-l/58718?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 mg", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 21.6, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.0135, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Organic Refined Coconut Oil;54 fl oz (1.6 l)", 
+    "name": "Nutiva, Organic Refined Coconut Oil, 54 fl oz (1.6 l)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 946, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 32, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Jarrow Formulas, Organic Coconut Oil, Expeller Pressed", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Jarrow-Formulas-Organic-Coconut-Oil-Expeller-Pressed-32-fl-oz-946-ml/44950?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 14.35, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.015169133192389005, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Expeller Pressed;32 fl oz (946 ml)", 
+    "name": "Jarrow Formulas, Organic Coconut Oil, Expeller Pressed, 32 fl oz (946 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 680, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 23, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Nutiva, Organic Coconut Oil, Refined", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nutiva-Organic-Coconut-Oil-Refined-23-fl-oz-680-ml/62279?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 11.2, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.016470588235294115, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Refined;23 fl oz (680 ml)", 
+    "name": "Nutiva, Organic Coconut Oil, Refined, 23 fl oz (680 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 444, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 15, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Nutiva, Organic Coconut Oil, Refined", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nutiva-Organic-Coconut-Oil-Refined-15-fl-oz-444-ml/62278?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 mg", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 7.52, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.016936936936936937, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Refined;15 fl oz (444 ml)", 
+    "name": "Nutiva, Organic Coconut Oil, Refined, 15 fl oz (444 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 1.6, 
+        "unit": "l"
+      }, 
+      {
+        "amount": 54, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Now Foods, Organic Virgin Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Organic-Virgin-Coconut-Oil-54-fl-oz-1-6-L/54241?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "0 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 0
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 0
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 0
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 29.0, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.018125, 
+    "num_Minerals": 2, 
+    "num_Macronutrients": 5, 
+    "num_Amino Acids": 0, 
+    "container_text": "Organic Virgin Coconut Oil;54 fl oz (1.6 L)", 
+    "name": "Now Foods, Organic Virgin Coconut Oil, 54 fl oz (1.6 L)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 1530, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 54, 
+        "unit": "oz"
+      }
+    ], 
+    "display_name": "Healthy Origins, Organic Extra Virgin Coconut Oil, 54 oz (1", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Healthy-Origins-Organic-Extra-Virgin-Coconut-Oil-54-oz-1-530-g/53133?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Sodium": {
+        "amount": "0 g", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 27.95, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.01826797385620915, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Organic Extra Virgin Coconut Oil;54 oz (1530 g)", 
+    "name": "Healthy Origins, Organic Extra Virgin Coconut Oil, 54 oz (1,530 g)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 31, 
+        "unit": "oz"
+      }
+    ], 
+    "display_name": "Health Support, Coconut Oil, Raw Extra Virgin", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Health-Support-Coconut-Oil-Raw-Extra-Virgin-31-oz/57253?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrates", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "13 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 0
+      }, 
+      "Sodium": {
+        "amount": "0 g", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 16.2, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.018433509677419354, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Raw Extra Virgin;31 oz ", 
+    "name": "Health Support, Coconut Oil, Raw Extra Virgin, 31 oz "
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 454, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "oz"
+      }
+    ], 
+    "display_name": "Jarrow Formulas, Organic, Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Jarrow-Formulas-Organic-Coconut-Oil-16-oz-454-g/2506?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 8.37, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.01843612334801762, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Coconut Oil;16 oz (454 g)", 
+    "name": "Jarrow Formulas, Organic, Coconut Oil, 16 oz (454 g)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 414, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 14, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Spectrum Naturals, Organic Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Spectrum-Naturals-Organic-Coconut-Oil-14-fl-oz-414-ml/53692?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 8.7, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.021014492753623187, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Organic Coconut Oil;14 fl oz (414 ml)", 
+    "name": "Spectrum Naturals, Organic Coconut Oil, 14 fl oz (414 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 591, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 20, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Now Foods, Organic Virgin Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Organic-Virgin-Coconut-Oil-20-fl-oz-591-ml/7090?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "0 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 0
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 0
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 0
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 12.98, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.021962774957698817, 
+    "num_Minerals": 2, 
+    "num_Macronutrients": 5, 
+    "num_Amino Acids": 0, 
+    "container_text": "Organic Virgin Coconut Oil;20 fl oz (591 ml)", 
+    "name": "Now Foods, Organic Virgin Coconut Oil, 20 fl oz (591 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 908, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 32, 
+        "unit": "oz"
+      }
+    ], 
+    "display_name": "Jarrow Formulas, Organic Extra Virgin Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Jarrow-Formulas-Organic-Extra-Virgin-Coconut-Oil-32-oz-908-g/7227?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 19.95, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.02197136563876652, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Organic Extra Virgin Coconut Oil;32 oz (908 g)", 
+    "name": "Jarrow Formulas, Organic Extra Virgin Coconut Oil, 32 oz (908 g)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 822, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 29, 
+        "unit": "oz"
+      }
+    ], 
+    "display_name": "Healthy Origins, Organic Extra Virgin Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Healthy-Origins-Organic-Extra-Virgin-Coconut-Oil-29-oz-822-g/58642?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Sodium": {
+        "amount": "0 g", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 18.99, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.023102189781021895, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Organic Extra Virgin Coconut Oil;29 oz (822 g)", 
+    "name": "Healthy Origins, Organic Extra Virgin Coconut Oil, 29 oz (822 g)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 397, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 14, 
+        "unit": "oz"
+      }
+    ], 
+    "display_name": "Jungle Products, Beyond Organic Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Jungle-Products-Beyond-Organic-Coconut-Oil-14-oz-397-g/30275?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "0 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 0
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 9.22, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 6, 
+    "price_per_g": 0.023224181360201514, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 5, 
+    "num_Amino Acids": 0, 
+    "container_text": "Beyond Organic Coconut Oil;14 oz (397 g)", 
+    "name": "Jungle Products, Beyond Organic Coconut Oil, 14 oz (397 g)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 454, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "oz"
+      }
+    ], 
+    "display_name": "Earth Circle Organics, Coconut Oil, Organic, Virgin", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Earth-Circle-Organics-Coconut-Oil-Organic-Virgin-16-oz-454-g/50213?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "0 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 0
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 0
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Potassium": {
+        "amount": "0 mg", 
+        "actual_name": "Potassium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 0
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 10.79, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 11, 
+    "price_per_g": 0.023766519823788544, 
+    "num_Minerals": 3, 
+    "num_Macronutrients": 5, 
+    "num_Amino Acids": 0, 
+    "container_text": "Virgin;16 oz (454 g)", 
+    "name": "Earth Circle Organics, Coconut Oil, Organic, Virgin, 16 oz (454 g)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 454, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "oz"
+      }
+    ], 
+    "display_name": "Healthy Origins, Organic Extra Virgin Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Healthy-Origins-Organic-Extra-Virgin-Coconut-Oil-16-oz-454-g/58641?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Sodium": {
+        "amount": "0 g", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 10.99, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.02420704845814978, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Organic Extra Virgin Coconut Oil;16 oz (454 g)", 
+    "name": "Healthy Origins, Organic Extra Virgin Coconut Oil, 16 oz (454 g)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 355, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 12, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Now Foods, Organic, Virgin Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Organic-Virgin-Coconut-Oil-12-fl-oz-355-ml/832?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "0 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 0
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 0
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 0
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 8.82, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.024845070422535212, 
+    "num_Minerals": 2, 
+    "num_Macronutrients": 5, 
+    "num_Amino Acids": 0, 
+    "container_text": "Virgin Coconut Oil;12 fl oz (355 ml)", 
+    "name": "Now Foods, Organic, Virgin Coconut Oil, 12 fl oz (355 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 858, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 29, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Nutiva, Organic Virgin Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nutiva-Organic-Virgin-Coconut-Oil-29-fl-oz-858-ml/4716?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 mg", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 21.76, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.025361305361305365, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Organic Virgin Coconut Oil;29 fl oz (858 ml)", 
+    "name": "Nutiva, Organic Virgin Coconut Oil, 29 fl oz (858 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 680, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 23, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Nutiva, Organic Coconut Oil, Virgin", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nutiva-Organic-Coconut-Oil-Virgin-23-fl-oz-680-ml/47360?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 mg", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 17.28, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.025411764705882356, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Virgin;23 fl oz (680 ml)", 
+    "name": "Nutiva, Organic Coconut Oil, Virgin, 23 fl oz (680 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 444, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 15, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Nutiva, Organic Superfood, Coconut Oil, Virgin", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nutiva-Organic-Superfood-Coconut-Oil-Virgin-15-fl-oz-444-ml/47359?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 11.54, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.02599099099099099, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Virgin;15 fl oz (444 ml)", 
+    "name": "Nutiva, Organic Superfood, Coconut Oil, Virgin, 15 fl oz (444 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 454, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "oz"
+      }
+    ], 
+    "display_name": "Jarrow Formulas, Organic, Extra Virgin Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Jarrow-Formulas-Organic-Extra-Virgin-Coconut-Oil-16-oz-454-g/2505?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 11.87, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.026145374449339204, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Extra Virgin Coconut Oil;16 oz (454 g)", 
+    "name": "Jarrow Formulas, Organic, Extra Virgin Coconut Oil, 16 oz (454 g)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 473, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Garden of Life, Extra Virgin Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Garden-of-Life-Extra-Virgin-Coconut-Oil-16-fl-oz-473-ml/3111?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "1 g", 
+        "actual_name": "Total Carbohydrates", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Sugar": {
+        "amount": "1 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 12.42, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.026257928118393236, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 4, 
+    "num_Amino Acids": 0, 
+    "container_text": "Extra Virgin Coconut Oil;16 fl oz (473 ml)", 
+    "name": "Garden of Life, Extra Virgin Coconut Oil, 16 fl oz (473 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 473, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Buried Treasure, Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Buried-Treasure-Coconut-Oil-16-fl-oz-473-ml/45436?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrates", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 8
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 12.46, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 3, 
+    "price_per_g": 0.02634249471458774, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Coconut Oil;16 fl oz (473 ml)", 
+    "name": "Buried Treasure, Coconut Oil, 16 fl oz (473 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 414, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 14, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Spectrum Naturals, Organic Virgin Coconut Oil, Unrefined", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Spectrum-Naturals-Organic-Virgin-Coconut-Oil-Unrefined-14-fl-oz-414-ml/53760?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 11.34, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.027391304347826086, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Unrefined;14 fl oz (414 ml)", 
+    "name": "Spectrum Naturals, Organic Virgin Coconut Oil, Unrefined, 14 fl oz (414 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 473, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Artisana, Organics, Raw Coconut Oil, Extra Virgin", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Artisana-Organics-Raw-Coconut-Oil-Extra-Virgin-16-fl-oz-473-ml/27183?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "0 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 0
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 0
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 0
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "15 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 24
+      }, 
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrates", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 12.99, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.027463002114164907, 
+    "num_Minerals": 2, 
+    "num_Macronutrients": 5, 
+    "num_Amino Acids": 0, 
+    "container_text": "Extra Virgin;16 fl oz (473 ml)", 
+    "name": "Artisana, Organics, Raw Coconut Oil, Extra Virgin, 16 fl oz (473 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 454, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "oz"
+      }
+    ], 
+    "display_name": "Nature's Way, Organic Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nature-s-Way-Organic-Coconut-Oil-16-oz-454-g/4567?rcode=KQM091", 
+    "nutrients": {
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }
+    }, 
+    "price": 12.49, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 1, 
+    "price_per_g": 0.027511013215859033, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 1, 
+    "num_Amino Acids": 0, 
+    "container_text": "Organic Coconut Oil;16 oz (454 g)", 
+    "name": "Nature's Way, Organic Coconut Oil, 16 oz (454 g)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 444, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 15, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Nutiva, Organic Superfood, Coconut Oil, Virgin", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nutiva-Organic-Superfood-Coconut-Oil-Virgin-15-fl-oz-444-ml/5280?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 12.59, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.028355855855855854, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Virgin;15 fl oz (444 ml)", 
+    "name": "Nutiva, Organic Superfood, Coconut Oil, Virgin, 15 fl oz (444 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 592, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 20, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Healthy Origins, Coconut Oil, 100% Virgin, Liquid", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Healthy-Origins-Coconut-Oil-100-Virgin-Liquid-20-fl-oz-592-ml/61553?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Sodium": {
+        "amount": "0 g", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 17.98, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.030371621621621624, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Liquid;20 fl oz (592 ml)", 
+    "name": "Healthy Origins, Coconut Oil, 100% Virgin, Liquid, 20 fl oz (592 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 473.2, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Sunfood, Raw Extra Virgin, Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Sunfood-Raw-Extra-Virgin-Coconut-Oil-16-fl-oz-473-2-ml/59421?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "0 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 0
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 0
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 0
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 21
+      }, 
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 14.94, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.03157227387996619, 
+    "num_Minerals": 2, 
+    "num_Macronutrients": 5, 
+    "num_Amino Acids": 0, 
+    "container_text": "Coconut Oil;16 fl oz (473.2 ml)", 
+    "name": "Sunfood, Raw Extra Virgin, Coconut Oil, 16 fl oz (473.2 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 473, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Barlean's, Organic Virgin Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Barlean-s-Organic-Virgin-Coconut-Oil-16-fl-oz-473-ml/39842?rcode=KQM091", 
+    "nutrients": {
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }
+    }, 
+    "price": 15.93, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 1, 
+    "price_per_g": 0.03367864693446089, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 1, 
+    "num_Amino Acids": 0, 
+    "container_text": "Organic Virgin Coconut Oil;16 fl oz (473 ml)", 
+    "name": "Barlean's, Organic Virgin Coconut Oil, 16 fl oz (473 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 296, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 10, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Healthy Origins, 100% Virgin Liquid Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Healthy-Origins-100-Virgin-Liquid-Coconut-Oil-10-fl-oz-296-ml/61552?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Sodium": {
+        "amount": "0 g", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 9.98, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.03371621621621622, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "100% Virgin Liquid Coconut Oil;10 fl oz (296 ml)", 
+    "name": "Healthy Origins, 100% Virgin Liquid Coconut Oil, 10 fl oz (296 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 592, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 20, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Nature's Way, Liquid Coconut, Premium Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nature-s-Way-Liquid-Coconut-Premium-Oil-20-fl-oz-592-ml/47699?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "0 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 0
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 0
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 0
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 21.74, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.03672297297297297, 
+    "num_Minerals": 2, 
+    "num_Macronutrients": 5, 
+    "num_Amino Acids": 0, 
+    "container_text": "Premium Oil;20 fl oz (592 ml)", 
+    "name": "Nature's Way, Liquid Coconut, Premium Oil, 20 fl oz (592 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 296, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 10, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Nature's Way, Liquid  Coconut Premium Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nature-s-Way-Liquid-Coconut-Premium-Oil-10-fl-oz-296-ml/52812?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "0 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 0
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 0
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 0
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 11.51, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.038885135135135133, 
+    "num_Minerals": 2, 
+    "num_Macronutrients": 5, 
+    "num_Amino Acids": 0, 
+    "container_text": "Liquid  Coconut Premium Oil;10 fl oz (296 ml)", 
+    "name": "Nature's Way, Liquid  Coconut Premium Oil, 10 fl oz (296 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 240, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 8, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "North American Herb & Spice Co., CocaPalm, Virgin Coconut & Red Palm Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/North-American-Herb-Spice-Co-CocaPalm-Virgin-Coconut-Red-Palm-Oil-8-fl-oz-240-ml/15399?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "0 mg", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 0
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 0
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 85
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 15.54, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 9, 
+    "price_per_g": 0.06475, 
+    "num_Minerals": 1, 
+    "num_Macronutrients": 5, 
+    "num_Amino Acids": 0, 
+    "container_text": "Virgin Coconut & Red Palm Oil;8 fl oz (240 ml)", 
+    "name": "North American Herb & Spice Co., CocaPalm, Virgin Coconut & Red Palm Oil, 8 fl oz (240 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 33.7, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1.19, 
+        "unit": "oz"
+      }, 
+      {
+        "amount": 10, 
+        "unit": "packets"
+      }
+    ], 
+    "display_name": "Artisana, 100% Organic Raw Coconut Oil, 10 Packets", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Artisana-100-Organic-Raw-Coconut-Oil-10-Packets-1-19-oz-33-7-g-Each/32184?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "0 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 0
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 0
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 0
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }, 
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 16.38, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.48605341246290795, 
+    "num_Minerals": 2, 
+    "num_Macronutrients": 5, 
+    "num_Amino Acids": 0, 
+    "container_text": "10 Packets;1.19 oz (33.7 g) Each", 
+    "name": "Artisana, 100% Organic Raw Coconut Oil, 10 Packets, 1.19 oz (33.7 g) Each"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 60, 
+        "unit": "softgels"
+      }, 
+      {
+        "amount": 1000, 
+        "unit": "mg"
+      }
+    ], 
+    "display_name": "California Gold Nutrition, Virgin Coconut Oil, 1000 mg", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/California-Gold-Nutrition-Virgin-Coconut-Oil-1000-mg-60-Softgels/48397?rcode=KQM091", 
+    "nutrients": {
+      "Protein": {
+        "amount": "0.7 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 1
+      }, 
+      "Total Fat": {
+        "amount": "3 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 5
+      }
+    }, 
+    "price": 5.95, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 5.95, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 2, 
+    "num_Amino Acids": 0, 
+    "container_text": "1000 mg;60 Softgels", 
+    "name": "California Gold Nutrition, Virgin Coconut Oil, 1000 mg, 60 Softgels"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 45, 
+        "unit": "softgels"
+      }, 
+      {
+        "amount": 1000, 
+        "unit": "mg"
+      }
+    ], 
+    "display_name": "Natrol, Coconut Oil, 1000 mg", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Natrol-Coconut-Oil-1000-mg-45-Softgels/58221?rcode=KQM091", 
+    "nutrients": {
+      "Total Fat": {
+        "amount": "1 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 2
+      }
+    }, 
+    "price": 7.31, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 1, 
+    "price_per_g": 7.31, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 1, 
+    "num_Amino Acids": 0, 
+    "container_text": "1000 mg;45 Softgels", 
+    "name": "Natrol, Coconut Oil, 1000 mg, 45 Softgels"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 60, 
+        "unit": "softgels"
+      }
+    ], 
+    "display_name": "Olympian Labs Inc., Virgin Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Olympian-Labs-Inc-Virgin-Coconut-Oil-60-Softgels/8910?rcode=KQM091", 
+    "nutrients": {
+      "Total Fat": {
+        "amount": "2 g (2,000)", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 4
+      }
+    }, 
+    "price": 8.42, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 1, 
+    "price_per_g": 8.42, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 1, 
+    "num_Amino Acids": 0, 
+    "container_text": "Virgin Coconut Oil;60 Softgels", 
+    "name": "Olympian Labs Inc., Virgin Coconut Oil, 60 Softgels"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 16, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Source Naturals, Extra Virgin Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Source-Naturals-Extra-Virgin-Coconut-Oil-16-fl-oz/5560?rcode=KQM091", 
+    "nutrients": {
+      "Total Fat": {
+        "amount": "14 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 22
+      }
+    }, 
+    "price": 8.68, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 1, 
+    "price_per_g": 8.68, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 1, 
+    "num_Amino Acids": 0, 
+    "container_text": "Extra Virgin Coconut Oil;16 fl oz", 
+    "name": "Source Naturals, Extra Virgin Coconut Oil, 16 fl oz"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 60, 
+        "unit": "softgels"
+      }, 
+      {
+        "amount": 1000, 
+        "unit": "mg"
+      }
+    ], 
+    "display_name": "Mason Vitamins, Coconut Oil, 1000 mg", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Mason-Vitamins-Coconut-Oil-1000-mg-60-Softgels/55440?rcode=KQM091", 
+    "nutrients": {
+      "Protein": {
+        "amount": "<1 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "2.5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 4
+      }
+    }, 
+    "price": 9.34, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 9.34, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 2, 
+    "num_Amino Acids": 0, 
+    "container_text": "1000 mg;60 Softgels", 
+    "name": "Mason Vitamins, Coconut Oil, 1000 mg, 60 Softgels"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 120, 
+        "unit": "softgels"
+      }
+    ], 
+    "display_name": "Nature's Answer, Extra Virgin Coconut Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nature-s-Answer-Extra-Virgin-Coconut-Oil-120-Softgels/43198?rcode=KQM091", 
+    "nutrients": {
+      "Protein": {
+        "amount": "<1 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 2
+      }, 
+      "Total Fat": {
+        "amount": "5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 8
+      }
+    }, 
+    "price": 9.74, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 9.74, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 2, 
+    "num_Amino Acids": 0, 
+    "container_text": "Extra Virgin Coconut Oil;120 Softgels", 
+    "name": "Nature's Answer, Extra Virgin Coconut Oil, 120 Softgels"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 120, 
+        "unit": "softgels"
+      }, 
+      {
+        "amount": 1000, 
+        "unit": "mg"
+      }
+    ], 
+    "display_name": "Now Foods, Virgin Coconut Oil, 1000 mg", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Virgin-Coconut-Oil-1000-mg-120-Softgels/8220?rcode=KQM091", 
+    "nutrients": {
+      "Protein": {
+        "amount": "0.7 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 1
+      }, 
+      "Total Fat": {
+        "amount": "3 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 5
+      }
+    }, 
+    "price": 10.18, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 10.18, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 2, 
+    "num_Amino Acids": 0, 
+    "container_text": "1000 mg;120 Softgels", 
+    "name": "Now Foods, Virgin Coconut Oil, 1000 mg, 120 Softgels"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 120, 
+        "unit": "softgels"
+      }, 
+      {
+        "amount": 1000, 
+        "unit": "mg"
+      }
+    ], 
+    "display_name": "Nature's Way, Coconut Oil, Pure Extra Virgin, 1,000 mg", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nature-s-Way-Coconut-Oil-Pure-Extra-Virgin-1-000-mg-120-Softgels/52811?rcode=KQM091", 
+    "nutrients": {
+      "Total Fat": {
+        "amount": "4 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 6
+      }
+    }, 
+    "price": 11.51, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 1, 
+    "price_per_g": 11.51, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 1, 
+    "num_Amino Acids": 0, 
+    "container_text": "1000 mg;120 Softgels", 
+    "name": "Nature's Way, Coconut Oil, Pure Extra Virgin, 1,000 mg, 120 Softgels"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 120, 
+        "unit": "softgels"
+      }, 
+      {
+        "amount": 1000, 
+        "unit": "mg"
+      }
+    ], 
+    "display_name": "Jarrow Formulas, Coconut Oil, Extra Virgin, 1000 mg", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Jarrow-Formulas-Coconut-Oil-Extra-Virgin-1000-mg-120-Softgels/22605?rcode=KQM091", 
+    "nutrients": {
+      "Total Fat": {
+        "amount": "1 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 2
+      }
+    }, 
+    "price": 11.87, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 1, 
+    "price_per_g": 11.87, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 1, 
+    "num_Amino Acids": 0, 
+    "container_text": "1000 mg;120 Softgels", 
+    "name": "Jarrow Formulas, Coconut Oil, Extra Virgin, 1000 mg, 120 Softgels"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 120, 
+        "unit": "softgels"
+      }
+    ], 
+    "display_name": "Source Naturals, Coconut Oil, Extra Virgin", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Source-Naturals-Coconut-Oil-Extra-Virgin-120-Softgels/4988?rcode=KQM091", 
+    "nutrients": {
+      "Total Fat": {
+        "amount": "4 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 6
+      }
+    }, 
+    "price": 12.04, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 1, 
+    "price_per_g": 12.04, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 1, 
+    "num_Amino Acids": 0, 
+    "container_text": "Extra Virgin;120 Softgels", 
+    "name": "Source Naturals, Coconut Oil, Extra Virgin, 120 Softgels"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 120, 
+        "unit": "softgels"
+      }
+    ], 
+    "display_name": "Health Support, Coconut Oil Diet", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Health-Support-Coconut-Oil-Diet-120-Softgels/9792?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0", 
+        "actual_name": "Total Carbohydrates", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "1 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "1 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 0
+      }, 
+      "Sodium": {
+        "amount": "0", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 12.46, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 12.46, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Coconut Oil Diet;120 Softgels", 
+    "name": "Health Support, Coconut Oil Diet, 120 Softgels"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 180, 
+        "unit": "softgel capsules"
+      }
+    ], 
+    "display_name": "Health Support, Coconut Oil Diet", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Health-Support-Coconut-Oil-Diet-180-Softgel-Capsules/12350?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0", 
+        "actual_name": "Total Carbohydrates", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "1 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "1 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 0
+      }, 
+      "Sodium": {
+        "amount": "0", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 16.2, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 16.2, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 3, 
+    "num_Amino Acids": 0, 
+    "container_text": "Coconut Oil Diet;180 Softgel Capsules", 
+    "name": "Health Support, Coconut Oil Diet, 180 Softgel Capsules"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 120, 
+        "unit": "tablets"
+      }
+    ], 
+    "display_name": "Youtheory, Coconut", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Youtheory-Coconut-120-Tablets/59094?rcode=KQM091", 
+    "nutrients": {
+      "Magnesium": {
+        "amount": "16 mg", 
+        "actual_name": "Magnesium (as Magnesium Gluconate)", 
+        "percent_dv": 4
+      }
+    }, 
+    "price": 30.95, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 1, 
+    "price_per_g": 30.95, 
+    "num_Minerals": 1, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Coconut;120 Tablets ", 
+    "name": "Youtheory, Coconut, 120 Tablets "
+  }
+]

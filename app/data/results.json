@@ -100277,6 +100277,107 @@
     "name": "Wellesse Premium Liquid Supplements, Multi Vitamin+, Sugar Free, Natural Citrus Flavor, 16 fl oz (480 ml)"
   }, 
   {
+    "serving_text": "Three Capsules", 
+    "display_name": "Thorne Research, Citramins", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Thorne-Research-Citramins-90-Veggie-Caps/18538?rcode=KQM091", 
+    "nutrients": {
+      "Copper": {
+        "amount": "900 mcg", 
+        "actual_name": "Copper (as Copper Citrate)", 
+        "percent_dv": 45
+      }, 
+      "Iodine": {
+        "amount": "120 mcg", 
+        "actual_name": "Iodine (as Potassium Iodide)", 
+        "percent_dv": 80
+      }, 
+      "Iron": {
+        "amount": "15 mg", 
+        "actual_name": "Iron (as Iron Citrate)", 
+        "percent_dv": 83
+      }, 
+      "Molybdenum": {
+        "amount": "90 mcg", 
+        "actual_name": "Molybdenum (as Molybdenum Citrate)", 
+        "percent_dv": 120
+      }, 
+      "Vanadium": {
+        "amount": "90 mcg", 
+        "actual_name": "Vanadium (as Vanadium Citrate)", 
+        "percent_dv": 0
+      }, 
+      "Potassium": {
+        "amount": "90 mg", 
+        "actual_name": "Potassium (as Potassium Citrate)", 
+        "percent_dv": 3
+      }, 
+      "Selenium": {
+        "amount": "150 mcg", 
+        "actual_name": "Selenium (as Selenium Citrate)", 
+        "percent_dv": 214
+      }, 
+      "Manganese": {
+        "amount": "6 mg", 
+        "actual_name": "Manganese (as Manganese Citrate)", 
+        "percent_dv": 300
+      }, 
+      "Calcium": {
+        "amount": "300 mg", 
+        "actual_name": "Calcium (as Calcium Citrate)", 
+        "percent_dv": 30
+      }, 
+      "Magnesium": {
+        "amount": "270 mg", 
+        "actual_name": "Magnesium (as Magnesium Citrate)", 
+        "percent_dv": 68
+      }, 
+      "Zinc": {
+        "amount": "21 mg", 
+        "actual_name": "Zinc (as Zinc Citrate)", 
+        "percent_dv": 140
+      }, 
+      "Boron": {
+        "amount": "3 mg", 
+        "actual_name": "Boron (as Boron Citrate)", 
+        "percent_dv": 0
+      }, 
+      "Chromium": {
+        "amount": "200 mcg", 
+        "actual_name": "Chromium (as Chromium Citrate)", 
+        "percent_dv": 167
+      }
+    }, 
+    "price": 16.2, 
+    "num_Trace Elements": 2, 
+    "num_nutrients": 13, 
+    "num_Minerals": 11, 
+    "container_sizes": [
+      {
+        "amount": 90, 
+        "unit": "Veggie Caps"
+      }
+    ], 
+    "num_Macronutrients": 0, 
+    "serving_sizes": [
+      {
+        "amount": 3, 
+        "unit": "Capsules"
+      }
+    ], 
+    "price_per_serve": 0.54, 
+    "num_Amino Acids": 0, 
+    "container_text": " Citramins, 90 Veggie Caps", 
+    "price_per_unit": 0.18, 
+    "size_indexes": [
+      0, 
+      0
+    ], 
+    "name": "Thorne Research, Citramins, 90 Veggie Caps"
+  }, 
+  {
     "serving_text": "2 Capsules", 
     "display_name": "D'adamo, Polyvite, Multivitamin for Blood Type O", 
     "num_Enzymes": 0, 
@@ -100548,6 +100649,102 @@
       0
     ], 
     "name": "21st Century Health Care, Zoo Friends with Extra C, Children's Multivitamin Multimineral, 60 Chewable Tablets"
+  }, 
+  {
+    "serving_text": "1 Capsule", 
+    "display_name": "Allergy Research Group, MultiMin", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Allergy-Research-Group-MultiMin-120-Veggie-Caps/35059?rcode=KQM091", 
+    "nutrients": {
+      "Copper": {
+        "amount": "0.5 mg", 
+        "actual_name": "Copper (as Copper Sulfate)", 
+        "percent_dv": 25
+      }, 
+      "Iron": {
+        "amount": "6 mg", 
+        "actual_name": "Iron (as Ferric Ammonium Citrate)", 
+        "percent_dv": 33
+      }, 
+      "Molybdenum": {
+        "amount": "83 mcg", 
+        "actual_name": "Molybdenum (as Sodium Molybdate)", 
+        "percent_dv": 110
+      }, 
+      "Vanadium": {
+        "amount": "67 mcg", 
+        "actual_name": "Vanadium (as Vanadium Pentoxide)", 
+        "percent_dv": 0
+      }, 
+      "Potassium": {
+        "amount": "33 mg", 
+        "actual_name": "Potassium (as Potassium Chloride)", 
+        "percent_dv": 1
+      }, 
+      "Selenium": {
+        "amount": "33 mcg", 
+        "actual_name": "Selenium (as Sodium Selenite)", 
+        "percent_dv": 47
+      }, 
+      "Manganese": {
+        "amount": "5 mg", 
+        "actual_name": "Manganese (as Manganese Sulfate)", 
+        "percent_dv": 250
+      }, 
+      "Calcium": {
+        "amount": "83 mg", 
+        "actual_name": "Calcium (as Calcium Citrate)", 
+        "percent_dv": 8
+      }, 
+      "Magnesium": {
+        "amount": "83 mg", 
+        "actual_name": "Magnesium (as Magnesium Glycinate)", 
+        "percent_dv": 21
+      }, 
+      "Zinc": {
+        "amount": "10 mg", 
+        "actual_name": "Zinc (as Zinc Citrate)", 
+        "percent_dv": 67
+      }, 
+      "Boron": {
+        "amount": "333 mcg", 
+        "actual_name": "Boron (as Boric Acid)", 
+        "percent_dv": 0
+      }, 
+      "Chromium": {
+        "amount": "133 mcg", 
+        "actual_name": "Chromium (as Amino Acid Complex)", 
+        "percent_dv": 110
+      }
+    }, 
+    "price": 16.74, 
+    "num_Trace Elements": 2, 
+    "num_nutrients": 12, 
+    "num_Minerals": 10, 
+    "container_sizes": [
+      {
+        "amount": 120, 
+        "unit": "Veggie Caps"
+      }
+    ], 
+    "num_Macronutrients": 0, 
+    "serving_sizes": [
+      {
+        "amount": 1, 
+        "unit": "Capsule"
+      }
+    ], 
+    "price_per_serve": 0.13949999999999999, 
+    "num_Amino Acids": 0, 
+    "container_text": " MultiMin, 120 Veggie Caps", 
+    "price_per_unit": 0.13949999999999999, 
+    "size_indexes": [
+      0, 
+      0
+    ], 
+    "name": "Allergy Research Group, MultiMin, 120 Veggie Caps"
   }, 
   {
     "serving_text": "2 Gummi King Gummies", 
@@ -101308,6 +101505,87 @@
       0
     ], 
     "name": "Twinlab, Infant Care, Multi Vitamin Drops With DHA, 1 2/3 fl oz (50 ml)"
+  }, 
+  {
+    "serving_text": "2 Tablets", 
+    "display_name": "Nature's Plus, Mega-Mins, Iron Free Multiple Mineral", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nature-s-Plus-Mega-Mins-Iron-Free-Multiple-Mineral-90-Tablets/51153?rcode=KQM091", 
+    "nutrients": {
+      "Iodine": {
+        "amount": "225 mcg", 
+        "actual_name": "Iodine (from kelp)", 
+        "percent_dv": 150
+      }, 
+      "Potassium": {
+        "amount": "99 mg", 
+        "actual_name": "Potassium (as amino acid complex)", 
+        "percent_dv": 3
+      }, 
+      "Selenium": {
+        "amount": "4 mcg", 
+        "actual_name": "Selenium (as amino acid complex)", 
+        "percent_dv": 6
+      }, 
+      "Manganese": {
+        "amount": "10 mg", 
+        "actual_name": "Manganese (as amino acid chelate/complex)", 
+        "percent_dv": 500
+      }, 
+      "Calcium": {
+        "amount": "1000 mg", 
+        "actual_name": "Calcium (as amino acid chelate/complex)", 
+        "percent_dv": 100
+      }, 
+      "Magnesium": {
+        "amount": "500 mg", 
+        "actual_name": "Magnesium (as amino acid chelate/complex)", 
+        "percent_dv": 125
+      }, 
+      "Zinc": {
+        "amount": "50 mg", 
+        "actual_name": "Zinc (as amino acid chelate/complex)", 
+        "percent_dv": 333
+      }, 
+      "Chromium": {
+        "amount": "4 mcg", 
+        "actual_name": "Chromium (as amino acid chelate)", 
+        "percent_dv": 3
+      }, 
+      "Phosphorus": {
+        "amount": "200 mg", 
+        "actual_name": "Phosphorus (as amino acid complex)", 
+        "percent_dv": 20
+      }
+    }, 
+    "price": 11.82, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 9, 
+    "num_Minerals": 9, 
+    "container_sizes": [
+      {
+        "amount": 90, 
+        "unit": "Tablets"
+      }
+    ], 
+    "num_Macronutrients": 0, 
+    "serving_sizes": [
+      {
+        "amount": 2, 
+        "unit": "Tablets"
+      }
+    ], 
+    "price_per_serve": 0.26266666666666666, 
+    "num_Amino Acids": 0, 
+    "container_text": " Iron Free Multiple Mineral, 90 Tablets", 
+    "price_per_unit": 0.13133333333333333, 
+    "size_indexes": [
+      0, 
+      0
+    ], 
+    "name": "Nature's Plus, Mega-Mins, Iron Free Multiple Mineral, 90 Tablets"
   }, 
   {
     "serving_text": "2 Gummies", 
@@ -102890,5 +103168,561 @@
       0
     ], 
     "name": "Nature's Way, Alive!, Whole Food, Vitamin C, 120 Vcaps"
+  }, 
+  {
+    "serving_text": "1 capsule", 
+    "display_name": "Life Enhancement, Durk Pearson & Sandy Shaw's BHT Plus ", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Life-Enhancement-Durk-Pearson-Sandy-Shaw-s-BHT-Plus-100-Capsules/2728?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "0 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Fiber": {
+        "amount": "", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": null
+      }, 
+      "Total Fat": {
+        "amount": "0 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 0
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 12.06, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 5, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 100, 
+        "unit": "Capsules"
+      }
+    ], 
+    "num_Macronutrients": 4, 
+    "serving_sizes": [
+      {
+        "amount": 1, 
+        "unit": "capsule"
+      }
+    ], 
+    "price_per_serve": 0.1206, 
+    "num_Amino Acids": 0, 
+    "container_text": " Durk Pearson & Sandy Shaw's BHT Plus , 100 Capsules", 
+    "price_per_unit": 0.1206, 
+    "size_indexes": [
+      0, 
+      0
+    ], 
+    "name": "Life Enhancement, Durk Pearson & Sandy Shaw's BHT Plus , 100 Capsules"
+  }, 
+  {
+    "serving_text": "1 capsule", 
+    "display_name": "Life Enhancement, Double C", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Life-Enhancement-Double-C-180-Capsules/2745?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 30.2, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 180, 
+        "unit": "Capsules"
+      }
+    ], 
+    "num_Macronutrients": 0, 
+    "serving_sizes": [
+      {
+        "amount": 1, 
+        "unit": "capsule"
+      }
+    ], 
+    "price_per_serve": 0.16777777777777778, 
+    "num_Amino Acids": 0, 
+    "container_text": " Double C, 180 Capsules", 
+    "price_per_unit": 0.16777777777777778, 
+    "size_indexes": [
+      0, 
+      0
+    ], 
+    "name": "Life Enhancement, Double C, 180 Capsules"
+  }, 
+  {
+    "serving_text": "1 gummy (2 & 3 years of age); 2 gummies (4 years of age and older)", 
+    "display_name": "Flintstones, Sour Gummies Complete, Children Multivitamin", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Flintstones-Sour-Gummies-Complete-Children-Multivitamin-180-Gummies/50983?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 17.77, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 180, 
+        "unit": "Gummies"
+      }
+    ], 
+    "num_Macronutrients": 0, 
+    "serving_sizes": [
+      {
+        "amount": 4, 
+        "unit": "years of age and older"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "gummies"
+      }, 
+      {
+        "amount": 2, 
+        "unit": ""
+      }, 
+      {
+        "amount": 1, 
+        "unit": "gummy"
+      }
+    ], 
+    "price_per_serve": 0.19744444444444445, 
+    "num_Amino Acids": 0, 
+    "container_text": " Children Multivitamin, 180 Gummies", 
+    "price_per_unit": 0.09872222222222223, 
+    "size_indexes": [
+      0, 
+      1
+    ], 
+    "name": "Flintstones, Sour Gummies Complete, Children Multivitamin, 180 Gummies"
+  }, 
+  {
+    "serving_text": "1 Softgel", 
+    "display_name": "21st Century Health Care, Prenatal DHA", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/21st-Century-Health-Care-Prenatal-DHA-30-Softgels/43839?rcode=KQM091", 
+    "nutrients": {
+      "DHA": {
+        "amount": "200 mg", 
+        "actual_name": "DHA (docosahexaenoic acid from Schizochytrium sp. oil)", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "0.5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 1
+      }
+    }, 
+    "price": 7.8, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 2, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 30, 
+        "unit": "Softgels"
+      }
+    ], 
+    "num_Macronutrients": 1, 
+    "serving_sizes": [
+      {
+        "amount": 1, 
+        "unit": "Softgel"
+      }
+    ], 
+    "price_per_serve": 0.26, 
+    "num_Amino Acids": 0, 
+    "container_text": " Prenatal DHA, 30  Softgels", 
+    "price_per_unit": 0.26, 
+    "size_indexes": [
+      0, 
+      0
+    ], 
+    "name": "21st Century Health Care, Prenatal DHA, 30  Softgels"
+  }, 
+  {
+    "serving_text": "1 Vegetarian Softgel", 
+    "display_name": "Bluebonnet Nutrition, Early Promise Prenatal, Gentle DHA 100 mg", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Bluebonnet-Nutrition-Early-Promise-Prenatal-Gentle-DHA-100-mg-60-Veggie-Softgels/24132?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 20.76, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 60, 
+        "unit": "Veggie Softgels"
+      }, 
+      {
+        "amount": 100, 
+        "unit": "mg"
+      }
+    ], 
+    "num_Macronutrients": 0, 
+    "serving_sizes": [
+      {
+        "amount": 1, 
+        "unit": "Vegetarian Softgel"
+      }
+    ], 
+    "price_per_serve": 0.34600000000000003, 
+    "num_Amino Acids": 0, 
+    "container_text": " Gentle DHA 100 mg, 60 Veggie Softgels", 
+    "price_per_unit": 0.34600000000000003, 
+    "size_indexes": [
+      0, 
+      0
+    ], 
+    "name": "Bluebonnet Nutrition, Early Promise Prenatal, Gentle DHA 100 mg, 60 Veggie Softgels"
+  }, 
+  {
+    "serving_text": "2 Capsules", 
+    "display_name": "Christopher's Original Formulas, Pre-Natal Six Week Formula, 425 mg", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Christopher-s-Original-Formula-Pre-Natal-Six-Week-Formula-425-mg-100-Veggie-Caps/14017?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 18.19, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 100, 
+        "unit": "Veggie Caps"
+      }, 
+      {
+        "amount": 425, 
+        "unit": "mg"
+      }
+    ], 
+    "num_Macronutrients": 0, 
+    "serving_sizes": [
+      {
+        "amount": 2, 
+        "unit": "Capsules"
+      }
+    ], 
+    "price_per_serve": 0.3638, 
+    "num_Amino Acids": 0, 
+    "container_text": " 425 mg, 100 Veggie Caps", 
+    "price_per_unit": 0.1819, 
+    "size_indexes": [
+      0, 
+      0
+    ], 
+    "name": "Christopher's Original Formulas, Pre-Natal Six Week Formula, 425 mg, 100 Veggie Caps"
+  }, 
+  {
+    "serving_text": "1 Softgel", 
+    "display_name": "Garden of Life, Oceans Mom, Prenatal DHA, Strawberry Flavor", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Garden-of-Life-Oceans-Mom-Prenatal-DHA-Strawberry-Flavor-30-Softgels/18250?rcode=KQM091", 
+    "nutrients": {
+      "DHA": {
+        "amount": "350 mg", 
+        "actual_name": "DHA (Docosahexaenoic Acid)", 
+        "percent_dv": null
+      }, 
+      "Total Fat": {
+        "amount": "0.5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 1
+      }, 
+      "EPA": {
+        "amount": "15 mg", 
+        "actual_name": "EPA (Eicosapentaenoic Acid)", 
+        "percent_dv": null
+      }
+    }, 
+    "price": 13.98, 
+    "num_Trace Elements": 2, 
+    "num_nutrients": 3, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 30, 
+        "unit": "Softgels"
+      }
+    ], 
+    "num_Macronutrients": 1, 
+    "serving_sizes": [
+      {
+        "amount": 1, 
+        "unit": "Softgel"
+      }
+    ], 
+    "price_per_serve": 0.466, 
+    "num_Amino Acids": 0, 
+    "container_text": " Strawberry Flavor, 30 Softgels", 
+    "price_per_unit": 0.466, 
+    "size_indexes": [
+      0, 
+      0
+    ], 
+    "name": "Garden of Life, Oceans Mom, Prenatal DHA, Strawberry Flavor, 30 Softgels"
+  }, 
+  {
+    "serving_text": "1 Vegetarian Softgel", 
+    "display_name": "Bluebonnet Nutrition, Early Promise Prenatal, Gentle DHA , 200 mg", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Bluebonnet-Nutrition-Early-Promise-Prenatal-Gentle-DHA-200-mg-60-Veggie-Softgels/24133?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 29.56, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 60, 
+        "unit": "Veggie Softgels"
+      }, 
+      {
+        "amount": 200, 
+        "unit": "mg"
+      }
+    ], 
+    "num_Macronutrients": 0, 
+    "serving_sizes": [
+      {
+        "amount": 1, 
+        "unit": "Vegetarian Softgel"
+      }
+    ], 
+    "price_per_serve": 0.49266666666666664, 
+    "num_Amino Acids": 0, 
+    "container_text": " 200 mg, 60 Veggie Softgels", 
+    "price_per_unit": 0.49266666666666664, 
+    "size_indexes": [
+      0, 
+      0
+    ], 
+    "name": "Bluebonnet Nutrition, Early Promise Prenatal, Gentle DHA , 200 mg, 60 Veggie Softgels"
+  }, 
+  {
+    "serving_text": "2 Bears", 
+    "display_name": "Hero Nutritional Products, Yummy Bears, Multi-Vitamin & Mineral, Sugar-Free, Fruit Flavors", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Hero-Nutritional-Products-Yummy-Bears-Multi-Vitamin-Mineral-Sugar-Free-Fruit-Flavors-60-Gummy-Bears/38075?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "3 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Fiber": {
+        "amount": "2 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 15.3, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 60, 
+        "unit": "Gummy Bears"
+      }
+    ], 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 2, 
+        "unit": "Bears"
+      }
+    ], 
+    "price_per_serve": 0.51, 
+    "num_Amino Acids": 0, 
+    "container_text": " Fruit Flavors, 60 Gummy Bears", 
+    "price_per_unit": 0.255, 
+    "size_indexes": [
+      0, 
+      0
+    ], 
+    "name": "Hero Nutritional Products, Yummy Bears, Multi-Vitamin & Mineral, Sugar-Free, Fruit Flavors, 60 Gummy Bears"
+  }, 
+  {
+    "serving_text": "1 oz. (1 oz. = 2 tablespoons)", 
+    "display_name": "Liquid Health Products, Daily Multiple, ", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Liquid-Health-Products-Daily-Multiple-32-fl-oz-946-ml/5956?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "3 g", 
+        "actual_name": "Total Carbohydrates", 
+        "percent_dv": 1
+      }, 
+      "Sodium": {
+        "amount": "20 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 1
+      }, 
+      "Sugar": {
+        "amount": "2 g", 
+        "actual_name": "Natural Sugars", 
+        "percent_dv": 1
+      }
+    }, 
+    "price": 22.71, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 3, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 946, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 32, 
+        "unit": "fl oz"
+      }
+    ], 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 1, 
+        "unit": "oz"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_serve": 0.7096875, 
+    "num_Amino Acids": 0, 
+    "container_text": " , 32 fl oz (946 ml)", 
+    "price_per_unit": 0.7096875, 
+    "size_indexes": [
+      1, 
+      0
+    ], 
+    "name": "Liquid Health Products, Daily Multiple, , 32 fl oz (946 ml)"
+  }, 
+  {
+    "serving_text": "1 fl oz (30ml)", 
+    "display_name": "Heaven Sent Naturals, Sea Essentials, Vital Nutrients, with Coral Calcium, Sea Berry", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Heaven-Sent-Naturals-Sea-Essentials-Vital-Nutrients-with-Coral-Calcium-Sea-Berry-32-oz-946-ml/11723?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "2 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 1
+      }, 
+      "Sodium": {
+        "amount": "5 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 1
+      }, 
+      "Sugar": {
+        "amount": "2 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 25.54, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 3, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 946, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 32, 
+        "unit": "oz"
+      }
+    ], 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 30, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "fl oz"
+      }
+    ], 
+    "price_per_serve": 0.8099365750528541, 
+    "num_Amino Acids": 0, 
+    "container_text": " Sea Berry, 32 oz (946 ml)", 
+    "price_per_unit": 0.026997885835095138, 
+    "size_indexes": [
+      0, 
+      0
+    ], 
+    "name": "Heaven Sent Naturals, Sea Essentials, Vital Nutrients, with Coral Calcium, Sea Berry, 32 oz (946 ml)"
+  }, 
+  {
+    "serving_text": "1 Dropper", 
+    "display_name": "Christopher's Original Formulas, Kid-e-Mins, Vitamins and Minerals", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Christopher-s-Original-Formulas-Kid-e-Mins-Vitamins-and-Minerals-2-fl-oz/15651?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 10.89, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 2, 
+        "unit": "fl oz"
+      }
+    ], 
+    "num_Macronutrients": 0, 
+    "serving_sizes": [
+      {
+        "amount": 1, 
+        "unit": "Dropper"
+      }
+    ], 
+    "price_per_serve": 10.89, 
+    "num_Amino Acids": 0, 
+    "container_text": " Vitamins and Minerals, 2 fl oz", 
+    "price_per_unit": 5.445, 
+    "size_indexes": [
+      0, 
+      -1
+    ], 
+    "name": "Christopher's Original Formulas, Kid-e-Mins, Vitamins and Minerals, 2 fl oz"
   }
 ]
