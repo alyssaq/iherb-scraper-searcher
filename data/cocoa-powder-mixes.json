@@ -1,0 +1,3769 @@
+[
+  {
+    "price_per_oz": 0.3475, 
+    "serving_text": "2 Tablespoons (25 g)   Servings Per Container: 27    Amount Per Serving %Daily Value*   Calories 100    Calories from Fat 5    Total Fat 0.5 g 1%   Saturated Fat 0 g 0%   Trans Fat 0 g    Cholesterol 0 mg 0%   Sodium 110 mg 5%   Potassium 140 mg 4%   Total Carbohydrate 21 g 7%   Dietary Fiber 1 g 4%   Sugars 19 g    Protein 2 g    Vitamin A  0%   Vitamin C  0%   Calcium  6%   Iron  4%   *Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs:", 
+    "display_name": "Now Foods, Organic, Instant Hot Cocoa, Low Fat, Rich Milk Chocolate", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Organic-Instant-Hot-Cocoa-Low-Fat-Rich-Milk-Chocolate-24-oz-680-g/8481?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": "25 g"
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 4
+      }, 
+      "Sodium": {
+        "amount": "Less than", 
+        "actual_name": "Sodium", 
+        "percent_dv": "2400 mg"
+      }, 
+      "Potassium": {
+        "amount": "140 mg", 
+        "actual_name": "Potassium", 
+        "percent_dv": 4
+      }, 
+      "Sugar": {
+        "amount": "19 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 6
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "Less than", 
+        "actual_name": "Total Fat", 
+        "percent_dv": "65 g"
+      }, 
+      "Total Carbohydrate": {
+        "amount": "", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": "300 g"
+      }, 
+      "Protein": {
+        "amount": "2 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 8.34, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 11, 
+    "price_per_g": 0.012264705882352941, 
+    "num_Minerals": 3, 
+    "container_sizes": [
+      {
+        "amount": 680, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 24, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 8.34, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 0, 
+        "unit": "calorie diet"
+      }, 
+      {
+        "amount": 27, 
+        "unit": "Amount Per Serving"
+      }, 
+      {
+        "amount": 25, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "Tablespoons"
+      }
+    ], 
+    "price_per_kg": 8.34, 
+    "num_Amino Acids": 0, 
+    "container_text": " Rich Milk Chocolate, 24 oz (680 g)", 
+    "name": "Now Foods, Organic, Instant Hot Cocoa, Low Fat, Rich Milk Chocolate, 24 oz (680 g)"
+  }, 
+  {
+    "price_per_oz": 0.5276190476190477, 
+    "serving_text": "3 Tbsp (35 g)", 
+    "display_name": "Ghirardelli, Sweet Ground Cocoa", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Ghirardelli-Sweet-Ground-Cocoa-10-5-oz-298-g/53418?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "2 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 8
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 4
+      }, 
+      "Sodium": {
+        "amount": "50 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 2
+      }, 
+      "Sugar": {
+        "amount": "27 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 2
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "1.5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 2
+      }, 
+      "Total Carbohydrate": {
+        "amount": "30 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 10
+      }, 
+      "Protein": {
+        "amount": "1 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 5.54, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.018590604026845637, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 298, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 10.5, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 5.54, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 35, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 3, 
+        "unit": "Tbsp"
+      }
+    ], 
+    "price_per_kg": 5.54, 
+    "num_Amino Acids": 0, 
+    "container_text": " Sweet Ground Cocoa, 10.5 oz (298 g)", 
+    "name": "Ghirardelli, Sweet Ground Cocoa, 10.5 oz (298 g)"
+  }, 
+  {
+    "price_per_oz": 0.6483333333333333, 
+    "serving_text": "2 tbsp (17 g)", 
+    "display_name": "Equal Exchange, Organic & Fairly Traded Hot Cocoa", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Equal-Exchange-Organic-Fairly-Traded-Hot-Cocoa-12-oz-340-g/32783?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "1 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 4
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 2
+      }, 
+      "Sodium": {
+        "amount": "60 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 3
+      }, 
+      "Sugar": {
+        "amount": "11 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 6
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "0 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 0
+      }, 
+      "Total Carbohydrate": {
+        "amount": "13 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 4
+      }, 
+      "Protein": {
+        "amount": "2 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 7.78, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.02288235294117647, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 340, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 12, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 7.78, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 17, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "tbsp"
+      }
+    ], 
+    "price_per_kg": 7.78, 
+    "num_Amino Acids": 0, 
+    "container_text": " Organic & Fairly Traded Hot Cocoa, 12 oz (340 g)", 
+    "name": "Equal Exchange, Organic & Fairly Traded Hot Cocoa, 12 oz (340 g)"
+  }, 
+  {
+    "price_per_oz": 0.6925, 
+    "serving_text": "1 Tbsp (6 g)", 
+    "display_name": "Ghirardelli, Premium Baking Cocoa", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Ghirardelli-Premium-Baking-Cocoa-8-oz-227-g/52713?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "2 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 8
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 15
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 0
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "1.5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 2
+      }, 
+      "Total Carbohydrate": {
+        "amount": "3 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 1
+      }, 
+      "Protein": {
+        "amount": "1 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 5.54, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.024405286343612335, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 227, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 8, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 5.54, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 6, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "Tbsp"
+      }
+    ], 
+    "price_per_kg": 5.54, 
+    "num_Amino Acids": 0, 
+    "container_text": " Premium Baking Cocoa, 8 oz (227 g)", 
+    "name": "Ghirardelli, Premium Baking Cocoa, 8 oz (227 g)"
+  }, 
+  {
+    "price_per_oz": 0.721875, 
+    "serving_text": "2 tbsp (28.0 g)", 
+    "display_name": "Frontier Natural Products, Organic Hot Cocoa Mix", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Frontier-Natural-Products-Organic-Hot-Cocoa-Mix-16-oz-453-g/31084?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "1 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 6
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 4
+      }, 
+      "Sodium": {
+        "amount": "15 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 1
+      }, 
+      "Sugar": {
+        "amount": "22 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 2
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 4
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "0.5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 1
+      }, 
+      "Total Carbohydrate": {
+        "amount": "24 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 8
+      }, 
+      "Protein": {
+        "amount": "2 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 11.55, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.025496688741721858, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 453, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 11.55, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 28.0, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "tbsp"
+      }
+    ], 
+    "price_per_kg": 11.55, 
+    "num_Amino Acids": 0, 
+    "container_text": " Organic Hot Cocoa Mix, 16 oz (453 g)", 
+    "name": "Frontier Natural Products, Organic Hot Cocoa Mix, 16 oz (453 g)"
+  }, 
+  {
+    "price_per_oz": 0.7491666666666666, 
+    "serving_text": "4 Tbsp (20 g)", 
+    "display_name": "Dagoba Organic Chocolate, Drinking Chocolate, Authentic", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Dagoba-Organic-Chocolate-Drinking-Chocolate-Authentic-12-oz-340-g/45869?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "3 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 12
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 4
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "10 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 0
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "2.5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 4
+      }, 
+      "Protein": {
+        "amount": "2 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 8.99, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 9, 
+    "price_per_g": 0.026441176470588235, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 340, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 12, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 8.99, 
+    "num_Macronutrients": 4, 
+    "serving_sizes": [
+      {
+        "amount": 20, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 4, 
+        "unit": "Tbsp"
+      }
+    ], 
+    "price_per_kg": 8.99, 
+    "num_Amino Acids": 0, 
+    "container_text": " Authentic, 12 oz (340 g)", 
+    "name": "Dagoba Organic Chocolate, Drinking Chocolate, Authentic, 12 oz (340 g)"
+  }, 
+  {
+    "price_per_oz": 0.7491666666666666, 
+    "serving_text": "3 Tbsp (15 g)", 
+    "display_name": "Dagoba Organic Chocolate, Drinking Chocolate, Chai", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Dagoba-Organic-Chocolate-Drinking-Chocolate-Chai-12-oz-340-g/45868?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "2 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 8
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 2
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "8 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 0
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "1 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 2
+      }, 
+      "Protein": {
+        "amount": "1 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 8.99, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 9, 
+    "price_per_g": 0.026441176470588235, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 340, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 12, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 8.99, 
+    "num_Macronutrients": 4, 
+    "serving_sizes": [
+      {
+        "amount": 15, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 3, 
+        "unit": "Tbsp"
+      }
+    ], 
+    "price_per_kg": 8.99, 
+    "num_Amino Acids": 0, 
+    "container_text": " Chai, 12 oz (340 g)", 
+    "name": "Dagoba Organic Chocolate, Drinking Chocolate, Chai, 12 oz (340 g)"
+  }, 
+  {
+    "price_per_oz": 0.7491666666666666, 
+    "serving_text": "4 Tbsp (20 g)", 
+    "display_name": "Dagoba Organic Chocolate, Drinking Chocolate, Xocolatl", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Dagoba-Organic-Chocolate-Drinking-Chocolate-Xocolatl-12-oz-340-g/45871?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "3 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 12
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 4
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "10 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 0
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "2.5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 4
+      }, 
+      "Protein": {
+        "amount": "2 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 8.99, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 9, 
+    "price_per_g": 0.026441176470588235, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 340, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 12, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 8.99, 
+    "num_Macronutrients": 4, 
+    "serving_sizes": [
+      {
+        "amount": 20, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 4, 
+        "unit": "Tbsp"
+      }
+    ], 
+    "price_per_kg": 8.99, 
+    "num_Amino Acids": 0, 
+    "container_text": " Xocolatl, 12 oz (340 g)", 
+    "name": "Dagoba Organic Chocolate, Drinking Chocolate, Xocolatl, 12 oz (340 g)"
+  }, 
+  {
+    "price_per_oz": 0.8166666666666668, 
+    "serving_text": "1/4 Cup (about 21.5 g)", 
+    "display_name": "Now Foods, Healthy Foods, Certified Organic, Cocoa Powder", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Healthy-Foods-Certified-Organic-Cocoa-Powder-12-oz-340-g/5023?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "7 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 28
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 20
+      }, 
+      "Sodium": {
+        "amount": "5 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 1
+      }, 
+      "Potassium": {
+        "amount": "330 mg", 
+        "actual_name": "Potassium", 
+        "percent_dv": 9
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 2
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "2.5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 4
+      }, 
+      "Total Carbohydrate": {
+        "amount": "11 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 4
+      }, 
+      "Protein": {
+        "amount": "5 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 9.8, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 11, 
+    "price_per_g": 0.02882352941176471, 
+    "num_Minerals": 3, 
+    "container_sizes": [
+      {
+        "amount": 340, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 12, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 9.8, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 21.5, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 0.25, 
+        "unit": "Cup"
+      }
+    ], 
+    "price_per_kg": 9.8, 
+    "num_Amino Acids": 0, 
+    "container_text": " Cocoa Powder, 12 oz (340 g)", 
+    "name": "Now Foods, Healthy Foods, Certified Organic, Cocoa Powder, 12 oz (340 g)"
+  }, 
+  {
+    "price_per_oz": 0.8233333333333334, 
+    "serving_text": "1 oz (28 g)", 
+    "display_name": "Big Tree Farms, Organic Tru Ra Drinking Chocolate", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Big-Tree-Farms-Organic-Tru-Ra-Drinking-Chocolate-12-oz-340-g/62024?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "5 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 21
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 18
+      }, 
+      "Sodium": {
+        "amount": "55 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 2
+      }, 
+      "Potassium": {
+        "amount": "", 
+        "actual_name": "Potassium", 
+        "percent_dv": 12
+      }, 
+      "Sugar": {
+        "amount": "13 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 7
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 1
+      }, 
+      "Magnesium": {
+        "amount": "", 
+        "actual_name": "Magnesium", 
+        "percent_dv": 15
+      }, 
+      "Total Fat": {
+        "amount": "2 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 3
+      }, 
+      "Total Carbohydrate": {
+        "amount": "19 g", 
+        "actual_name": "Total Carbohydrates", 
+        "percent_dv": 6
+      }, 
+      "Protein": {
+        "amount": "3 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 5
+      }, 
+      "Phosphorus": {
+        "amount": "", 
+        "actual_name": "Phosphorus", 
+        "percent_dv": 5
+      }
+    }, 
+    "price": 9.88, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 13, 
+    "price_per_g": 0.029058823529411765, 
+    "num_Minerals": 5, 
+    "container_sizes": [
+      {
+        "amount": 340, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 12, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 9.88, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 28, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_kg": 9.88, 
+    "num_Amino Acids": 0, 
+    "container_text": " Organic Tru Ra Drinking Chocolate, 12 oz (340 g)", 
+    "name": "Big Tree Farms, Organic Tru Ra Drinking Chocolate, 12 oz (340 g)"
+  }, 
+  {
+    "price_per_oz": 0.8458390177353342, 
+    "serving_text": "2 Tbsp. (8 g)", 
+    "display_name": "Nestle Hot Cocoa Mix, Rich Milk Chocolate Flavor, Fat Free", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nestle-Hot-Cocoa-Mix-Rich-Milk-Chocolate-Flavor-Fat-Free-7-33-oz-208-g/36084?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "< 1 g", 
+        "actual_name": "Fiber", 
+        "percent_dv": 3
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 4
+      }, 
+      "Sodium": {
+        "amount": "130 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 5
+      }, 
+      "Sugar": {
+        "amount": "4 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 35
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "0 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 0
+      }, 
+      "Total Carbohydrate": {
+        "amount": "4 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 1
+      }, 
+      "Protein": {
+        "amount": "1 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 6.2, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.02980769230769231, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 208, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 7.33, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 6.2, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 8, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "Tbsp"
+      }
+    ], 
+    "price_per_kg": 6.2, 
+    "num_Amino Acids": 0, 
+    "container_text": " Fat Free, 7.33 oz (208 g)", 
+    "name": "Nestle Hot Cocoa Mix, Rich Milk Chocolate Flavor, Fat Free, 7.33 oz (208 g)"
+  }, 
+  {
+    "price_per_oz": 0.89875, 
+    "serving_text": "5 tsp (15 g)", 
+    "display_name": "Earth Circle Organics, Organic Ecuadorian Cacao Powder", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Earth-Circle-Organics-Organic-Ecuadorian-Cacao-Powder-16-oz-454-g/56791?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "1 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 4
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 38
+      }, 
+      "Sodium": {
+        "amount": "3 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Potassium": {
+        "amount": "334 mg", 
+        "actual_name": "Potassium", 
+        "percent_dv": 10
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 2
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 5
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 4
+      }, 
+      "Total Fat": {
+        "amount": "3 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 5
+      }, 
+      "Total Carbohydrate": {
+        "amount": "8 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 3
+      }, 
+      "Protein": {
+        "amount": "3 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 14.38, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 11, 
+    "price_per_g": 0.03167400881057269, 
+    "num_Minerals": 3, 
+    "container_sizes": [
+      {
+        "amount": 454, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 14.38, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 15, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 5, 
+        "unit": "tsp"
+      }
+    ], 
+    "price_per_kg": 14.38, 
+    "num_Amino Acids": 0, 
+    "container_text": " Organic Ecuadorian Cacao Powder, 16 oz (454 g)", 
+    "name": "Earth Circle Organics, Organic Ecuadorian Cacao Powder, 16 oz (454 g)"
+  }, 
+  {
+    "price_per_oz": 0.89875, 
+    "serving_text": "2 Tbsp. (21 g)", 
+    "display_name": "Earth Circle Organics, Organic Balinese Drinking Chocolate", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Earth-Circle-Organics-Organic-Balinese-Drinking-Chocolate-16-oz-454-g/56794?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "4 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 15
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 13
+      }, 
+      "Sodium": {
+        "amount": "41 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 2
+      }, 
+      "Potassium": {
+        "amount": "325 mg", 
+        "actual_name": "Potassium", 
+        "percent_dv": 9
+      }, 
+      "Sugar": {
+        "amount": "9 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 5
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Magnesium": {
+        "amount": "", 
+        "actual_name": "Magnesium", 
+        "percent_dv": 11
+      }, 
+      "Total Fat": {
+        "amount": "1 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 2
+      }, 
+      "Total Carbohydrate": {
+        "amount": "14 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 5
+      }, 
+      "Protein": {
+        "amount": "2 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Phosphorus": {
+        "amount": "", 
+        "actual_name": "Phosphorus", 
+        "percent_dv": 4
+      }
+    }, 
+    "price": 14.38, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 13, 
+    "price_per_g": 0.03167400881057269, 
+    "num_Minerals": 5, 
+    "container_sizes": [
+      {
+        "amount": 454, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 14.38, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 21, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "Tbsp"
+      }
+    ], 
+    "price_per_kg": 14.38, 
+    "num_Amino Acids": 0, 
+    "container_text": " Organic Balinese Drinking Chocolate, 16 oz (454 g)", 
+    "name": "Earth Circle Organics, Organic Balinese Drinking Chocolate, 16 oz (454 g)"
+  }, 
+  {
+    "price_per_oz": 0.8981818181818183, 
+    "serving_text": "1 oz (28 g)", 
+    "display_name": "Big Tree Farms, Organic Tru Ra Cacao Powder", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Big-Tree-Farms-Organic-Tru-Ra-Cacao-Powder-11-oz-311-g/62020?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "10 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 39
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 30
+      }, 
+      "Sodium": {
+        "amount": "45 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 2
+      }, 
+      "Potassium": {
+        "amount": "", 
+        "actual_name": "Potassium", 
+        "percent_dv": 18
+      }, 
+      "Sugar": {
+        "amount": "1 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 8
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Magnesium": {
+        "amount": "", 
+        "actual_name": "Magnesium", 
+        "percent_dv": 28
+      }, 
+      "Total Fat": {
+        "amount": "3 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 5
+      }, 
+      "Total Carbohydrate": {
+        "amount": "12 g", 
+        "actual_name": "Total Carbohydrates", 
+        "percent_dv": 4
+      }, 
+      "Protein": {
+        "amount": "5 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 9
+      }, 
+      "Phosphorus": {
+        "amount": "", 
+        "actual_name": "Phosphorus", 
+        "percent_dv": 9
+      }
+    }, 
+    "price": 9.88, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 13, 
+    "price_per_g": 0.03176848874598071, 
+    "num_Minerals": 5, 
+    "container_sizes": [
+      {
+        "amount": 311, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 11, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 9.88, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 28, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_kg": 9.88, 
+    "num_Amino Acids": 0, 
+    "container_text": " Organic Tru Ra Cacao Powder, 11 oz (311 g)", 
+    "name": "Big Tree Farms, Organic Tru Ra Cacao Powder, 11 oz (311 g)"
+  }, 
+  {
+    "price_per_oz": 0.986, 
+    "serving_text": "2 Tablespoons (18 g)", 
+    "display_name": "Now Foods, Hot Cocoa, No Added Sugar, Powder", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Hot-Cocoa-No-Added-Sugar-Powder-10-oz-284-g/30569?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "1 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 4
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 10
+      }, 
+      "Sodium": {
+        "amount": "100 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 4
+      }, 
+      "Potassium": {
+        "amount": "170 mg", 
+        "actual_name": "Potassium", 
+        "percent_dv": 5
+      }, 
+      "Sugar": {
+        "amount": "4 g*", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 8
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "0.5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 1
+      }, 
+      "Total Carbohydrate": {
+        "amount": "13 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 4
+      }, 
+      "Protein": {
+        "amount": "3 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 9.86, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 11, 
+    "price_per_g": 0.03471830985915493, 
+    "num_Minerals": 3, 
+    "container_sizes": [
+      {
+        "amount": 284, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 10, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 9.86, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 18, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "Tablespoons"
+      }
+    ], 
+    "price_per_kg": 9.86, 
+    "num_Amino Acids": 0, 
+    "container_text": " Powder, 10 oz (284 g)", 
+    "name": "Now Foods, Hot Cocoa, No Added Sugar, Powder, 10 oz (284 g)"
+  }, 
+  {
+    "price_per_oz": 0.9725, 
+    "serving_text": "1 tbsp (5)", 
+    "display_name": "Equal Exchange, Organic Baking Cocoa", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Equal-Exchange-Organic-Baking-Cocoa-8-oz-224-g/32782?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "2 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 6
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 4
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 0
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "0.5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 1
+      }, 
+      "Total Carbohydrate": {
+        "amount": "2 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 1
+      }, 
+      "Protein": {
+        "amount": "1 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 7.78, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.03473214285714286, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 224, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 8, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 7.78, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 1, 
+        "unit": "tbsp"
+      }
+    ], 
+    "price_per_kg": 7.78, 
+    "num_Amino Acids": 0, 
+    "container_text": " Organic Baking Cocoa, 8 oz (224 g)", 
+    "name": "Equal Exchange, Organic Baking Cocoa, 8 oz (224 g)"
+  }, 
+  {
+    "price_per_oz": 1.00625, 
+    "serving_text": "2 tbsp (12 g)", 
+    "display_name": "Frontier Natural Products, Certified Organic Cocoa Powder", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Frontier-Natural-Products-Certified-Organic-Cocoa-Powder-16-oz-453-g/30916?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "4 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 16
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 10
+      }, 
+      "Sodium": {
+        "amount": "0 g", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugar", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 2
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "1.5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 2
+      }, 
+      "Total Carbohydrate": {
+        "amount": "7 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 2
+      }, 
+      "Protein": {
+        "amount": "2 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 16.1, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.035540838852097134, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 453, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 16.1, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 12, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "tbsp"
+      }
+    ], 
+    "price_per_kg": 16.1, 
+    "num_Amino Acids": 0, 
+    "container_text": " Certified Organic Cocoa Powder, 16 oz (453 g)", 
+    "name": "Frontier Natural Products, Certified Organic Cocoa Powder, 16 oz (453 g)"
+  }, 
+  {
+    "price_per_oz": 1.01125, 
+    "serving_text": "1 Tbsp (5 g)", 
+    "display_name": "Dagoba Organic Chocolate, Cacao Powder", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Dagoba-Organic-Chocolate-Cacao-Powder-8-oz-226-g/32526?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "2 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 8
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 2
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 0
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "0.5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 1
+      }, 
+      "Protein": {
+        "amount": "1 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 8.09, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 9, 
+    "price_per_g": 0.03579646017699115, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 226, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 8, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 8.09, 
+    "num_Macronutrients": 4, 
+    "serving_sizes": [
+      {
+        "amount": 5, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "Tbsp"
+      }
+    ], 
+    "price_per_kg": 8.09, 
+    "num_Amino Acids": 0, 
+    "container_text": " Cacao Powder, 8 oz (226 g)", 
+    "name": "Dagoba Organic Chocolate, Cacao Powder, 8 oz (226 g)"
+  }, 
+  {
+    "price_per_oz": 1.0535211267605635, 
+    "serving_text": "1 Tbsp. (5 g)", 
+    "display_name": "Rapunzel, Organic Cocoa Powder", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Rapunzel-Organic-Cocoa-Powder-7-1-oz-201-g/30368?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "2 g", 
+        "actual_name": "Fiber", 
+        "percent_dv": 7
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "<1 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 1
+      }, 
+      "Total Carbohydrate": {
+        "amount": "<1 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "1 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 7.48, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 6, 
+    "price_per_g": 0.037213930348258706, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 201, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 7.1, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 7.48, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 5, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "Tbsp"
+      }
+    ], 
+    "price_per_kg": 7.48, 
+    "num_Amino Acids": 0, 
+    "container_text": " Organic Cocoa Powder, 7.1 oz (201 g)", 
+    "name": "Rapunzel, Organic Cocoa Powder, 7.1 oz (201 g)"
+  }, 
+  {
+    "price_per_oz": 1.09875, 
+    "serving_text": "2.5 Tbsp (14 g)", 
+    "display_name": "Navitas Naturals, Organic, Cacao Powder, Raw Chocolate Powder", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Navitas-Naturals-Organic-Cacao-Powder-Raw-Chocolate-Powder-16-oz-454-g/8254?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "4 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 16
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 8
+      }, 
+      "Sodium": {
+        "amount": "10 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Potassium": {
+        "amount": "243 mg", 
+        "actual_name": "Potassium", 
+        "percent_dv": 7
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 2
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Magnesium": {
+        "amount": "92 g", 
+        "actual_name": "Magnesium", 
+        "percent_dv": 23
+      }, 
+      "Total Fat": {
+        "amount": "1.5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 2
+      }, 
+      "Total Carbohydrate": {
+        "amount": "9 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 3
+      }, 
+      "Protein": {
+        "amount": "3 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 17.58, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 12, 
+    "price_per_g": 0.03872246696035242, 
+    "num_Minerals": 4, 
+    "container_sizes": [
+      {
+        "amount": 454, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 17.58, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 14, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 2.5, 
+        "unit": "Tbsp"
+      }
+    ], 
+    "price_per_kg": 17.58, 
+    "num_Amino Acids": 0, 
+    "container_text": " Raw Chocolate Powder, 16 oz (454 g)", 
+    "name": "Navitas Naturals, Organic, Cacao Powder, Raw Chocolate Powder, 16 oz (454 g)"
+  }, 
+  {
+    "price_per_oz": 1.12375, 
+    "serving_text": "4 Tbsp (20 g)", 
+    "display_name": "Dagoba Organic Chocolate, Drinking Chocolate, Unsweetened", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Dagoba-Organic-Chocolate-Drinking-Chocolate-Unsweetened-8-oz-226-g/45870?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "6 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 24
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 10
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 2
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "4 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 6
+      }, 
+      "Total Carbohydrate": {
+        "amount": "10 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 3
+      }, 
+      "Protein": {
+        "amount": "4 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 8.99, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.0397787610619469, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 226, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 8, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 8.99, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 20, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 4, 
+        "unit": "Tbsp"
+      }
+    ], 
+    "price_per_kg": 8.99, 
+    "num_Amino Acids": 0, 
+    "container_text": " Unsweetened, 8 oz (226 g)", 
+    "name": "Dagoba Organic Chocolate, Drinking Chocolate, Unsweetened, 8 oz (226 g)"
+  }, 
+  {
+    "price_per_oz": 1.1375, 
+    "serving_text": "2 tbsp (14.0 g)", 
+    "display_name": "Frontier Natural Products, Certified Organic, Black Cocoa Powder, Processed with Alkali", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Frontier-Natural-Products-Certified-Organic-Black-Cocoa-Powder-Processed-with-Alkali-16-oz-453-g/46895?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "4 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 16
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 10
+      }, 
+      "Sodium": {
+        "amount": "140 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 6
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 2
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "1.5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 2
+      }, 
+      "Total Carbohydrate": {
+        "amount": "8 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 3
+      }, 
+      "Protein": {
+        "amount": "3 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 18.2, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.0401766004415011, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 453, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 18.2, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 14.0, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "tbsp"
+      }
+    ], 
+    "price_per_kg": 18.2, 
+    "num_Amino Acids": 0, 
+    "container_text": " Processed with Alkali, 16 oz (453 g)", 
+    "name": "Frontier Natural Products, Certified Organic, Black Cocoa Powder, Processed with Alkali, 16 oz (453 g)"
+  }, 
+  {
+    "price_per_oz": 18.94, 
+    "serving_text": "2 tbsp (28 g)", 
+    "display_name": "Sunfood, Organic, Raw Cacao Powder", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Sunfood-Organic-Raw-Cacao-Powder-1-lb-454-g/59381?rcode=KQM091", 
+    "nutrients": {
+      "Copper": {
+        "amount": "", 
+        "actual_name": "Copper", 
+        "percent_dv": 53
+      }, 
+      "Fiber": {
+        "amount": "6 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 24
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 15
+      }, 
+      "Sodium": {
+        "amount": "10 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Potassium": {
+        "amount": "427 mg", 
+        "actual_name": "Potassium", 
+        "percent_dv": 12
+      }, 
+      "Selenium": {
+        "amount": "", 
+        "actual_name": "Selenium", 
+        "percent_dv": 6
+      }, 
+      "Manganese": {
+        "amount": "", 
+        "actual_name": "Manganese", 
+        "percent_dv": 54
+      }, 
+      "Sugar": {
+        "amount": "1 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 4
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Magnesium": {
+        "amount": "", 
+        "actual_name": "Magnesium", 
+        "percent_dv": 35
+      }, 
+      "Total Fat": {
+        "amount": "9 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 14
+      }, 
+      "Total Carbohydrate": {
+        "amount": "11 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 4
+      }, 
+      "Protein": {
+        "amount": "5 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Zinc": {
+        "amount": "", 
+        "actual_name": "Zinc", 
+        "percent_dv": 13
+      }
+    }, 
+    "price": 18.94, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 16, 
+    "price_per_g": 0.041718061674008815, 
+    "num_Minerals": 8, 
+    "container_sizes": [
+      {
+        "amount": 454, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "lb"
+      }
+    ], 
+    "price_per_lbs": 18.94, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 28, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "tbsp"
+      }
+    ], 
+    "price_per_kg": 18.94, 
+    "num_Amino Acids": 0, 
+    "container_text": " Raw Cacao Powder, 1 lb (454 g)", 
+    "name": "Sunfood, Organic, Raw Cacao Powder, 1 lb (454 g)"
+  }, 
+  {
+    "price_per_oz": 1.2425, 
+    "serving_text": "2 tbsp (28 g)", 
+    "display_name": "Sunfood, Cacao Powder, Raw", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Sunfood-Cacao-Powder-Raw-8-oz-227-g/50403?rcode=KQM091", 
+    "nutrients": {
+      "Copper": {
+        "amount": "", 
+        "actual_name": "Copper", 
+        "percent_dv": 53
+      }, 
+      "Fiber": {
+        "amount": "6 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 24
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 15
+      }, 
+      "Sodium": {
+        "amount": "10 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Potassium": {
+        "amount": "427 mg", 
+        "actual_name": "Potassium", 
+        "percent_dv": 12
+      }, 
+      "Selenium": {
+        "amount": "", 
+        "actual_name": "Selenium", 
+        "percent_dv": 6
+      }, 
+      "Manganese": {
+        "amount": "", 
+        "actual_name": "Manganese", 
+        "percent_dv": 54
+      }, 
+      "Sugar": {
+        "amount": "1 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 4
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Magnesium": {
+        "amount": "", 
+        "actual_name": "Magnesium", 
+        "percent_dv": 35
+      }, 
+      "Total Fat": {
+        "amount": "9 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 14
+      }, 
+      "Total Carbohydrate": {
+        "amount": "11 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 4
+      }, 
+      "Protein": {
+        "amount": "5 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Zinc": {
+        "amount": "", 
+        "actual_name": "Zinc", 
+        "percent_dv": 13
+      }
+    }, 
+    "price": 9.94, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 16, 
+    "price_per_g": 0.04378854625550661, 
+    "num_Minerals": 8, 
+    "container_sizes": [
+      {
+        "amount": 227, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 8, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 9.94, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 28, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "tbsp"
+      }
+    ], 
+    "price_per_kg": 9.94, 
+    "num_Amino Acids": 0, 
+    "container_text": " Raw, 8 oz (227 g)", 
+    "name": "Sunfood, Cacao Powder, Raw, 8 oz (227 g)"
+  }, 
+  {
+    "price_per_oz": 1.2425, 
+    "serving_text": "5 tsp (15 g)", 
+    "display_name": "Earth Circle Organics, Organic Balinese Cacao Powder", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Earth-Circle-Organics-Organic-Balinese-Cacao-Powder-8-oz-227-g/50210?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "1 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 4
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 38
+      }, 
+      "Sodium": {
+        "amount": "3 g", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Potassium": {
+        "amount": "334 mg", 
+        "actual_name": "Potassium", 
+        "percent_dv": 10
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 2
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 5
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 4
+      }, 
+      "Total Fat": {
+        "amount": "3 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 5
+      }, 
+      "Total Carbohydrate": {
+        "amount": "8 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 3
+      }, 
+      "Protein": {
+        "amount": "3 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 9.94, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 11, 
+    "price_per_g": 0.04378854625550661, 
+    "num_Minerals": 3, 
+    "container_sizes": [
+      {
+        "amount": 227, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 8, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 9.94, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 15, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 5, 
+        "unit": "tsp"
+      }
+    ], 
+    "price_per_kg": 9.94, 
+    "num_Amino Acids": 0, 
+    "container_text": " Organic Balinese Cacao Powder, 8 oz (227 g)", 
+    "name": "Earth Circle Organics, Organic Balinese Cacao Powder, 8 oz (227 g)"
+  }, 
+  {
+    "price_per_oz": 1.2575, 
+    "serving_text": "1 oz (28 g)", 
+    "display_name": "Dukan Diet, Organic Cocoa Powder", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Dukan-Diet-Organic-Cocoa-Powder-8-oz-227-g/49849?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "9 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 40
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 4
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "3 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 3
+      }, 
+      "Total Carbohydrate": {
+        "amount": "16 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 5
+      }, 
+      "Protein": {
+        "amount": "5 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 10.06, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 9, 
+    "price_per_g": 0.04431718061674009, 
+    "num_Minerals": 1, 
+    "container_sizes": [
+      {
+        "amount": 227, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 8, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 10.06, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 28, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_kg": 10.06, 
+    "num_Amino Acids": 0, 
+    "container_text": " Organic Cocoa Powder, 8 oz (227 g)", 
+    "name": "Dukan Diet, Organic Cocoa Powder, 8 oz (227 g)"
+  }, 
+  {
+    "price_per_oz": 1.3125, 
+    "serving_text": "2 tbsp (12.0 g)", 
+    "display_name": "Frontier Natural Products, Certified Organic Cocoa Powder Non-Alkalized", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Frontier-Natural-Products-Certified-Organic-Cocoa-Powder-Non-Alkalized-16-oz-453-g/46894?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "4 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 16
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 10
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 2
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "1.5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 2
+      }, 
+      "Total Carbohydrate": {
+        "amount": "7 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 2
+      }, 
+      "Protein": {
+        "amount": "2 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 21.0, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.046357615894039736, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 453, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 21.0, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 12.0, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "tbsp"
+      }
+    ], 
+    "price_per_kg": 21.0, 
+    "num_Amino Acids": 0, 
+    "container_text": " Certified Organic Cocoa Powder Non-Alkalized, 16 oz (453 g)", 
+    "name": "Frontier Natural Products, Certified Organic Cocoa Powder Non-Alkalized, 16 oz (453 g)"
+  }, 
+  {
+    "price_per_oz": 1.31, 
+    "serving_text": "1 oz (28 g)", 
+    "display_name": "TerrAmazon, Organic Cacao Powder", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/TerrAmazon-Organic-Cacao-Powder-4-oz-113-g/50100?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "10 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 40
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 10
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 4
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "2 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 3
+      }, 
+      "Total Carbohydrate": {
+        "amount": "16 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 5
+      }, 
+      "Protein": {
+        "amount": "8 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 16
+      }
+    }, 
+    "price": 5.24, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.046371681415929206, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 113, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 4, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 5.24, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 28, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_kg": 5.24, 
+    "num_Amino Acids": 0, 
+    "container_text": " Organic Cacao Powder, 4 oz (113 g)", 
+    "name": "TerrAmazon, Organic Cacao Powder, 4 oz (113 g)"
+  }, 
+  {
+    "price_per_oz": 1.4125, 
+    "serving_text": "1 oz (28 g)", 
+    "display_name": "TerrAmazon, Organic Cacao Powder with Maca", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/TerrAmazon-Organic-Cacao-Powder-with-Maca-4-oz-113-g/50101?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "2 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 7
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "2 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 3
+      }, 
+      "Total Carbohydrate": {
+        "amount": "15 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 5
+      }, 
+      "Protein": {
+        "amount": "5 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 10
+      }
+    }, 
+    "price": 5.65, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 6, 
+    "price_per_g": 0.05, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 113, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 4, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 5.65, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 28, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_kg": 5.65, 
+    "num_Amino Acids": 0, 
+    "container_text": " Organic Cacao Powder with Maca, 4 oz (113 g)", 
+    "name": "TerrAmazon, Organic Cacao Powder with Maca, 4 oz (113 g)"
+  }, 
+  {
+    "price_per_oz": 1.506935687263556, 
+    "serving_text": "1 Scoop (7.5 Grams)", 
+    "display_name": "Madre Labs, CocoCeps, Instant Organic Dark Cocoa Beverage", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Madre-Labs-CocoCeps-Instant-Organic-Dark-Cocoa-Beverage-7-93-oz-225-g/23648?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "3 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 12
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 15
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 2
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": ".5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 1
+      }, 
+      "Total Carbohydrate": {
+        "amount": "3 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 1
+      }, 
+      "Protein": {
+        "amount": "2 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 11.95, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.05311111111111111, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 225, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 7.93, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 11.95, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 7.5, 
+        "unit": "Grams"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "Scoop"
+      }
+    ], 
+    "price_per_kg": 11.95, 
+    "num_Amino Acids": 0, 
+    "container_text": " Instant Organic Dark Cocoa Beverage, 7.93 oz (225 g)", 
+    "name": "Madre Labs, CocoCeps, Instant Organic Dark Cocoa Beverage, 7.93 oz (225 g)"
+  }, 
+  {
+    "price_per_oz": 1.556, 
+    "serving_text": "1 teaspoon (1.54 g)", 
+    "display_name": "Fun Fresh Foods, Organic, Raw Cacao Powder", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Fun-Fresh-Foods-Organic-Raw-Cacao-Powder-5-oz-140-g/36776?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "1 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 2
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 1
+      }, 
+      "Sodium": {
+        "amount": "0 g", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 0
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "0 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 0
+      }, 
+      "Total Carbohydrate": {
+        "amount": "1 g", 
+        "actual_name": "Total Carbohydrates", 
+        "percent_dv": 0
+      }, 
+      "Protein": {
+        "amount": "<1 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 1
+      }
+    }, 
+    "price": 7.78, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.05557142857142857, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 140, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 5, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 7.78, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 1.54, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "teaspoon"
+      }
+    ], 
+    "price_per_kg": 7.78, 
+    "num_Amino Acids": 0, 
+    "container_text": " Raw Cacao Powder, 5 oz (140 g)", 
+    "name": "Fun Fresh Foods, Organic, Raw Cacao Powder, 5 oz (140 g)"
+  }, 
+  {
+    "price_per_oz": 1.798, 
+    "serving_text": "1 oz (28 g)", 
+    "display_name": "The Tea Room, Drinking Chocolate, Chamomile & Honey", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/The-Tea-Room-Drinking-Chocolate-Chamomile-Honey-5-oz-142-g/61475?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "1 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 4
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 6
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "14 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 6
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 2
+      }, 
+      "Total Fat": {
+        "amount": "10 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 15
+      }, 
+      "Total Carbohydrate": {
+        "amount": "15 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 5
+      }, 
+      "Protein": {
+        "amount": "2 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 8.99, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.06330985915492958, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 142, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 5, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 8.99, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 28, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_kg": 8.99, 
+    "num_Amino Acids": 0, 
+    "container_text": " Chamomile & Honey, 5 oz (142 g)", 
+    "name": "The Tea Room, Drinking Chocolate, Chamomile & Honey, 5 oz (142 g)"
+  }, 
+  {
+    "price_per_oz": 1.798, 
+    "serving_text": "1 oz (28 g)", 
+    "display_name": "The Tea Room, Drinking Chocolate, Honeybush Caramel", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/The-Tea-Room-Drinking-Chocolate-Honeybush-Caramel-5-oz-142-g/61476?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "1 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 4
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 6
+      }, 
+      "Sodium": {
+        "amount": "20 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 1
+      }, 
+      "Sugar": {
+        "amount": "14 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 6
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 2
+      }, 
+      "Total Fat": {
+        "amount": "10 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 15
+      }, 
+      "Total Carbohydrate": {
+        "amount": "15 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 5
+      }, 
+      "Protein": {
+        "amount": "2 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 8.99, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.06330985915492958, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 142, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 5, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 8.99, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 28, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_kg": 8.99, 
+    "num_Amino Acids": 0, 
+    "container_text": " Honeybush Caramel, 5 oz (142 g)", 
+    "name": "The Tea Room, Drinking Chocolate, Honeybush Caramel, 5 oz (142 g)"
+  }, 
+  {
+    "price_per_oz": 1.798, 
+    "serving_text": "1 oz (28 g)", 
+    "display_name": "The Tea Room, Drinking Chocolate, Raspberry Rooibos", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/The-Tea-Room-Drinking-Chocolate-Raspberry-Rooibos-5-oz-142-g/61477?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "2 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 8
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 6
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "11 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 6
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 2
+      }, 
+      "Total Fat": {
+        "amount": "10 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 15
+      }, 
+      "Total Carbohydrate": {
+        "amount": "15 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 5
+      }, 
+      "Protein": {
+        "amount": "2 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 8.99, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.06330985915492958, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 142, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 5, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 8.99, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 28, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_kg": 8.99, 
+    "num_Amino Acids": 0, 
+    "container_text": " Raspberry Rooibos, 5 oz (142 g)", 
+    "name": "The Tea Room, Drinking Chocolate, Raspberry Rooibos, 5 oz (142 g)"
+  }, 
+  {
+    "price_per_oz": 1.798, 
+    "serving_text": "1 oz (28 g)", 
+    "display_name": "The Tea Room, Drinking Chocolate, Green Earl Grey", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/The-Tea-Room-Drinking-Chocolate-Green-Earl-Grey-5-oz-142-g/61478?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "2 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 8
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 6
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "11 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 6
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 2
+      }, 
+      "Total Fat": {
+        "amount": "10 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 15
+      }, 
+      "Total Carbohydrate": {
+        "amount": "15 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 5
+      }, 
+      "Protein": {
+        "amount": "2 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 8.99, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.06330985915492958, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 142, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 5, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 8.99, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 28, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_kg": 8.99, 
+    "num_Amino Acids": 0, 
+    "container_text": " Green Earl Grey, 5 oz (142 g)", 
+    "name": "The Tea Room, Drinking Chocolate, Green Earl Grey, 5 oz (142 g)"
+  }, 
+  {
+    "price_per_oz": 1.798, 
+    "serving_text": "1 oz (28 g)", 
+    "display_name": "The Tea Room, Drinking Chocolate, Mayan Pepper Chai", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/The-Tea-Room-Drinking-Chocolate-Mayan-Pepper-Chai-5-oz-142-g/61479?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "2 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 8
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 6
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "11 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 6
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 2
+      }, 
+      "Total Fat": {
+        "amount": "10 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 15
+      }, 
+      "Total Carbohydrate": {
+        "amount": "15 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 5
+      }, 
+      "Protein": {
+        "amount": "2 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 8.99, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.06330985915492958, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 142, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 5, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 8.99, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 28, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_kg": 8.99, 
+    "num_Amino Acids": 0, 
+    "container_text": " Mayan Pepper Chai, 5 oz (142 g)", 
+    "name": "The Tea Room, Drinking Chocolate, Mayan Pepper Chai, 5 oz (142 g)"
+  }, 
+  {
+    "price_per_oz": 1.8852459016393441, 
+    "serving_text": "1 Scoop (7.5 Grams)", 
+    "display_name": "Madre Labs, CocoCardio", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Madre-Labs-CocoCardio-7-93-oz-225-g/23802?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "3 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 12
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 11
+      }, 
+      "Sodium": {
+        "amount": "10 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 1
+      }, 
+      "Sugar": {
+        "amount": "1 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 1
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "0 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 0
+      }, 
+      "Total Carbohydrate": {
+        "amount": "4 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 1
+      }, 
+      "Protein": {
+        "amount": "2 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 14.95, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.06644444444444444, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 225, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 7.93, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 14.95, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 7.5, 
+        "unit": "Grams"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "Scoop"
+      }
+    ], 
+    "price_per_kg": 14.95, 
+    "num_Amino Acids": 0, 
+    "container_text": " CocoCardio, 7.93 oz (225 g)", 
+    "name": "Madre Labs, CocoCardio, 7.93 oz (225 g)"
+  }, 
+  {
+    "price_per_oz": 1.9083333333333332, 
+    "serving_text": "2.5 tbsp (14 g)", 
+    "display_name": "Wilderness Poets, Cacao Powder", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Wilderness-Poets-Cacao-Powder-6-oz-170-g/53526?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "4 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 16
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 8
+      }, 
+      "Sodium": {
+        "amount": "10 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 2
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "1.5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 2
+      }, 
+      "Total Carbohydrate": {
+        "amount": "9 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 3
+      }, 
+      "Protein": {
+        "amount": "3 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 11.45, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.06735294117647059, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 170, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 6, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 11.45, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 14, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 2.5, 
+        "unit": "tbsp"
+      }
+    ], 
+    "price_per_kg": 11.45, 
+    "num_Amino Acids": 0, 
+    "container_text": " Cacao Powder, 6 oz (170 g)", 
+    "name": "Wilderness Poets, Cacao Powder, 6 oz (170 g)"
+  }, 
+  {
+    "price_per_oz": 2.8169014084507045, 
+    "serving_text": "1 envelope (20 g)", 
+    "display_name": "Nestle Hot Cocoa Mix, Mini Marshmallows, Rich Milk Chocolate Flavor, 6 Envelopes", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nestle-Hot-Cocoa-Mix-Mini-Marshmallows-Rich-Milk-Chocolate-Flavor-6-Envelopes-0-71-oz-20-2-g-Each/49296?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "<1 g", 
+        "actual_name": "Fiber", 
+        "percent_dv": 3
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 2
+      }, 
+      "Sodium": {
+        "amount": "160 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 7
+      }, 
+      "Sugar": {
+        "amount": "10 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 30
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "2.5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 4
+      }, 
+      "Total Carbohydrate": {
+        "amount": "15 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 5
+      }, 
+      "Protein": {
+        "amount": "<1 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 2.0, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.09900990099009901, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 20.2, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 0.71, 
+        "unit": "oz"
+      }, 
+      {
+        "amount": 6, 
+        "unit": "Envelopes"
+      }
+    ], 
+    "price_per_lbs": 2.0, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 20, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "envelope"
+      }
+    ], 
+    "price_per_kg": 2.0, 
+    "num_Amino Acids": 0, 
+    "container_text": " 6 Envelopes, 0.71 oz (20.2 g) Each", 
+    "name": "Nestle Hot Cocoa Mix, Mini Marshmallows, Rich Milk Chocolate Flavor, 6 Envelopes, 0.71 oz (20.2 g) Each"
+  }, 
+  {
+    "price_per_oz": 2.8169014084507045, 
+    "serving_text": "1 envelope (20 g)", 
+    "display_name": "Nestle Hot Cocoa Mix, Rich Milk Chocolate Flavor, 6 Packets", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nestle-Hot-Cocoa-Mix-Rich-Milk-Chocolate-Flavor-6-Packets-0-71-oz-20-2-g-Each/49295?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "< 1 g", 
+        "actual_name": "Fiber", 
+        "percent_dv": 3
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 2
+      }, 
+      "Sodium": {
+        "amount": "170 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 7
+      }, 
+      "Sugar": {
+        "amount": "10 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 30
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "2.5 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 4
+      }, 
+      "Total Carbohydrate": {
+        "amount": "15 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 5
+      }, 
+      "Protein": {
+        "amount": "<1 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 2.0, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.09900990099009901, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 20.2, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 0.71, 
+        "unit": "oz"
+      }, 
+      {
+        "amount": 6, 
+        "unit": "Packets"
+      }
+    ], 
+    "price_per_lbs": 2.0, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 20, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "envelope"
+      }
+    ], 
+    "price_per_kg": 2.0, 
+    "num_Amino Acids": 0, 
+    "container_text": " 6 Packets, 0.71 oz (20.2 g) Each", 
+    "name": "Nestle Hot Cocoa Mix, Rich Milk Chocolate Flavor, 6 Packets, 0.71 oz (20.2 g) Each"
+  }
+]

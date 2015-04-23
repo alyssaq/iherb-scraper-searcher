@@ -1,0 +1,1905 @@
+[
+  {
+    "price_per_oz": 0.4775, 
+    "serving_text": "2 Level Tbsp (10 g)", 
+    "display_name": "Now Foods, Whole Psyllium Husks", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 2, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Whole-Psyllium-Husks-16-oz-454-g/37841?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "7 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 28
+      }, 
+      "Iron": {
+        "amount": "", 
+        "actual_name": "Iron", 
+        "percent_dv": 10
+      }, 
+      "Sodium": {
+        "amount": "10 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 1
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "", 
+        "actual_name": "Vitamin C", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "", 
+        "actual_name": "Calcium", 
+        "percent_dv": 2
+      }, 
+      "Vitamin A": {
+        "amount": "", 
+        "actual_name": "Vitamin A", 
+        "percent_dv": 0
+      }, 
+      "Total Fat": {
+        "amount": "0 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 0
+      }, 
+      "Total Carbohydrate": {
+        "amount": "8 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 3
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 7.64, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 10, 
+    "price_per_g": 0.01682819383259912, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 454, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 7.64, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 10, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "Level Tbsp"
+      }
+    ], 
+    "price_per_kg": 7.64, 
+    "num_Amino Acids": 0, 
+    "container_text": " Whole Psyllium Husks, 16 oz (454 g)", 
+    "name": "Now Foods, Whole Psyllium Husks, 16 oz (454 g)"
+  }, 
+  {
+    "price_per_oz": 0.5125000000000001, 
+    "serving_text": "1 Rounded Teaspoon (5 grams)", 
+    "display_name": "Source Naturals, Psyllium Husk Powder", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Source-Naturals-Psyllium-Husk-Powder-12-oz-340-g/1446?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "4 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 1
+      }, 
+      "Fiber": {
+        "amount": "4 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 16
+      }, 
+      "Iron": {
+        "amount": "2 mg", 
+        "actual_name": "Iron (naturally occurring)", 
+        "percent_dv": 11
+      }
+    }, 
+    "price": 6.15, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 3, 
+    "price_per_g": 0.018088235294117648, 
+    "num_Minerals": 1, 
+    "container_sizes": [
+      {
+        "amount": 340, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 12, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 6.15, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 5, 
+        "unit": "grams"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "Rounded Teaspoon"
+      }
+    ], 
+    "price_per_kg": 6.15, 
+    "num_Amino Acids": 0, 
+    "container_text": " Psyllium Husk Powder, 12 oz (340 g)", 
+    "name": "Source Naturals, Psyllium Husk Powder, 12 oz (340 g)"
+  }, 
+  {
+    "price_per_oz": 0.5733333333333334, 
+    "serving_text": "1 Level Tablespoon (9 g)", 
+    "display_name": "Now Foods, Healthy Foods, Psyllium Husk Powder", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Healthy-Foods-Psyllium-Husk-Powder-24-oz-680-g/21133?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "8 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 3
+      }, 
+      "Fiber": {
+        "amount": "7 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 28
+      }
+    }, 
+    "price": 13.76, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 0.02023529411764706, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 680, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 24, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 13.76, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 9, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "Level Tablespoon"
+      }
+    ], 
+    "price_per_kg": 13.76, 
+    "num_Amino Acids": 0, 
+    "container_text": " Psyllium Husk Powder, 24 oz (680 g)", 
+    "name": "Now Foods, Healthy Foods, Psyllium Husk Powder, 24 oz (680 g)"
+  }, 
+  {
+    "price_per_oz": 0.605, 
+    "serving_text": "", 
+    "display_name": "Now Foods, Whole Psyllium Husks", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Whole-Psyllium-Husks-24-oz-680-g/16574?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 14.52, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.02135294117647059, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 680, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 24, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 14.52, 
+    "num_Macronutrients": 0, 
+    "serving_sizes": [
+      {
+        "amount": 1, 
+        "unit": ""
+      }
+    ], 
+    "price_per_kg": 14.52, 
+    "num_Amino Acids": 0, 
+    "container_text": " Whole Psyllium Husks, 24 oz (680 g)", 
+    "name": "Now Foods, Whole Psyllium Husks, 24 oz (680 g)"
+  }, 
+  {
+    "price_per_oz": 0.625625, 
+    "serving_text": "3 tsp (5 g)", 
+    "display_name": "Frontier Natural Products, Whole Psyllium Husk", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Frontier-Natural-Products-Whole-Psyllium-Husk-16-oz-453-g/30713?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "5 g", 
+        "actual_name": "Total Carbohydrates", 
+        "percent_dv": 2
+      }, 
+      "Fiber": {
+        "amount": "4 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 16
+      }
+    }, 
+    "price": 10.01, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 0.022097130242825606, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 453, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 10.01, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 5, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 3, 
+        "unit": "tsp"
+      }
+    ], 
+    "price_per_kg": 10.01, 
+    "num_Amino Acids": 0, 
+    "container_text": " Whole Psyllium Husk, 16 oz (453 g)", 
+    "name": "Frontier Natural Products, Whole Psyllium Husk, 16 oz (453 g)"
+  }, 
+  {
+    "price_per_oz": 0.6308333333333334, 
+    "serving_text": "5 grams (1 tablespoon)", 
+    "display_name": "Yerba Prima, Psyllium Whole Husks, Colon Cleanser", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Yerba-Prima-Psyllium-Whole-Husks-Colon-Cleanser-12-oz-340-g/4795?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "4.5 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 18
+      }, 
+      "Sodium": {
+        "amount": "4 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 2
+      }, 
+      "Potassium": {
+        "amount": "43 mg", 
+        "actual_name": "Potassium", 
+        "percent_dv": 2
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "10 mg", 
+        "actual_name": "Calcium", 
+        "percent_dv": 2
+      }, 
+      "Total Fat": {
+        "amount": "0 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 0
+      }, 
+      "Total Carbohydrate": {
+        "amount": "4.5 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 2
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 7.57, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 8, 
+    "price_per_g": 0.022264705882352943, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 340, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 12, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 7.57, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 1, 
+        "unit": "tablespoon"
+      }, 
+      {
+        "amount": 5, 
+        "unit": "grams"
+      }
+    ], 
+    "price_per_kg": 7.57, 
+    "num_Amino Acids": 0, 
+    "container_text": " Colon Cleanser, 12 oz (340 g)", 
+    "name": "Yerba Prima, Psyllium Whole Husks, Colon Cleanser, 12 oz (340 g)"
+  }, 
+  {
+    "price_per_oz": 0.6366666666666666, 
+    "serving_text": "2 Level Tablespoons (10 g)", 
+    "display_name": "Now Foods, Whole Psyllium Husks", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Whole-Psyllium-Husks-12-oz-340-g/874?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "8 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 3
+      }, 
+      "Fiber": {
+        "amount": "7 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 28
+      }
+    }, 
+    "price": 7.64, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 0.022470588235294117, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 340, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 12, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 7.64, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 10, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "Level Tablespoons"
+      }
+    ], 
+    "price_per_kg": 7.64, 
+    "num_Amino Acids": 0, 
+    "container_text": " Whole Psyllium Husks, 12 oz (340 g)", 
+    "name": "Now Foods, Whole Psyllium Husks, 12 oz (340 g)"
+  }, 
+  {
+    "price_per_oz": 0.6366666666666666, 
+    "serving_text": "1 level Tbsp (9 g)", 
+    "display_name": "Now Foods, Psyllium Husk Powder", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Psyllium-Husk-Powder-12-oz-340-g/8934?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "8 g", 
+        "actual_name": "Total Carbohydrates", 
+        "percent_dv": 3
+      }, 
+      "Calcium": {
+        "amount": "27 mg", 
+        "actual_name": "Calcium", 
+        "percent_dv": 3
+      }, 
+      "Fiber": {
+        "amount": "6.7 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 27
+      }, 
+      "Iron": {
+        "amount": "162 mg", 
+        "actual_name": "Iron", 
+        "percent_dv": 1
+      }
+    }, 
+    "price": 7.64, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.022470588235294117, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 340, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 12, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 7.64, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 9, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "level Tbsp"
+      }
+    ], 
+    "price_per_kg": 7.64, 
+    "num_Amino Acids": 0, 
+    "container_text": " Psyllium Husk Powder, 12 oz (340 g)", 
+    "name": "Now Foods, Psyllium Husk Powder, 12 oz (340 g)"
+  }, 
+  {
+    "price_per_oz": 0.65625, 
+    "serving_text": "2 tsp (5 g)", 
+    "display_name": "Frontier Natural Products, Powdered Psyllium Husk", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Frontier-Natural-Products-Powdered-Psyllium-Husk-16-oz-453-g/30709?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "5 g", 
+        "actual_name": "Total Carbohydrates", 
+        "percent_dv": 2
+      }, 
+      "Fiber": {
+        "amount": "4 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 16
+      }
+    }, 
+    "price": 10.5, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 0.023178807947019868, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 453, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 10.5, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 5, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "tsp"
+      }
+    ], 
+    "price_per_kg": 10.5, 
+    "num_Amino Acids": 0, 
+    "container_text": " Powdered Psyllium Husk, 16 oz (453 g)", 
+    "name": "Frontier Natural Products, Powdered Psyllium Husk, 16 oz (453 g)"
+  }, 
+  {
+    "price_per_oz": 0.6575, 
+    "serving_text": "5 grams (1 rounded teaspoon)", 
+    "display_name": "Yerba Prima, Psyllium Husks Powder", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Yerba-Prima-Psyllium-Husks-Powder-12-oz-340-g/15898?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "4.5 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 18
+      }, 
+      "Sodium": {
+        "amount": "4 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 2
+      }, 
+      "Potassium": {
+        "amount": "43 mg", 
+        "actual_name": "Potassium", 
+        "percent_dv": 2
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "10 mg", 
+        "actual_name": "Calcium", 
+        "percent_dv": 2
+      }, 
+      "Total Fat": {
+        "amount": "0 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 0
+      }, 
+      "Total Carbohydrate": {
+        "amount": "4.5 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 2
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 7.89, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 8, 
+    "price_per_g": 0.023205882352941177, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 340, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 12, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 7.89, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 1, 
+        "unit": "rounded teaspoon"
+      }, 
+      {
+        "amount": 5, 
+        "unit": "grams"
+      }
+    ], 
+    "price_per_kg": 7.89, 
+    "num_Amino Acids": 0, 
+    "container_text": " Psyllium Husks Powder, 12 oz (340 g)", 
+    "name": "Yerba Prima, Psyllium Husks Powder, 12 oz (340 g)"
+  }, 
+  {
+    "price_per_oz": 0.7641666666666667, 
+    "serving_text": "1 Heaping Teaspoon (5.8 g)", 
+    "display_name": "Now Foods, Psyllium Husk Fiber, Orange-Flavored", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Psyllium-Husk-Fiber-Orange-Flavored-12-oz-340-g/4590?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "5 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 2
+      }, 
+      "Fiber": {
+        "amount": "3 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 12
+      }
+    }, 
+    "price": 9.17, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 0.026970588235294118, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 340, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 12, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 9.17, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 5.8, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "Heaping Teaspoon"
+      }
+    ], 
+    "price_per_kg": 9.17, 
+    "num_Amino Acids": 0, 
+    "container_text": " Orange-Flavored, 12 oz (340 g)", 
+    "name": "Now Foods, Psyllium Husk Fiber, Orange-Flavored, 12 oz (340 g)"
+  }, 
+  {
+    "price_per_oz": 0.7641666666666667, 
+    "serving_text": "1 TBSP (10 g)", 
+    "display_name": "Now Foods, Psyllium, Powder, Apple-Flavored", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Psyllium-Powder-Apple-Flavored-12-oz-340-g/365?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "9 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 3
+      }, 
+      "Sugar": {
+        "amount": "1.5 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Fiber": {
+        "amount": "7 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 28
+      }, 
+      "Sodium": {
+        "amount": "10 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 1
+      }
+    }, 
+    "price": 9.17, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.026970588235294118, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 340, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 12, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 9.17, 
+    "num_Macronutrients": 3, 
+    "serving_sizes": [
+      {
+        "amount": 10, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "TBSP"
+      }
+    ], 
+    "price_per_kg": 9.17, 
+    "num_Amino Acids": 0, 
+    "container_text": " Apple-Flavored, 12 oz (340 g)", 
+    "name": "Now Foods, Psyllium, Powder, Apple-Flavored, 12 oz (340 g)"
+  }, 
+  {
+    "price_per_oz": 0.83125, 
+    "serving_text": "3 tsp (4 g)", 
+    "display_name": "Frontier Natural Products, Organic Whole Psyllium Husk", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Frontier-Natural-Products-Organic-Whole-Psyllium-Husk-16-oz-453-g/30981?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "4 g", 
+        "actual_name": "Total Carbohydrates", 
+        "percent_dv": 1
+      }, 
+      "Fiber": {
+        "amount": "3 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 12
+      }
+    }, 
+    "price": 13.3, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 0.0293598233995585, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 453, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 13.3, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 4, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 3, 
+        "unit": "tsp"
+      }
+    ], 
+    "price_per_kg": 13.3, 
+    "num_Amino Acids": 0, 
+    "container_text": " Organic Whole Psyllium Husk, 16 oz (453 g)", 
+    "name": "Frontier Natural Products, Organic Whole Psyllium Husk, 16 oz (453 g)"
+  }, 
+  {
+    "price_per_oz": 0.870625, 
+    "serving_text": "2 tsp (6 g)", 
+    "display_name": "Frontier Natural Products, Organic Powdered Psyllium Husk", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Frontier-Natural-Products-Organic-Powdered-Psyllium-Husk-16-oz-453-g/31080?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "5 g", 
+        "actual_name": "Total Carbohydrates", 
+        "percent_dv": 2
+      }, 
+      "Fiber": {
+        "amount": "4 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 16
+      }
+    }, 
+    "price": 13.93, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 0.030750551876379692, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 453, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 13.93, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 6, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "tsp"
+      }
+    ], 
+    "price_per_kg": 13.93, 
+    "num_Amino Acids": 0, 
+    "container_text": " Organic Powdered Psyllium Husk, 16 oz (453 g)", 
+    "name": "Frontier Natural Products, Organic Powdered Psyllium Husk, 16 oz (453 g)"
+  }, 
+  {
+    "price_per_oz": 0.8916666666666666, 
+    "serving_text": "1 Level Tablespoon (9g)", 
+    "display_name": "Now Foods, 100% Certified Organic, Psyllium Husk Powder", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-100-Certified-Organic-Psyllium-Husk-Powder-12-oz-340-g/21116?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "8 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 3
+      }, 
+      "Fiber": {
+        "amount": "7 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 28
+      }
+    }, 
+    "price": 10.7, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 0.03147058823529412, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 340, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 12, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 10.7, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 9, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "Level Tablespoon"
+      }
+    ], 
+    "price_per_kg": 10.7, 
+    "num_Amino Acids": 0, 
+    "container_text": " Psyllium Husk Powder, 12 oz (340 g)", 
+    "name": "Now Foods, 100% Certified Organic, Psyllium Husk Powder, 12 oz (340 g)"
+  }, 
+  {
+    "price_per_oz": 0.8916666666666666, 
+    "serving_text": "2 Level Tablespoons (10 g)", 
+    "display_name": "Now Foods, Organic Whole Psyllium Husks", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Organic-Whole-Psyllium-Husks-12-oz-340-g/21117?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "8 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 3
+      }, 
+      "Fiber": {
+        "amount": "7 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 28
+      }
+    }, 
+    "price": 10.7, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 0.03147058823529412, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 340, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 12, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 10.7, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 10, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "Level Tablespoons"
+      }
+    ], 
+    "price_per_kg": 10.7, 
+    "num_Amino Acids": 0, 
+    "container_text": " Organic Whole Psyllium Husks, 12 oz (340 g)", 
+    "name": "Now Foods, Organic Whole Psyllium Husks, 12 oz (340 g)"
+  }, 
+  {
+    "price_per_oz": 0.895, 
+    "serving_text": "1 Tablespoon (7 g)", 
+    "display_name": "Health Plus Inc., The Original Colon Cleanse, One", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Health-Plus-Inc-The-Original-Colon-Cleanse-One-12-oz-340-g/3669?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "6 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 2
+      }, 
+      "Fiber": {
+        "amount": "6 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 23
+      }, 
+      "Total Fat": {
+        "amount": "0 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 0
+      }, 
+      "Sodium": {
+        "amount": "0 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 10.74, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 4, 
+    "price_per_g": 0.031588235294117646, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 340, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 12, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 10.74, 
+    "num_Macronutrients": 3, 
+    "serving_sizes": [
+      {
+        "amount": 7, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "Tablespoon"
+      }
+    ], 
+    "price_per_kg": 10.74, 
+    "num_Amino Acids": 0, 
+    "container_text": " One, 12 oz (340 g)", 
+    "name": "Health Plus Inc., The Original Colon Cleanse, One, 12 oz (340 g)"
+  }, 
+  {
+    "price_per_oz": 0.951, 
+    "serving_text": "1 Teaspoon (2.4 g)", 
+    "display_name": "Planetary Herbals, Michael Tierra's, Tri-Cleanse, Complete Internal Cleanser", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Planetary-Herbals-Michael-Tierra-s-Tri-Cleanse-Complete-Internal-Cleanser-10-oz-283-5-g/1592?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "2 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 1
+      }, 
+      "Fiber": {
+        "amount": "1 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 4
+      }
+    }, 
+    "price": 9.51, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 0.033544973544973544, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 283.5, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 10, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 9.51, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 2.4, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "Teaspoon"
+      }
+    ], 
+    "price_per_kg": 9.51, 
+    "num_Amino Acids": 0, 
+    "container_text": " Complete Internal Cleanser, 10 oz (283.5 g)", 
+    "name": "Planetary Herbals, Michael Tierra's, Tri-Cleanse, Complete Internal Cleanser, 10 oz (283.5 g)"
+  }, 
+  {
+    "price_per_oz": 1.035294117647059, 
+    "serving_text": "2 Tablespoonfuls (22.8 g)", 
+    "display_name": "Twinlab, Colon Care", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 3, 
+    "num_Probiotics": 2, 
+    "url": "http://www.iherb.com/Twinlab-Colon-Care-13-6-oz-385-g/2294?rcode=KQM091", 
+    "nutrients": {
+      "Niacin": {
+        "amount": "1 mg", 
+        "actual_name": "Niacin", 
+        "percent_dv": 5
+      }, 
+      "Fiber": {
+        "amount": "4 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 16
+      }, 
+      "Sodium": {
+        "amount": "15 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 1
+      }, 
+      "Potassium": {
+        "amount": "125 mg", 
+        "actual_name": "Potassium", 
+        "percent_dv": 4
+      }, 
+      "B. longum": {
+        "amount": "136 mg", 
+        "actual_name": "Bifidobacterium longum (containing 1 billion live cells at formulation)", 
+        "percent_dv": 0
+      }, 
+      "Sugar": {
+        "amount": "9 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Vitamin C": {
+        "amount": "250 mg", 
+        "actual_name": "Vitamin C (as calcium ascorbate)", 
+        "percent_dv": 417
+      }, 
+      "Calcium": {
+        "amount": "43 mg", 
+        "actual_name": "Calcium", 
+        "percent_dv": 4
+      }, 
+      "Riboflavin": {
+        "amount": "0.05 mg", 
+        "actual_name": "Riboflavin", 
+        "percent_dv": 3
+      }, 
+      "Magnesium": {
+        "amount": "11 mg", 
+        "actual_name": "Magnesium", 
+        "percent_dv": 3
+      }, 
+      "Iron": {
+        "amount": "0.6 mg", 
+        "actual_name": "Iron", 
+        "percent_dv": 3
+      }, 
+      "Total Carbohydrate": {
+        "amount": "20 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 7
+      }, 
+      "Protein": {
+        "amount": "1 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 2
+      }, 
+      "L. acidophilus": {
+        "amount": "107 mg", 
+        "actual_name": "Lactobacillus Acidophilus (containing 1 billion live cells at formulation)", 
+        "percent_dv": 0
+      }, 
+      "Phosphorus": {
+        "amount": "35 mg", 
+        "actual_name": "Phosphorus", 
+        "percent_dv": 4
+      }
+    }, 
+    "price": 14.08, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 15, 
+    "price_per_g": 0.036571428571428574, 
+    "num_Minerals": 5, 
+    "container_sizes": [
+      {
+        "amount": 385, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 13.6, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 14.08, 
+    "num_Macronutrients": 4, 
+    "serving_sizes": [
+      {
+        "amount": 22.8, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "Tablespoonfuls"
+      }
+    ], 
+    "price_per_kg": 14.08, 
+    "num_Amino Acids": 0, 
+    "container_text": " Colon Care, 13.6 oz (385 g)", 
+    "name": "Twinlab, Colon Care, 13.6 oz (385 g)"
+  }, 
+  {
+    "price_per_oz": 1.152, 
+    "serving_text": "1 Tablespoon (Approx 5.8 g)", 
+    "display_name": "Solgar, Psyllium Husks Fiber", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Solgar-Psyllium-Husks-Fiber-10-oz-280-g/11363?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "5 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 2
+      }, 
+      "Fiber": {
+        "amount": "5 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 20
+      }, 
+      "Iron": {
+        "amount": "0.9 mg", 
+        "actual_name": "Iron", 
+        "percent_dv": 5
+      }
+    }, 
+    "price": 11.52, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 3, 
+    "price_per_g": 0.04114285714285714, 
+    "num_Minerals": 1, 
+    "container_sizes": [
+      {
+        "amount": 280, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 10, 
+        "unit": "oz"
+      }
+    ], 
+    "price_per_lbs": 11.52, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 5.8, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "Tablespoon"
+      }
+    ], 
+    "price_per_kg": 11.52, 
+    "num_Amino Acids": 0, 
+    "container_text": " Psyllium Husks Fiber, 10 oz (280 g)", 
+    "name": "Solgar, Psyllium Husks Fiber, 10 oz (280 g)"
+  }, 
+  {
+    "price_per_oz": 5.67, 
+    "serving_text": "6 Capsules", 
+    "display_name": "21st Century Health Care, Psyllium Fiber", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/21st-Century-Health-Care-Psyllium-Fiber-160-Capsules/8818?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "3 g", 
+        "actual_name": "Total Carbohydrates", 
+        "percent_dv": 1
+      }, 
+      "Protein": {
+        "amount": "less than 1 gram", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }, 
+      "Fiber": {
+        "amount": "3 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 11
+      }, 
+      "Potassium": {
+        "amount": "30 mg", 
+        "actual_name": "Potassium", 
+        "percent_dv": 1
+      }, 
+      "Iron": {
+        "amount": "0.4 mg", 
+        "actual_name": "Iron", 
+        "percent_dv": 2
+      }
+    }, 
+    "price": 5.67, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 5, 
+    "price_per_g": 5.67, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 160, 
+        "unit": "Capsules"
+      }
+    ], 
+    "price_per_lbs": 5.67, 
+    "num_Macronutrients": 3, 
+    "serving_sizes": [
+      {
+        "amount": 6, 
+        "unit": "Capsules"
+      }
+    ], 
+    "price_per_kg": 5.67, 
+    "num_Amino Acids": 0, 
+    "container_text": " Psyllium Fiber, 160 Capsules", 
+    "name": "21st Century Health Care, Psyllium Fiber, 160 Capsules"
+  }, 
+  {
+    "price_per_oz": 5.67, 
+    "serving_text": "5 Capsules", 
+    "display_name": "21st Century Health Care, Psyllium, Plus Calcium", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/21st-Century-Health-Care-Psyllium-Plus-Calcium-120-Capsules/43840?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "3 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 10
+      }, 
+      "Potassium": {
+        "amount": "30 mg", 
+        "actual_name": "Potassium", 
+        "percent_dv": 1
+      }, 
+      "Calcium": {
+        "amount": "300 mg", 
+        "actual_name": "Calcium (as Calcium Carbonate)", 
+        "percent_dv": 30
+      }, 
+      "Iron": {
+        "amount": "0.4 mg", 
+        "actual_name": "Iron", 
+        "percent_dv": 2
+      }, 
+      "Total Carbohydrate": {
+        "amount": "3 g", 
+        "actual_name": "Total Carbohydrates", 
+        "percent_dv": 1
+      }, 
+      "Protein": {
+        "amount": "less than 1 gram", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 5.67, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 6, 
+    "price_per_g": 5.67, 
+    "num_Minerals": 3, 
+    "container_sizes": [
+      {
+        "amount": 120, 
+        "unit": "Capsules"
+      }
+    ], 
+    "price_per_lbs": 5.67, 
+    "num_Macronutrients": 3, 
+    "serving_sizes": [
+      {
+        "amount": 5, 
+        "unit": "Capsules"
+      }
+    ], 
+    "price_per_kg": 5.67, 
+    "num_Amino Acids": 0, 
+    "container_text": " Plus Calcium, 120 Capsules", 
+    "name": "21st Century Health Care, Psyllium, Plus Calcium, 120 Capsules"
+  }, 
+  {
+    "price_per_oz": 6.08, 
+    "serving_text": "6 Capsules", 
+    "display_name": "Nature's Way, Psyllium Husks, 525 mg", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nature-s-Way-Psyllium-Husks-525-mg-100-Vcaps/50908?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "3 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 1
+      }, 
+      "Fiber": {
+        "amount": "2 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 10
+      }
+    }, 
+    "price": 6.08, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 6.08, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 100, 
+        "unit": "Vcaps"
+      }, 
+      {
+        "amount": 525, 
+        "unit": "mg"
+      }
+    ], 
+    "price_per_lbs": 6.08, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 6, 
+        "unit": "Capsules"
+      }
+    ], 
+    "price_per_kg": 6.08, 
+    "num_Amino Acids": 0, 
+    "container_text": " 525 mg, 100 Vcaps", 
+    "name": "Nature's Way, Psyllium Husks, 525 mg, 100 Vcaps"
+  }, 
+  {
+    "price_per_oz": 8.68, 
+    "serving_text": "4 Capsules", 
+    "display_name": "Nature's Herbs, Psyllium, Husk", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nature-s-Herbs-Psyllium-Husk-100-Capsules/56385?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 8.68, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 8.68, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 100, 
+        "unit": "Capsules"
+      }
+    ], 
+    "price_per_lbs": 8.68, 
+    "num_Macronutrients": 0, 
+    "serving_sizes": [
+      {
+        "amount": 4, 
+        "unit": "Capsules"
+      }
+    ], 
+    "price_per_kg": 8.68, 
+    "num_Amino Acids": 0, 
+    "container_text": " Husk, 100 Capsules", 
+    "name": "Nature's Herbs, Psyllium, Husk, 100 Capsules"
+  }, 
+  {
+    "price_per_oz": 8.77, 
+    "serving_text": "4 capsules", 
+    "display_name": "Yerba Prima, Psyllium Husks Caps, 625 mg", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Yerba-Prima-Psyllium-Husks-Caps-625-mg-180-Capsules/4790?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "2.2 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 9
+      }, 
+      "Sodium": {
+        "amount": "2 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 2
+      }, 
+      "Potassium": {
+        "amount": "22 mg", 
+        "actual_name": "Potassium", 
+        "percent_dv": 2
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugars", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "5 mg", 
+        "actual_name": "Calcium", 
+        "percent_dv": 2
+      }, 
+      "Total Fat": {
+        "amount": "0 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 0
+      }, 
+      "Total Carbohydrate": {
+        "amount": "2.2 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 2
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 8.77, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 8, 
+    "price_per_g": 8.77, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 180, 
+        "unit": "Capsules"
+      }, 
+      {
+        "amount": 625, 
+        "unit": "mg"
+      }
+    ], 
+    "price_per_lbs": 8.77, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 4, 
+        "unit": "capsules"
+      }
+    ], 
+    "price_per_kg": 8.77, 
+    "num_Amino Acids": 0, 
+    "container_text": " 625 mg, 180 Capsules", 
+    "name": "Yerba Prima, Psyllium Husks Caps, 625 mg, 180 Capsules"
+  }, 
+  {
+    "price_per_oz": 9.13, 
+    "serving_text": "6 Capsules", 
+    "display_name": "Nature's Way, Psyllium, Husks, 525 mg", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nature-s-Way-Psyllium-Husks-525-mg-180-Vcaps/2033?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "3 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 1
+      }, 
+      "Fiber": {
+        "amount": "2 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 8
+      }
+    }, 
+    "price": 9.13, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 9.13, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 180, 
+        "unit": "Vcaps"
+      }, 
+      {
+        "amount": 525, 
+        "unit": "mg"
+      }
+    ], 
+    "price_per_lbs": 9.13, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 6, 
+        "unit": "Capsules"
+      }
+    ], 
+    "price_per_kg": 9.13, 
+    "num_Amino Acids": 0, 
+    "container_text": " 525 mg, 180 Vcaps", 
+    "name": "Nature's Way, Psyllium, Husks, 525 mg, 180 Vcaps"
+  }, 
+  {
+    "price_per_oz": 9.55, 
+    "serving_text": "4 Capsules", 
+    "display_name": "Yerba Prima, Psyllium Husks Veg Caps, 625 mg", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Yerba-Prima-Psyllium-Husks-Veg-Caps-625-mg-180-Capsules/4367?rcode=KQM091", 
+    "nutrients": {
+      "Fiber": {
+        "amount": "2.2 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 9
+      }, 
+      "Sodium": {
+        "amount": "2 mg", 
+        "actual_name": "Sodium", 
+        "percent_dv": 2
+      }, 
+      "Potassium": {
+        "amount": "22 mg", 
+        "actual_name": "Potassium", 
+        "percent_dv": 2
+      }, 
+      "Sugar": {
+        "amount": "0 g", 
+        "actual_name": "Sugar", 
+        "percent_dv": 0
+      }, 
+      "Calcium": {
+        "amount": "5 mg", 
+        "actual_name": "Calcium", 
+        "percent_dv": 2
+      }, 
+      "Total Fat": {
+        "amount": "0 g", 
+        "actual_name": "Total Fat", 
+        "percent_dv": 0
+      }, 
+      "Total Carbohydrate": {
+        "amount": "2.2 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 2
+      }, 
+      "Protein": {
+        "amount": "0 g", 
+        "actual_name": "Protein", 
+        "percent_dv": 0
+      }
+    }, 
+    "price": 9.55, 
+    "num_Trace Elements": 1, 
+    "num_nutrients": 8, 
+    "price_per_g": 9.55, 
+    "num_Minerals": 2, 
+    "container_sizes": [
+      {
+        "amount": 180, 
+        "unit": "Capsules"
+      }, 
+      {
+        "amount": 625, 
+        "unit": "mg"
+      }
+    ], 
+    "price_per_lbs": 9.55, 
+    "num_Macronutrients": 5, 
+    "serving_sizes": [
+      {
+        "amount": 4, 
+        "unit": "Capsules"
+      }
+    ], 
+    "price_per_kg": 9.55, 
+    "num_Amino Acids": 0, 
+    "container_text": " 625 mg, 180 Capsules", 
+    "name": "Yerba Prima, Psyllium Husks Veg Caps, 625 mg, 180 Capsules"
+  }, 
+  {
+    "price_per_oz": 10.82, 
+    "serving_text": "2 Capsules", 
+    "display_name": "Now Foods, Psyllium Husk Caps, 700 mg", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Psyllium-Husk-Caps-700-mg-180-Capsules/758?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "1.2 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 1
+      }, 
+      "Fiber": {
+        "amount": "1.0 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 4
+      }
+    }, 
+    "price": 10.82, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 10.82, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 180, 
+        "unit": "Capsules"
+      }, 
+      {
+        "amount": 700, 
+        "unit": "mg"
+      }
+    ], 
+    "price_per_lbs": 10.82, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 2, 
+        "unit": "Capsules"
+      }
+    ], 
+    "price_per_kg": 10.82, 
+    "num_Amino Acids": 0, 
+    "container_text": " 700 mg, 180 Capsules", 
+    "name": "Now Foods, Psyllium Husk Caps, 700 mg, 180 Capsules"
+  }, 
+  {
+    "price_per_oz": 12.28, 
+    "serving_text": "6 Capsules", 
+    "display_name": "Health Plus Inc., The Original Colon Cleanse, One, 625 mg", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Health-Plus-Inc-The-Original-Colon-Cleanse-One-625-mg-200-Capsules/3673?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "2 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 1
+      }, 
+      "Fiber": {
+        "amount": "2 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 10
+      }
+    }, 
+    "price": 12.28, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 12.28, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 200, 
+        "unit": "Capsules"
+      }, 
+      {
+        "amount": 625, 
+        "unit": "mg"
+      }
+    ], 
+    "price_per_lbs": 12.28, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 6, 
+        "unit": "Capsules"
+      }
+    ], 
+    "price_per_kg": 12.28, 
+    "num_Amino Acids": 0, 
+    "container_text": " 625 mg, 200 Capsules", 
+    "name": "Health Plus Inc., The Original Colon Cleanse, One, 625 mg, 200 Capsules"
+  }, 
+  {
+    "price_per_oz": 13.59, 
+    "serving_text": "1 Capsule", 
+    "display_name": "Twinlab, Allerdophilus", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Twinlab-Allerdophilus-100-Capsules/2322?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 13.59, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 13.59, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 100, 
+        "unit": "Capsules"
+      }
+    ], 
+    "price_per_lbs": 13.59, 
+    "num_Macronutrients": 0, 
+    "serving_sizes": [
+      {
+        "amount": 1, 
+        "unit": "Capsule"
+      }
+    ], 
+    "price_per_kg": 13.59, 
+    "num_Amino Acids": 0, 
+    "container_text": " Allerdophilus, 100 Capsules", 
+    "name": "Twinlab, Allerdophilus, 100 Capsules"
+  }, 
+  {
+    "price_per_oz": 14.76, 
+    "serving_text": "2 Capsules", 
+    "display_name": "Solgar, Psyllium Husks Fiber, 500 mg", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Solgar-Psyllium-Husks-Fiber-500-mg-200-Veggie-Caps/13793?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "1 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 1
+      }, 
+      "Fiber": {
+        "amount": "1 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 4
+      }
+    }, 
+    "price": 14.76, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 14.76, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 200, 
+        "unit": "Veggie Caps"
+      }, 
+      {
+        "amount": 500, 
+        "unit": "mg"
+      }
+    ], 
+    "price_per_lbs": 14.76, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 2, 
+        "unit": "Capsules"
+      }
+    ], 
+    "price_per_kg": 14.76, 
+    "num_Amino Acids": 0, 
+    "container_text": " 500 mg, 200 Veggie Caps", 
+    "name": "Solgar, Psyllium Husks Fiber, 500 mg, 200 Veggie Caps"
+  }, 
+  {
+    "price_per_oz": 14.96, 
+    "serving_text": "3 Capsules", 
+    "display_name": "Health Plus Inc., Super Colon Cleanse, Day", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Health-Plus-Inc-Super-Colon-Cleanse-Day-180-Capsules/55511?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "1 g", 
+        "actual_name": "Total Carbohydrate", 
+        "percent_dv": 1
+      }, 
+      "Fiber": {
+        "amount": "<1 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 2
+      }
+    }, 
+    "price": 14.96, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 14.96, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 180, 
+        "unit": "Capsules"
+      }
+    ], 
+    "price_per_lbs": 14.96, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 3, 
+        "unit": "Capsules"
+      }
+    ], 
+    "price_per_kg": 14.96, 
+    "num_Amino Acids": 0, 
+    "container_text": " Day, 180 Capsules", 
+    "name": "Health Plus Inc., Super Colon Cleanse, Day, 180 Capsules"
+  }, 
+  {
+    "price_per_oz": 16.56, 
+    "serving_text": "3 Capsules", 
+    "display_name": "Now Foods, Psyllium Husk Caps", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Psyllium-Husk-Caps-500-Capsules/752?rcode=KQM091", 
+    "nutrients": {
+      "Total Carbohydrate": {
+        "amount": "1.3 g", 
+        "actual_name": "Total Carbohydrates", 
+        "percent_dv": 1
+      }, 
+      "Fiber": {
+        "amount": "1.1 g", 
+        "actual_name": "Dietary Fiber", 
+        "percent_dv": 4
+      }
+    }, 
+    "price": 16.56, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 2, 
+    "price_per_g": 16.56, 
+    "num_Minerals": 0, 
+    "container_sizes": [
+      {
+        "amount": 500, 
+        "unit": "Capsules"
+      }
+    ], 
+    "price_per_lbs": 16.56, 
+    "num_Macronutrients": 2, 
+    "serving_sizes": [
+      {
+        "amount": 3, 
+        "unit": "Capsules"
+      }
+    ], 
+    "price_per_kg": 16.56, 
+    "num_Amino Acids": 0, 
+    "container_text": " Psyllium Husk Caps, 500 Capsules", 
+    "name": "Now Foods, Psyllium Husk Caps, 500 Capsules"
+  }
+]
