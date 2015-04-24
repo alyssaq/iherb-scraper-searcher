@@ -1,0 +1,939 @@
+[
+  {
+    "container_sizes": [
+      {
+        "amount": 113, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 4, 
+        "unit": "oz"
+      }
+    ], 
+    "display_name": "Jason Natural, First Aid Soothing Gel, Purifying Tea Tree", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Jason-Natural-First-Aid-Soothing-Gel-Purifying-Tea-Tree-4-oz-113-g/20556?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 3.66, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.032389380530973455, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Purifying Tea Tree;4 oz (113 g)", 
+    "name": "Jason Natural, First Aid Soothing Gel, Purifying Tea Tree, 4 oz (113 g)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 120, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 4, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Desert Essence, Relief Spray", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Desert-Essence-Relief-Spray-4-fl-oz-120-ml/22323?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 4.02, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.033499999999999995, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Relief Spray;4 fl oz (120 ml)", 
+    "name": "Desert Essence, Relief Spray, 4 fl oz (120 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 227, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 8, 
+        "unit": "oz"
+      }
+    ], 
+    "display_name": "Jason Natural, Muscle Pain Therapy, Cooling Minerals & Tea Tree", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Jason-Natural-Muscle-Pain-Therapy-Cooling-Minerals-Tea-Tree-8-oz-227-g/6245?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 9.97, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.04392070484581498, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Cooling Minerals & Tea Tree;8 oz (227 g)", 
+    "name": "Jason Natural, Muscle Pain Therapy, Cooling Minerals & Tea Tree, 8 oz (227 g)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 113, 
+        "unit": "g"
+      }, 
+      {
+        "amount": 4, 
+        "unit": "oz"
+      }
+    ], 
+    "display_name": "Jason Natural, Muscle Pain Therapy, Cooling Minerals & Tea Tree", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Jason-Natural-Muscle-Pain-Therapy-Cooling-Minerals-Tea-Tree-4-oz-113-g/3845?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 6.89, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.06097345132743363, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Cooling Minerals & Tea Tree;4 oz (113 g)", 
+    "name": "Jason Natural, Muscle Pain Therapy, Cooling Minerals & Tea Tree, 4 oz (113 g)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 473, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 16, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Now Foods, Essential Oils, Tea Tree", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Essential-Oils-Tea-Tree-16-fl-oz-473-ml/13975?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 53.54, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.11319238900634249, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree;16 fl oz (473 ml)", 
+    "name": "Now Foods, Essential Oils, Tea Tree, 16 fl oz (473 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 60, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Tea Tree Therapy, Tea Tree Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Tea-Tree-Therapy-Tea-Tree-Oil-2-fl-oz-60-ml/12976?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 7.79, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.12983333333333333, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree Oil;2 fl oz (60 ml)", 
+    "name": "Tea Tree Therapy, Tea Tree Oil, 2 fl oz (60 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 60, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "21st Century Health Care, Tea Tree Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/21st-Century-Health-Care-Tea-Tree-Oil-2-fl-oz-60-ml/9058?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 7.8, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.13, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree Oil;2 fl oz (60 ml)", 
+    "name": "21st Century Health Care, Tea Tree Oil, 2 fl oz (60 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 118, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 4, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Now Foods, Essential Oils, Tea Tree", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Essential-Oils-Tea-Tree-4-fl-oz-118-ml/909?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 20.64, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.17491525423728815, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree;4 fl oz (118 ml)", 
+    "name": "Now Foods, Essential Oils, Tea Tree, 4 fl oz (118 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 30, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Cococare, 100% Tea Tree Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Cococare-100-Tea-Tree-Oil-1-fl-oz-30-ml/43270?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 6.37, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.21233333333333335, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "100% Tea Tree Oil;1 fl oz (30 ml)", 
+    "name": "Cococare, 100% Tea Tree Oil, 1 fl oz (30 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 30, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "oz"
+      }
+    ], 
+    "display_name": "Out of Africa, California Inside Out, Tea Tree Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Out-of-Africa-California-Inside-Out-Tea-Tree-Oil-1-oz-30-ml/28860?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 6.48, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.21600000000000003, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree Oil;1 oz (30 ml)", 
+    "name": "Out of Africa, California Inside Out, Tea Tree Oil, 1 oz (30 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 59, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Hobe Labs, Tea Tree Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Hobe-Labs-Tea-Tree-Oil-2-fl-oz-59-ml/57225?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 12.95, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.2194915254237288, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree Oil;2 fl oz (59 ml)", 
+    "name": "Hobe Labs, Tea Tree Oil, 2 fl oz (59 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 59, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Now Foods, Essential Oils, Tea Tree", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Essential-Oils-Tea-Tree-2-fl-oz-59-ml/21118?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 12.99, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.22016949152542373, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree;2 fl oz (59 ml)", 
+    "name": "Now Foods, Essential Oils, Tea Tree, 2 fl oz (59 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 30, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Now Foods, Essential Oils, Tea Tree", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Essential-Oils-Tea-Tree-1-fl-oz-30-ml/37827?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 6.87, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.229, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree;1 fl oz (30 ml)", 
+    "name": "Now Foods, Essential Oils, Tea Tree, 1 fl oz (30 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 60, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Tea Tree Therapy, Tea Tree Oil, 100% Pure Australian", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Tea-Tree-Therapy-Tea-Tree-Oil-100-Pure-Australian-2-fl-oz-60-ml/11564?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 15.01, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.25016666666666665, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "100% Pure Australian;2 fl oz (60 ml)", 
+    "name": "Tea Tree Therapy, Tea Tree Oil, 100% Pure Australian, 2 fl oz (60 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 118, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 4, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Aura Cacia, 100% Pure Essential Oil, Tea Tree", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Aura-Cacia-100-Pure-Essential-Oil-Tea-Tree-4-fl-oz-118-ml/34036?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 29.55, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.25042372881355934, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree;4 fl oz (118 ml)", 
+    "name": "Aura Cacia, 100% Pure Essential Oil, Tea Tree, 4 fl oz (118 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 30, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "California Xtracts, Australia Tea Tree Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/California-Xtracts-Australia-Tea-Tree-Oil-1-fl-oz-30-ml/47183?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 8.95, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.2983333333333333, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Australia Tea Tree Oil;1 fl oz (30 ml)", 
+    "name": "California Xtracts, Australia Tea Tree Oil, 1 fl oz (30 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 30, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "California Xtracts, Tea Tree", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/California-Xtracts-Tea-Tree-1-fl-oz-30-ml/47212?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 8.95, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.2983333333333333, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree;1 fl oz (30 ml)", 
+    "name": "California Xtracts, Tea Tree, 1 fl oz (30 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 30, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Tea Tree Therapy, Tea Tree Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Tea-Tree-Therapy-Tea-Tree-Oil-1-fl-oz-30-ml/15424?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 9.62, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.32066666666666666, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree Oil;1 fl oz (30 ml)", 
+    "name": "Tea Tree Therapy, Tea Tree Oil, 1 fl oz (30 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 59, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 2, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Aura Cacia, 100% Pure Essential Oil, Tea Tree", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Aura-Cacia-100-Pure-Essential-Oil-Tea-Tree-2-fl-oz-59-ml/34038?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 19.42, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.3291525423728814, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree;2 fl oz (59 ml)", 
+    "name": "Aura Cacia, 100% Pure Essential Oil, Tea Tree, 2 fl oz (59 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 30, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Now Foods, Organic Essential Oils, Tea Tree", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Now-Foods-Organic-Essential-Oils-Tea-Tree-1-fl-oz-30-ml/956?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 9.93, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.331, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree;1 fl oz (30 ml)", 
+    "name": "Now Foods, Organic Essential Oils, Tea Tree, 1 fl oz (30 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 30, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Jason Natural, Skin Oil, Purifying Tea Tree", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Jason-Natural-Skin-Oil-Purifying-Tea-Tree-1-fl-oz-30-ml/6235?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 9.97, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.33233333333333337, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Purifying Tea Tree;1 fl oz (30 ml)", 
+    "name": "Jason Natural, Skin Oil, Purifying Tea Tree, 1 fl oz (30 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 30, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Jason Natural, 100% Organic Oil, Tea Tree", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Jason-Natural-100-Organic-Oil-Tea-Tree-1-fl-oz-30-ml/19476?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 10.74, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.358, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree;1 fl oz (30 ml)", 
+    "name": "Jason Natural, 100% Organic Oil, Tea Tree, 1 fl oz (30 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 30, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Derma E, Tea Tree and E Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Derma-E-Tea-Tree-and-E-Oil-1-fl-oz-30-ml/11907?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 11.96, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.39866666666666667, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree and E Oil;1 fl oz (30 ml)", 
+    "name": "Derma E, Tea Tree and E Oil, 1 fl oz (30 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 29.6, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 1, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Herb Pharm, Tea Tree Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Herb-Pharm-Tea-Tree-Oil-1-fl-oz-29-6-ml/14863?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 12.0, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.4054054054054054, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree Oil;1 fl oz (29.6 ml)", 
+    "name": "Herb Pharm, Tea Tree Oil, 1 fl oz (29.6 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 15, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 5, 
+        "unit": "oz"
+      }
+    ], 
+    "display_name": "Nature's Alchemy, Tea Tree, Essential Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nature-s-Alchemy-Tea-Tree-Essential-Oil-5-oz-15-ml/5752?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 6.11, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.4073333333333334, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Essential Oil;.5 oz (15 ml)", 
+    "name": "Nature's Alchemy, Tea Tree, Essential Oil, .5 oz (15 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 15, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 5, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Aura Cacia, 100% Pure Essential Oil, Tea Tree", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Aura-Cacia-100-Pure-Essential-Oil-Tea-Tree-5-fl-oz-15-ml/6321?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 6.18, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.412, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree;.5 fl oz (15 ml)", 
+    "name": "Aura Cacia, 100% Pure Essential Oil, Tea Tree, .5 fl oz (15 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 15, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 5, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Tea Tree Therapy, Tea Tree Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Tea-Tree-Therapy-Tea-Tree-Oil-5-fl-oz-15-ml/11069?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 6.35, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.4233333333333333, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree Oil;.5 fl oz (15 ml)", 
+    "name": "Tea Tree Therapy, Tea Tree Oil, .5 fl oz (15 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 50, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 1.7, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Nature's Plus, Thursday Plantation, Tea Tree Oil Antiseptic", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nature-s-Plus-Thursday-Plantation-Tea-Tree-Oil-Antiseptic-1-7-fl-oz-50-ml/39173?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 21.59, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.4318, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree Oil Antiseptic;1.7 fl oz (50 ml)", 
+    "name": "Nature's Plus, Thursday Plantation, Tea Tree Oil Antiseptic, 1.7 fl oz (50 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 15, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 0.5, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Jason Natural, Nail Saver, Tea Tree", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Jason-Natural-Nail-Saver-Tea-Tree-0-5-fl-oz-15-ml/6237?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 6.51, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.434, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree;0.5 fl oz (15 ml)", 
+    "name": "Jason Natural, Nail Saver, Tea Tree, 0.5 fl oz (15 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 25, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 0.85, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Nature's Plus, Thursday Plantation, Tea Tree Oil Antiseptic", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nature-s-Plus-Thursday-Plantation-Tea-Tree-Oil-Antiseptic-0-85-fl-oz-25-ml/48113?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 12.08, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.4832, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree Oil Antiseptic;0.85 fl oz (25 ml)", 
+    "name": "Nature's Plus, Thursday Plantation, Tea Tree Oil Antiseptic, 0.85 fl oz (25 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 18, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 6, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Desert Essence, Organic Lavender Tea Tree Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Desert-Essence-Organic-Lavender-Tea-Tree-Oil-6-fl-oz-18-ml/45315?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 8.74, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.4855555555555556, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Organic Lavender Tea Tree Oil;.6 fl oz (18 ml)", 
+    "name": "Desert Essence, Organic Lavender Tea Tree Oil, .6 fl oz (18 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 15, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 0.5, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Nature's Answer, Organic Essential Oil, 100% Pure Tea Tree", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Nature-s-Answer-Organic-Essential-Oil-100-Pure-Tea-Tree-0-5-fl-oz-15-ml/63177?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 10.99, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.7326666666666667, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "100% Pure Tea Tree;0.5 fl oz (15 ml)", 
+    "name": "Nature's Answer, Organic Essential Oil, 100% Pure Tea Tree, 0.5 fl oz (15 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 7.4, 
+        "unit": "ml"
+      }, 
+      {
+        "amount": 0.25, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Aura Cacia, Organic, Tea Tree", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Aura-Cacia-Organic-Tea-Tree-0-25-fl-oz-7-4-ml/34039?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 5.74, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 0.7756756756756756, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree;0.25 fl oz (7.4 ml)", 
+    "name": "Aura Cacia, Organic, Tea Tree, 0.25 fl oz (7.4 ml)"
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 2.0, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Natural Treasures, BNG, Tea Tree Oil", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Natural-Treasures-BNG-Tea-Tree-Oil-2-0-fl-oz/56217?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 13.1, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 13.1, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "Tea Tree Oil;2.0 fl oz ", 
+    "name": "Natural Treasures, BNG, Tea Tree Oil, 2.0 fl oz "
+  }, 
+  {
+    "container_sizes": [
+      {
+        "amount": 4.0, 
+        "unit": "fl oz"
+      }
+    ], 
+    "display_name": "Natural Treasures, BNG, Tea Tree Oil, 100% Pure Australian", 
+    "num_Enzymes": 0, 
+    "num_Vitamins": 0, 
+    "num_Probiotics": 0, 
+    "url": "http://www.iherb.com/Natural-Treasures-BNG-Tea-Tree-Oil-100-Pure-Australian-4-0-fl-oz/56219?rcode=KQM091", 
+    "nutrients": {}, 
+    "price": 16.64, 
+    "num_Trace Elements": 0, 
+    "num_nutrients": 0, 
+    "price_per_g": 16.64, 
+    "num_Minerals": 0, 
+    "num_Macronutrients": 0, 
+    "num_Amino Acids": 0, 
+    "container_text": "100% Pure Australian;4.0 fl oz", 
+    "name": "Natural Treasures, BNG, Tea Tree Oil, 100% Pure Australian, 4.0 fl oz"
+  }
+]
