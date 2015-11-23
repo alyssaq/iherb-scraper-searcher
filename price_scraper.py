@@ -121,7 +121,6 @@ def get_sizes(text):
   for part in reversed(partitions):
     match = SIZE_REGEX.search(part)
     if match:
-      print match.groups()
       amount, unit = match.groups()
       sizes.append({
         'amount': to_number(amount),
@@ -269,19 +268,20 @@ def product_profile(html):
     text = get_serving_text(table)
     serving_text = text if serving_text == '' and text != '' else serving_text
 
-  profile['name'] = main.find('h1').text
-  profile['display_name'] = get_display_name(profile['name'])
-  price = profile['price'] = price_to_float(price.text)
+  try:
+    profile['name'] = main.find('h1').text
+    profile['display_name'] = get_display_name(profile['name'])
+    price = profile['price'] = price_to_float(price.text)
 
-  # profile['serving_text'] = serving_text
-  # serves = profile['serving_sizes'] = get_sizes(profile['serving_text'])
-  profile['container_text'] = get_container_size_text(profile['name'])
-  fullsizes = profile['container_sizes'] = get_sizes(profile['container_text'])
-  profile['price_per_g'] = price_per_g(price, fullsizes)
+    profile['serving_text'] = serving_text
+    serves = profile['serving_sizes'] = get_sizes(profile['serving_text'])
+    profile['container_text'] = get_container_size_text(profile['name'])
+    fullsz = profile['container_sizes'] = get_sizes(profile['container_text'])
+    profile['price_per_g'] = price_per_g(price, fullsz)
 
-  # protein_serve = unit_amount(serves, 'g')
-  # protein_amount = gram_amount(profile['nutrients']['Protein']['amount'])
-  # profile['protein_percent'] = (protein_amount / protein_serve) * 100
+    protein_serve = unit_amount(serves, 'g')
+    protein_amount = gram_amount(profile['nutrients']['Protein']['amount'])
+    profile['protein_percent'] = (protein_amount / protein_serve) * 100
 
   # full_index, serve_index = overlapping_sizes(fullsizes, serves)
   # full_amt = fullsizes[full_index]['amount']
@@ -289,6 +289,10 @@ def product_profile(html):
   # profile['size_indexes'] = [full_index, serve_index]
   # profile['price_per_unit'] = profile['price'] / (full_amt*1.0)
   # profile['price_per_serve'] = profile['price_per_unit'] * serve_amt
+
+  except:
+    print 'Error:', sys.exc_info()[0]
+    return None
 
   return profile
 
@@ -316,19 +320,17 @@ def next_result_page(category):
     print url
     response = requests.get(url)
     soup = BeautifulSoup(response.text)
-    results = soup.find(
-      'div', {'id': 'display-results-content'}
-    )
-    if results:
-      yield results
+    results = soup.find('div', {'class': 'panel-stack'})
+    links = results.find_all('article', {'class': 'product'})
+    if len(links) > 0:
+      yield links
     else:
       break
 
 def process_category(filename, category='whey-protein'):
   results = []
-
-  for page in next_result_page(category):
-    links = page.find_all('p', {'class': 'description'})
+  jobs = []
+  for links in next_result_page(category):
     prefix = DOMAIN if links[0].find('a')['href'][0] == '/' else ''
     jobs = [gevent.spawn(requests.get, prefix + link.find('a')['href'])
             for link in links]
@@ -354,10 +356,10 @@ def process_one():
   print(res)
 
 if __name__ == "__main__":
-  category = 'tea-tree-oil'
+  category = 'whey-protein'
   outfile = 'app/data/{0}.json'.format(category)
   if len(sys.argv) > 1:
     outfile = sys.argv[1]
 
-  #process_category(outfile, category=category)
-  process_one()
+  process_category(outfile, category=category)
+  #process_one()
