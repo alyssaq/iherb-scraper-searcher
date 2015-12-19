@@ -252,7 +252,7 @@ def price_per_g(price, sizes):
   return price_per_g
 
 def product_profile(html):
-  soup = BeautifulSoup(html)
+  soup = BeautifulSoup(html, 'html.parser')
   main = soup.find('div', {'id': 'mainContent'})
   tables = soup.findAll('table')
   price = main.find('section', {
@@ -283,12 +283,12 @@ def product_profile(html):
     protein_amount = gram_amount(profile['nutrients']['Protein']['amount'])
     profile['protein_percent'] = (protein_amount / protein_serve) * 100
 
-  # full_index, serve_index = overlapping_sizes(fullsizes, serves)
-  # full_amt = fullsizes[full_index]['amount']
-  # serve_amt = serves[serve_index]['amount'] if serve_index >= 0 else full_amt
-  # profile['size_indexes'] = [full_index, serve_index]
-  # profile['price_per_unit'] = profile['price'] / (full_amt*1.0)
-  # profile['price_per_serve'] = profile['price_per_unit'] * serve_amt
+    full_index, serve_index = overlapping_sizes(fullsz, serves)
+    full_amt = fullsz[full_index]['amount']
+    serve_amt = serves[serve_index]['amount'] if serve_index >= 0 else full_amt
+    profile['size_indexes'] = [full_index, serve_index]
+    profile['price_per_unit'] = profile['price'] / (full_amt*1.0)
+    profile['price_per_serve'] = profile['price_per_unit'] * serve_amt
 
   except:
     print 'Error:', sys.exc_info()[0]
@@ -319,26 +319,26 @@ def next_result_page(category):
     url = DOMAIN + ('/{0}?p={1}').format(category, page_no)
     print url
     response = requests.get(url)
-    soup = BeautifulSoup(response.text)
-    results = soup.find('div', {'class': 'panel-stack'})
-    links = results.find_all('article', {'class': 'product'})
-    if len(links) > 0:
-      yield links
+    soup = BeautifulSoup(response.text, 'html.parser')
+    results = soup.find_all('article', {'class': 'product'})
+    if results:
+      yield results
     else:
       break
 
-def process_category(filename, category='whey-protein'):
+def process_category(filename, category='multivitamins'):
   results = []
-  jobs = []
+
   for links in next_result_page(category):
     prefix = DOMAIN if links[0].find('a')['href'][0] == '/' else ''
-    jobs = [gevent.spawn(requests.get, prefix + link.find('a')['href'])
-            for link in links]
+    format_url = lambda x: prefix + (x.find('a')['href'])
+    jobs = [gevent.spawn(requests.get, format_url(link)) for link in links]
     if len(jobs) > 0:
       gevent.wait(jobs)
       results += process(jobs, len(results))
 
-  sorter = lambda x: x['price_per_g']
+  sorter = lambda x: (-(x['num_Minerals'] + x['num_Vitamins']),
+                      x['price_per_serve'])
   results = sorted(results, key=sorter)
 
   print ('Saving {0} results'.format(len(results)))

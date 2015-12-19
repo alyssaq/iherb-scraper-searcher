@@ -17,7 +17,7 @@ SERVING_TEXT_REGEX = re.compile(
   re.IGNORECASE)
 PRICE_REGEX = re.compile(r'\s*\$(\d{1,2}\.?\d{0,2})\s*')
 NON_DIGITS_REGEX = re.compile(r'<|,|\*|%')
-SIZE_REGEX = re.compile(r'(\.?\d{1,4}\.?\/?\d{0,3})\s?([a-zA-Z \-]+)')
+SIZE_REGEX = re.compile(r'(\d{1,4}\.?\/?\d{0,3})\s?([a-zA-Z \-]+)')
 SIZE_PARTITION_REGEX = re.compile(r',|or |\(|\)')
 NUMBER_MAP = {
   'each': 1,
@@ -208,7 +208,7 @@ def init_profile():
   return profile
 
 def product_profile(html):
-  soup = BeautifulSoup(html)
+  soup = BeautifulSoup(html, 'html.parser')
   main = soup.find('div', {'id': 'mainContent'})
   tables = soup.findAll('table')
   price = main.find('section', {
@@ -243,20 +243,16 @@ def product_profile(html):
 
   return profile
 
-i = 1
-
 def passed_jobs(jobs):
   for job in jobs:
     if job.value.status_code == 200:
       yield job.value
 
-def process(jobs):
+def process(jobs, index):
   profiles = []
-  global i
-
   for val in passed_jobs(jobs):
-    print('{0}) Processing: {1}'.format(i, val.url))
-    i = i + 1
+    index = index + 1
+    print('{0}) Processing: {1}'.format(index, val.url))
     profile = product_profile(val.text)
     if profile is not None:
       profile.update({'url': val.url + '?rcode=KQM091'})
@@ -270,10 +266,8 @@ def next_result_page(category):
     url = DOMAIN + ('/{0}?p={1}').format(category, page_no)
     print url
     response = requests.get(url)
-    soup = BeautifulSoup(response.text)
-    results = soup.find(
-      'div', {'id': 'display-results-content'}
-    )
+    soup = BeautifulSoup(response.text, 'html.parser')
+    results = soup.find_all('article', {'class': 'product'})
     if results:
       yield results
     else:
@@ -282,14 +276,13 @@ def next_result_page(category):
 def process_category(filename, category='multivitamins'):
   results = []
 
-  for page in next_result_page(category):
-    links = page.find_all('p', {'class': 'description'})
+  for links in next_result_page(category):
     prefix = DOMAIN if links[0].find('a')['href'][0] == '/' else ''
-    jobs = [gevent.spawn(requests.get, prefix + link.find('a')['href'])
-            for link in links]
+    format_url = lambda x: prefix + (x.find('a')['href'])
+    jobs = [gevent.spawn(requests.get, format_url(link)) for link in links]
     if len(jobs) > 0:
       gevent.wait(jobs)
-      results += process(jobs)
+      results += process(jobs, len(results))
 
   sorter = lambda x: (-(x['num_Minerals'] + x['num_Vitamins']),
                       x['price_per_serve'])
@@ -302,26 +295,27 @@ def process_category(filename, category='multivitamins'):
   else:
     return results
 
-def process_one_multiV():
+def process_one():
   url = 'http://www.iherb.com/Deva-Multivitamin-Mineral-Supplement-Vegan-90-Coated-Tablets/12664'
   url = 'http://www.iherb.com/Nature-s-Plus-Source-of-Life-Gold-Liquid-Delicious-Tropical-Fruit-Flavor-8-fl-oz-236-ml/22998'
   url = 'http://www.iherb.com/Eclectic-Institute-Vita-Natal-Multi-Vitamin-Mineral-Formula-180-Tablets/15335'
   url = 'http://www.iherb.com/Paradise-Herbs-ORAC-Energy-Earth-s-Blend-One-Daily-Superfood-Multivitamin-With-Iron-60-Veggie-Caps/42406'
-  url = 'http://www.iherb.com/Thorne-Research-Basic-Nutrients-2-Day-60-Veggie-Caps/52954'
+  url = 'http://sg.iherb.com/Optimum-Nutrition-100-Whey-Gold-Standard-Double-Rich-Chocolate-5-lbs-2-27-kg/27509'
   r = requests.get(url)
   res = product_profile(r.text)
   filename='test.json'
-  with open(filename, 'w') as outfile:
-    json.dump(res, outfile, indent=2)
+  #with open(filename, 'w') as outfile:
+  #  json.dump(res, outfile, indent=2)
   print(res)
 
 if __name__ == "__main__":
-  outfile = 'app/data/results.json'
+  category = 'whey-protein'
+  outfile = 'app/data/{0}.json'.format(category)
   if len(sys.argv) > 1:
     outfile = sys.argv[1]
 
   #postprocess(outfile)
   #process_search_pages('digestives.json', 'enzymes', 7)
   #process_search_pages(outfile, min_nutrients=1)
-  process_category(outfile)
-  #process_one_multiV()
+  process_category(outfile, category)
+  #process_one()
